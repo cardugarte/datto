@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "datto",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
