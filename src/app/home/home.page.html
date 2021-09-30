@@ -1,23 +1,295 @@
 <ion-header [translucent]="true">
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
   <ion-toolbar>
-    <ion-title>
+    <ion-card-title>
       Blank
-    </ion-title>
+    </ion-card-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
-  <ion-card>
-    <ion-header>
-      <ion-title>Bienvenid@s</ion-title>
-    </ion-header>
+  <ion-card color="tertiary"> 
+    <ion-card-header>
+      <ion-card-title >Bienvenid@s</ion-card-title>
+  
+    </ion-card-header>
     <ion-card-content>
-      <img href="./img-home/genero_menu_1">  
       Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
-    </ion-card-content>
+     </ion-card-content>
+     
   </ion-card>
 
+  <ion-title> Salud sexual </ion-title>
 
+  <ion-slides style="padding: 10px; transition: 400ms;" loop="true" pager="true">
+    <ion-slide>
+
+      <ion-card>
+        <ion-card-header>
+        <img src="/src/assets/imgHome/slide1.png">
+        <ion-card-title>Metodos anticonceptivos </ion-card-title>
+        <ion-subtitle></ion-subtitle>
+
+
+        </ion-card-header>
+
+      <ion-card-content>
+
+        Una plataforma especializada para integrar la cadena productiva de tu negocio.
+
+      </ion-card-content> 
+
+      <ion-button>Mas info</ion-button>
+
+     </ion-card>
+
+      
+    </ion-slide>
+    <ion-slide>
+      <ion-card>
+        <ion-card-header>
+          <img src="/src/assets/imgHome/slide2.png">
+        <ion-card-title> Prevencion ITS </ion-card-title>
+      </ion-card-header>
+
+
+      <ion-card-content>
+
+      Nunca dejes de cuidar a tus empleados.
+
+      </ion-card-content> 
+
+      <ion-button>Mas info</ion-button>
+
+      </ion-card>
+   </ion-slide>
+
+   <ion-slide>
+    <ion-card>
+
+      <ion-card-header>
+        <img src="/src/assets/imgHome/slide3.png">
+
+        <ion-card-title> Gestion menstrual </ion-card-title>
+
+      </ion-card-header>
+
+
+
+
+    <ion-card-content>
+
+      Nunca dejes de cuidar a tus empleados.
+
+    </ion-card-content> 
+
+    <ion-button>Mas info</ion-button>
+
+    </ion-card>
+
+   </ion-slide>
+
+
+  </ion-slides>
+
+
+    <ion-grid>
+
+      <ion-row>
+
+            <ion-col size="12">
+                  <ion-card>
+
+                  <ion-card-header>
+
+                    <ion-card-title> Consumo de sustancias </ion-card-title>
+
+                  </ion-card-header>
+
+
+
+
+                <ion-card-content>
+
+                  Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
+
+                </ion-card-content> 
+
+                <ion-button>Mas info</ion-button>
+
+                </ion-card>
+            </ion-col>
+             
+
+            <ion-col size="12">
+                  <ion-card>
+                    <ion-card-header>
+                      
+                    <ion-card-title> Gestion de emociones </ion-card-title>
+
+                    </ion-card-header>
+
+                    <ion-card-content>
+
+                      Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.
+
+                      Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
+                    </ion-card-content> 
+
+                    <ion-button>Mas info</ion-button>
+
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="12">
+
+                  <ion-card>
+
+                  <ion-card-header> 
+                    <ion-card-title> Depresion </ion-card-title>
+                  </ion-card-header>
+                    
+                    <ion-card-content>
+                      Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.
+
+                      Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
+                    </ion-card-content> 
+
+                    <ion-button>Consejos utiles</ion-button>
+
+                    </ion-card>
+            </ion-col>
+
+     
+            <ion-col size="12">
+                  <ion-card>
+                    <ion-card-header>
+
+                      <ion-card-title> Ansiedad </ion-card-title>
+
+                    </ion-card-header>
+
+                    <ion-card-content>
+                      En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.
+                      Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
+                    </ion-card-content> 
+
+                    <ion-button>Que hacer?</ion-button>
+
+                    </ion-card>
+              </ion-col>
+
+            
+
+             <ion-col size="12">
+
+                  <ion-card>
+
+                  <ion-card-header>
+
+                  <ion-card-title> DATTO es inclusiva </ion-card-title>
+                  <ion-card-subtitle> Damos la bienvenida a nuestra comunidad trans y no binaria. </ion-card-subtitle>
+                </ion-card-header>
+
+                  
+
+                <ion-card-content>
+                  Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.                
+                </ion-card-content> 
+
+                <ion-button>Que hacer?</ion-button>
+
+                </ion-card>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-card>
+                <ion-card-header>
+
+                  <ion-card-title>
+                    ¿Cuándo un noviazgo es violento?
+                  </ion-card-title>
+
+                </ion-card-header>
+
+                <ion-card-content>
+                  La violencia es peligrosa y deja consecuencias en la vida de las personas.
+                </ion-card-content>
+
+              </ion-card>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-card>
+                <ion-card-header>
+
+                  <ion-card-title>
+                    Igualdad de genero
+                  </ion-card-title>
+
+                </ion-card-header>
+
+                <ion-card-content>
+                  La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos
+                </ion-card-content>
+                <ion-button>Mas info</ion-button>
+
+              </ion-card>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-card>
+                <ion-card-header>
+
+                  <ion-card-title>
+                    No mas bullying
+                  </ion-card-title>
+
+                </ion-card-header>
+
+                <ion-card-content>
+                  Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
+                </ion-card-content>
+                <ion-button>¿Que hacer frente al bullying?</ion-button>
+
+              </ion-card>
+            </ion-col>
+
+            <ion-col size="12">
+              <ion-card>
+                <ion-card-header>
+
+                  <ion-card-title>
+                    Alimentacion imagenes y estereotipos
+                  </ion-card-title>
+
+                </ion-card-header>
+
+                <ion-card-content>
+                  Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
+
+                  Pensando en el componente cultural, creemos que es de vital trascendencia porque reﬁere a los modos de expresión que una sociedad tiene para comunicarse y que, además, se maniﬁestan simbólicamente en el lenguaje, en la moda musical, de indumentaria y también de los tipos de cuerpo “válidos”.
+
+                  La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
+                </ion-card-content>
+                <ion-button>Mas info</ion-button>
+
+              </ion-card>
+            </ion-col>
+
+
+
+                
+      </ion-row>
+
+
+    </ion-grid>
 
 </ion-content>

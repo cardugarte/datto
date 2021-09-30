@@ -1,3 +1,11 @@
+// slides.component.scss
+@import '~swiper/swiper';
+
+// slides.component.scss
+@import '~swiper/swiper';
+@import '~@ionic/angular/css/ionic-swiper';
+
+
 #container {
   text-align: center;
 
@@ -24,4 +32,21 @@
 
 #container a {
   text-decoration: none;
+}
+
+ion-button{
+  padding: 5px;
+}
+
+.swiper-slide{
+  transition: 400ms all ease-in-out;
+}
+
+.swiper-slide-active{
+  transform: scale(1.05, 1.05)
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
 }
