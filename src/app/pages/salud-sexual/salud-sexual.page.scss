@@ -1,0 +1,33 @@
+body{
+    font-family: "Bitter";
+    -webkit-font-smoothing: antialiased;
+}
+
+//MAC
+
+
+.mac-content h1{
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    
+}
+
+.mac-content p{
+    text-align: justify;
+    color:#3c246f;
+    margin-bottom: 1em;
+}
+
+.derechos-mac{
+    font-size: 2rem;
+    line-height: normal;
+}
+
+.derechos-mac p{
+    margin-bottom: 1rem; font-size: 1.5rem;
+    color:#3c246f;
+}
+.derechos-mac span{
+    line-height: normal; background-color: rgb(223, 235, 106);
+    color:#3c246f;
+}
