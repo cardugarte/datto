@@ -1,0 +1,69 @@
+ h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(60, 36, 111);
+}
+
+    
+body{ 
+    font-family: "Bitter";
+    -webkit-font-smoothing: antialiased;
+    }
+
+//Buenos habitos
+
+.buenos-habitos-content h1{
+    color: #3c246f;
+   
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.buenos-habitos-content  p{
+    color: #3c246f;
+}
+
+.saludable-content  p{
+    color: #3c246f;
+}
+
+
+
+//Malos habitos
+
+.malos-habitos-content h1{
+    background-color: #c2dd89;
+    color: #3c246f;
+}
+
+.malos-habitos-content p{
+    color: #3c246f;
+}
+
+.malos-habitos-content li{
+    line-height: normal;
+    margin-bottom: .5rem;
+    color: #3c246f;
+    font-size: 2rem;
+}
+
+//virtualidad y sedentarismi
+
+.virtualidad-content{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.virtualidad-content  p{
+    color: #3c246f;
+}
+
+//Recomendaciones
+
+.recomendaciones-content{
+    text-align: justify;
+}
+
+.recomendaciones-content p{
+    color: #3c246f;
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: "Bitter";
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/// Consumo de alcohol
+
+.consumo-content h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(60, 36, 111);
+}
+
+.consumo-content p{
+    color: #3c246f;}
+
+.sugerencias-content span{
+    color: rgb(60, 36, 111);
+    background-color: rgb(164, 210, 200);
+}
+.sugerencias-content p{
+    color: #3c246f;}
+
+.sugerencias-content img {
+    height: 214px;
+}
+
+//Tabaco
+
+.tabaco-content h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(60, 36, 111);
+}
+.tabaco-content p{
+    color: #3c246f;}
+
+//Drogas
+
+.drogas-content h1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(60, 36, 111);
+}
+
+.drogas-content p{
+    color: #3c246f;}
+
+
+//contacto
+
+.contacto-content{
+    background-color: black;
+    color: white;
+}
+
+.contacto-content p{
+    color: white;
+}
