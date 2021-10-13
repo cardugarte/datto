@@ -37,7 +37,7 @@ body{
 .emergencia-bigbox{
     background-color: #d5e26a;
     border: 1px solid #93c;
-    margin:5px;
+   
 }
 
 .emergencia-close-icon{
@@ -46,12 +46,15 @@ body{
     border-bottom: 1px solid #93c; 
     float: right;
     box-sizing: border-box;
+    padding: 6px;
 }
 
 .emergencia-content{
     width: 100%;
     text-align: center;
     line-height: 20pt;
+    color:#3c246f;
+    font-weight: 600;
   
 }
 
@@ -64,7 +67,7 @@ body{
 }
 
 .emergencia-pastilla{
-    background-color: #e4a8ff;
+    background-color: #d0a3d6;
     color:rgb(60, 36, 111);
     margin: 5px;
 
@@ -73,7 +76,7 @@ body{
 }
 
 .emergencia-uso{
-    background-color: #e4a8ff;
+    background-color: #d0a3d6;
     margin:5px;
 
 }
@@ -190,7 +193,7 @@ body{
 
 
 .ciclo-content-info{
-    text-align: justify;
+    text-align: left;
     font-size: 2.5rem;
 
 }
