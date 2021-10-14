@@ -1,0 +1,18 @@
+ion-list {
+    background: var(--ion-color-tertiary);
+}
+
+a {
+    color: var(--ion-color-contrast);
+    text-decoration: none;
+}
+
+.toolbar__menu {
+    display: flex !important;
+}
+
+.logo__menu {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}

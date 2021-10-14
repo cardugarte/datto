@@ -53,9 +53,29 @@ ion-button{
   height: 300px;
 }
 
+
 .bienvenidos{
   background-color: #c8b5ed;
+  height: 70vh;
+  margin: 0;
+  border-radius: 0;
+  // padding: 40px;
+  .home__title {
+    font-size: 3rem;
+  }
+  .home__text-description {
+    margin: 10px;
+    font-size: 1.4rem;
+  }
+  .home__img-header {
+    width: 190px;
+  }
+  .home__btn-cta {
+    width: 180px;
+    margin-bottom: 10px;
+  }
 }
+
 
 ////////////////////////////////////////
 
