@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { GenerosPageRoutingModule } from './generos-routing.module';
 
 import { GenerosPage } from './generos.page';
+import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { GenerosPage } from './generos.page';
     IonicModule,
     GenerosPageRoutingModule
   ],
-  declarations: [GenerosPage]
+  declarations: [
+    GenerosPage,
+    ToolbarComponent,
+  ]
 })
 export class GenerosPageModule {}

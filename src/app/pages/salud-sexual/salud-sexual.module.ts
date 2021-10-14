@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { SaludSexualPageRoutingModule } from './salud-sexual-routing.module';
 
 import { SaludSexualPage } from './salud-sexual.page';
+import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { SaludSexualPage } from './salud-sexual.page';
     IonicModule,
     SaludSexualPageRoutingModule
   ],
-  declarations: [SaludSexualPage]
+  declarations: [
+    SaludSexualPage,
+    ToolbarComponent,
+  ]
 })
 export class SaludSexualPageModule {}

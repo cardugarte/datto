@@ -7,14 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { AcosoPageRoutingModule } from './acoso-routing.module';
 
 import { AcosoPage } from './acoso.page';
+import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AcosoPageRoutingModule
+    AcosoPageRoutingModule,
   ],
-  declarations: [AcosoPage]
+  declarations: [
+    AcosoPage,
+    ToolbarComponent,
+  ]
 })
 export class AcosoPageModule {}

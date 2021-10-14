@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { AlimentacionPageRoutingModule } from './alimentacion-routing.module';
 
 import { AlimentacionPage } from './alimentacion.page';
+import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { AlimentacionPage } from './alimentacion.page';
     IonicModule,
     AlimentacionPageRoutingModule
   ],
-  declarations: [AlimentacionPage]
+  declarations: [
+    AlimentacionPage,
+    ToolbarComponent,
+  ]
 })
 export class AlimentacionPageModule {}

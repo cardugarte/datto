@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { GestionEmocionesPageRoutingModule } from './gestion-emociones-routing.module';
 
 import { GestionEmocionesPage } from './gestion-emociones.page';
+import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { GestionEmocionesPage } from './gestion-emociones.page';
     IonicModule,
     GestionEmocionesPageRoutingModule
   ],
-  declarations: [GestionEmocionesPage]
+  declarations: [
+    GestionEmocionesPage,
+    ToolbarComponent,
+  ]
 })
 export class GestionEmocionesPageModule {}
