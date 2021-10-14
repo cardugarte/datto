@@ -8,6 +8,7 @@ import { SexoAfectivasPageRoutingModule } from './sexo-afectivas-routing.module'
 
 import { SexoAfectivasPage } from './sexo-afectivas.page';
 import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
   declarations: [
     SexoAfectivasPage,
     ToolbarComponent,
+    FooterComponent
   ]
 })
 export class SexoAfectivasPageModule {}

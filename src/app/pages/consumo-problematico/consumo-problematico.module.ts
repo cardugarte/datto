@@ -8,6 +8,7 @@ import { ConsumoProblematicoPageRoutingModule } from './consumo-problematico-rou
 
 import { ConsumoProblematicoPage } from './consumo-problematico.page';
 import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
   declarations: [
     ConsumoProblematicoPage,
     ToolbarComponent,
+    FooterComponent
   ]
 })
 export class ConsumoProblematicoPageModule {}

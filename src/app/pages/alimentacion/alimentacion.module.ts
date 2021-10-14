@@ -8,6 +8,7 @@ import { AlimentacionPageRoutingModule } from './alimentacion-routing.module';
 
 import { AlimentacionPage } from './alimentacion.page';
 import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
   declarations: [
     AlimentacionPage,
     ToolbarComponent,
+    FooterComponent
   ]
 })
 export class AlimentacionPageModule {}

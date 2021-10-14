@@ -8,6 +8,7 @@ import { GenerosPageRoutingModule } from './generos-routing.module';
 
 import { GenerosPage } from './generos.page';
 import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
   declarations: [
     GenerosPage,
     ToolbarComponent,
+    FooterComponent
   ]
 })
 export class GenerosPageModule {}

@@ -8,6 +8,7 @@ import { AcosoPageRoutingModule } from './acoso-routing.module';
 
 import { AcosoPage } from './acoso.page';
 import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
+import { FooterComponent } from 'src/app/components/footer/footer.component';
 
 @NgModule({
   imports: [
@@ -19,6 +20,7 @@ import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
   declarations: [
     AcosoPage,
     ToolbarComponent,
+    FooterComponent,
   ]
 })
 export class AcosoPageModule {}
