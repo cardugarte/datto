@@ -1,39 +1,43 @@
 <ion-app>
-
-  <ion-menu side="end" menuId="first" contentId="main">
-    <ion-header color="tertiary">
-      <ion-toolbar color="tertiary">
-        <img class="logo__menu" src="../assets/logos/logo-vl.png" alt="Logo del Municipio Vicente López">
-      </ion-toolbar>
-    </ion-header>
-    <ion-content color="tertiary">
-      <ion-list color="tertiary">
-        <ion-item color="tertiary">
-          <ion-label>
-            <a routerLink="/salud-sexual">Salud sexual</a>
-          </ion-label>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/gestion-emociones">Gestión de las emociones</a>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/generos">Géneros</a>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/sexo-afectivas">Relaciones sexo afectivas</a>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/acoso">Acoso</a>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/consumo-problematico">Consumo problemático</a>
-        </ion-item>
-        <ion-item color="tertiary">
-          <a routerLink="/alimentacion">Alimentación, imágenes y estereotipos</a>
-        </ion-item>
-      </ion-list>
-    </ion-content>
-  </ion-menu>
+  <ion-menu-toggle>
+    <ion-menu side="end" menuId="first" contentId="main">
+      <ion-header color="tertiary">
+        <ion-toolbar color="tertiary">
+          <a routerLink="/">
+            <img class="logo__menu" src="../assets/logos/logo-vl.png" alt="Logo del Municipio Vicente López">
+          </a>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content color="tertiary">
+        <ion-list color="tertiary">
+          
+            <ion-item color="tertiary">
+              <ion-label>
+                <a routerLink="/salud-sexual">Salud sexual</a>
+              </ion-label>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/gestion-emociones">Gestión de las emociones</a>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/generos">Géneros</a>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/sexo-afectivas">Relaciones sexo afectivas</a>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/acoso">Acoso</a>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/consumo-problematico">Consumo problemático</a>
+            </ion-item>
+            <ion-item color="tertiary">
+              <a routerLink="/alimentacion">Alimentación, imágenes y estereotipos</a>
+            </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+  </ion-menu-toggle>
 
   <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>

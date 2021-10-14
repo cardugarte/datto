@@ -6,6 +6,7 @@ import { HomePage } from './home.page';
 import { SwiperModule } from 'swiper/angular';
 import { HomePageRoutingModule } from './home-routing.module';
 import { ToolbarComponent } from '../components/toolbar/toolbar.component';
+import { FooterComponent } from '../components/footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +17,11 @@ import { ToolbarComponent } from '../components/toolbar/toolbar.component';
     HomePageRoutingModule,
     SwiperModule,
   ],
-  declarations: [HomePage, ToolbarComponent]
+  declarations: [
+    HomePage,
+    ToolbarComponent,
+    FooterComponent
+  ]
 })
 export class HomePageModule {}
 
