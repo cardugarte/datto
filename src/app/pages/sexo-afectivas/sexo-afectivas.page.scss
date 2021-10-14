@@ -1,7 +1,39 @@
+//Header
+
+.header {
+    height: 25%; 
+    text-align: center;
+    width: 100%;
+    background-color: rgb(176, 207, 196); 
+    font-size: 3rem;
+}
+
+.header h1{
+    top: 32px;
+    left: 15px;
+    position: absolute;
+    font-size: 3rem;
+
+}
+
+
 //noviazgo
 
 .noviazgo-content p{
     color: #3c246f;
+    font-size: 2rem;
+}
+
+.noviazgo-content span{
+    line-height: normal;
+}
+
+
+//IDENTIFICAR
+
+.identificar-content{
+    padding: 15px;
+    font-size: 1.5rem;
 }
 
 
