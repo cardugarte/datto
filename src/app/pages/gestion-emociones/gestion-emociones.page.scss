@@ -1,12 +1,21 @@
 .gestion-header{
     color: rgb(60, 36, 111);
     text-align: center;
-    
-    background-color: #d296ff;
+    background-color: #c8b5ed;
+    height: 465px;
 }
 
 .gestion-header h1{
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    position: absolute;
+    left: 30px;
+}
+
+.gestion-header img{
+    position: relative;
+    top: 68px;
+
 }
 
 //Ansiedad
@@ -28,7 +37,8 @@
 //Emociones
 
 .nombrar-emociones p{
-    font-size:1.5rem;
+    font-size:2rem;
+    font-style: italic;
     color: rgb(60, 36, 111);
 }
 
@@ -38,7 +48,7 @@
 
 .algunas-emociones h1{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(60, 36, 111);
 }
 
@@ -71,11 +81,15 @@
     color: rgb(60, 36, 111);
 }
 
+.contacto-content button{
+    width: 68%;padding: 15px;border-radius: 30px;background-color: rgb(75, 21, 116); color: white;
+}
+
 //Depresion
 
 .depresion-content h1{
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(60, 36, 111);
 }
 
@@ -93,6 +107,6 @@
 }
 
 .contacto-content p{
-    
+  
     color: rgb(60, 36, 111);
 }

@@ -34,6 +34,7 @@
 .identificar-content{
     padding: 15px;
     font-size: 1.5rem;
+    line-height: 1.5;
 }
 
 
@@ -62,8 +63,35 @@
 
 .violencia-content{
     width: 100%;
-    text-align: center;
     line-height: 20pt;
+    text-align: center;
+
+    padding: 5px
+  
+}
+
+.violencia-content img{
+    height: 20px;
+
+}
+
+//Tarjetas
+.close-icon{
+    margin-right: 6px;
+    background-color: #d5e26a;
+    float: right;
+    box-sizing: border-box;
+    padding: 1px;
+    margin-top: 17px;
+    width: 15%;
+}
+
+.header-h2{
+    width: 1070%0%;
+    text-align: left;
+    line-height: 20pt;
+    color:#3c246f;
+    font-weight: 600;
   
 }
 

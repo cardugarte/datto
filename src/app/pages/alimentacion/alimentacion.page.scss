@@ -10,21 +10,52 @@ body{
     -webkit-font-smoothing: antialiased;
     }
 
+//Header H1
+
+.header-h1{
+    font-size: 3rem;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+
+.header-h1 h1{
+    position: absolute;
+    font-size: 3rem;
+    text-align: center;
+    left: 71px;
+    top: 66px;
+    width: 64%;
+}
+
+
+
 //Buenos habitos
 
 .buenos-habitos-content h1{
     color: #3c246f;
-   
     font-weight: 700;
-    text-decoration: none;
+    font-size: 3rem;
+    background-color: rgb(189, 170, 227);
 }
 
 .buenos-habitos-content  p{
     color: #3c246f;
+    text-align: justify;
 }
 
 .saludable-content  p{
     color: #3c246f;
+}
+
+//Saludable
+
+.saludable-content h1{
+    font-size: 3rem;
+}
+
+.saludable-content p{
+    text-align: justify;
 }
 
 
@@ -34,6 +65,7 @@ body{
 .malos-habitos-content h1{
     background-color: #c2dd89;
     color: #3c246f;
+    font-size: 3rem;
 }
 
 .malos-habitos-content p{
@@ -56,14 +88,24 @@ body{
 
 .virtualidad-content  p{
     color: #3c246f;
+    text-align: justify;
 }
 
 //Recomendaciones
 
+.recomendaciones-big-box{
+    padding: 15px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 .recomendaciones-content{
     text-align: justify;
 }
-
+.recomendaciones-content h1{
+    font-size: 3rem;
+    text-align: center;
+}
 .recomendaciones-content p{
     color: #3c246f;
 }
