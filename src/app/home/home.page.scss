@@ -78,6 +78,7 @@ ion-button{
 }
 
 
+
 ////////////////////////////////////////
 
 //Carrousel
@@ -117,25 +118,32 @@ ion-button{
 .depresion-content button{
   border-radius: 40px;
   padding: .5rem 1rem;
-  font-size: 1.25rem;
   background-color: rgb(29, 23, 83);
-  color:white
+  color:white;
+  width: 165px;
+  font-size: 2rem;
+  height: 55px;
+}
 
+.depresion-content p{
+  font-size: 2rem;
+}
 
-
+.depresion-content h1{
+font-size: 5rem;
 }
 
 //Gestion emociones
 .emociones-content p {
   font-weight: 500;
   line-height: 1.2;
-  font-size: 1.25rem;
+  font-size: 2rem;
   color:rgb(60, 36, 111);
 }
 .emociones-content {
   font-weight: 500;
   line-height: 1.2;
-  font-size: 1.25rem;
+  font-size: 3rem;
   color:rgb(60, 36, 111);
 }
 
@@ -147,6 +155,15 @@ ion-button{
   color: white;
   font-size: bold;
   background-color: rgb(29, 23, 83);
+}
+
+
+.ansiedad-content p{
+  font-size: 2rem;
+}
+
+.ansiedad-content h1{
+font-size: 5rem;
 }
 
   .ansiedad-content button{
@@ -191,7 +208,7 @@ ion-button{
 
 .violento-content p{
   color:black;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -214,7 +231,7 @@ ion-button{
 
 .igualdad-content p{
   color:black;
-  font-size: 1rem;
+  font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -236,6 +253,7 @@ ion-button{
 
 .bullying-content p{
   color: rgb(255, 255, 255);
+  font-size: 2rem;
 
 }
 
@@ -257,6 +275,7 @@ ion-button{
 
 .alimentacion-content p{
   color: black;
+  font-size: 1.5rem;
 }
 
 .alimentacion-content button{
@@ -268,13 +287,238 @@ ion-button{
   
 }
 
+//Inclusiva
+
+.div-inclusiva{
+  background-color: #e2ed6a; padding: 16px;font-size: 1.5rem;
+}
+
+.div-inclusiva button{
+  border-radius: 40px;
+  padding: .5rem 1rem;
+  background-color: rgb(29, 23, 83);
+  color:white;
+  width: 165px;
+  font-size: 2rem;
+  height: 55px;
+}
+
+//Consumo
+
+.consumo-div{
+  background-color: rgb(75, 21, 116);  padding: 16px;text-align: left; color:rgb(226, 237, 106)}
+
+.consumo-div h1{
+    width: 50%; font-size: 3rem;
+  }
+
+  .consumo-div p{
+   font-size: 2rem;
+  }
+
+ .consumo-div button{
+    width: 164px;
+  }
+
+//svg consumo
+
+.svg-consumo-top{
+  fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+.svg-consumo-bottom{
+  fill: rgb(255, 255, 255);position: relative;
+
+}
+
+//svg Datto
+
+.svg-datto-top{
+  fill: rgb(255, 255, 255);position: relative;bottom: 79px;   transform: scaleY(-1);
+}
+
+.svg-datto-bottom{
+  fill: rgb(255, 255, 255);position: relative;
+  top: -1px;
+
+}
+
+
 //resolucion desktop
 
-@media (min-width: 1199.98px)  {
+@media (min-width: 1146.98px)  {
 
   .slider{
-    margin: 20px;
+    margin: 53px;
+    height: 420px;
+  }
+
+  .slide1{
+    width: 33%;
+  }
+  .slide2{
+    width: 33%;
+  }
+  .slide3{
+    width: 33%;
+  }
+
+  .card-slide1{
+    height: 100%;
+  }
+  .card-slide2{
+    height: 100%;
   }
   
+  .card-slide3{
+    height: 100%;
+  } 
+
+  //svg consumo
+
+  .svg-consumo-top{
+    bottom: 309px;
+    fill: white;
+    position: relative;
+    transform: scaleY(-1);
+  }
+
+  .svg-consumo-bottom{
+    top: -1px;
+  }
+  
+  //consumo
+
+  .consumo-div{
+    padding-right: 122px;
+    text-align: left;
+    color: rgb(226, 237, 106);
+    padding-left: 113px;
+  }
+
+  .consumo-div h1{
+    font-size: 5rem;
+  }
+  .consumo-div p{
+    font-size: 3rem;
+  }
+
+
+  //ion-cards
+
+.card1{
+  margin: 80px;
 }
+.card2{
+  margin: 80px;
+}
+.card3{
+  margin: 80px;
+}
+.card4{
+  margin: 80px;
+}
+.card5{
+  margin: 80px;
+}
+
+//Gestion emociones
+.emociones-content p {
+  font-size: 3rem;
+  color:rgb(60, 36, 111);
+}
+
+.emociones-content h1{
+  font-size: 5rem;
+}
+
+//Depresion
+
+.depresion-content p{
+  font-size: 3rem;
+}
+
+.depresion-content h1{
+  font-size: 5rem;
+}
+
+.depresion-content button{
+  width: 199px;
+    font-size: 2rem;
+    height: 61px;
+  }
+
+  //Ansiedad
+
+  .ansiedad-content p{
+    font-size: 2rem;
+  }
+  
+  .ansiedad-content h1{
+  font-size: 5rem;
+  }
+
+  .ansiedad-content button{
+    width: 199px;
+    font-size: 2rem;
+    height: 61px;
+
+  }
+
+  //Inclusiva
+
+  .div-inclusiva{
+     padding: 76px;
+  }
+ 
+  .div-inclusiva p{
+    font-size: 2rem;
+  }
+
+  
+  .div-inclusiva h1{
+  font-size: 5rem;
+  }
+
+  .div-inclusiva button{
+    width: 199px;
+      font-size: 2rem;
+      height: 61px;
+    }
+
+  //SVG datto
+
+  .svg-datto-top{
+    fill: rgb(255, 255, 255);
+    position: relative;
+    bottom: 311px;
+    transform: scaleY(-1);
+  }
+
+  //Alimentacion
+
+  .alimentacion-content h1{
+    font-size: 5rem;
+  }
+
+  .alimentacion-content p{
+    font-size: 3rem;
+  }
+
+  .alimentacion-content button{
+    width: 199px;
+    font-size: 2rem;
+    height: 61px;
+
+  }
+
+
+  
+
+}
+
+
+
+
+
+
 /*Fin desktop*/
