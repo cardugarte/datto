@@ -2,17 +2,29 @@
 <app-toolbar></app-toolbar>
 
 <ion-content [fullscreen]="true">
+  <ion-grid style="background-color: #c8b5ed;" class="header-grid">
+    <ion-row>
+      <ion-col size="12" size-lg="8">
+    <div class="header">
+      
+      <img src="../../assets/imgHome/bienvenidos.png">
+      <p style="color: #000; letter-spacing: 2px;">Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
+    </p>
+    <img class="header-img-home1" src="../../assets/imgHome/circle-lightblue.png">
+    <img class="header-img-home2"   src="../../assets/pdf genero/circulo-verde.png">
+    </div>
 
-  <div style="font-size: 1.5rem; padding: 38px;background-color: #c8b5ed;text-align: left; padding-bottom: 0px;">
-    
-    <img src="../../assets/imgHome/bienvenidos.png">
-    <p style="color: #000; letter-spacing: 2px;">Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
-  </p>
-  <img style="position: relative; position: relative; bottom: 99px; right: 42px;height: 81px;transform: scaleX(-1);" src="../../assets/imgHome/circle-lightblue.png">
-  <img style="position: relative; position: relative; height: 48px; bottom: 92px; left: 236px;" src="../../assets/pdf genero/circulo-verde.png">
-  </div>
+  </ion-col>
 
-  <div style="width: 100%;">
+  <ion-col style="margin:auto" size="0" size-lg="4">
+    <img src="../../assets/imgHome/imagenHome.png">
+    <img class="header-img-home3" src="../../assets/imgHome/cuadrados-verdes.png">
+
+  </ion-col>
+ </ion-row>
+</ion-grid>
+
+  <div class="header-h1" style="width: 100%;">
   <h1 style="padding-left: 24px; width: 50%;"> Salud sexual </h1>
   
  </div>
@@ -121,19 +133,20 @@
 
 
 
-<div >
-  <div style="height: 33px;">
-    <svg class="svg-consumo-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
-  </div>
+<div> 
 
-          <div class="consumo-div">
+  <div style="height: 80px;">
+    <svg class="svg-consumo-top"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+  </div>
+  
+   <div class="consumo-div">
              <h1>Consumo de sustancias</h1>
              <br>
             <p>Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.</p>
             <br>
         
             <button routerLink="/consumo-problematico" style=" padding: 15px;border-radius: 30px;background-color:white;  color: rgb(75, 21, 116);;">Más Info</button>
-        </div>
+     </div>
         <div style="height: 80px;">
           <svg class="svg-consumo-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
         </div>
@@ -161,65 +174,60 @@
        
                   <ion-card class="card2"> 
                     <ion-card-content>
-                      <div class="depresion-content">
-                        <h1><strong>Depresión</strong></h1>
+               
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col class="depresion-content" size="12" size-lg="8">
+                          <h1><strong>Depresión</strong></h1>
+                          <br>
+                          <br>
+                        <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
+                        <br>     
+                        <p> Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.</p>
                         <br>
-                        <p>Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
-                        <br>
-                        <br>
-                        <p>
-                          Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
-                        </p>
-                        <br>
-                        <br>
-                        <button routerLink="/gestion-emociones">Consejos utiles</button>
-                        
-                        <img src="../../assets/imgHome/Depresión 3.jpg " style="width: 100%;">
-                        
-                      </div>
-                      </ion-card-content> 
+                        <button routerLink="/gestion-emociones">Consejos utiles</button>       
+                        </ion-col>
+                        <ion-col size="12" size-lg="4">
+                          <img src="../../assets/imgHome/Depresión 3.jpg ">
+                        </ion-col>
+                      </ion-row>
+                    </ion-grid>
 
-         
+                  </ion-card-content> 
 
                     </ion-card>
-            
 
-
-          
-                  <ion-card class="card3">
-                    <ion-card-content class="ansiedad-content">
-                      <div class="ansiedad-div">
-                        <h1><strong>Ansiedad</strong></h1>
-                        
-                        <br>
-                        <p>
-                          En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.
-                        </p>
-                        <br>
-                        <br>
-                        <p>
-                          Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
-                        </p>
-                        <br>
-                        <br>
-                        <button routerLink="/gestion-emociones" style="padding: 15px;border-radius: 30px"><strong>¿Qué hacer?</strong></button>
-                        <br>
-                        <br>
-                        <div class="img-ansiedad">
+                   <ion-card class="card3">
+                     <ion-card-content class="ansiedad-content">
+                       <div class="ansiedad-div">
+                                
+                    <ion-grid>
+                      <ion-row>
+                        <ion-col size="12" size-lg="4">
                           <img src="../../assets/imgHome/ansiedad.png ">
-                  
-                      </div>
-                     
-                      </div>
-                      </ion-card-content> 
-
-
-                    </ion-card>
+                        </ion-col>
+                        <ion-col style="margin: auto;" class="depresion-content" size="12" size-lg="8">
+                          <h1><strong>Ansiedad</strong></h1>
+                          <br>
+                          <br>
+                        <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
+                        <br>     
+                        <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
+                        </p>
+                        <br>
+                         <button routerLink="/gestion-emociones" style="padding: 15px;border-radius: 30px"><strong>¿Qué hacer?</strong></button>   
+                        </ion-col>
+                    
+                      </ion-row>
+                    </ion-grid>
+                       </div>
+                     </ion-card-content>
+                   </ion-card>
               
             
 
          
-           <div style="height: 33px;">
+           <div style="height: 80px;">
              <svg class="svg-datto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
             </div>
              <div class="div-inclusiva">
@@ -236,7 +244,7 @@
                 
             </div>
 
-            <div style="height: 17px;">
+            <div style="height: 80px;">
               <svg  class="svg-datto-bottom" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
             </div>
 
@@ -244,36 +252,56 @@
               <ion-card class="card4">
 
                 <ion-card-content>
-                  <div class="violento-content">
-                    <h1><strong>¿Cuándo un noviazgo es violento?</strong></h1>
-                    <br>
-                    <p>
-                      La violencia es peligrosa y deja consecuencias en la vida de las personas.
-                    </p>
-                    <br>
-                    <button routerLink="/sexo-afectivas" style="padding: 15px;border-radius: 30px">Como identificar noviazgos violentos</button>
-                  </div>
+             
 
-                  <div style="padding: 18px;">
-            
-                  <img style="height: 58px;" src="../../assets/imgHome/lineaVioleta.png">
-                </div>
+                <ion-grid>
+                  <ion-row>
+                    <ion-col class="no-es-no" size="12" size-lg="4">
+                      <img src="../../assets/imgHome/no-es-no.png">
+                    </ion-col>
+
+                    <ion-col class="violento-content" size="12" size-lg="8">
+                 
+                      <h1><strong>¿Cuándo un noviazgo es violento?</strong></h1>
+                      <br>
+                      <p>
+                        La violencia es peligrosa y deja consecuencias en la vida de las personas.
+                      </p>
+                      <br>
+                      <button routerLink="/sexo-afectivas" style="padding: 15px;border-radius: 30px">Como identificar noviazgos violentos</button>
+                   
+                    
+                    </ion-col>
+                
+                  </ion-row>
+
+                  <br>
+                  
+               
+                  <ion-row>
+                    <ion-col class="depresion-content" size="12" size-lg="8">
+                      <div class="igualdad-content">
+                      <h1><strong> Igualdad de genero</strong></h1>
+                      <br>
+                      <p> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
+                      <br>
+                      <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
+                    </div>
+                    
+                    </ion-col>
+                    <ion-col size="12" size-lg="4">
+                      <img src="../../assets/imgHome/imgGeneros.png">
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
            
-                  <div class="igualdad-content">
-                    <h1><strong> Igualdad de genero</strong></h1>
-                    <br>
-                    <p> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
-                    <br>
-                    <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
-                  </div>
-                  <img src="../../assets/imgHome/imgGeneros.png">
+                  
+               </ion-card-content>
 
-                   </ion-card-content>
-
-              </ion-card>
+               </ion-card>
                     
               <div style="background-color: black;">
-                <img src="../../assets/imgHome/bgBullying.png">
+                <img style="width: 100%;" src="../../assets/imgHome/bgBullying.png">
               
               </div>
 
@@ -291,30 +319,39 @@
               <ion-card class="card5">
 
                 <ion-card-content>
-                  <div class="alimentacion-content">
-                    <h1> Alimentacion imagenes y estereotipos</h1>
-                    <br>
-                    <p>
-                       Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
-                    </p>
-                    <br>
-                    <p>
-                      Pensando en el componente cultural, creemos que es de vital trascendencia porque reﬁere a los modos de expresión que una sociedad tiene para comunicarse y que, además, se maniﬁestan simbólicamente en el lenguaje, en la moda musical, de indumentaria y también de los tipos de cuerpo “válidos”.
-                    </p>
-                    <br>
-                    <p>
-                      La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
-                    </p>
-                    <br>
-                    <button routerLink="/alimentacion" style="padding: 15px;border-radius: 30px">Más Info</button>
-                    <br>
-                    <div>
-                      <img src="../../assets/imgHome/cuerpos_estereotipos2.png ">
-                    </div>
-                  </div>
-                 </ion-card-content>
                
 
+                  <ion-grid>
+
+                    <ion-row>
+                      <ion-col class="alimentacion-content" size="12" size-lg="6">
+                        <h1> Alimentacion imagenes y estereotipos</h1>
+                        <br>
+                        <p>
+                          Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
+                        </p>
+                        <br>
+                        <p>
+                          Pensando en el componente cultural, creemos que es de vital trascendencia porque reﬁere a los modos de expresión que una sociedad tiene para comunicarse y que, además, se maniﬁestan simbólicamente en el lenguaje, en la moda musical, de indumentaria y también de los tipos de cuerpo “válidos”.
+                        </p>
+                        <br>
+                        <p>
+                          La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
+                        </p>
+                        <br>
+                        <button routerLink="/alimentacion" style="padding: 15px;border-radius: 30px">Más Info</button>
+                        <br>
+                      
+                      
+                      </ion-col>
+                      <ion-col size="12" size-lg="6">
+                        <img src="../../assets/imgHome/cuerpos_estereotipos2.png ">
+                      </ion-col>
+                    </ion-row>
+                  </ion-grid>
+
+                </ion-card-content>
+                 
               </ion-card>
            
   <app-footer></app-footer>
