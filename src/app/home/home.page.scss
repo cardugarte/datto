@@ -373,16 +373,16 @@ color: white;
   }
 
   .header p{
-    font-size: 7rem;
+    font-size: 4rem;
   }
 
   .header-grid{
-    height: 958px;
+    height: 747px;
     
   }
 
   .header{
-    padding: 216px;
+    padding: 115px;
   }
 
   .header img{
@@ -400,9 +400,9 @@ color: white;
   //slider
 
   .slider{
-    margin: 187px;
-    height: 937px;
-  }
+    margin: 103px;
+    height: 66%;
+}
 
   .slide1{
     width: 33%;
@@ -417,17 +417,24 @@ color: white;
   .card-slide1{
     height: 100%;
   }
+
+  .card-slide1 img{
+    height: 387px;
+  }
   .card-slide2{
     height: 100%;
   }
-
-  .card-slide3 img{
-    height: 519px;
+  .card-slide2 img{
+    height: 387px;
   }
   
   .card-slide3{
     height: 100%;
   } 
+
+  .card-slide3 img{
+    height: 388px;
+  }
 
   //prevencion
 
@@ -488,7 +495,7 @@ color: white;
   //svg consumo
 
   .svg-consumo-top{
-    bottom: 818px;
+    bottom: 495px;
   }
 
   .svg-consumo-bottom{
@@ -499,6 +506,7 @@ color: white;
 
   .consumo-div{
     padding-right: 122px;
+    padding-left: 113px;
     text-align: left;
     color: rgb(226, 237, 106);
     padding-left: 113px;
@@ -616,7 +624,7 @@ color: white;
   .svg-datto-top{
     fill: rgb(255, 255, 255);
     position: relative;
-    bottom: 819px;
+    bottom: 495px;
     transform: scaleY(-1);
   }
 

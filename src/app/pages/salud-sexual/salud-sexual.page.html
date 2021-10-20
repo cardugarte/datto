@@ -10,12 +10,8 @@
 
 <ion-content>
 
-  <ion-title>
-    Salud Sexual
-  </ion-title>
-
-  <div style="width: 100%;"> 
-    <h1 style="left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold">Salud Sexual</h1>
+  <div class="header" style="width: 100%;"> 
+    <h1>Salud Sexual</h1>
     <img src="../../../assets/pdf salud sexual/bg-header.png" style="width: 100%;">
   </div>
 
@@ -24,10 +20,10 @@
 
       <ion-col size="12">
 
-        <ion-card>
+        <ion-card class="mac">
           <ion-card-content>
             <div class="mac-content">
-              <h1 style="font-size: 2rem;">Metodos anticonceptivos (MAC)</h1>
+              <h1>Metodos anticonceptivos (MAC)</h1>
               <br>
               <p>
                 Los MAC son todos aquellos capaces de evitar o reducir las posibilidades de un embarazo. Pueden utilizarse durante toda la vida fértil de la persona.
@@ -49,14 +45,12 @@
               <p>
                 Y desde los 13 años l@s adolescentes pueden acceder en forma autónoma a todos los métodos anticonceptivos reversibles, inclusive, los de larga duración. 
               </p>
-              <strong style="color:rgb(60, 36, 111)">(Elección de Anticonceptivos: Ley N°25673 Salud sexual y procreación responsable)</strong>
+              <h1><strong style="color:rgb(60, 36, 111)">(Elección de Anticonceptivos: Ley N°25673 Salud sexual y procreación responsable)</strong></h1>
 
             </div>
 
             <div class="derechos-mac" >
             
-          
-          
             <br>
             <p><span>Tenés derecho a acceder a métodos anticonceptivos y a elegir el que quieras utilizar.</span></p>
       
@@ -71,7 +65,7 @@
         </ion-card>
 
         <div style="width: 100%; 
-        height: 14%;" >
+        height: 14%; text-align: center;" >
 
         <img style="height: 281px;" src="../../../assets/pdf salud sexual/img-metodos-anticonceptivos.png">
 
@@ -85,7 +79,7 @@
             <img style="float: right;" src="../../../assets/x-caja.png">
           </div>
           <div class="emergencia-content">
-            <h1 style="font-size: 2rem;">Anticonceptivo de emergencia</h1>
+            <h1>Anticonceptivo de emergencia</h1>
           </div>
         </div>
       </ion-col>
@@ -93,28 +87,52 @@
 
       <ion-col size="12">
 
-        <ion-card>
+        <ion-card class="emergencia">
           <div class="emergencia-pastilla-content">
-          <h2 style="font-size: 2rem; background-color: rgb(172, 216, 206) ;color:#3c246f;">¿Cuándo se puede considerar la utilización del anticonceptivo de emergencia?</h2>
+          <h1 style="background-color: rgb(172, 216, 206) ">¿Cuándo se puede considerar la utilización del anticonceptivo de emergencia?</h1>
           </div>
+
+
+          <ion-grid>
+            <ion-row>
+              <ion-col size="12" size-lg="6">
+                <img class="img1" src="../../../assets/pdf salud sexual/img-anticonceptivo-emergencia1.png">
+              </ion-col>
+              <ion-col size="12" size-lg="6">
+                <img class="img1"src="../../../assets/pdf salud sexual/img-anticonceptivo-emergencia2.png">
+          
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
           <div>
-          <img class="col-md-6 col-12" style="width: 100%; height: 124px;" src="../../../assets/pdf salud sexual/img-anticonceptivo-emergencia1.png">
-          <img class="col-md-6 col-12" style="width: 100%; height: 124px;" src="../../../assets/pdf salud sexual/img-anticonceptivo-emergencia2.png">
           </div>
         <div class="emergencia-pastilla">
           <div class="emergencia-pastilla-content">
-          <h2>La pastilla de emergencia*, o usualmente llamada pastilla del día después, se trata de una o dos pastillas que contienen una alta dosis de hormonas que retrasan la ovulación. Se recomienda su uso SÓLO PARA SITUACIONES DE EMERGENCIA</h2>
+          <h1>La pastilla de emergencia*, o usualmente llamada pastilla del día después, se trata de una o dos pastillas que contienen una alta dosis de hormonas que retrasan la ovulación. Se recomienda su uso SÓLO PARA SITUACIONES DE EMERGENCIA</h1>
         </div>
-          
-        <div class="emergencia-uso">
-          <strong>CÓMO SE USA:</strong> 
-          <p style="font-style: italic;">Debe tomarse luego de una relación sexual en la que haya fallado el método o no se haya usado uno. Es más segura dentro de las primeras 12 horas.</p>   
-          <strong>*Método válido sólo para personas con capacidad de gestar.</strong> 
+     
+
+          <ion-grid>
+            <ion-row>
+              <ion-col size="12" size-lg="8">
+                <div class="emergencia-uso">
+                  <h1><strong>CÓMO SE USA:</strong> </h1>
+                  <p style="font-style: italic;">Debe tomarse luego de una relación sexual en la que haya fallado el método o no se haya usado uno. Es más segura dentro de las primeras 12 horas.</p>   
+                  <p><strong>*Método válido sólo para personas con capacidad de gestar.</strong> </p>
+                </div> </ion-col>
+              <ion-col size="12" size-lg="4">
+                <div style="width: 100%; height: 14%; margin: 10px;">
+                  <img class="img2"  src="../../../assets/pdf salud sexual/pastillaDiaDespues.png">
+                </div>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+
         </div>
-        <div style="width: 100%; height: 14%; margin: 10px;">
-          <img style="width: 282px; height: 215px;;" src="../../../assets/pdf salud sexual/pastillaDiaDespues.png">
-        </div>
-      </div>
+
+
+
     
 
         </ion-card>
@@ -123,18 +141,18 @@
 
 
       <ion-col size="12">
-        <ion-card>
+        <ion-card class="preservativo">
           <ion-card-content>
             <div class="implante-content">
             <h1>Preservativo</h1>
 
             <p>Es una funda de látex que se coloca en el pene erecto, en cada relación sexual e impide que el semen entre en la vagina, ano o boca.</p>
            <div style="position: absolute;top: 132px; left: 233px;">
-             <img style="height: 70px;" src="../../../assets/pdf salud sexual/img1.png">
+             <img class="img3" style="height: 70px;" src="../../../assets/pdf salud sexual/img1.png">
            </div>
             <br>
            
-            <h2><strong>Como se usa</strong></h2>
+            <h1><strong>Como se usa</strong></h1>
             <br>
             <p><span style="background-color: rgb(223, 235, 106);">Beneficios</span></p>
             <p>Se coloca cuando el pene está erecto, se aprieta la punta y se desenrolla hasta la base del pene. Se retira después de la eyaculación y se desecha.</p>
@@ -160,29 +178,34 @@
           <div class="emergencia-close-icon">
              <img style="float: right;" src="../../../assets/x-caja.png">    </div>
           <div class="emergencia-content" style="padding: 10px;">
-            <h1 style="font-size: 2.5rem;
-            line-height: normal;">MAC de larga duracion</h1>
+            <h1>MAC de larga duracion</h1>
           </div>
         </div>
       </ion-col>
 
       <ion-col size="12">
-        <ion-card > 
+        <ion-card class="implante" > 
           <ion-card-content>
             <div class="implante-content">
               <h1>Implante sudermico</h1>
               <p>Conocido como: Chip. Es un implante de plástico flexible. Libera hormonas que impiden la ovulación.</p>
             <br>
-            <h2><strong>Como se usa</strong></h2>
+            <h1><strong>Como se usa</strong></h1>
             <p>Se inserta debajo de la piel del brazo con una pequeña incisión con anestesia local. La colocación la hace un/a profesional.</p>
             <br>
             <p><span style="background-color: rgb(223, 235, 106);">Beneficios</span></p>
             <p>Su efecto dura de 3 a 7 años. La efectividad no depende de sostener un hábito por parte de la persona que lo lleva.</p>
             <div style="width: 100%; 
             height: 14%;">
-              <img style="width: 100%; height: 120px;" src="../../../assets/pdf salud sexual/img-implante-sudermico.png">
-              <img style="width: 100%; height: 120px;" src="../../../assets/pdf salud sexual/noPrevieneVerde.png">
-            </div>
+            <ion-grid>
+              <ion-row>
+                <ion-col size="12" size-lg="6"> <img class="img4"  src="../../../assets/pdf salud sexual/img-implante-sudermico.png">
+                </ion-col>
+                <ion-col size="12" size-lg="6"><img class="img4" src="../../../assets/pdf salud sexual/noPrevieneVerde.png">
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+              </div>
           </div>
           </ion-card-content>
 
@@ -191,17 +214,23 @@
       </ion-col>
 
       <ion-col size="12">
-        <ion-card>
+        <ion-card class="diu">
          <ion-card-content>
            <div class="diusiu-content">
            <h1>DIU y SIU</h1>
            <br>
-           <h2>Son pequeños dispositivos que se colocan en el útero, uno libera Cobre, otro libera hormonas</h2>
-           <div style="width: 100%; 
-           height: 14%; text-align: center;">
-             <img style="margin: 10px; width: 100%;" src="../../../assets/pdf salud sexual/bg-diu.png">
-             <img style="margin: 10px; height: 120px;" src="../../../assets/pdf salud sexual/noPrevieneAmarillo.png">
-           </div>
+           <p>Son pequeños dispositivos que se colocan en el útero, uno libera Cobre, otro libera hormonas</p>
+           <ion-grid>
+            <ion-row>
+              <ion-col size="12" size-lg="6"> 
+                <img style="margin: 10px; width: 100%;" src="../../../assets/pdf salud sexual/bg-diu.png">
+              </ion-col>
+              <ion-col size="12" size-lg="6"> 
+                <img style="margin: 10px; height: 120px;" src="../../../assets/pdf salud sexual/noPrevieneAmarillo.png">
+        
+              </ion-col>
+            </ion-row>
+          </ion-grid>
           </div>
           </ion-card-content>
         </ion-card>
