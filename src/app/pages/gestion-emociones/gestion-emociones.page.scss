@@ -110,3 +110,145 @@
   
     color: rgb(60, 36, 111);
 }
+
+.contacto-1{
+   background-color: #dbeb63;padding: 16px;font-size: 14px;
+
+}
+
+//svg
+
+.div-svg1{
+    height: 33px;
+}
+.div-svg2{
+    height: 33px;
+}
+
+
+.svg1{
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+    
+
+
+
+
+@media (min-width: 1146.98px){
+
+    //Ansiedad
+
+    .ansiedad{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .ansiedad p{
+        font-size: 3rem;
+
+    }
+
+    .ansiedad h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    .ansiedad-content{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .ansiedad-conntent h1{
+        font-size: 7rem;
+    }
+
+    .ansiedad-content p{
+        font-size: 3rem;
+    }
+
+    //Emociones
+
+    
+    .emociones{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .emociones p{
+        font-size: 3rem;
+
+    }
+
+    .emociones h1{
+        font-size: 7rem;
+    }
+
+    //Contacto
+
+    .contacto-1 h1{
+        font-size: 7rem;
+    }
+    
+    .contacto-1 p{
+        font-size: 4rem;
+    }
+    
+
+    //svg
+
+    .div-svg1{
+        height: 125px;
+    }
+
+    .svg1{
+        fill: rgb(255, 255, 255);position: relative;bottom: 447px;   transform: scaleY(-1);
+    }
+
+    .div-svg2{
+        height: 143px;
+    
+
+    }
+
+    //Depresion
+
+    .depresion{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .depresion p{
+        font-size: 3rem;
+
+    }
+
+    .depresion h1{
+        font-size: 7rem;
+    }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
