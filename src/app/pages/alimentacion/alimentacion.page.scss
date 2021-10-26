@@ -10,24 +10,11 @@ body{
     -webkit-font-smoothing: antialiased;
     }
 
-//Header H1
+//Header 
 
-.header-h1{
-    font-size: 3rem;
-    height: 300px;
-    width: 100%;
-    background-size: cover;
+.header h1{
+    left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
 }
-
-.header-h1 h1{
-    position: absolute;
-    font-size: 3rem;
-    text-align: center;
-    left: 71px;
-    top: 66px;
-    width: 64%;
-}
-
 
 
 //Buenos habitos
@@ -108,4 +95,76 @@ body{
 }
 .recomendaciones-content p{
     color: #3c246f;
+}
+
+
+@media (min-width: 1146.98px){
+
+
+.img1{
+    width: 100%;
+}
+
+.header{
+    text-align: justify;
+}
+
+.header h1{
+    
+    padding-top: 289px;
+    font-size: 9rem;
+}
+
+//Habitos
+
+.habitos{
+    margin-right: 122px;
+    margin-left: 113px;
+}
+
+.habitos h1{
+    font-size: 7rem;
+}
+
+.habitos p{
+    font-size: 3rem;
+}
+
+.img2{
+    margin-top: 95px;
+    margin-left: 108px;
+}
+
+.img3{
+    margin-left: 102px;
+    margin-top: 53px;
+
+}
+
+.img4{
+    padding-top: 128px;
+}
+
+.img5{
+    margin-left: 102px;
+    margin-top: 225px;
+
+}
+
+.problemas p{
+    color: #3c246f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
