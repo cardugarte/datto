@@ -5,6 +5,22 @@
 @import '~swiper/swiper';
 @import '~@ionic/angular/css/ionic-swiper';
 
+:root {  
+  --ion-safe-area-top: 20px;  
+  --ion-safe-area-bottom: 22px;  
+}  
+.swiper-slide {  
+  display: block;  
+}  
+ion-slide > h2 {  
+  margin-top: 2.8rem;  
+}  
+ion-slide > img {  
+  max-height: 50%;  
+  max-width: 60%;  
+  margin: 36px 0;  
+}  
+
 body {
   font-family: "Bitter";
 background-color: white;}
@@ -98,6 +114,7 @@ position: relative; position: relative; height: 48px; bottom: 42px; left: 236px;
 ////////////////////////////////////////
 
 //Carrousel
+
 
 .anticonceptivos-content button {
   background-color: rgb(75, 21, 116);
@@ -340,6 +357,10 @@ color: white;
 
 //svg consumo
 
+.div-svg-consumo-top{
+  height: 80px;
+}
+
 .svg-consumo-top{
   fill: rgb(255, 255, 255);position: relative;bottom: 32px;  transform: scaleY(-1);
 }
@@ -399,29 +420,23 @@ color: white;
 
   //slider
 
-  .slider{
-    margin: 103px;
-    height: 66%;
-}
+  .ion-slides{
+    margin-right: 122px;
+    margin-left: 113px;
+    
+  }
 
-  .slide1{
-    width: 33%;
-  }
-  .slide2{
-    width: 33%;
-  }
-  .slide3{
-    width: 33%;
-  }
 
   .card-slide1{
     height: 100%;
+    padding: 60px;
   }
 
   .card-slide1 img{
     height: 387px;
   }
   .card-slide2{
+    padding: 60px;
     height: 100%;
   }
   .card-slide2 img{
@@ -430,6 +445,7 @@ color: white;
   
   .card-slide3{
     height: 100%;
+    padding: 60px;
   } 
 
   .card-slide3 img{
@@ -494,8 +510,12 @@ color: white;
 
   //svg consumo
 
+  .div-svg-consumo-top{
+    height: 120px;
+  }
+
   .svg-consumo-top{
-    bottom: 495px;
+    bottom: 455px;
   }
 
   .svg-consumo-bottom{
