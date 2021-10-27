@@ -17,6 +17,16 @@ body{
     font-size: 4rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
 }
 
+.img3{
+    height: 150px;
+}
+
+.img2{
+    height: 120px;
+}
+.img1{
+    height: 259px;
+}
 /// Consumo de alcohol
 
 
@@ -101,19 +111,20 @@ body{
     height: 27px;
 }
 
-.div-svg-contacto-top{
-        
+.div-svg-contacto-top{   
     height: 33px;
+    
 }
 
-.div-svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+.svg-contacto-top{
+    
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px; transform: scaleY(-1);
 }
+
+
 
 .div-svg-contacto-bottom{
-
     height: 155px;
-
 }
 
 .svg-contacto-bottom{
@@ -212,9 +223,7 @@ body{
 }
 
 .button2{
-    
       background-color: white;
-      color: black !important;
       padding: 33px;
       border-radius: 30px;
       width: 254px;
