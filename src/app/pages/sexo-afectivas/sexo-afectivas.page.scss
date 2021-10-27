@@ -16,8 +16,18 @@
 
 }
 
+//Violento
 
+
+
+.violento h1{margin: 30px ;font-weight: bold; font-size: 3rem; color: rgb(60, 36, 111);}
+
+.violento-cont{
+    color: white; background-color: #3c246f; border-radius: 30px; margin:15px;
+}
 //noviazgo
+
+
 
 .noviazgo-content p{
     color: #3c246f;
@@ -37,7 +47,24 @@
     line-height: 1.5;
 }
 
+.identificar-content h1{
+    font-weight: bold;font-size: 3rem;color: rgb(255, 255, 255);
+}
 
+
+.identificar-content p{
+    color: rgb(255, 255, 255); font-size:2rem;
+}
+
+//SVG
+
+.div-svg-top{
+    height: 33px;
+}
+
+.svg-top{
+    fill: #3c246f;position: relative;top: 28px;
+}
 
 .identificar-content h1{
     font-weight: bold;
@@ -63,9 +90,8 @@
 
 .violencia-content{
     width: 100%;
-    line-height: 20pt;
+   line-height: 20pt;
     text-align: center;
-
     padding: 5px
   
 }
@@ -77,13 +103,13 @@
 
 //Tarjetas
 .close-icon{
-    margin-right: 6px;
     background-color: #d5e26a;
     float: right;
     box-sizing: border-box;
-    padding: 1px;
-    margin-top: 17px;
-    width: 15%;
+    /* padding: 1px; */
+    /* margin-top: 17px; */
+    /* width: 24%; */
+
 }
 
 .header-h2{
@@ -95,8 +121,176 @@
   
 }
 
+//Pareja
+
+.pareja{
+    color:#3c246f;
+}
+
+.pareja p{
+    font-size: 2.5rem; 
+}
+
 //contacto
+
+.contacto{
+    padding: 16px;background-color: black; color: white; font-size: 14px;
+}
 
 .contacto-content{
     padding-left: 15px;
+}
+
+//SVG
+
+.div-svg-contacto-top{
+    height: 33px;
+}
+
+.svg-contacto-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+
+.div-svg-contacto-bottom{
+    height: 33px;
+}
+
+.svg-contacto-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
+
+}
+
+@media (min-width: 1146.98px){
+
+    .header{
+        height: 500px;
+    }
+
+    .header h1{
+
+        top: 172px;
+        left: 179px;
+        position: absolute;
+        font-size: 8rem;
+
+    }
+
+    .img2{
+        height: 501px;
+        padding-right: 383px;
+    }
+
+    //Noviazgo
+
+
+
+    .noviazgo{
+        margin: 100px 300px 0px 300px;
+    }
+
+    .noviazgo p{
+        font-size: 4rem;
+    }
+
+    .noviazgo h1{
+        font-size: 7rem;
+    }
+
+    .violento{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .violento-cont{
+        color: white; background-color: #3c246f; border-radius: 30px; margin:15px;
+    }
+
+    .identificar-content h1{
+        font-size: 7rem;
+    }
+    
+    .identificar-content p{
+        font-size: 4rem;
+    }
+
+    .violencia-bigbox{
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+
+    .violencia-content{
+        line-height: normal;
+    }
+
+    .violencia-content p{
+        font-size: 4rem;
+        color:#3c246f;
+    }
+
+    .violencia-content h1{
+        font-size: 7rem;
+    }
+
+    //Pareja
+
+    .pareja{
+    
+        margin-right: 122px;
+        margin-left: 113px;
+    
+    }
+
+    .pareja p{
+        font-size: 4rem;
+    }
+
+    .img3{
+        margin-left: 155px;
+        height: 370px;
+    }
+
+    //Contacto
+
+    
+ 
+
+    .contacto p{
+        font-size: 4rem;
+    }
+
+    .contacto h1{
+        font-size: 7rem;
+    }
+
+    //SVG
+
+    .div-svg-contacto-top{
+        height: 155px;
+    }
+
+    .svg-contacto-top{
+        fill: rgb(255, 255, 255);position: relative;bottom: 389px;   transform: scaleY(-1);
+    }
+
+    .div-svg-contacto-bottom{
+        height: 143px;
+    }
+    
+    .svg-contacto-bottom{
+        fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }

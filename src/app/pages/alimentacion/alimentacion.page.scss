@@ -13,11 +13,15 @@ body{
 //Header 
 
 .header h1{
-    left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
+     position: absolute; top: 57px; color: #3c246f; font-weight: bold;
 }
 
 
 //Buenos habitos
+
+.buenos-habitos-content{
+    text-align: center;
+}
 
 .buenos-habitos-content h1{
     color: #3c246f;
@@ -36,6 +40,10 @@ body{
 }
 
 //Saludable
+
+.saludable-content{
+    text-align: center;
+}
 
 .saludable-content h1{
     font-size: 3rem;
@@ -78,6 +86,13 @@ body{
     text-align: justify;
 }
 
+.img6{
+    height: 210px;
+}
+.problemas p{
+    color: #3c246f;
+}
+
 //Recomendaciones
 
 .recomendaciones-big-box{
@@ -97,8 +112,52 @@ body{
     color: #3c246f;
 }
 
+.button1{
+ padding: 15px;border-radius: 30px; background-color: #d7e36a; color: #3c246f;
+}
+
+.img7{
+    height: 210px;
+    
+    padding-left: 49px;
+
+}
+
+//Contacto
+
+.contacto{
+
+    padding: 16px;background-color: black; color: white; font-size: 14px;
+
+}
+
+//SVG
+
+.div-svg-top{
+    height: 33px;
+}
+
+.svg-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+
+.div-svg-bottom{
+    height: 33px;
+}
+
+.svg-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
+}
+
 
 @media (min-width: 1146.98px){
+    .ciclo-content{
+        font-size: 7rem;
+    }
+
+    .header h1{
+        left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
+    }
 
 
 .img1{
@@ -120,6 +179,7 @@ body{
 .habitos{
     margin-right: 122px;
     margin-left: 113px;
+    text-align: center;
 }
 
 .habitos h1{
@@ -151,8 +211,61 @@ body{
 
 }
 
+.img6{
+    height: 410px;
+}
+
+
+
 .problemas p{
     color: #3c246f;
+}
+
+.button1{
+    font-size: 3rem;
+    padding: 36px;
+    border-radius: 30px;
+    background-color: #d7e36a;
+    color: #3c246f;
+}
+
+.img7{
+    margin-left: 58px;
+    /* padding-top: 36px; */
+    height: 479px;
+    margin-top: 310px;
+    /* padding-left: 48px; */
+    /* margin-left: 16%; */
+
+}
+
+//Contacto
+
+
+.contacto h1{
+    font-size: 7rem;
+}
+
+.contacto p{
+    font-size: 4rem;
+}
+
+//SVG
+
+.div-svg-top{
+    height: 124px;
+}
+
+.svg-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 451px;   transform: scaleY(-1);
+}
+
+.div-svg-bottom{
+    height: 147px;
+}
+
+.svg-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 1px;
 }
 
 
