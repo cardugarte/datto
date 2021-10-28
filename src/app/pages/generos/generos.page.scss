@@ -11,6 +11,10 @@ body{
 
 //Header
 
+.header{
+    margin-top: -20px;
+}
+
 .header h1{
     font-size: 3rem;color: black; top: 50px; position: relative; left: 129px;
 }
@@ -109,6 +113,8 @@ body{
 
 //diversidad
 
+
+
 .diversidad-content{
     padding: 38px ;
     color: #3c246f;
@@ -154,8 +160,35 @@ body{
 
 }
 
+//SVG
+
+.div-svg-contacto-top{
+    height: 33px;
+}
+
+.svg-contacto-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+
 @media (min-width: 1146.98px)  {
 
+    .diversidad{
+        margin-right: 122px;
+        margin-left: 113px;
+    
+    }
+
+
+
+    //SVG
+
+    .div-svg-contacto-top{
+        height: 155px;
+    }
+
+    .svg-contacto-top{
+        fill: rgb(255, 255, 255);position: relative;bottom: 389px;   transform: scaleY(-1);
+    }
 //Header
 
 .header{
