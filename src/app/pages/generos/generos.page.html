@@ -1,18 +1,19 @@
 <app-toolbar></app-toolbar>
 
 <ion-content>
-  <div style="display: flex ;background-color: #c8b5ed; height: 25%; text-align: center;">
-    <h1 style="font-size: 3rem;color: black; top: 50px; position: relative; left: 99px;">Géneros</h1>
+  <div class="header" style="background-color: #c8b5ed; height: 25%">
+    <h1>Géneros</h1>
     <img style="position: absolute; height: 21px; position: absolute; left: 270px; top: 19px;" src="../../../assets/pdf genero/piririn-2.png">
     <img style="position: absolute; left: 39px; top: 34px; position: absolute; height: 36px;" src="../../../assets/pdf genero/circulo-verde.png">
-     <img style="position: relative; height: 43px; transform: scaleX(-1); top: 113px; right: 194px;"
-     src="../../../assets/imgHome/circle-lightblue.png">
+     <img style="position: relative; height: 43px; transform: scaleX(-1); top: 93px; right: 121px;" src="../../../assets/imgHome/circle-lightblue.png">
      <img style="position: relative;top: 75px;" src="../../../assets/pdf bullying/Image_009.png">
   </div>
-  <div style="height: 27px;">
+
+  <div class="svg-bottom-genero" >
      <svg viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #c8b5ed;" class="lv-wave" d="M-76.46,42.92 C112.02,-45.88 486.17,116.94 577.03,-29.11 L515.52,-20.22 L-25.11,-14.30 Z"></path></svg>
     </div>
-  <ion-card>
+
+  <ion-card class="genero">
     <ion-card-content style="justify-content: center;">
       <h1>Igualdad de géneros</h1>
       <br>
@@ -36,7 +37,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card>
+  <ion-card class="empoderamiento">
     
     <ion-card-content>
       
@@ -54,13 +55,15 @@
     </ion-card-content>
   </ion-card>
 
+  <div style="height: 33px;">
+    <svg class="svg-servicios-top"  viewBox="0 0 500 150" preserveAspectRatio="none" style="fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);"><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+  </div>
   
-  <ion-card style="background-color: black; color: white;">
-    <ion-card-content>
-      <button style="padding: 15px;border-radius: 30px; background-color:white; ">Participá</button>
+   <div class="contacto" >
+      <button> <a style="color: black; text-decoration: none;" href="https://mvl.edu.ar/programas/parlamento-de-las-juventudes/">Participá</a></button>
       <br>
-      <div style="padding-bottom: 10px; padding-top:10px; margin: 5px;">
-        <h2>CONTACTOS Y PREFERENCIAS</h2>
+      <div class="contacto-div1" >
+        <h1>CONTACTOS Y PREFERENCIAS</h1>
         <br>
         <a href="www.unicef.org/lac/igualdad-de-genero" style="color: white; text-decoration: none;">www.unicef.org/lac/igualdad-de-genero</a> 
         <br>  
@@ -68,9 +71,9 @@
         <br>
         <a href="www.unicef.org/argentina/temas/adolescentes" style="color: white; text-decoration: none;">www.unicef.org/argentina/temas/adolescentes</a>
      </div>
-
+ 
      <div>
-       <h2>SERVICIOS</h2>
+       <h1>SERVICIOS</h1>
        <br>
        <p>Centro Municipal de la Niñez Adolescencia de Vicente López
 
@@ -86,10 +89,13 @@
           
           adolescenciaservicio@gmail.com</p>
       </div>
-    </ion-card-content>
-  </ion-card>
+    </div>
 
-  <ion-card>
+    <div class="div-svg-bottom-contacto">
+      <svg class="svg-bottom-contacto" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+    </div>
+
+  <ion-card class="identidad">
     <ion-card-content>
       <h1>Identidad de género y diversidad sexual</h1>
       <br>
@@ -118,11 +124,11 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card>
+  <ion-card class="diversidad">
     
     <ion-card-content>
       <div class="diversidad-content">
-        <p style="font-size:2rem; text-align: justify;">La diversidad en todos sus aspectos, y especíﬁcamente la diversidad sexual y corporal,<span style="background-color: #a4d0c6;">reconoce que las personas no se determinan por su sexo asignado al nacer, ni su género por su corporalidad.
+        <p>La diversidad en todos sus aspectos, y especíﬁcamente la diversidad sexual y corporal,<span style="background-color: #a4d0c6;">reconoce que las personas no se determinan por su sexo asignado al nacer, ni su género por su corporalidad.
         </span></p>
         </div>
         <div class="diversidad-2-content">
@@ -148,22 +154,27 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card>
+  <ion-card class="esi">
  
     <ion-card-content>
-      <div class="esi-content">
       <h1>ESI</h1>
       <br>
-        <p>Tener acceso a información confiable y oportuna evita caer en situaciones de vulnerabilidadque pueden dejar huellas difíciles de borrar.</p>
+      <p>La Ley de Educación Sexual Integral, es un derecho de lxs adolescentes que debe ser cumplido en las escuelas, ya que facilita el autocuidado el entendimiento del proceso de construcción de nuestra identidad de género del respeto por el/la otrx y de la capacidad para poder llevar una vida sexual saludable y placentera.</p>
       <br>
-      <p style="font-size:2rem"><span style="background-color: #d7e36a;">Tener acceso a información confiable y oportuna evita caer en situaciones de vulnerabilidad</span> que pueden dejar huellas difíciles de borrar.</p>
+      <br>
+      <div class="esi-content">
+      <p><span style="background-color: #d7e36a;">Tener acceso a información confiable y oportuna evita caer en situaciones de vulnerabilidad</span> que pueden dejar huellas difíciles de borrar.</p>
       <img src="../../../assets/pdf genero/chica-2.png">
     </div>
     </ion-card-content>
   </ion-card>
 
-  <ion-card style="background-color: black; color: white;">
-    <ion-card-content>
+  <div class="div-svg-contacto-top">
+    <svg class="svg-contacto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+  </div>
+
+ 
+  <div class="servicios">
       <div class="servicios-content">
         <h1 style="color: white;">SERVICIOS</h1>
         <p>Equipos de Abordaje Integral en Diversidad en las siguientes especialidades y servicios:</p>
@@ -174,7 +185,7 @@
         <p>- Trabajo social y asesoramiento para el cambio registral</p>
         <p>- Asesoramiento para programas y subsidios.</p>
       <br>
-      <button style="padding: 15px; border-radius: 30px; background-color:white; ">TURNOS DIVERSIDAD</button>
+      <button><a style="font-weight:bold; text-decoration:none" href="https://www.vicentelopez.gov.ar/turnos-salud">TURNOS DIVERSIDAD</a></button>
       <br>
       <br>
       <p>Diversidad.salud@vicentelopez.gov.ar</p>
@@ -212,18 +223,13 @@
         adolescenciaservicio@gmail.com
         
         tel: 4796-7200 int 7309</p>
-
-
-    
-    
-    
     </div>
-  </div>
+  </div>     
 
-      
-
-    </ion-card-content>
-  </ion-card>
+</div>
+<div style="height: 33px;">
+  <svg class="svg-servicios-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none" style="fill: rgb(255, 255, 255);position: relative;bottom: 0px;"><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+</div>
 
 
   <app-footer></app-footer>

@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+    font-family: 'bitter', sans-serif;
+    font-weight: bold
+  }
+
 .bullying-content{
     line-height: normal;
     color:rgb(60, 36, 111);
@@ -20,6 +34,7 @@
 
 .bullying-content p{
     line-height: 1.5;
+    font-size: 1rem;
     
 }
 
@@ -40,9 +55,19 @@
     box-sizing: border-box;
 }
 
+.emergencia-close-icon{
+    width: 100%;
+    background-color: #d5e26a;
+    border-bottom: 1px solid #93c; 
+    float: right;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+
 //consecuencias
 
-.consecuencias-content{
+.consecuencias{
     font-size: 3rem;
     line-height: normal;
     color:rgb(60, 36, 111);
@@ -52,7 +77,7 @@
 
 }
 
-.consecuencias-content h1{
+.consecuencias h1{
     font-weight: bold;
     text-align: center;
     font-size: 1.5rem;
@@ -62,13 +87,172 @@
     
 }
 
-.consecuencias-content p{
+.consecuencias p{
     line-height: 1.5;
-    
+    color:rgb(60, 36, 111);
     margin-bottom: 10px;
     
 }
 
-//cyberbullying
+.como-actuan{
+    text-align: center;line-height: normal;background-color: #a3cfc5; 
+
+}
+
+//Contacto
+
+.contacto{
+ background-color: #c8b5ed; color: #3c246f; padding: 19px;
+}
+
+
+    .contacto h1{
+        font-size: 3rem;
+    }
+
+    .contacto p{
+        font-size: 2rem;
+    }
+
+    //SVG
+
+    .div-svg-contacto-top{
+        height: 33px;
+    }
+
+    .svg-contacto-top{
+
+        fill: #c8b5ed;
+        position: relative;
+        bottom: 78px;;
+        transform: scaleY(-1);
+    }
+
+    .div-svg-contacto-bottom{
+        height: 33px;
+    }
+    
+    .svg-contacto-bottom{
+
+        fill: #c8b5ed;position: relative;bottom: 0px;
+    }
+
+@media (min-width: 1146.98px)  {
+    
+    //Header
+
+    .img-header{
+        width: 100%;
+    }
+
+    //Bullying
+
+    .bullying-content h1{
+        font-size: 7rem;
+        color:rgb(60, 36, 111);
+    }
+
+    .bullying-content p{
+        font-size: 4rem;
+        color:rgb(60, 36, 111);
+    }
+
+    .img1{
+        height: 500px;
+    
+    padding-left: 210px;
+    }
+
+    //Condiciones
+
+    .condiciones{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    
+    .condiciones p{
+        font-size: 3rem;
+
+    }
+
+    .condiciones h1{
+        font-size: 7rem;
+    }
+
+    //Consecuencias
+
+    .consecuencias{
+        margin-right: 122px;
+        margin-left: 113px;
+        color:rgb(60, 36, 111);
+        line-height: 1.5;
+    }
+
+    
+    .consecuencias p{
+        font-size: 3rem;
+        line-height: 1.5;
+        
+    }
+
+    .consecuencias h1{
+        font-size: 7rem;
+      
+    }
+
+    .img2{
+        margin-top: 92px;
+    }
+
+    .como-actuan{
+        margin: 0px 306px 0 306px;
+    }
+
+    //Contacto
+
+    
+
+    .contacto h1{
+        font-size: 7rem;
+    }
+
+    .contacto p{
+        font-size: 2rem;
+    }
+
+       //SVG
+
+       .div-svg-contacto-top{
+        height: 130px;
+    }
+
+    .svg-contacto-top{
+
+        fill: #c8b5ed;
+        position: relative;
+        bottom: 414px;;
+        transform: scaleY(-1);
+    }
+
+    .div-svg-contacto-bottom{
+        height: 150px;
+    }
+    
+    .svg-contacto-bottom{
+
+        fill: #c8b5ed;position: relative;bottom: 0px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
 
   

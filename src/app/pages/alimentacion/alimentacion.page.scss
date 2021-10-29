@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+    font-family: 'bitter', sans-serif;
+    font-weight: bold
+  }
+ 
+ 
+ 
+ 
+ 
  h1{
     font-weight: bold;
     font-size: 2rem;
@@ -10,21 +28,52 @@ body{
     -webkit-font-smoothing: antialiased;
     }
 
+//Header 
+
+.header h1{
+     position: absolute;
+     top: 57px;
+     margin-left: 0px;
+     color: #3c246f;
+     font-weight: bold;
+     text-align: center;
+}
+
+
 //Buenos habitos
+
+.buenos-habitos-content{
+    text-align: center;
+}
 
 .buenos-habitos-content h1{
     color: #3c246f;
-   
     font-weight: 700;
-    text-decoration: none;
+    font-size: 3rem;
+    background-color: rgb(189, 170, 227);
 }
 
 .buenos-habitos-content  p{
     color: #3c246f;
+    text-align: justify;
 }
 
 .saludable-content  p{
     color: #3c246f;
+}
+
+//Saludable
+
+.saludable-content{
+    text-align: center;
+}
+
+.saludable-content h1{
+    font-size: 3rem;
+}
+
+.saludable-content p{
+    text-align: justify;
 }
 
 
@@ -34,6 +83,7 @@ body{
 .malos-habitos-content h1{
     background-color: #c2dd89;
     color: #3c246f;
+    font-size: 3rem;
 }
 
 .malos-habitos-content p{
@@ -56,14 +106,213 @@ body{
 
 .virtualidad-content  p{
     color: #3c246f;
+    text-align: justify;
+}
+
+.img6{
+    height: 210px;
+}
+.problemas p{
+    color: #3c246f;
 }
 
 //Recomendaciones
 
+.recomendaciones-big-box{
+    padding: 15px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
 .recomendaciones-content{
     text-align: justify;
 }
-
+.recomendaciones-content h1{
+    font-size: 3rem;
+    text-align: center;
+}
 .recomendaciones-content p{
     color: #3c246f;
+}
+
+.button1{
+ padding: 15px;border-radius: 30px; background-color: #d7e36a; color: #3c246f;
+}
+
+.img7{
+    height: 210px;
+    
+    padding-left: 49px;
+
+}
+
+//Contacto
+
+.contacto{
+
+    padding: 70px;background-color: black; color: white; font-size: 14px;
+
+}
+
+.contacto button{
+    padding: 15px; border-radius: 30px; background-color:white; 
+
+}
+
+//SVG
+
+.div-svg-top{
+    height: 33px;
+}
+
+.svg-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+
+.div-svg-bottom{
+    height: 33px;
+}
+
+.svg-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
+}
+
+
+@media (min-width: 1146.98px){
+    .ciclo-content{
+        font-size: 7rem;
+    }
+
+    .header h1{
+        left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
+    }
+
+
+.img1{
+    width: 100%;
+}
+
+.header{
+    text-align: justify;
+}
+
+.header h1{
+    
+    padding-top: 289px;
+    font-size: 9rem;
+}
+
+//Habitos
+
+.habitos{
+    margin-right: 122px;
+    margin-left: 113px;
+    text-align: center;
+}
+
+.habitos h1{
+    font-size: 7rem;
+}
+
+.habitos p{
+    font-size: 3rem;
+}
+
+.img2{
+    margin-top: 95px;
+    margin-left: 108px;
+}
+
+.img3{
+    margin-left: 102px;
+    margin-top: 53px;
+
+}
+
+.img4{
+    padding-top: 128px;
+}
+
+.img5{
+    margin-left: 102px;
+    margin-top: 225px;
+
+}
+
+.img6{
+    height: 410px;
+}
+
+
+
+.problemas p{
+    color: #3c246f;
+}
+
+.button1{
+    font-size: 3rem;
+    padding: 36px;
+    border-radius: 30px;
+    background-color: #d7e36a;
+    color: #3c246f;
+}
+
+.img7{
+    margin-left: 58px;
+    /* padding-top: 36px; */
+    height: 479px;
+    margin-top: 310px;
+    /* padding-left: 48px; */
+    /* margin-left: 16%; */
+
+}
+
+//Contacto
+
+
+.contacto h1{
+    font-size: 7rem;
+}
+
+.contacto p{
+    font-size: 4rem;
+}
+
+//SVG
+
+.div-svg-top{
+    height: 124px;
+}
+
+.svg-top{
+    fill: rgb(255, 255, 255);position: relative;bottom: 451px;   transform: scaleY(-1);
+}
+
+.div-svg-bottom{
+    height: 147px;
+}
+
+.svg-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+}
+
+.contacto button{
+    
+    font-size: 3rem;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }

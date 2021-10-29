@@ -1,6 +1,21 @@
-body{
-    font-family: "Bitter";
-    -webkit-font-smoothing: antialiased;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+    font-family: 'bitter', sans-serif;
+    font-weight: bold
+  }
+
+//Header
+
+.header h1{
+    left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
 }
 
 //MAC
@@ -9,6 +24,7 @@ body{
 .mac-content h1{
     font-weight: bold;
     color: rgb(60, 36, 111);
+    font-size: 3rem;
     
 }
 
@@ -49,13 +65,39 @@ body{
     padding: 6px;
 }
 
+
 .emergencia-content{
     width: 100%;
     text-align: center;
     line-height: 20pt;
     color:#3c246f;
     font-weight: 600;
-  
+    font-size: 2rem;
+    border-bottom: 1px solid #93c; width: 100%; 
+}
+
+.emergencia-content3{
+    width: 100%;
+    text-align: center;
+    line-height: 20pt;
+    color:#3c246f;
+    font-weight: 600;
+    font-size: 2rem;
+
+}
+
+.emergencia-content2{
+    text-align: justify; padding: 10px;
+    width: 100%;
+    line-height: 20pt;
+    color:#3c246f;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.emergencia h1{
+    font-size: 3rem;color:#3c246f;
 }
 
 .emergencia-h2{
@@ -71,12 +113,10 @@ body{
     color:rgb(60, 36, 111);
     margin: 5px;
 
-    
-
 }
 
 .emergencia-uso{
-    background-color: #d0a3d6;
+   
     margin:5px;
 
 }
@@ -86,6 +126,15 @@ body{
     font-weight: 500;
     line-height: 1.2;
     font-size: 2rem;
+}
+
+.img1{
+    width: 100%; height: 124px;
+    
+}
+
+.img2{
+    width: 282px; height: 215px;
 }
 
 //preservativo
@@ -110,6 +159,19 @@ body{
     background-color: #d5e26a;
     border: 1px solid #93c;
     margin:15px;
+}
+.mac-bigbox-2{
+    background-color: #d5e26a;
+    border: 1px solid #93c;
+    margin:15px;
+}
+
+
+
+
+.img9{
+    height: 232px;
+
 }
 
 
@@ -141,6 +203,10 @@ body{
 .diusiu-content h1{
     font-size: 2.5rem;
 }
+.img4{
+    width: 100%; height: 120px;
+}
+
 
 //anticonceptivos inyectables
 
@@ -182,9 +248,11 @@ body{
     text-align: left;
     color:rgb(60, 36, 111);
     
-
 }
 
+.ciclo-content h1{
+    font-size: 3rem;
+}
 
 .ciclo-content h2{
     font-size:2.5rem;
@@ -198,12 +266,621 @@ body{
 
 }
 
+
+
+
 .ginecologia-content{
     line-height: 1.5;
     color: white;
     
     
 }
+
+//irreversibles
+
+.irreversibles p{
+    font-size: 14px;
+    color:rgb(60, 36, 111);
+}
+
+ //Ginecologia
+
+ .ginecologia{
+    background-color:rgb(60, 36, 111); margin-top: 0;
+    color: white;
+
+}
+
+
+
+.ginecologia-img{
+    position: absolute; left: 203px; top: 30px;
+}
+
+//testeate
+
+.testeate{
+text-align: center;
+
+}
+
+.testeate-content p{
+    text-align: center; color:rgb(60, 36, 111); font-weight: bold;
+
+}
+
+.testeate-content h1{
+     font-weight: bold; 
+     color:rgb(60, 36, 111);
+}
+
+.formas-content{
+    background-color: white;
+    margin-right: 0;
+    margin-left: 0;
+    color:rgb(60, 36, 111);
+
+
+}
+
+//Vacunate
+
+.vacunate{
+    text-align: center;
+}
+
+.vacunate button{
+   border-radius: 30px;background-color: rgb(75, 21, 116); color: white;
+
+}
+
+//vih
+
+.vih{
+    color:rgb(60, 36, 111);
+  
+
+}
+
+.vih p{
+    margin-bottom: 1em;
+
+}
+
+.vih h1{
+    font-weight: bold; color:rgb(60, 36, 111); font-size: 3rem;
+}
+
+//prevenirlo
+
+.prevenirlo{
+    color:rgb(60, 36, 111);
+
+}
+
+.prevenirlo h1{
+    font-size: 3rem;font-weight: bold; color:rgb(60, 36, 111);
+}
+
+///vih no es sida
+
+.vih-no{
+    color:rgb(60, 36, 111);
+}
+
+.vih-no h1{
+    font-size: 3rem;font-weight: bold; 
+
+}
+
+.vih-no p{
+    margin-top: 1em
+}
+
+//servicio
+
+.servicio{
+  background-color: #b697c9;color:rgb(60, 36, 111);
+
+}
+
+.servicio h1{
+    font-size: 3rem; font-weight: bold;
+}
+
+
+.servicio p{
+    margin-bottom: 1em;
+}
+
+@media (min-width: 1146.98px){
+
+    .header h1{
+        padding: 342px;
+        left: 271px;
+        font-size: 11rem;
+    }
+
+    //MAC
+
+    .mac{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .mac-content h1{
+        font-size: 7rem;
+    }
+
+    .mac-content p{
+        font-size: 4rem;
+    }
+
+    .derechos-mac span{
+        font-size: 5rem;
+    }
+    
+    .derechos-mac p{
+        font-size: 4rem;
+    }
+
+    .mac-bigbox{
+        background-color: #d5e26a;
+        border: 1px solid #93c;
+        margin: 0 182px 0px 182px;
+    }
+
+    .mac-bigbox-2{
+        background-color: #d5e26a;
+        border: 1px solid #93c;
+        margin: 0 300px 0px 300px;
+    }
+    
+
+
+    //emergencia
+
+    .emergencia{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .emergencia-content {
+        font-size: 4rem;
+        line-height: 42pt;
+    }
+
+    .emergencia-content h2{
+        font-size: 55px;
+    }
+
+    .emergencia-content h1{
+        font-size: 7rem;
+    }
+    
+
+    .emergencia h1{
+        font-size: 7rem;
+    }
+
+    .img1{
+        width: 100%; height: 257px;
+        }
+
+    .emergencia-pastilla h1{
+        font-size: 7rem;
+    }
+
+    .emergencia-uso p{
+        font-size: 4rem;
+    }
+
+    .emergencia-uso h1{
+        font-size: 7rem;
+    }
+
+    .img2{
+        width: 397px;
+        height: 282px;
+     }
+
+
+     //preservativo
+
+     .preservativo{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .preservativo h1{
+        font-size: 7rem;
+    }
+
+    .preservativo p{
+        font-size: 4rem;
+    }
+
+    .preservativo  span{
+        font-size: 5rem;
+    }
+    
+
+    .img3{
+        display: none;
+    }
+
+    //Implante
+
+    .implante{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .implante h1{
+        font-size: 7rem;
+    }
+
+    .implante p{
+        font-size: 4rem;
+    }
+
+    .implante  span{
+        font-size: 5rem;
+    }
+
+    .img4{
+        width: 100%; height: 313px;
+    }
+
+
+    //diu
+
+    .diu{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .diusiu-content h1{
+        font-size: 7rem;
+    }
+
+    .diusiu-content p{
+        font-size: 4rem;
+    }
+
+    .diusiu-content  span{
+        font-size: 5rem;
+    }
+
+    .img4{
+        width: 100%; height: 313px;
+    }
+
+    //anticonceptivos-inyectables
+
+    .anticonceptivos-inyectables{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .anticonceptivos-inyectables h1{
+        font-size: 7rem;
+    }
+
+    .anticonceptivos-inyectables p{
+        font-size: 3rem;
+    }
+
+    .img5{
+        height: 319px;
+    }
+
+    .img6{
+        margin-top: 17px;
+    }
+
+    // Anticonceptivos orales
+
+    .anticonceptivos-orales{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .anticonceptivos-orales h1{
+        font-size: 7rem;
+    }
+
+    .anticonceptivos-orales p{
+        font-size: 3rem;
+    }
+
+    .img7{
+        width: 508px;
+        height: 294px;
+    }
+
+    .img8{
+        height: 253px;
+    }
+
+
+
+    .img9{
+        height: 461px;
+
+    }
+
+
+    //anillo vaginal
+
+    .anillo-vaginal{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .anillo-vaginal h1{
+        font-size: 7rem;
+    }
+
+    .anillo-vaginal p{
+        font-size: 3rem;
+    }
+
+    .img10{
+        margin-top: 83px;
+        height: 253px;
+    }
+
+    //Parche
+
+    .parche-anticonceptivo{
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .parche-anticonceptivo h1{
+        font-size: 7rem;
+    }
+
+    .parche-anticonceptivo p{
+        font-size: 3rem;
+    }
+
+    .img11{
+        
+    margin-top: 83px;
+    height: 358px;
+
+    }
+
+    //irreversibles
+
+    .irreversibles{
+      
+      margin-right: 122px;
+      margin-left: 113px;
+        
+    
+    }
+
+    .irreversibles p{
+        font-size: 3rem;
+        color:rgb(60, 36, 111);
+    }
+
+    .img12{
+        height: 160px;
+    }
+
+    .img13{
+        height: 160px;
+    }
+
+    //marco legal
+
+    .marco-legal{ 
+        margin-right: 122px;
+        margin-left: 113px;
+    }
+
+    .marco-legal h1{
+        font-size: 7rem;
+    }
+
+    .marco-legal p{
+        font-size: 3rem;
+    }
+
+    .ciclo-content{
+        margin-right: 122px;
+        margin-left: 113px;
+        text-align: justify;
+          
+
+    }
+
+    .ciclo-content h1{
+        font-size: 7rem;
+    }
+
+    .ciclo-content p{
+        font-size: 3rem;
+    }
+
+    .img14{
+        height: 422px;
+        margin-top: 169px;
+    }
+
+    .img15{
+        height: 365px;
+        margin-top: 249px;
+    }
+
+    //formas
+
+    .formas-content{
+        background-color: white;
+        margin-right: 122px;
+        margin-left: 113px;
+        color:rgb(60, 36, 111);
+
+
+    }
+
+    .formas-content p{
+        font-size: 3rem;
+    }
+
+    //Ginecologia
+
+    .ginecologia{
+        background-color:rgb(60, 36, 111); margin-top: 0;
+        margin-right: 122px;
+        margin-left: 113px;
+        padding: 127px;
+        color: white;
+
+    }
+
+    .ginecologia p{
+        font-size: 3rem;
+
+    }
+
+    .ginecologia h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    .its{
+        background-color:rgb(60, 36, 111); margin-top: 0;
+        margin-right: 122px;
+        margin-left: 113px;
+        padding: 127px;
+        color: white;
+
+    }
+
+    .its p{
+        font-size: 5rem;
+    }
+
+    //testeate
+
+    .testeate{
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+
+    .testeate-content p{
+        font-size: 3rem;
+
+    }
+
+    .testeate-content h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    //vih
+
+    .vih{
+        color:rgb(60, 36, 111);
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+
+    .vih p{
+        font-size: 3rem;
+
+    }
+
+    .vih h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    //prevenirlo
+
+    
+    .prevenirlo{
+        color:rgb(60, 36, 111);
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+
+    .prevenirlo p{
+        font-size: 3rem;
+
+    }
+
+    .prevenirlo h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    //vih no es sida
+
+    .vih-no{
+        color:rgb(60, 36, 111);
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+
+    .vih-no p{
+        font-size: 3rem;
+
+    }
+
+    .vih-no h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    //Servicio
+
+    .servicio{
+        margin-right: 122px;
+        margin-left: 113px;
+
+    }
+  
+
+    .servicio p{
+        font-size: 3rem;
+
+    }
+
+    .servicio h1{
+        font-size: 7rem;
+        font-weight: bold;
+    }
+
+    .servicio h2{
+        font-weight: 5rem;
+    }
+    
+
+
+
+
+   
+    
+
+
+
+
+
+
+
+}
+
+
 
 
 

@@ -1,9 +1,39 @@
 // slides.component.scss
 @import '~swiper/swiper';
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'bitter', sans-serif;
+  font-weight: bold
+}
+
 // slides.component.scss
 @import '~swiper/swiper';
 @import '~@ionic/angular/css/ionic-swiper';
+
+:root {  
+  --ion-safe-area-top: 20px;  
+  --ion-safe-area-bottom: 22px;  
+}  
+.swiper-slide {  
+  display: block;  
+}  
+ion-slide > h2 {  
+  margin-top: 2.8rem;  
+}  
+ion-slide > img {  
+  max-height: 50%;  
+  max-width: 60%;  
+  margin: 36px 0;  
+}  
 
 body {
   font-family: "Bitter";
@@ -77,10 +107,28 @@ ion-button{
   }
 }
 
+//header
+
+.header-grid p{
+  font-size: 2rem;
+  
+  
+}
+
+.header-img-home1{
+  position: relative; position: relative; bottom: 99px; right: 42px;height: 81px;transform: scaleX(-1);
+
+}
+
+.header-img-home2{
+position: relative; position: relative; height: 48px; bottom: 42px; left: 236px;
+
+}
 
 ////////////////////////////////////////
 
 //Carrousel
+
 
 .anticonceptivos-content button {
   background-color: rgb(75, 21, 116);
@@ -117,25 +165,32 @@ ion-button{
 .depresion-content button{
   border-radius: 40px;
   padding: .5rem 1rem;
-  font-size: 1.25rem;
   background-color: rgb(29, 23, 83);
-  color:white
+  color:white;
+  width: 165px;
+  font-size: 2rem;
+  height: 55px;
+}
 
+.depresion-content p{
+  font-size: 2rem;
+}
 
-
+.depresion-content h1{
+font-size: 3rem;
 }
 
 //Gestion emociones
 .emociones-content p {
   font-weight: 500;
   line-height: 1.2;
-  font-size: 1.25rem;
+  font-size: 2rem;
   color:rgb(60, 36, 111);
 }
 .emociones-content {
   font-weight: 500;
   line-height: 1.2;
-  font-size: 1.25rem;
+  font-size: 3rem;
   color:rgb(60, 36, 111);
 }
 
@@ -147,6 +202,17 @@ ion-button{
   color: white;
   font-size: bold;
   background-color: rgb(29, 23, 83);
+}
+
+
+.ansiedad-content p{
+  font-size: 2rem;
+  color: white;
+}
+
+.ansiedad-content h1{
+font-size: 5rem;
+color: white;
 }
 
   .ansiedad-content button{
@@ -191,7 +257,7 @@ ion-button{
 
 .violento-content p{
   color:black;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.5;
 }
@@ -214,7 +280,7 @@ ion-button{
 
 .igualdad-content p{
   color:black;
-  font-size: 1rem;
+  font-size: 2rem;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -236,6 +302,7 @@ ion-button{
 
 .bullying-content p{
   color: rgb(255, 255, 255);
+  font-size: 2rem;
 
 }
 
@@ -257,6 +324,7 @@ ion-button{
 
 .alimentacion-content p{
   color: black;
+  font-size: 1.5rem;
 }
 
 .alimentacion-content button{
@@ -267,3 +335,406 @@ ion-button{
   font-size: 1.25rem;
   
 }
+
+//Inclusiva
+
+.div-inclusiva{
+  background-color: #e2ed6a; padding: 16px;font-size: 1.5rem;
+}
+
+.div-inclusiva button{
+  border-radius: 40px;
+  padding: .5rem 1rem;
+  background-color: rgb(29, 23, 83);
+  color:white;
+  width: 165px;
+  font-size: 2rem;
+  height: 55px;
+}
+
+//Consumo
+
+.consumo-div{
+  background-color: rgb(75, 21, 116);  padding: 16px;text-align: left; color:rgb(226, 237, 106)}
+
+.consumo-div h1{
+    width: 50%; font-size: 3rem;
+  }
+
+  .consumo-div p{
+   font-size: 2rem;
+  }
+
+ .consumo-div button{
+    width: 164px;
+  }
+
+//svg consumo
+
+.div-svg-consumo-top{
+  height: 80px;
+}
+
+.svg-consumo-top{
+  fill: rgb(255, 255, 255);position: relative;bottom: 32px;  transform: scaleY(-1);
+}
+.svg-consumo-bottom{
+  fill: rgb(255, 255, 255);position: relative;
+
+}
+
+//svg Datto
+
+.svg-datto-top{
+  fill: rgb(255, 255, 255);position: relative;bottom: 32px;  transform: scaleY(-1);
+}
+
+.svg-datto-bottom{
+  fill: rgb(255, 255, 255);position: relative;
+  top: -1px;
+
+}
+
+
+//resolucion desktop
+
+@media (min-width: 1146.98px)  {
+
+
+  //header
+
+  .header-h1 h1{
+    font-size: 113px;
+  }
+
+  .header p{
+    font-size: 4rem;
+  }
+
+  .header-grid{
+    height: 747px;
+    
+  }
+
+  .header{
+    padding: 115px;
+  }
+
+  .header img{
+    width: 904px;
+  }
+
+  .header-img-home1{
+    display: none;
+  }
+
+  .header-img-home2{
+    display: none;
+  }
+
+  //slider
+
+  .ion-slides{
+    margin-right: 122px;
+    margin-left: 113px;
+    
+  }
+
+
+  .card-slide1{
+    height: 100%;
+    padding: 60px;
+  }
+
+  .card-slide1 img{
+    height: 387px;
+  }
+  .card-slide2{
+    padding: 60px;
+    height: 100%;
+  }
+  .card-slide2 img{
+    height: 387px;
+  }
+  
+  .card-slide3{
+    height: 100%;
+    padding: 60px;
+  } 
+
+  .card-slide3 img{
+    height: 388px;
+  }
+
+  //prevencion
+
+  .prevencion-content h1{
+    font-size: 7rem;
+  }
+
+  .prevencion-content p{
+    font-size: 4rem;
+  }
+
+  .prevencion-content button{
+    font-size: 3rem;
+    width: 160px;
+    height: 50px;
+
+  }
+
+  //anticonceptivos
+
+  .anticonceptivos-content h1{
+    font-size: 7rem;
+  }
+
+  .anticonceptivos-content p{
+    font-size: 4rem;
+  }
+
+  .anticonceptivos-content button{
+    font-size: 3rem;
+    width: 160px;
+    height: 50px;
+
+  }
+
+  //Gestion
+
+  .gestion-content h1{
+    font-size: 7rem;
+  }
+
+  .gestion-content p{
+    font-size: 4rem;
+  }
+
+  .gestion-content button{
+    font-size: 3rem;
+    width: 160px;
+    height: 50px;
+
+  }
+
+  .card-slide3 img{
+    height: 519px;
+  }
+
+
+  //svg consumo
+
+  .div-svg-consumo-top{
+    height: 120px;
+  }
+
+  .svg-consumo-top{
+    bottom: 455px;
+  }
+
+  .svg-consumo-bottom{
+    top: -1px;
+  }
+  
+  //consumo
+
+  .consumo-div{
+    padding-right: 122px;
+    padding-left: 113px;
+    text-align: left;
+    color: rgb(226, 237, 106);
+    padding-left: 113px;
+  }
+
+  .consumo-div h1{
+    font-size: 9rem;
+  }
+  .consumo-div p{
+    font-size: 7rem;
+  }
+
+  .consumo-div button{
+    width: 293px;
+      font-size: 3rem;
+      height: 95px;
+    }
+
+
+  //ion-cards
+
+.card1{
+  margin: 200px;
+}
+.card2{
+  margin: 200px;
+}
+.card3{
+  margin: 200px;
+}
+.card4{
+  margin: 200px;
+}
+.card5{
+  margin: 200px;
+}
+
+//Gestion emociones
+.emociones-content p {
+  font-size: 5rem;
+  color:rgb(60, 36, 111);
+}
+
+.emociones-content h1{
+  font-size: 7rem;
+}
+
+//Depresion
+
+.depresion-content{
+  width: 50%;
+ 
+}
+
+.depresion-content p{
+  font-size: 5rem;
+}
+
+.depresion-img{
+  width: 50%;
+}
+
+.depresion-content h1{
+  font-size: 7rem;
+}
+
+.depresion-content button{
+  width: 450px;
+    font-size: 4rem;
+    height: 158px;
+  }
+
+  //Ansiedad
+
+  .ansiedad-content p{
+    font-size: 5rem;
+    color: white;
+  }
+  
+  .ansiedad-content h1{
+  font-size: 7rem;
+  color: white;
+  }
+
+  .ansiedad-content button{
+    width: 293px;
+    font-size: 3rem;
+    height: 95px;
+
+  }
+
+  //Inclusiva
+
+  .div-inclusiva{
+     padding: 200px;
+  }
+ 
+  .div-inclusiva p{
+    font-size: 5rem;
+  }
+
+  
+  .div-inclusiva h1{
+  font-size: 7rem;
+  }
+
+  .div-inclusiva button{
+    width: 293px;
+    font-size: 3rem;
+    height: 95px;
+    }
+
+  //SVG datto
+
+  .svg-datto-top{
+    fill: rgb(255, 255, 255);
+    position: relative;
+    bottom: 495px;
+    transform: scaleY(-1);
+  }
+
+  //Alimentacion
+
+  .alimentacion-content h1{
+    font-size: 7rem;
+  }
+
+  .alimentacion-content p{
+    font-size: 5rem;
+  }
+
+  .alimentacion-content button{
+    width: 450px;
+    font-size: 4rem;
+    height: 158px;
+
+  }
+
+  //Violento
+
+  .no-es-no img{
+    width: 643px;
+
+  }
+
+  .violento-content{
+    text-align: right;
+    margin: auto;
+  }
+
+
+  .violento-content p{
+    font-size: 5rem
+  }
+
+  .violento-content h1{
+    font-size: 7rem;
+  }
+
+  .violento-content button{
+    width: 450px;
+    font-size: 4rem;
+    height: 158px;
+  }
+
+  //Bullying
+
+  .bullying-content{
+    background-color: black;
+  }
+
+  .bullying-content img{
+    width: 100%;
+  }
+
+  .bullying-content p{
+    font-size: 5rem;
+  }
+
+  .bullying-content h1{
+    font-size: 7rem;
+  }
+  
+  .bullying-content button{
+    width: 450px;
+    font-size: 4rem;
+    height: 158px;
+  }
+
+}
+
+
+
+
+
+
+/*Fin desktop*/
