@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+    font-family: 'bitter', sans-serif;
+    font-weight: bold
+  }
+
 //Header
 
 .header {
@@ -135,10 +149,6 @@
 
 .contacto{
     padding: 16px;background-color: black; color: white; font-size: 14px;
-}
-
-.contacto-content{
-    margin: 99px;
 }
 
 //SVG

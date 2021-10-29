@@ -1,7 +1,16 @@
-body{
-    font-family: "Bitter";
-    -webkit-font-smoothing: antialiased;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
+
+p{
+    font-family: 'bitter', sans-serif;
+    font-weight: bold
+  }
 
 //Header
 
@@ -15,7 +24,7 @@ body{
 .mac-content h1{
     font-weight: bold;
     color: rgb(60, 36, 111);
-    font-size: 2rem;
+    font-size: 3rem;
     
 }
 
@@ -88,7 +97,7 @@ body{
 }
 
 .emergencia h1{
-    font-size: 2rem;color:#3c246f;
+    font-size: 3rem;color:#3c246f;
 }
 
 .emergencia-h2{
@@ -151,6 +160,12 @@ body{
     border: 1px solid #93c;
     margin:15px;
 }
+.mac-bigbox-2{
+    background-color: #d5e26a;
+    border: 1px solid #93c;
+    margin:15px;
+}
+
 
 
 
@@ -158,10 +173,6 @@ body{
     height: 232px;
 
 }
-
-
-
-
 
 
 //implante
@@ -237,9 +248,11 @@ body{
     text-align: left;
     color:rgb(60, 36, 111);
     
-
 }
 
+.ciclo-content h1{
+    font-size: 3rem;
+}
 
 .ciclo-content h2{
     font-size:2.5rem;
@@ -253,9 +266,7 @@ body{
 
 }
 
-.ciclo-content h1{
-    font-weight: bold; font-size: 1.5rem;
-}
+
 
 
 .ginecologia-content{
@@ -337,7 +348,7 @@ text-align: center;
 }
 
 .vih h1{
-    font-weight: bold; color:rgb(60, 36, 111); font-size: 2rem;
+    font-weight: bold; color:rgb(60, 36, 111); font-size: 3rem;
 }
 
 //prevenirlo
@@ -348,7 +359,7 @@ text-align: center;
 }
 
 .prevenirlo h1{
-    font-size: 2rem;font-weight: bold; color:rgb(60, 36, 111);
+    font-size: 3rem;font-weight: bold; color:rgb(60, 36, 111);
 }
 
 ///vih no es sida
@@ -358,7 +369,7 @@ text-align: center;
 }
 
 .vih-no h1{
-    font-size: 2rem;font-weight: bold; 
+    font-size: 3rem;font-weight: bold; 
 
 }
 
@@ -374,7 +385,7 @@ text-align: center;
 }
 
 .servicio h1{
-    font-size: 2rem; font-weight: bold;
+    font-size: 3rem; font-weight: bold;
 }
 
 
