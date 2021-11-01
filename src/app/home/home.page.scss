@@ -37,11 +37,10 @@ ion-slide > img {
 
 body {
   font-family: "Bitter";
-background-color: white;}
+  background-color: white;}
 
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -57,9 +56,7 @@ background-color: white;}
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
@@ -117,9 +114,14 @@ ion-button{
 }
 
 .header__text {
-  font-size: 2rem;
+  font-size: 1.7rem;
   letter-spacing: 2px;
 
+}
+
+.button__hero {
+  width: 170px;
+  height: 60px;
 }
 
 .header-img-home1{
@@ -133,7 +135,7 @@ ion-button{
 .header-img-home2{
 position: relative;
 height: 48px;
-bottom: 80px;
+bottom: 140px;
 left: 236px;
 }
 
@@ -146,31 +148,29 @@ left: 236px;
 //Carrousel
 
 
-.anticonceptivos-content button {
-  background-color: rgb(75, 21, 116);
-  color: white;
-  border-radius: 40px;
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
+// .anticonceptivos-content button {
+//   background-color: rgb(75, 21, 116);
+//   color: white;
+//   border-radius: 40px;
+//   padding: .5rem 1rem;
+//   font-size: 1.25rem;
+// }
 
+// .prevencion-content button{
+//   background-color:rgb(75, 21, 116);
+//   color: white;
+//   border-radius: 40px;
+//   padding: .5rem 1rem;
+//   font-size: 1.25rem;
+// }
 
-}
-
-.prevencion-content button{
-  background-color:rgb(75, 21, 116);
-  color: white;
-  border-radius: 40px;
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-}
-
-.gestion-content button{
-  background-color: rgb(75, 21, 116);
-  color: white;
-  border-radius: 40px;
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-}
+// .gestion-content button{
+//   background-color: rgb(75, 21, 116);
+//   color: white;
+//   border-radius: 40px;
+//   padding: .5rem 1rem;
+//   font-size: 1.25rem;
+// }
 
 //Depreseion
 
