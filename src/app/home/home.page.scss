@@ -1,11 +1,14 @@
 // slides.component.scss
 @import '~swiper/swiper';
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+h1, h2{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
@@ -26,9 +29,9 @@ p{
 .swiper-slide {
   display: block;
 }
-ion-slide > h2 {
-  margin-top: 2.8rem;
-}
+// ion-slide > h2 {
+//   margin-top: 2.8rem;
+// }
 ion-slide > img {
   max-height: 50%;
   max-width: 60%;
@@ -146,6 +149,11 @@ left: 236px;
 ////////////////////////////////////////
 
 //Carrousel
+
+.title__section {
+  color: var(--ion-color-primary);
+  font-weight: 900;
+}
 
 
 // .anticonceptivos-content button {
