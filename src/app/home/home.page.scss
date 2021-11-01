@@ -29,9 +29,7 @@ p{
 .swiper-slide {
   display: block;
 }
-// ion-slide > h2 {
-//   margin-top: 2.8rem;
-// }
+
 ion-slide > img {
   max-height: 50%;
   max-width: 60%;
@@ -40,7 +38,8 @@ ion-slide > img {
 
 body {
   font-family: "Bitter";
-  background-color: white;}
+  // background-color: white;
+}
 
 #container {
   text-align: center;
@@ -119,7 +118,6 @@ ion-button{
 .header__text {
   font-size: 1.7rem;
   letter-spacing: 2px;
-
 }
 
 .button__hero {
@@ -152,7 +150,24 @@ left: 236px;
 
 .title__section {
   color: var(--ion-color-primary);
-  font-weight: 900;
+  font-weight: 700;
+}
+
+.title__section-light {
+  color: var(--ion-color-light);
+  font-weight: 600;
+}
+
+.card-slide {
+  height: 470px;
+  display: flex;
+  flex-direction: column;
+  ion-card-header {
+    padding: 0;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 
@@ -186,29 +201,33 @@ left: 236px;
   color: rgb(29, 23, 83);
 }
 
-.depresion-content button{
-  border-radius: 40px;
-  padding: .5rem 1rem;
-  background-color: rgb(29, 23, 83);
-  color:white;
-  width: 165px;
-  font-size: 2rem;
-  height: 55px;
-}
+// .depresion-content button{
+//   border-radius: 40px;
+//   padding: .5rem 1rem;
+//   background-color: rgb(29, 23, 83);
+//   color:white;
+//   width: 165px;
+//   font-size: 2rem;
+//   height: 55px;
+// }
 
 .depresion-content p{
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
 
-.depresion-content h1{
-font-size: 3rem;
+.depresion-content h2{
+font-size: 1.8rem;
+}
+
+.img_depresion-desktop {
+  display: none;
 }
 
 //Gestion emociones
 .emociones-content p {
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 2rem;
+  font-weight: 400;
+  // line-height: 1.2;
+  font-size: 1.3rem;
   color:rgb(60, 36, 111);
 }
 .emociones-content {
@@ -223,21 +242,20 @@ font-size: 3rem;
 //Ansiedad
 
 .ansiedad-content{
-  color: white;
-  font-size: bold;
   background-color: rgb(29, 23, 83);
 }
 
 
 .ansiedad-content p{
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
+  font-weight: 400;
 }
 
-.ansiedad-content h1{
-font-size: 5rem;
-color: white;
-}
+// .ansiedad-content h1{
+// font-size: 5rem;
+// color: white;
+// }
 
   .ansiedad-content button{
    background-color: white;
@@ -379,14 +397,20 @@ color: white;
 //Consumo
 
 .consumo-div{
-  background-color: rgb(75, 21, 116);  padding: 16px;text-align: left; color:rgb(226, 237, 106)}
+  background-color: rgb(75, 21, 116);
+  padding: 16px;
+  text-align: left;
+  color:rgb(226, 237, 106);
+}
 
-.consumo-div h1{
-    width: 50%; font-size: 3rem;
-  }
+// .consumo-div h1{
+//     width: 50%; font-size: 3rem;
+//   }
 
   .consumo-div p{
-   font-size: 2rem;
+   font-size: 1.3rem;
+   font-weight: 300;
+   letter-spacing: 2px;
   }
 
  .consumo-div button{
