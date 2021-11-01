@@ -7,37 +7,80 @@
             <img class="logo__menu" src="../assets/logos/logo-vl.png" alt="Logo del Municipio Vicente López">
           </a>
         </ion-toolbar>
-        
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 
       </ion-header>
       <ion-content color="tertiary">
         <ion-list color="tertiary">
-          
+
             <ion-item color="tertiary">
-              <ion-label>
-                <a routerLink="/salud-sexual">Salud sexual</a>
-              </ion-label>
+                <a routerLink="/salud-sexual">
+                  <img src="../assets/menu/SALUD_SEXUAL.jpg" alt="Salud sexual">
+                </a>
+                <a routerLink="/gestion-emociones">
+                  <img src="../assets/menu/GESTION_DE_EMOCIONES.jpg" alt="Gestión de emociones">
+                </a>
             </ion-item>
             <ion-item color="tertiary">
-              <a routerLink="/gestion-emociones">Gestión de las emociones</a>
+              <a routerLink="/generos">
+                <img src="../assets/menu/generos.jpg" alt="Géneros">
+              </a>
+              <a routerLink="/sexo-afectivas">
+                <img src="../assets/menu/relaciones_sexo_afectivas.jpg" alt="Relaciones sexo afectivas">
+              </a>
             </ion-item>
             <ion-item color="tertiary">
-              <a routerLink="/generos">Géneros</a>
+              <a routerLink="/acoso">
+                <img src="../assets/menu/acoso.jpg" alt="Acoso">
+              </a>
+              <a routerLink="/consumo-problematico">
+                <img src="../assets/menu/consumo_problematico.jpg" alt="Consumo problemático">
+              </a>
             </ion-item>
             <ion-item color="tertiary">
-              <a routerLink="/sexo-afectivas">Relaciones sexo afectivas</a>
+              <a routerLink="/alimentacion">
+                <img
+                  src="../assets/menu/Alimentacion_imagenes_estereotipos.jpg" alt="Alimentación, imágenes y estereotipos"
+                >
+              </a>
+              <div class="contact">
+                <h4>Seguinos</h4>
+                <div class="social__container">
+                  <ion-icon
+                    color="light"
+                    name="logo-facebook"
+                  >
+                  </ion-icon>
+                  <ion-icon
+                    color="light"
+                    name="logo-twitter"
+                  >
+                </ion-icon>
+                <ion-icon
+                  color="light"
+                  name="logo-instagram"
+                >
+                </ion-icon>
+                </div>
+              </div>
             </ion-item>
-            <ion-item color="tertiary">
-              <a routerLink="/acoso">Acoso</a>
-            </ion-item>
-            <ion-item color="tertiary">
-              <a routerLink="/consumo-problematico">Consumo problemático</a>
-            </ion-item>
-            <ion-item color="tertiary">
-              <a routerLink="/alimentacion">Alimentación, imágenes y estereotipos</a>
-            </ion-item>
+            <div class="contact__container ion-padding" color="tertiary">
+              <h4>
+                Contáctate
+              </h4>
+              <p>Servicio de adolescencia</p>
+              <p>adolescenciaservicio@gmail.com</p>
+              <p>tel: 4796-7200 int 7309</p>
+              <ion-button
+                expand="block"
+                shape="round"
+                color="primary"
+              >
+                Pedí turno
+              </ion-button>
+            </div>
         </ion-list>
       </ion-content>
     </ion-menu>
