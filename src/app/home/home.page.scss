@@ -19,21 +19,21 @@ p{
 @import '~swiper/swiper';
 @import '~@ionic/angular/css/ionic-swiper';
 
-:root {  
-  --ion-safe-area-top: 20px;  
-  --ion-safe-area-bottom: 22px;  
-}  
-.swiper-slide {  
-  display: block;  
-}  
-ion-slide > h2 {  
-  margin-top: 2.8rem;  
-}  
-ion-slide > img {  
-  max-height: 50%;  
-  max-width: 60%;  
-  margin: 36px 0;  
-}  
+:root {
+  --ion-safe-area-top: 20px;
+  --ion-safe-area-bottom: 22px;
+}
+.swiper-slide {
+  display: block;
+}
+ion-slide > h2 {
+  margin-top: 2.8rem;
+}
+ion-slide > img {
+  max-height: 50%;
+  max-width: 60%;
+  margin: 36px 0;
+}
 
 body {
   font-family: "Bitter";
@@ -90,7 +90,6 @@ ion-button{
   height: 70vh;
   margin: 0;
   border-radius: 0;
-  // padding: 40px;
   .home__title {
     font-size: 3rem;
   }
@@ -109,20 +108,37 @@ ion-button{
 
 //header
 
-.header-grid p{
+.header{
+  height: 80vh;
+}
+
+.header-grid {
+  background-color: #c8b5ed;
+}
+
+.header__text {
   font-size: 2rem;
-  
-  
+  letter-spacing: 2px;
+
 }
 
 .header-img-home1{
-  position: relative; position: relative; bottom: 99px; right: 42px;height: 81px;transform: scaleX(-1);
-
+  position: relative;
+  bottom: 190px;
+  right: 50px;
+  height: 81px;
+  transform: scaleX(-1);
 }
 
 .header-img-home2{
-position: relative; position: relative; height: 48px; bottom: 42px; left: 236px;
+position: relative;
+height: 48px;
+bottom: 80px;
+left: 236px;
+}
 
+.header__image-women {
+  display: none;
 }
 
 ////////////////////////////////////////
@@ -136,7 +152,7 @@ position: relative; position: relative; height: 48px; bottom: 42px; left: 236px;
   border-radius: 40px;
   padding: .5rem 1rem;
   font-size: 1.25rem;
- 
+
 
 }
 
@@ -229,7 +245,7 @@ color: white;
 
 .inclusiva-content h1{
   color: rgb(60, 36, 111);
-  
+
 }
 .inclusiva-content h2{
   color: rgb(0, 0, 0);
@@ -249,7 +265,7 @@ color: white;
 //Noviazgo violento
 
 .violento-content h1{
-  
+
   color:black;
   font-size: 2.5rem;
 
@@ -333,7 +349,7 @@ color: white;
   border-radius: 40px;
   padding: .5rem 1rem;
   font-size: 1.25rem;
-  
+
 }
 
 //Inclusiva
@@ -407,21 +423,18 @@ color: white;
     font-size: 113px;
   }
 
-  .header p{
-    font-size: 4rem;
-  }
-
-  .header-grid{
-    height: 747px;
-    
-  }
-
-  .header{
-    padding: 115px;
+  .header__text{
+    font-size: 2.5rem;
+    line-height: 50px;
   }
 
   .header img{
-    width: 904px;
+    margin-top: 40px;
+    width: 700px;
+  }
+
+  .header__image-women {
+    display: block;
   }
 
   .header-img-home1{
@@ -437,7 +450,7 @@ color: white;
   .ion-slides{
     margin-right: 122px;
     margin-left: 113px;
-    
+
   }
 
 
@@ -456,11 +469,11 @@ color: white;
   .card-slide2 img{
     height: 387px;
   }
-  
+
   .card-slide3{
     height: 100%;
     padding: 60px;
-  } 
+  }
 
   .card-slide3 img{
     height: 388px;
@@ -535,7 +548,7 @@ color: white;
   .svg-consumo-bottom{
     top: -1px;
   }
-  
+
   //consumo
 
   .consumo-div{
@@ -592,7 +605,7 @@ color: white;
 
 .depresion-content{
   width: 50%;
- 
+
 }
 
 .depresion-content p{
@@ -619,7 +632,7 @@ color: white;
     font-size: 5rem;
     color: white;
   }
-  
+
   .ansiedad-content h1{
   font-size: 7rem;
   color: white;
@@ -637,12 +650,12 @@ color: white;
   .div-inclusiva{
      padding: 200px;
   }
- 
+
   .div-inclusiva p{
     font-size: 5rem;
   }
 
-  
+
   .div-inclusiva h1{
   font-size: 7rem;
   }
@@ -723,7 +736,7 @@ color: white;
   .bullying-content h1{
     font-size: 7rem;
   }
-  
+
   .bullying-content button{
     width: 450px;
     font-size: 4rem;
