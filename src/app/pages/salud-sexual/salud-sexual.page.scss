@@ -20,11 +20,18 @@ p{
 
 //MAC
 
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    color: rgb(60, 36, 111);
+  }
 
-.mac-content h1{
+
+.mac-content h2{
+    font-size: 1.8rem;
     font-weight: bold;
     color: rgb(60, 36, 111);
-    font-size: 3rem;
+    font-weight: 700;
     
 }
 
@@ -32,6 +39,9 @@ p{
     text-align: justify;
     color:#3c246f;
     margin-bottom: 1em;
+    font-weight: 400;
+
+  font-size: 1.1rem;
 }
 
 .derechos-mac{
@@ -69,20 +79,18 @@ p{
 .emergencia-content{
     width: 100%;
     text-align: center;
-    line-height: 20pt;
+    
     color:#3c246f;
     font-weight: 600;
-    font-size: 2rem;
+    
     border-bottom: 1px solid #93c; width: 100%; 
 }
 
 .emergencia-content3{
-    width: 100%;
+   
     text-align: center;
-    line-height: 20pt;
     color:#3c246f;
-    font-weight: 600;
-    font-size: 2rem;
+    font-size: 1.1rem;
 
 }
 
@@ -97,7 +105,7 @@ p{
 }
 
 .emergencia h1{
-    font-size: 3rem;color:#3c246f;
+    color:#3c246f;
 }
 
 .emergencia-h2{
@@ -123,9 +131,9 @@ p{
 
 .emergencia-pastilla-content{
     margin: 5px;
-    font-weight: 500;
+    font-size: 1.8rem;
     line-height: 1.2;
-    font-size: 2rem;
+    
 }
 
 .img1{
@@ -138,6 +146,13 @@ p{
 }
 
 //preservativo
+
+.implante-content h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
+}
 
 .preservativo-content{
     text-align: left;
@@ -195,6 +210,13 @@ p{
 
 //diu y siu
 
+.diusiu-content h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
+}
+
 .diusiu-content{
     text-align: left;
     color:rgb(60, 36, 111)  
@@ -210,6 +232,13 @@ p{
 
 //anticonceptivos inyectables
 
+.inyectabales-content h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
+}
+
 .inyectabales-content{
     text-align: left;
     color:rgb(60, 36, 111)  
@@ -220,10 +249,7 @@ p{
     font-weight: bold;
 }
 
-.inyectables-content h2{
-    font-size:2.5rem;
-    font-weight: bold;
-}
+
 
 //metodos irreversibles
 
@@ -238,11 +264,20 @@ p{
 }
 
 .irreversibles-content h2{
-    font-size:2.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
 }
 
 //ciclo
+
+.ciclo-content h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
+}
 
 .ciclo-content{
     text-align: left;
@@ -254,10 +289,7 @@ p{
     font-size: 3rem;
 }
 
-.ciclo-content h2{
-    font-size:2.5rem;
-    font-weight: bold;
-}
+
 
 
 .ciclo-content-info{
@@ -323,6 +355,16 @@ text-align: center;
 
 }
 
+//Marco legal
+
+.text_sextion p{
+    text-align: justify;
+    color:#3c246f;
+    margin-bottom: 1em;
+    font-weight: 400;
+  font-size: 1.1rem;
+}
+
 //Vacunate
 
 .vacunate{
@@ -335,6 +377,13 @@ text-align: center;
 }
 
 //vih
+
+.vih h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(60, 36, 111);
+    font-weight: 700;
+}
 
 .vih{
     color:rgb(60, 36, 111);
@@ -392,6 +441,8 @@ text-align: center;
 .servicio p{
     margin-bottom: 1em;
 }
+
+
 
 @media (min-width: 1146.98px){
 
@@ -823,24 +874,6 @@ text-align: center;
         font-weight: bold;
     }
 
-    //vih no es sida
-
-    .vih-no{
-        color:rgb(60, 36, 111);
-        margin-right: 122px;
-        margin-left: 113px;
-
-    }
-
-    .vih-no p{
-        font-size: 3rem;
-
-    }
-
-    .vih-no h1{
-        font-size: 7rem;
-        font-weight: bold;
-    }
 
     //Servicio
 
