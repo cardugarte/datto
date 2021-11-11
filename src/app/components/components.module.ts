@@ -6,6 +6,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { SlidesComponent } from './slides/slides.component';
+import { IonicModule } from '@ionic/angular';
 
 
 
@@ -23,7 +24,8 @@ import { SlidesComponent } from './slides/slides.component';
     SlidesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ]
 })
 export class ComponentsModule { }
