@@ -152,7 +152,7 @@
 
   <h2 class="title__section ion-padding">Gestión de emociones</h2>
 
-  <div class="ion-padding">
+  <div class="ion-padding emociones-content">
     <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
     <br>
     <p>
@@ -238,14 +238,22 @@
             </div>
              <div class="div-inclusiva">
                   <div class="inclusiva-content">
-                    <h1><strong>DATTO es inclusiva</strong></h1>
+                    <h1>DATTO es inclusiva</h1>
                     <br>
-                    <p><strong>Damos la bienvenida a nuestra comunidad trans y no binaria.</strong></p>
+                    <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
 
                   <p>Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
                   </p>
                   <br>
-                  <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
+                  <ion-button
+                    class="button__hero"
+                    color="primary"
+                    expand="block"
+                    shape="round"
+                    routerLink="/generos"
+                  >
+                    Más Info
+                  </ion-button>
                 </div>
 
             </div>
@@ -254,27 +262,35 @@
               <svg  class="svg-datto-bottom" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
             </div>
 
+<!--
+              <ion-card>
 
-              <ion-card class="card4">
-
-                <ion-card-content>
+                <ion-card-content> -->
 
 
                 <ion-grid>
                   <ion-row>
                     <ion-col class="no-es-no" size="12" size-lg="4">
-                      <img src="../../assets/imgHome/no-es-no.png">
+                      <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
                     </ion-col>
 
                     <ion-col class="violento-content" size="12" size-lg="8">
 
-                      <h1><strong>¿Cuándo un noviazgo es violento?</strong></h1>
+                      <h2>¿Cuándo un noviazgo es violento?</h2>
                       <br>
                       <p>
                         La violencia es peligrosa y deja consecuencias en la vida de las personas.
                       </p>
                       <br>
-                      <button routerLink="/sexo-afectivas" style="padding: 15px;border-radius: 30px">Como identificar noviazgos violentos</button>
+                      <ion-button
+                      class="button__hero"
+                      color="primary"
+                      expand="block"
+                      shape="round"
+                      routerLink="/sexo-afectivas"
+                    >
+                      Más Info
+                    </ion-button>
 
 
                     </ion-col>
@@ -287,11 +303,19 @@
                   <ion-row>
                     <ion-col class="depresion-content" size="12" size-lg="8">
                       <div class="igualdad-content">
-                      <h1><strong> Igualdad de genero</strong></h1>
+                      <h1> Igualdad de genero</h1>
                       <br>
                       <p> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
                       <br>
-                      <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
+                      <ion-button
+                      class="button__hero"
+                      color="primary"
+                      expand="block"
+                      shape="round"
+                      routerLink="/generos"
+                    >
+                      Más Info
+                    </ion-button>
                     </div>
 
                     </ion-col>
@@ -302,14 +326,14 @@
                 </ion-grid>
 
 
-               </ion-card-content>
+               <!-- </ion-card-content>
 
-               </ion-card>
+               </ion-card> -->
 
-              <div>
-                <img src="../../assets/imgHome/bgBullying.png">
+              <!-- <div> -->
+                <img class="img__noviazgo" src="../../assets/imgHome/bgBullying.png">
 
-              </div>
+              <!-- </div> -->
 
               <div class="bullying-content">
                 <img src="../../assets/imgHome/nomasbulling.png">
