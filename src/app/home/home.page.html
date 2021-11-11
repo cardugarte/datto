@@ -301,6 +301,9 @@
 
 
                   <ion-row>
+                    <ion-col size="12" size-lg="4">
+                      <img src="../../assets/imgHome/imgGeneros.png">
+                    </ion-col>
                     <ion-col class="depresion-content" size="12" size-lg="8">
                       <div class="igualdad-content">
                       <h1> Igualdad de genero</h1>
@@ -319,9 +322,6 @@
                     </div>
 
                     </ion-col>
-                    <ion-col size="12" size-lg="4">
-                      <img src="../../assets/imgHome/imgGeneros.png">
-                    </ion-col>
                   </ion-row>
                 </ion-grid>
 
@@ -331,24 +331,32 @@
                </ion-card> -->
 
               <!-- <div> -->
-                <img class="img__noviazgo" src="../../assets/imgHome/bgBullying.png">
 
-              <!-- </div> -->
+                <!-- </div> -->
 
-              <div class="bullying-content">
-                <img src="../../assets/imgHome/nomasbulling.png">
-                <p>
+                <div class="bullying-content">
+                <img class="img__bullying" src="../../assets/imgHome/bgBullying.png">
+                <img Class="img__text" src="../../assets/imgHome/nomasbulling.png">
+                <p class="ion-padding">
                   Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
                 </p>
                 <br>
-                <button routerLink="/acoso">¿Que hacer frente al bullying?</button>
+                <ion-button
+                      class="button__bullying"
+                      color="primary"
+                      expand="block"
+                      shape="round"
+                      routerLink="/acoso"
+                    >
+                    ¿Que hacer frente al bullying?
+                    </ion-button>
 
               </div>
 
 
-              <ion-card class="card5">
+              <!-- <ion-card class="card5">
 
-                <ion-card-content>
+                <ion-card-content> -->
 
 
                   <ion-grid>
@@ -369,7 +377,15 @@
                           La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
                         </p>
                         <br>
-                        <button routerLink="/alimentacion" style="padding: 15px;border-radius: 30px">Más Info</button>
+                        <ion-button
+                          class="button__hero"
+                          color="primary"
+                          expand="block"
+                          shape="round"
+                          routerLink="/alimentacion"
+                        >
+                      Más Info
+                    </ion-button>
                         <br>
 
 
@@ -380,9 +396,9 @@
                     </ion-row>
                   </ion-grid>
 
-                </ion-card-content>
+                <!-- </ion-card-content>
 
-              </ion-card>
+              </ion-card> -->
 
   <app-footer></app-footer>
 </ion-content>

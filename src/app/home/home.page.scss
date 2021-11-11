@@ -318,7 +318,7 @@ font-size: 1.8rem;
 .igualdad-content p{
   color:black;
   font-size: 1.1rem;
-    font-weight: 400;
+    // font-weight: 400;
     font-weight: bold;
     // line-height: 1.5;
 }
@@ -336,12 +336,30 @@ font-size: 1.8rem;
 .bullying-content{
   text-align: center;
   background-color: black;
+  padding-bottom: 10px;
 }
 
 .bullying-content p{
-  color: rgb(255, 255, 255);
-  font-size: 2rem;
+  color: #FFF;
+  font-size: 1.1rem;
+  font-weight: 400 !important;
+  text-align: left;
 
+}
+
+.img__bullying {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.img__text {
+  width: 300px;
+}
+
+.button__bullying {
+  width: 300px;
+  height: 60px;
 }
 
 // .bullying-content button{
@@ -356,8 +374,9 @@ font-size: 1.8rem;
 //Alimentacion
 
 .alimentacion-content h1{
-  font-weight: bold; color: rgb(33, 31, 31);
-  font-size: 2.5rem;
+  color:black;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 .alimentacion-content p{
@@ -449,8 +468,12 @@ font-size: 1.8rem;
 
   //header
 
-  .header-h1 h1{
-    font-size: 113px;
+  // .header-h1 h1{
+  //   font-size: 113px;
+  // }
+
+  .header-grid {
+    height: 80vh;
   }
 
   .header__text{
