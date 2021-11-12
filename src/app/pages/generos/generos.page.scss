@@ -2,6 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    color: rgb(60, 36, 111);
+    font-size: 1.8rem;
+  }
+
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -133,11 +141,11 @@ body{
 .diversidad-content{
     padding: 38px ;
     color: #3c246f;
-    text-align: justify;
+    
 }
 
 .diversidad-content p{
-    font-size: 2rem;
+    font-size: 1.1rem;
 }
 
 .diversidad-2-content p{
