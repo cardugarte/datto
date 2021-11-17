@@ -1,10 +1,3 @@
-// slides.component.scss
-@import '~swiper/swiper';
-
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
@@ -19,26 +12,25 @@ p{
 }
 
 // slides.component.scss
-@import '~swiper/swiper';
-@import '~@ionic/angular/css/ionic-swiper';
+// @import '~swiper/swiper';
+// @import '~@ionic/angular/css/ionic-swiper';
 
 :root {
   --ion-safe-area-top: 20px;
   --ion-safe-area-bottom: 22px;
 }
-.swiper-slide {
-  display: block;
-}
+// .swiper-slide {
+//   display: block;
+// }
 
-ion-slide > img {
-  max-height: 50%;
-  max-width: 60%;
-  margin: 36px 0;
-}
+// ion-slide > img {
+//   max-height: 50%;
+//   max-width: 60%;
+//   margin: 36px 0;
+// }
 
 body {
   font-family: "Bitter";
-  // background-color: white;
 }
 
 #container {
@@ -66,9 +58,9 @@ body {
   text-decoration: none;
 }
 
-ion-button{
-  padding: 5px;
-}
+// ion-button{
+//   padding: 5px;
+// }
 
 .swiper-slide{
   transition: 400ms all ease-in-out;
@@ -78,10 +70,10 @@ ion-button{
   transform: scale(1.05, 1.05)
 }
 
-.swiper {
-  width: 600px;
-  height: 300px;
-}
+// .swiper {
+//   width: 600px;
+//   height: 300px;
+// }
 
 
 .bienvenidos{
@@ -434,7 +426,7 @@ font-size: 1.8rem;
 .svg-consumo-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: 32px;
+  bottom: 192px;
   transform: scaleY(-1);
 }
 
@@ -472,9 +464,9 @@ font-size: 1.8rem;
   //   font-size: 113px;
   // }
 
-  .header-grid {
-    height: 80vh;
-  }
+  // .header-grid {
+  //   height: 90vh;
+  // }
 
   .header__text{
     font-size: 2.5rem;
@@ -498,39 +490,50 @@ font-size: 1.8rem;
     display: none;
   }
 
+  .header-img-home3 {
+    position: absolute;
+    z-index: 999;
+    bottom: 100px;
+    left: 10px;
+  }
+
   //slider
 
-  .ion-slides{
-    margin-right: 122px;
-    margin-left: 113px;
+ .card-slide {
+   width: 300px;
+ }
 
-  }
+  // .ion-slides{
+  //   margin-right: 122px;
+  //   margin-left: 113px;
+
+  // }
 
 
-  .card-slide1{
-    height: 100%;
-    padding: 60px;
-  }
+  // .card-slide1{
+  //   height: 100%;
+  //   padding: 60px;
+  // }
 
-  .card-slide1 img{
-    height: 387px;
-  }
-  .card-slide2{
-    padding: 60px;
-    height: 100%;
-  }
-  .card-slide2 img{
-    height: 387px;
-  }
+  // .card-slide1 img{
+  //   height: 387px;
+  // }
+  // .card-slide2{
+  //   padding: 60px;
+  //   height: 100%;
+  // }
+  // .card-slide2 img{
+  //   height: 387px;
+  // }
 
-  .card-slide3{
-    height: 100%;
-    padding: 60px;
-  }
+  // .card-slide3{
+  //   height: 100%;
+  //   padding: 60px;
+  // }
 
-  .card-slide3 img{
-    height: 388px;
-  }
+  // .card-slide3 img{
+  //   height: 388px;
+  // }
 
   //prevencion
 
@@ -590,12 +593,12 @@ font-size: 1.8rem;
 
   //svg consumo
 
-  .div-svg-consumo-top{
-    height: 120px;
-  }
+  // .div-svg-consumo-top{
+  //   height: 120px;
+  // }
 
   .svg-consumo-top{
-    bottom: 455px;
+    bottom: 315px;
   }
 
   .svg-consumo-bottom{
@@ -612,190 +615,201 @@ font-size: 1.8rem;
     padding-left: 113px;
   }
 
-  .consumo-div h1{
-    font-size: 9rem;
-  }
+  // .consumo-div h1{
+  //   font-size: 9rem;
+  // }
   .consumo-div p{
-    font-size: 7rem;
+    font-size: 1.3rem;
   }
 
-  .consumo-div button{
-    width: 293px;
-      font-size: 3rem;
-      height: 95px;
-    }
+  // .consumo-div button{
+  //   width: 293px;
+  //     font-size: 3rem;
+  //     height: 95px;
+  //   }
 
 
   //ion-cards
 
-.card1{
-  margin: 200px;
-}
-.card2{
-  margin: 200px;
-}
-.card3{
-  margin: 200px;
-}
-.card4{
-  margin: 200px;
-}
-.card5{
-  margin: 200px;
-}
+  ion-card {
+    display: block;
+    margin: 0 auto;
+  }
+
+  ion-card img {
+    // display: block;
+    margin: 0 auto;
+    width: 150px;
+  }
+
+// .card1{
+//   margin: 200px;
+// }
+// .card2{
+//   margin: 200px;
+// }
+// .card3{
+//   margin: 200px;
+// }
+// .card4{
+//   margin: 200px;
+// }
+// .card5{
+//   margin: 200px;
+// }
 
 //Gestion emociones
-.emociones-content p {
-  font-size: 5rem;
-  color:rgb(60, 36, 111);
-}
+// .emociones-content p {
+//   font-size: 5rem;
+//   color:rgb(60, 36, 111);
+// }
 
-.emociones-content h1{
-  font-size: 7rem;
-}
+// .emociones-content h1{
+//   font-size: 7rem;
+// }
 
 //Depresion
 
-.depresion-content{
-  width: 50%;
+// .depresion-content{
+//   width: 50%;
 
-}
+// }
 
-.depresion-content p{
-  font-size: 5rem;
-}
+// .depresion-content p{
+//   font-size: 5rem;
+// }
 
-.depresion-img{
-  width: 50%;
-}
+// .depresion-img{
+//   width: 50%;
+// }
 
-.depresion-content h1{
-  font-size: 7rem;
-}
+// .depresion-content h1{
+//   font-size: 7rem;
+// }
 
-.depresion-content button{
-  width: 450px;
-    font-size: 4rem;
-    height: 158px;
-  }
+// .depresion-content button{
+//   width: 450px;
+//     font-size: 4rem;
+//     height: 158px;
+//   }
 
   //Ansiedad
 
-  .ansiedad-content p{
-    font-size: 5rem;
-    color: white;
-  }
+  // .ansiedad-content p{
+  //   font-size: 5rem;
+  //   color: white;
+  // }
 
-  .ansiedad-content h1{
-  font-size: 7rem;
-  color: white;
-  }
+  // .ansiedad-content h1{
+  // font-size: 7rem;
+  // color: white;
+  // }
 
-  .ansiedad-content button{
-    width: 293px;
-    font-size: 3rem;
-    height: 95px;
+  // .ansiedad-content button{
+  //   width: 293px;
+  //   font-size: 3rem;
+  //   height: 95px;
 
-  }
+  // }
 
-  //Inclusiva
+  // //Inclusiva
 
-  .div-inclusiva{
-    //  padding: 200px;
-    background-color: #e2ed6a;
-  }
+  // .div-inclusiva{
+  //   //  padding: 200px;
+  //   background-color: #e2ed6a;
+  // }
 
-  .inclusiva-content p{
-    font-size: 1.1rem;
-  }
-
-
-  .inclusiva-content h1{
-  font-size: 2rem;
-  }
-
-  .div-inclusiva button{
-    width: 293px;
-    font-size: 3rem;
-    height: 95px;
-    }
-
-  //SVG datto
-
-  .svg-datto-top{
-    fill: rgb(255, 255, 255);
-    position: relative;
-    bottom: 495px;
-    transform: scaleY(-1);
-  }
-
-  //Alimentacion
-
-  .alimentacion-content h1{
-    font-size: 7rem;
-  }
-
-  .alimentacion-content p{
-    font-size: 5rem;
-  }
-
-  .alimentacion-content button{
-    width: 450px;
-    font-size: 4rem;
-    height: 158px;
-
-  }
-
-  //Violento
-
-  .no-es-no img{
-    width: 643px;
-
-  }
-
-  .violento-content{
-    text-align: right;
-    margin: auto;
-  }
+  // .inclusiva-content p{
+  //   font-size: 1.1rem;
+  // }
 
 
-  .violento-content p{
-    font-size: 5rem
-  }
+  // .inclusiva-content h1{
+  // font-size: 2rem;
+  // }
 
-  .violento-content h1{
-    font-size: 7rem;
-  }
+  // .div-inclusiva button{
+  //   width: 293px;
+  //   font-size: 3rem;
+  //   height: 95px;
+  //   }
 
-  .violento-content button{
-    width: 450px;
-    font-size: 4rem;
-    height: 158px;
-  }
+  // //SVG datto
 
-  //Bullying
+  // .svg-datto-top{
+  //   fill: rgb(255, 255, 255);
+  //   position: relative;
+  //   bottom: 495px;
+  //   transform: scaleY(-1);
+  // }
 
-  .bullying-content{
-    background-color: black;
-  }
+  // //Alimentacion
 
-  .bullying-content img{
-    width: 100%;
-  }
+  // .alimentacion-content h1{
+  //   font-size: 7rem;
+  // }
 
-  .bullying-content p{
-    font-size: 5rem;
-  }
+  // .alimentacion-content p{
+  //   font-size: 5rem;
+  // }
 
-  .bullying-content h1{
-    font-size: 7rem;
-  }
+  // .alimentacion-content button{
+  //   width: 450px;
+  //   font-size: 4rem;
+  //   height: 158px;
 
-  .bullying-content button{
-    width: 450px;
-    font-size: 4rem;
-    height: 158px;
-  }
+  // }
+
+  // //Violento
+
+  // .no-es-no img{
+  //   width: 643px;
+
+  // }
+
+  // .violento-content{
+  //   text-align: right;
+  //   margin: auto;
+  // }
+
+
+  // .violento-content p{
+  //   font-size: 5rem
+  // }
+
+  // .violento-content h1{
+  //   font-size: 7rem;
+  // }
+
+  // .violento-content button{
+  //   width: 450px;
+  //   font-size: 4rem;
+  //   height: 158px;
+  // }
+
+  // //Bullying
+
+  // .bullying-content{
+  //   background-color: black;
+  // }
+
+  // .bullying-content img{
+  //   width: 100%;
+  // }
+
+  // .bullying-content p{
+  //   font-size: 5rem;
+  // }
+
+  // .bullying-content h1{
+  //   font-size: 7rem;
+  // }
+
+  // .bullying-content button{
+  //   width: 450px;
+  //   font-size: 4rem;
+  //   height: 158px;
+  // }
 
 }
 

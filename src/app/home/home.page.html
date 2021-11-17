@@ -1,7 +1,7 @@
 
 <app-toolbar></app-toolbar>
 
-<ion-content [fullscreen]="true">
+<ion-content>
   <ion-grid class="header-grid">
     <ion-row>
 
@@ -35,11 +35,17 @@
   <h2 class="title__section ion-padding"> Salud sexual </h2>
 
 
+
+
   <ion-slides
-    class="ion-slides"
-    pager="true"
-    [options]="slideOpts"
-  >
+  class="ion-slides"
+  pager="true"
+  [options]="slideOpts"
+>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" sizeLg="4">
+
 
     <ion-slide>
       <ion-card class="card-slide" color="light">
@@ -66,6 +72,9 @@
         </ion-card-content>
       </ion-card>
     </ion-slide>
+    </ion-col>
+
+    <ion-col size="12" sizeLg="4">
 
     <ion-slide>
       <ion-card
@@ -94,6 +103,10 @@
       </ion-card>
     </ion-slide>
 
+    </ion-col>
+
+    <ion-col size="12" sizeLg="4">
+
     <ion-slide>
       <ion-card class="card-slide" color="light">
         <ion-card-header>
@@ -117,7 +130,17 @@
         </ion-card-content>
       </ion-card>
     </ion-slide>
+  </ion-col>
+</ion-row>
+</ion-grid>
 </ion-slides>
+
+
+
+
+
+
+
 
 
 
@@ -150,7 +173,7 @@
 </div>
 
 
-  <h2 class="title__section ion-padding">Gestión de emociones</h2>
+  <h2 class="title__section">Gestión de emociones</h2>
 
   <div class="ion-padding emociones-content">
     <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
@@ -161,14 +184,14 @@
   </div>
 
 
-                  <ion-card>
+                  <ion-card class="ion-padding">
                     <ion-card-header>
                       <img src="../../assets/imgHome/Depresión 3.jpg ">
                     </ion-card-header>
                     <ion-card-content>
                       <ion-grid>
                         <ion-row>
-                          <ion-col class="depresion-content" size="12" size-lg="8">
+                          <ion-col class="depresion-content" size="12" size-lg="6">
                             <h2 class="title__section">Depresión</h2>
                             <br>
                             <br>
