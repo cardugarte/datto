@@ -130,13 +130,24 @@ left: 236px;
   height: 470px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center;
   ion-card-header {
     padding: 0;
+  }
+  ion-button {
+    margin-bottom: 20px;
   }
   img {
     width: 100%;
   }
 }
+
+//consumo
+
+
+
 
 //Depreseion
 
@@ -255,6 +266,8 @@ font-size: 1.8rem;
 
 .button__bullying {
   width: 320px;
+  display: block;
+  margin: 0 auto;
 }
 
 //Alimentacion
@@ -276,6 +289,10 @@ font-size: 1.8rem;
   background-color: #e2ed6a;
   padding: 16px;
   font-size: 1.1rem;
+}
+
+.incusiva-p {
+  font-weight: 400 !important;
 }
 
 
@@ -329,6 +346,13 @@ font-size: 1.8rem;
 
 }
 
+//noviazgo
+.btn-nv {
+  width: 340px;
+}
+
+
+
 
 //resolucion desktop
 
@@ -375,20 +399,7 @@ font-size: 1.8rem;
 
   //prevencion
 
-  .prevencion-content h1{
-    font-size: 7rem;
-  }
 
-  .prevencion-content p{
-    font-size: 4rem;
-  }
-
-  .prevencion-content button{
-    font-size: 3rem;
-    width: 160px;
-    height: 50px;
-
-  }
   //Gestion
 
 
@@ -402,6 +413,21 @@ font-size: 1.8rem;
 
   //consumo
 
+  .div-consumo {
+    display: flex;
+  }
+
+  .consumo-p {
+    width: 700px;
+  }
+
+  .yellow-sustancias{
+    display: block;
+    width: 250px;
+    height: 300px;
+    background-color: #e2ed6a;
+  }
+
   .consumo-div{
     padding-right: 122px;
     padding-left: 113px;
@@ -412,6 +438,20 @@ font-size: 1.8rem;
 
   .consumo-div p{
     font-size: 1.3rem;
+  }
+
+  //ansiedad
+  .depresion-content {
+    margin-bottom: 30px;
+  }
+
+  .ansiedad-content,
+  .depresion-content {
+    max-width: 800px;
+  }
+
+  .img-ansiedad {
+    width: 600px !important;
   }
 
 
@@ -427,5 +467,9 @@ font-size: 1.8rem;
 
   ion-card img {
     width: 250px;
+  }
+
+  .btn-ali {
+    margin-top: 80px;
   }
 }

@@ -59,16 +59,16 @@
               Una plataforma especializada para integrar la cadena productiva de tu negocio
             </p>
             <br>
-            <ion-button
-              class="button__hero"
-              expand="block"
-              shape="round"
-              routerLink="/salud-sexual"
-            >
-            Más Info
-            </ion-button>
           </div>
         </ion-card-content>
+        <ion-button
+          class="button__hero"
+          expand="block"
+          shape="round"
+          routerLink="/salud-sexual"
+        >
+        Más Info
+        </ion-button>
       </ion-card>
     </ion-slide>
     </ion-col>
@@ -89,16 +89,16 @@
             <br>
             <p>Nunca dejes de cuidar a tus empleados.</p>
             <br>
-            <ion-button
-                class="button__hero"
-                expand="block"
-                shape="round"
-                routerLink="/salud-sexual"
-              >
-              Más Info
-              </ion-button>
           </div>
         </ion-card-content>
+        <ion-button
+            class="button__hero"
+            expand="block"
+            shape="round"
+            routerLink="/salud-sexual"
+          >
+          Más Info
+          </ion-button>
       </ion-card>
     </ion-slide>
 
@@ -117,16 +117,16 @@
             <br>
             <p>Nunca dejes de cuidar a tus empleados.</p>
             <br>
-            <ion-button
-                class="button__hero"
-                expand="block"
-                shape="round"
-                routerLink="/salud-sexual"
-              >
-              Más Info
-              </ion-button>
           </div>
         </ion-card-content>
+        <ion-button
+            class="button__hero"
+            expand="block"
+            shape="round"
+            routerLink="/salud-sexual"
+          >
+          Más Info
+          </ion-button>
       </ion-card>
     </ion-slide>
   </ion-col>
@@ -145,8 +145,13 @@
    <div class="consumo-div">
              <h2>Consumo de sustancias</h2>
              <br>
-              <p> Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
-              </p>
+             <div class="div-consumo">
+
+               <p class="consumo-p"> Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
+               </p>
+
+               <div class="yellow-sustancias"></div>
+             </div>
               <br>
 
               <ion-button
@@ -175,14 +180,14 @@
   </div>
 
 
-                  <ion-card class="ion-padding">
+                  <ion-card class="depresion-content">
                     <ion-grid>
                       <ion-row class="row-card">
                     <ion-card-header>
-                      <img src="../../assets/imgHome/Depresión-3.png ">
+                      <img class="img-ansiedad" src="../../assets/imgHome/Depresión-3.png ">
                     </ion-card-header>
                     <ion-card-content>
-                          <ion-col class="depresion-content" size="12" size-lg="6">
+                          <ion-col  size="12" size-lg="6">
                             <h2 class="title__section">Depresión</h2>
                             <br>
                           <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
@@ -210,15 +215,14 @@
                    <ion-card class="ansiedad-content">
                      <ion-grid>
                        <ion-row class="row-card">
-                    <ion-card-header>
-                      <img src="../../assets/imgHome/ansiedad.png">
-                    </ion-card-header>
+
                      <ion-card-content>
                             <ion-col class="depresion-content" size="12" size-lg="8">
                               <h2 class="title__section-light">Ansiedad</h2>
                               <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
                               <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
                               </p>
+                              <br>
                               <ion-button
                                 class="button__hero"
                                 expand="block"
@@ -233,6 +237,9 @@
                               <img class="img_depresion-desktop" src="../../assets/imgHome/ansiedad.png ">
                             </ion-col>
                         </ion-card-content>
+                        <ion-card-header>
+                          <img class="img-ansiedad" src="../../assets/imgHome/ansiedad.png">
+                        </ion-card-header>
                       </ion-row>
                     </ion-grid>
                   </ion-card>
@@ -249,12 +256,12 @@
                     <br>
                     <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
 
-                  <p>Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
+                  <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
                   </p>
                   <br>
                   <ion-button
                     class="button__hero"
-                    color="primary"
+                    color="dark"
                     expand="block"
                     shape="round"
                     routerLink="/generos"
@@ -280,18 +287,18 @@
 
                       <h2>¿Cuándo un noviazgo es violento?</h2>
                       <br>
-                      <p>
+                      <p class="incusiva-p">
                         La violencia es peligrosa y deja consecuencias en la vida de las personas.
                       </p>
                       <br>
                       <ion-button
-                      class="button__hero"
-                      color="primary"
+                      class="button__hero btn-nv"
+                      color="secondary"
                       expand="block"
                       shape="round"
                       routerLink="/sexo-afectivas"
                     >
-                      Más Info
+                      identifica un noviazgo es violento
                     </ion-button>
 
 
@@ -310,7 +317,7 @@
                       <div class="igualdad-content">
                       <h1> Igualdad de genero</h1>
                       <br>
-                      <p> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
+                      <p class="incusiva-p"> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
                       <br>
                       <ion-button
                       class="button__hero"
@@ -331,12 +338,12 @@
                 <div class="bullying-content">
                 <img class="img__bullying" src="../../assets/imgHome/bgBullying.png">
                 <img Class="img__text" src="../../assets/imgHome/nomasbulling.png">
-                <p class="ion-padding">
+                <p class="ion-padding inclusiva-p">
                   Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
                 </p>
                 <ion-button
                       class="button__bullying"
-                      color="primary"
+                      color="light"
                       expand="block"
                       shape="round"
                       routerLink="/acoso"
@@ -347,22 +354,23 @@
 
 
 
+
                   <ion-grid>
 
                     <ion-row>
                       <ion-col class="alimentacion-content" size="12" size-lg="6">
                         <h1> Alimentacion imagenes y estereotipos</h1>
-                        <p>
+                        <p class="incusiva-p">
                           Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
                         </p>
-                        <p>
+                        <p class="incusiva-p">
                           Pensando en el componente cultural, creemos que es de vital trascendencia porque reﬁere a los modos de expresión que una sociedad tiene para comunicarse y que, además, se maniﬁestan simbólicamente en el lenguaje, en la moda musical, de indumentaria y también de los tipos de cuerpo “válidos”.
                         </p>
-                        <p>
+                        <p class="incusiva-p">
                           La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
                         </p>
                         <ion-button
-                          class="button__hero"
+                          class="button__hero btn-ali"
                           color="primary"
                           expand="block"
                           shape="round"
