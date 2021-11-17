@@ -3,6 +3,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -24,7 +31,7 @@ p{
 }
 
 .header-title{
-    font-size: 4rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
+    font-size: 3rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
 }
 
 .img3{

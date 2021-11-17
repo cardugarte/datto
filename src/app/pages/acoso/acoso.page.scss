@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
+
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -15,6 +24,7 @@ p{
 .bullying-content{
     line-height: normal;
     color:rgb(60, 36, 111);
+    text-align: justify;
     
 
 }
@@ -68,7 +78,7 @@ p{
 //consecuencias
 
 .consecuencias{
-    font-size: 3rem;
+    text-align: justify;
     line-height: normal;
     color:rgb(60, 36, 111);
     justify-content: center;
@@ -96,6 +106,7 @@ p{
 
 .como-actuan{
     text-align: center;line-height: normal;background-color: #a3cfc5; 
+    border-radius: 20px;
 
 }
 
@@ -108,10 +119,6 @@ p{
 
     .contacto h1{
         font-size: 3rem;
-    }
-
-    .contacto p{
-        font-size: 2rem;
     }
 
     //SVG
@@ -166,6 +173,7 @@ p{
     //Condiciones
 
     .condiciones{
+        text-align: justify;
         margin-right: 122px;
         margin-left: 113px;
     }
@@ -183,6 +191,7 @@ p{
     //Consecuencias
 
     .consecuencias{
+        text-align: center;
         margin-right: 122px;
         margin-left: 113px;
         color:rgb(60, 36, 111);
@@ -217,9 +226,7 @@ p{
         font-size: 7rem;
     }
 
-    .contacto p{
-        font-size: 2rem;
-    }
+    
 
        //SVG
 

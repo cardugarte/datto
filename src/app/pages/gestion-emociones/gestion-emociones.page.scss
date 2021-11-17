@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -22,15 +28,15 @@ p{
 }
 
 .img1{
-    padding-top: 69px;
-    padding-left: 52px;
+    padding-top: 88px;
+    
 }
 
 .gestion-header h1{
     font-size: 3rem;
     font-weight: bold;
     position: absolute;
-    left: 30px;
+  
 }
 
 
@@ -40,11 +46,6 @@ p{
     text-align: justify;
 }
 
-.ansiedad-content h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
-}
 
 .ansiedad-content p{
     color: rgb(60, 36, 111);
