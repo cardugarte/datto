@@ -7,20 +7,19 @@ import { IonicModule } from '@ionic/angular';
 import { GenerosPageRoutingModule } from './generos-routing.module';
 
 import { GenerosPage } from './generos.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GenerosPageRoutingModule
+    GenerosPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     GenerosPage,
-    ToolbarComponent,
-    FooterComponent
   ]
 })
 export class GenerosPageModule {}

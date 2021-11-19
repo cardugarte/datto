@@ -1,7 +1,7 @@
 
 <app-toolbar></app-toolbar>
 
-<ion-content [fullscreen]="true">
+<ion-content>
   <ion-grid class="header-grid">
     <ion-row>
 
@@ -11,7 +11,11 @@
           <p class="header__text" color="tertiary">
             Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
           </p>
-          <ion-button class="button__hero" expand="block" color="primary" shape="round">
+          <ion-button
+            class="button__hero"
+            expand="block"
+            color="primary"
+            shape="round">
             Sumate a Datto
           </ion-button>
           <img class="header-img-home1" src="../../assets/imgHome/circle-lightblue.png">
@@ -27,93 +31,107 @@
     </ion-row>
   </ion-grid>
 
-  <div class="header-h1" style="width: 100%;">
-  <h1 style="padding-left: 24px; width: 50%;"> Salud sexual </h1>
-
- </div>
-
- <ion-slides class="ion-slides" pager="true" [options]="slideOpts">
-
-  <ion-slide>
-    <ion-card class="card-slide1" color="light">
-      <ion-card-header>
-      <!-- <img src="/src/assets/imgHome/slide1"> -->
-      <img src="../../assets/imgHome/slide1.jpg" alt="">
-      </ion-card-header>
-
-    <ion-card-content>
-
-      <div style=" width: 100%; text-align: left;" class="anticonceptivos-content">
-        <h1>Metodos anticonceptivos</h1>
-        <br>
-        <p>Una plataforma especializada para integrar la cadena productiva de tu negocio.</p>
-        <br>
-        <button routerLink="/salud-sexual">Más Info</button>
-      </div>
-
-
-
-    </ion-card-content>
-
-
-
-  </ion-card>  </ion-slide>
-
-  <ion-slide>
-    <ion-card class="card-slide2" color="light">
-      <ion-card-header>
-        <img src="../../assets/imgHome/slide2.jpg" alt="">
-        <!-- <img src="/src/assets/imgHome/slide2"> -->
-
-    </ion-card-header>
-
-
-    <ion-card-content>
-
-      <div style=" width: 100%; text-align: left;" class="prevencion-content" >
-        <h1> Prevencion ITS</h1>
-        <br>
-        <p>  Nunca dejes de cuidar a tus empleados.</p>
-        <br>
-        <button routerLink="/salud-sexual">Más Info</button>
-
-      </div>
+  <h2 class="title__section ion-padding"> Salud sexual </h2>
 
 
 
 
-    </ion-card-content>
-
-    </ion-card> </ion-slide>
-
-  <ion-slide>
-    <ion-card class="card-slide3" color="light">
-
-      <ion-card-header>
-        <!-- <img src="/src/assets/imgHome/slide3.png"> -->
-        <img src="../../assets/imgHome/slide3.jpg" alt="">
-
-      </ion-card-header>
-
-    <ion-card-content>
-
-      <div style=" width: 100%; text-align: left;" class="gestion-content">
-        <h1>Gestion menstrual</h1>
-        <br>
-        <p>Nunca dejes de cuidar a tus empleados.</p>
-        <br>
-        <button routerLink="/salud-sexual">Más Info</button>
-
-      </div>
+  <ion-slides
+  class="ion-slides"
+  pager="true"
+  [options]="slideOpts"
+>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" sizeLg="4">
 
 
-    </ion-card-content>
+    <ion-slide>
+      <ion-card class="card-slide" color="light">
+        <ion-card-header>
+          <img src="../../assets/imgHome/slide1.jpg">
+        </ion-card-header>
+        <ion-card-content>
+          <div>
+            <h2 class="title__section ion-padding">Métodos anticonceptivos</h2>
+            <br>
+            <p>
+              Una plataforma especializada para integrar la cadena productiva de tu negocio
+            </p>
+            <br>
+          </div>
+        </ion-card-content>
+        <ion-button
+          class="button__hero"
+          expand="block"
+          shape="round"
+          routerLink="/salud-sexual"
+        >
+        Más Info
+        </ion-button>
+      </ion-card>
+    </ion-slide>
+    </ion-col>
 
+    <ion-col size="12" sizeLg="4">
 
-    </ion-card>
-   </ion-slide>
+    <ion-slide>
+      <ion-card
+        class="card-slide"
+        color="light"
+      >
+        <ion-card-header>
+          <img src="../../assets/imgHome/slide3.jpg">
+        </ion-card-header>
+        <ion-card-content>
+          <div>
+            <h2 class="title__section ion-padding"> Prevencion ITS</h2>
+            <br>
+            <p>Nunca dejes de cuidar a tus empleados.</p>
+            <br>
+          </div>
+        </ion-card-content>
+        <ion-button
+            class="button__hero"
+            expand="block"
+            shape="round"
+            routerLink="/salud-sexual"
+          >
+          Más Info
+          </ion-button>
+      </ion-card>
+    </ion-slide>
 
+    </ion-col>
 
+    <ion-col size="12" sizeLg="4">
+
+    <ion-slide>
+      <ion-card class="card-slide" color="light">
+        <ion-card-header>
+          <img src="../../assets/imgHome/slide2.jpg">
+        </ion-card-header>
+        <ion-card-content>
+          <div>
+            <h2 class="title__section ion-padding">Gestion menstrual</h2>
+            <br>
+            <p>Nunca dejes de cuidar a tus empleados.</p>
+            <br>
+          </div>
+        </ion-card-content>
+        <ion-button
+            class="button__hero"
+            expand="block"
+            shape="round"
+            routerLink="/salud-sexual"
+          >
+          Más Info
+          </ion-button>
+      </ion-card>
+    </ion-slide>
+  </ion-col>
+</ion-row>
+</ion-grid>
 </ion-slides>
 
 
@@ -125,91 +143,106 @@
   </div>
 
    <div class="consumo-div">
-             <h1>Consumo de sustancias</h1>
+             <h2>Consumo de sustancias</h2>
              <br>
-            <p>Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.</p>
-            <br>
+             <div class="div-consumo">
 
-            <button routerLink="/consumo-problematico" style=" padding: 15px;border-radius: 30px;background-color:white;  color: rgb(75, 21, 116);;">Más Info</button>
+               <p class="consumo-p"> Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
+               </p>
+
+               <div class="yellow-sustancias"></div>
+             </div>
+              <br>
+
+              <ion-button
+                class="button__hero"
+                expand="block"
+                shape="round"
+                routerLink="/consumo-problematico"
+                color="light"
+              >
+              Más Info
+              </ion-button>
      </div>
         <div style="height: 80px;">
           <svg class="svg-consumo-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
         </div>
 </div>
 
-                  <ion-card class="card1">
 
-                    <ion-card-content class="emociones-content">
-                       <div>
-                         <h1><strong>Gestion de emociones</strong></h1>
-                         <br>
-                          <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
-                          <br>
-                          <p>
-                            Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
-                          </p>
+  <h2 class="title__section ion-padding">Gestión de emociones</h2>
 
-                        <br>
-                      </div>
-                    </ion-card-content>
-
-                </ion-card>
+  <div class="ion-padding emociones-content">
+    <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
+    <p>
+      Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
+    </p>
+  </div>
 
 
-
-                  <ion-card class="card2">
+                  <ion-card class="depresion-content">
+                    <ion-grid>
+                      <ion-row class="row-card">
+                    <ion-card-header>
+                      <img class="img-ansiedad" src="../../assets/imgHome/Depresión-3.png ">
+                    </ion-card-header>
                     <ion-card-content>
-
-                    <ion-grid>
-                      <ion-row>
-                        <ion-col class="depresion-content" size="12" size-lg="8">
-                          <h1><strong>Depresión</strong></h1>
+                          <ion-col  size="12" size-lg="6">
+                            <h2 class="title__section">Depresión</h2>
+                            <br>
+                          <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
                           <br>
+                          <p> Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.</p>
                           <br>
-                        <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
-                        <br>
-                        <p> Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.</p>
-                        <br>
-                        <button routerLink="/gestion-emociones">Consejos utiles</button>
-                        </ion-col>
-                        <ion-col size="12" size-lg="4">
-                          <img src="../../assets/imgHome/Depresión 3.jpg ">
-                        </ion-col>
+                          <ion-button
+                            class="button__hero"
+                            expand="block"
+                            shape="round"
+                            routerLink="/gestion-emociones"
+                            color="primary"
+                          >
+                            Consejos útiles
+                          </ion-button>
+                          </ion-col>
+                          <ion-col size="12" size-lg="4">
+                            <img class="img_depresion-desktop" src="../../assets/imgHome/Depresión 3.jpg ">
+                          </ion-col>
+                        </ion-card-content>
                       </ion-row>
                     </ion-grid>
+                  </ion-card>
 
-                  </ion-card-content>
+                   <ion-card class="ansiedad-content">
+                     <ion-grid>
+                       <ion-row class="row-card">
 
-                    </ion-card>
-
-                   <ion-card class="card3">
-                     <ion-card-content class="ansiedad-content">
-                       <div class="ansiedad-div">
-
-                    <ion-grid>
-                      <ion-row>
-
-                        <ion-col style="margin: auto;" class="depresion-content" size="12" size-lg="8">
-                          <h1><strong>Ansiedad</strong></h1>
-                          <br>
-                          <br>
-                        <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
-                        <br>
-                        <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
-                        </p>
-                        <br>
-                         <button routerLink="/gestion-emociones" style="padding: 15px;border-radius: 30px"><strong>¿Qué hacer?</strong></button>
-                        </ion-col>
-
-                        <ion-col size="12" size-lg="4">
-                          <img src="../../assets/imgHome/ansiedad.png ">
-                        </ion-col>
-
+                     <ion-card-content>
+                            <ion-col class="depresion-content" size="12" size-lg="8">
+                              <h2 class="title__section-light">Ansiedad</h2>
+                              <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
+                              <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
+                              </p>
+                              <br>
+                              <ion-button
+                                class="button__hero"
+                                expand="block"
+                                shape="round"
+                                routerLink="/gestion-emociones"
+                                color="light"
+                              >
+                                ¿Qué hacer?
+                              </ion-button>
+                            </ion-col>
+                            <ion-col size="12" size-lg="4">
+                              <img class="img_depresion-desktop" src="../../assets/imgHome/ansiedad.png ">
+                            </ion-col>
+                        </ion-card-content>
+                        <ion-card-header>
+                          <img class="img-ansiedad" src="../../assets/imgHome/ansiedad.png">
+                        </ion-card-header>
                       </ion-row>
                     </ion-grid>
-                       </div>
-                     </ion-card-content>
-                   </ion-card>
+                  </ion-card>
 
 
 
@@ -219,14 +252,22 @@
             </div>
              <div class="div-inclusiva">
                   <div class="inclusiva-content">
-                    <h1><strong>DATTO es inclusiva</strong></h1>
+                    <h1>DATTO es inclusiva</h1>
                     <br>
-                    <p><strong>Damos la bienvenida a nuestra comunidad trans y no binaria.</strong></p>
+                    <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
 
-                  <p>Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
+                  <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
                   </p>
                   <br>
-                  <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
+                  <ion-button
+                    class="button__hero"
+                    color="dark"
+                    expand="block"
+                    shape="round"
+                    routerLink="/generos"
+                  >
+                    Más Info
+                  </ion-button>
                 </div>
 
             </div>
@@ -236,26 +277,29 @@
             </div>
 
 
-              <ion-card class="card4">
-
-                <ion-card-content>
-
-
                 <ion-grid>
                   <ion-row>
                     <ion-col class="no-es-no" size="12" size-lg="4">
-                      <img src="../../assets/imgHome/no-es-no.png">
+                      <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
                     </ion-col>
 
                     <ion-col class="violento-content" size="12" size-lg="8">
 
-                      <h1><strong>¿Cuándo un noviazgo es violento?</strong></h1>
+                      <h2>¿Cuándo un noviazgo es violento?</h2>
                       <br>
-                      <p>
+                      <p class="incusiva-p">
                         La violencia es peligrosa y deja consecuencias en la vida de las personas.
                       </p>
                       <br>
-                      <button routerLink="/sexo-afectivas" style="padding: 15px;border-radius: 30px">Como identificar noviazgos violentos</button>
+                      <ion-button
+                      class="button__hero btn-nv"
+                      color="secondary"
+                      expand="block"
+                      shape="round"
+                      routerLink="/sexo-afectivas"
+                    >
+                      identifica un noviazgo es violento
+                    </ion-button>
 
 
                     </ion-col>
@@ -266,46 +310,49 @@
 
 
                   <ion-row>
-                    <ion-col class="depresion-content" size="12" size-lg="8">
-                      <div class="igualdad-content">
-                      <h1><strong> Igualdad de genero</strong></h1>
-                      <br>
-                      <p> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
-                      <br>
-                      <button routerLink="/generos" style="padding: 15px;border-radius: 30px">Más Info</button>
-                    </div>
-
-                    </ion-col>
                     <ion-col size="12" size-lg="4">
                       <img src="../../assets/imgHome/imgGeneros.png">
+                    </ion-col>
+                    <ion-col class="depresion-content" size="12" size-lg="8">
+                      <div class="igualdad-content">
+                      <h1> Igualdad de genero</h1>
+                      <br>
+                      <p class="incusiva-p"> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
+                      <br>
+                      <ion-button
+                      class="button__hero"
+                      color="primary"
+                      expand="block"
+                      shape="round"
+                      routerLink="/generos"
+                    >
+                      Más Info
+                    </ion-button>
+                    </div>
+
                     </ion-col>
                   </ion-row>
                 </ion-grid>
 
 
-               </ion-card-content>
-
-               </ion-card>
-
-              <div style="background-color: black;">
-                <img style="width: 100%;" src="../../assets/imgHome/bgBullying.png">
-
-              </div>
-
-              <div style="padding: 14px;" class="bullying-content">
-                <img src="../../assets/imgHome/nomasbulling.png">
-                <p>
+                <div class="bullying-content">
+                <img class="img__bullying" src="../../assets/imgHome/bgBullying.png">
+                <img Class="img__text" src="../../assets/imgHome/nomasbulling.png">
+                <p class="ion-padding inclusiva-p">
                   Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
                 </p>
-                <br>
-                <button routerLink="/acoso" style="padding: 15px;border-radius: 30px">¿Que hacer frente al bullying?</button>
+                <ion-button
+                      class="button__bullying"
+                      color="light"
+                      expand="block"
+                      shape="round"
+                      routerLink="/acoso"
+                    >
+                    ¿Que hacer frente al bullying?
+                    </ion-button>
+                </div>
 
-              </div>
 
-
-              <ion-card class="card5">
-
-                <ion-card-content>
 
 
                   <ion-grid>
@@ -313,21 +360,24 @@
                     <ion-row>
                       <ion-col class="alimentacion-content" size="12" size-lg="6">
                         <h1> Alimentacion imagenes y estereotipos</h1>
-                        <br>
-                        <p>
+                        <p class="incusiva-p">
                           Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
                         </p>
-                        <br>
-                        <p>
+                        <p class="incusiva-p">
                           Pensando en el componente cultural, creemos que es de vital trascendencia porque reﬁere a los modos de expresión que una sociedad tiene para comunicarse y que, además, se maniﬁestan simbólicamente en el lenguaje, en la moda musical, de indumentaria y también de los tipos de cuerpo “válidos”.
                         </p>
-                        <br>
-                        <p>
+                        <p class="incusiva-p">
                           La nutrición en la adolescencia es un tema súper importante que muchas veces está mas vinculado a cómo nos queremos ver, que a cómo nos sentimos a partir del funcionamiento que permite la buena nutrición en el organismo.
                         </p>
-                        <br>
-                        <button routerLink="/alimentacion" style="padding: 15px;border-radius: 30px">Más Info</button>
-                        <br>
+                        <ion-button
+                          class="button__hero btn-ali"
+                          color="primary"
+                          expand="block"
+                          shape="round"
+                          routerLink="/alimentacion"
+                        >
+                      Más Info
+                    </ion-button>
 
 
                       </ion-col>
@@ -336,10 +386,6 @@
                       </ion-col>
                     </ion-row>
                   </ion-grid>
-
-                </ion-card-content>
-
-              </ion-card>
 
   <app-footer></app-footer>
 </ion-content>

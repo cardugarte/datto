@@ -7,20 +7,20 @@ import { IonicModule } from '@ionic/angular';
 import { SaludSexualPageRoutingModule } from './salud-sexual-routing.module';
 
 import { SaludSexualPage } from './salud-sexual.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SaludSexualPageRoutingModule
+    SaludSexualPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     SaludSexualPage,
-    ToolbarComponent,
-    FooterComponent
+
   ]
 })
 export class SaludSexualPageModule {}

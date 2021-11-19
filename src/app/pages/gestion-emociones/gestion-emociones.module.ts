@@ -7,20 +7,19 @@ import { IonicModule } from '@ionic/angular';
 import { GestionEmocionesPageRoutingModule } from './gestion-emociones-routing.module';
 
 import { GestionEmocionesPage } from './gestion-emociones.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    GestionEmocionesPageRoutingModule
+    GestionEmocionesPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     GestionEmocionesPage,
-    ToolbarComponent,
-    FooterComponent
   ]
 })
 export class GestionEmocionesPageModule {}

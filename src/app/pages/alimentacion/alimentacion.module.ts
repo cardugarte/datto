@@ -7,20 +7,20 @@ import { IonicModule } from '@ionic/angular';
 import { AlimentacionPageRoutingModule } from './alimentacion-routing.module';
 
 import { AlimentacionPage } from './alimentacion.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlimentacionPageRoutingModule
+    AlimentacionPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     AlimentacionPage,
-    ToolbarComponent,
-    FooterComponent
   ]
 })
 export class AlimentacionPageModule {}

@@ -2,6 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+
+.title__section {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -32,7 +39,7 @@ body{
 
 .header h1{
      position: absolute;
-     top: 57px;
+     top: 23px;
      margin-left: 0px;
      color: #3c246f;
      font-weight: bold;
@@ -68,9 +75,6 @@ body{
     text-align: center;
 }
 
-.saludable-content h1{
-    font-size: 3rem;
-}
 
 .saludable-content p{
     text-align: justify;

@@ -7,20 +7,19 @@ import { IonicModule } from '@ionic/angular';
 import { SexoAfectivasPageRoutingModule } from './sexo-afectivas-routing.module';
 
 import { SexoAfectivasPage } from './sexo-afectivas.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    SexoAfectivasPageRoutingModule
+    SexoAfectivasPageRoutingModule,
+    ComponentsModule
   ],
   declarations: [
     SexoAfectivasPage,
-    ToolbarComponent,
-    FooterComponent
   ]
 })
 export class SexoAfectivasPageModule {}

@@ -7,8 +7,8 @@ import { IonicModule } from '@ionic/angular';
 import { AcosoPageRoutingModule } from './acoso-routing.module';
 
 import { AcosoPage } from './acoso.page';
-import { ToolbarComponent } from 'src/app/components/toolbar/toolbar.component';
-import { FooterComponent } from 'src/app/components/footer/footer.component';
+
+import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
@@ -16,11 +16,11 @@ import { FooterComponent } from 'src/app/components/footer/footer.component';
     FormsModule,
     IonicModule,
     AcosoPageRoutingModule,
+    ComponentsModule
+
   ],
   declarations: [
     AcosoPage,
-    ToolbarComponent,
-    FooterComponent,
   ]
 })
 export class AcosoPageModule {}
