@@ -9,7 +9,7 @@ import { AlimentacionPageRoutingModule } from './alimentacion-routing.module';
 import { AlimentacionPage } from './alimentacion.page';
 
 
-import { ComponentsModule } from 'src/app/components/components.module';
+// import { ComponentsModule } from 'src/app/components/components.module';
 
 @NgModule({
   imports: [
@@ -17,7 +17,7 @@ import { ComponentsModule } from 'src/app/components/components.module';
     FormsModule,
     IonicModule,
     AlimentacionPageRoutingModule,
-    ComponentsModule
+    // ComponentsModule
   ],
   declarations: [
     AlimentacionPage,

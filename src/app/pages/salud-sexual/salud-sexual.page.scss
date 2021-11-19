@@ -46,7 +46,7 @@ p{
 }
 
 .mac-content p{
-    text-align: justify;
+    // text-align: justify;
     color:#3c246f;
     margin-bottom: 10px;
     // font-weight: 400;
@@ -132,19 +132,20 @@ p{
 
 }
 
-.emergencia-content2{
-    text-align: justify; padding: 10px;
-    width: 100%;
-    line-height: 20pt;
-    color:#3c246f;
-    font-weight: 600;
-    font-size: 2rem;
+// .emergencia-content2{
+//     text-align: justify;
+//     padding: 10px;
+//     width: 100%;
+//     line-height: 20pt;
+//     color:#3c246f;
+//     font-weight: 600;
+//     font-size: 2rem;
 
-}
+// }
 
-.emergencia h1{
-    color:#3c246f;
-}
+// .emergencia h1{
+//     color:#3c246f;
+// }
 
 .emergencia-h2{
     background-color:rgb(172, 216, 206) ;
@@ -157,13 +158,18 @@ p{
 .emergencia-pastilla{
     background-color: #d0a3d6;
     color:rgb(60, 36, 111);
+    margin: 0;
+    border-radius: 0;
 
 }
 
 .emergencia-uso{
-
     margin:5px;
+}
 
+.pastilla-emergencia-uso {
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
 .emergencia-pastilla-content span{
@@ -176,22 +182,30 @@ p{
 
 }
 
+
 .img1{
     width: 100%; height: 124px;
 
 }
 
 .img2{
-    width: 282px; height: 215px;
+    width: 282px;
+    height: 215px;
 }
 
 //preservativo
 
-.implante-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
+
+
+.implante-content {
+  font-weight: bold;
+  color: rgb(60, 36, 111);
+  ion-card-title {
+    font-size: 1.4rem;
+  }
+  h2{
+    font-size: 0.9rem;
+  }
 }
 
 .preservativo-content{
