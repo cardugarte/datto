@@ -7,8 +7,8 @@ h1, h2{
 }
 
 p{
-  font-family: 'bitter', sans-serif;
-  font-weight: bold
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 
 :root {
@@ -82,7 +82,9 @@ body {
 
 .header-grid {
   background-color: #c8b5ed;
+  height: 400px;
 }
+
 
 .header__text {
   font-size: 1.7rem;
@@ -92,6 +94,7 @@ body {
 .button__hero {
   width: 170px;
   height: 40px;
+ 
 }
 
 .header-img-home1{
@@ -119,7 +122,9 @@ left: 236px;
 .title__section {
   color: var(--ion-color-primary);
   font-weight: 700;
+  font-size: 2rem;
 }
+
 
 .title__section-light {
   color: var(--ion-color-light);
@@ -127,7 +132,7 @@ left: 236px;
 }
 
 .card-slide {
-  height: 470px;
+  height: 518px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -144,7 +149,6 @@ left: 236px;
   }
 }
 
-//consumo
 
 
 
@@ -157,8 +161,11 @@ left: 236px;
 
 .depresion-content p{
   font-size: 1.1rem;
+  font-family: "Montserrat";
   font-weight: 400;
 }
+
+//A
 
 .depresion-content h2{
 font-size: 1.8rem;
@@ -186,12 +193,18 @@ font-size: 1.8rem;
 }
 
 
+
+
 .ansiedad-content p{
   font-size: 1.1rem;
+  font-family: "Montserrat";
+  font-weight: 400;
   color: white;
 }
 
 //DATTO es inclusiva
+
+
 
 .inclusiva-content h1{
   color: rgb(60, 36, 111);
@@ -199,10 +212,7 @@ font-size: 1.8rem;
 .inclusiva-content h2{
   color: #000;
 }
-.inclusiva-content p{
-  color: #000;
-  line-height: 1.5;
-}
+
 
 //Noviazgo violento
 
@@ -221,7 +231,7 @@ font-size: 1.8rem;
 
 .violento-content p{
   color:black;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 //Igualdad de genero
@@ -317,6 +327,10 @@ font-size: 1.8rem;
   height: 70px;
 }
 
+.div-svg-consumo-bottom{
+  height: 80px;
+}
+
 .svg-consumo-top{
   fill: rgb(255, 255, 255);
   position: relative;
@@ -332,6 +346,14 @@ font-size: 1.8rem;
 
 //svg Datto
 
+.div-svg-datto-top{
+  height: 80px;
+}
+
+.div-svg-datto-bottom{
+  height: 80px;
+}
+
 .svg-datto-top{
   fill: rgb(255, 255, 255);
   position: relative;
@@ -342,7 +364,7 @@ font-size: 1.8rem;
 .svg-datto-bottom{
   fill: rgb(255, 255, 255);
   position: relative;
-  top: -1px;
+  bottom: 20px;
 
 }
 
@@ -351,6 +373,17 @@ font-size: 1.8rem;
   width: 340px;
 }
 
+.inclusiva-img{
+  display: none;
+}
+
+.violento-content{
+  margin: 10px 10px 0 10px;
+}
+
+.no-mas-bullying-svg{
+  height: 280px;
+}
 
 
 
@@ -358,6 +391,14 @@ font-size: 1.8rem;
 
 @media (min-width: 1146.98px)  {
   //header
+
+  .header-grid{
+    height: 654px;
+  }
+
+  .header{
+    margin: 16px 279px 1px 271px; 
+  }
 
   .header__text{
     font-size: 2.5rem;
@@ -397,10 +438,22 @@ font-size: 1.8rem;
    }
  }
 
-  //prevencion
+  
 
 
   //Gestion
+
+
+  .div-svg-consumo-top{
+    height: 259px;
+  }
+
+  //SVG
+
+  .svg-datto-top{
+    bottom: 462px;
+  }
+ 
 
 
   .svg-consumo-top{
@@ -415,6 +468,7 @@ font-size: 1.8rem;
 
   .div-consumo {
     display: flex;
+    width: 100%;
   }
 
   .consumo-p {
@@ -422,6 +476,7 @@ font-size: 1.8rem;
   }
 
   .yellow-sustancias{
+    margin-left: 84px;
     display: block;
     width: 250px;
     height: 300px;
@@ -436,26 +491,189 @@ font-size: 1.8rem;
     padding-left: 113px;
   }
 
+  .consumo-div h2{
+    font-size: 31px;
+  }
+
   .consumo-div p{
     font-size: 1.3rem;
   }
 
+  .depresion-content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Montserrat";
+  }
+
+  //Cosnumo
+
+  .consumo-div-content{
+    margin: 16px 160px 10px 174px
+;
+  }
+  .consumo-div-content p{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+
+  }
   //ansiedad
   .depresion-content {
     margin-bottom: 30px;
+   
   }
 
   .ansiedad-content,
   .depresion-content {
-    max-width: 800px;
+    max-width: 1330px;
+  }
+
+  .ansiedad-content p{
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
   }
 
   .img-ansiedad {
     width: 600px !important;
   }
 
+  //DATTO
+
+  .datto-content{
+    background-color: rgb(226, 237, 106);;
+    
+  }
+
+  .datto-div-img{
+    margin-left: 84px;
+    display: block;
+    width: 250px;
+    height: 300px;
+  }
+
+  .datto-flex{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    
+  }
+
+
+  .inclusiva-img{
+    display: block;
+  }
+  
+  
+  .inclusiva-content p{
+    font-size: 1.5rem;
+  }
+
+  .datto-flex p{
+    font-size: 1.5rem;
+  }
+
+ .div-inclusiva{
+  margin: 16px 279px 1px 271px; 
+  
+ }
+
+ .div-inclusiva h2{
+   font-size: 31px;
+ }
+
+ .div-inclusiva p{
+   font-size: 1.5rem;
+   
+ }
+
+ .incusiva-p{
+  padding-top: 31px;
+ }
+
+ .violento-txt{
+  padding-top: 70px;
+ }
+
+ //igualdad-violencia
+
+ .igualdad-violencia-content{
+  margin: 16px 279px 1px 271px; 
+  text-align: center;
+ }
+
+ .violento-content{
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  
+ }
+
+
+ .img-balanza{
+  height: 316px;
+  padding-left: 22px;
+ }
+
+
+ //Bullying
+
+ 
+ 
+ //Igualdad de genero
+
+  .alimentacion{
+    margin: 16px 279px 1px 271px; 
+  }
+
+
+.alimentacion-content p{
+  color: black;
+  font-size: 1.5rem;
+}
+
+//Bullying
+
+.bullying-text{
+  margin: 16px 279px 1px 271px; 
+}
+
+.no-mas-bullying-svg{
+  height: 1508px;
+}
+
+.no-mas-bullying-img{
+  width: 100%;
+}
+
+.bullying-p{
+  font-size: 1.5rem ;
+}
+
+
+//CARROUSEL
+
+.carrousel-grid{
+  margin: 10px 113px 0px 113PX;
+}
 
   //ion-cards
+
+  .slide_text{
+    font-size: 1.5rem;
+  }
+
+
+  .card-slide{
+    width: 510px;
+  height: 690px;
+  }
+
+  .button__hero{
+    width: 319px;
+    height: 73px;
+  }
 
   ion-card {
     display: block;
