@@ -1,96 +1,120 @@
 <app-toolbar></app-toolbar>
 
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <link
   rel="stylesheet"
   href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
 />
 
-</ion-header>
+</ion-header> -->
 
 <ion-content>
 
-  <div class="header" style="width: 100%;"> 
+  <div class="header">
     <h1>Salud Sexual</h1>
-    <img src="../../../assets/pdf salud sexual/bg-header.png" style="width: 100%;">
+    <img src="../../../assets/pdf salud sexual/bg-header.png">
   </div>
 
 
+  <ion-grid fixed>
+    <ion-row>
       <ion-col size="12">
 
-        <ion-card class="mac">
+        <ion-card class="mac card-no-shadow mac-content">
           <ion-card-content>
-            <div class="mac-content">
-              <h2 class="title__section">Metodos anticonceptivos (MAC)</h2>
+            <!-- <div class=""> -->
+              <ion-card-title
+              color="primary"
+                class="title__section"
+              >
+                Metodos anticonceptivos (MAC)
+              </ion-card-title>
               <br>
               <p>
                 Los MAC son todos aquellos capaces de evitar o reducir las posibilidades de un embarazo. Pueden utilizarse durante toda la vida fértil de la persona.
               </p>
-              
+
               <p>
                 Todas las personas con capacidad de gestar, tienen derecho a recibir asesoramiento sobre métodos anticonceptivos.
               </p>
-              
+
               <p>
                 Ningún MAC puede considerarse mejor que otro per se. Cada MAC tiene características particulares, modo de uso, ventajas y desventajas, por eso, es importante que te asesores con un/a profesional de la salud. Ningún método es 100% seguro, pero sí es fundamental que utilices el que sea adecuado para vos, asi podés decidir, si es que querés tener un hij@, que suceda en el momento en que lo desees.
               </p>
-              
+
               <p>
                 Desde los 16 años las personas adolescentes tienen capacidad plena para la toma de decisiones, sobre el cuidado del propio cuerpo como una persona adulta.
               </p>
-              
-      
-              <p>
-                Y desde los 13 años l@s adolescentes pueden acceder en forma autónoma a todos los métodos anticonceptivos reversibles, inclusive, los de larga duración. 
-              </p>
-              <h2><strong style="color:rgb(60, 36, 111)">(Elección de Anticonceptivos: Ley N°25673 Salud sexual y procreación responsable)</strong></h2>
 
-            </div>
+
+              <p>
+                Y desde los 13 años l@s adolescentes pueden acceder en forma autónoma a todos los métodos anticonceptivos reversibles, inclusive, los de larga duración.
+              </p>
+              <ion-card-subtitle
+                color="primary"
+                class="mac__subtitle"
+              >
+                (Elección de Anticonceptivos: Ley N°25673 Salud sexual y procreación responsable)
+              </ion-card-subtitle>
+              <!-- <h2><strong style="color:rgb(60, 36, 111)"></strong></h2> -->
+
+            <!-- </div> -->
 
             <div class="derechos-mac" >
-            
+
             <br>
-            <p><span>Tenés derecho a acceder a métodos anticonceptivos y a elegir el que quieras utilizar.</span></p>
-      
+            <p>
+              <span>
+                <span class="comillas">"</span>
+                Tenés derecho a acceder a métodos anticonceptivos y a elegir el que quieras utilizar.
+              </span>
+            </p>
+
             <p ><span>Podés obtenerlos gratuitamente en hospitales y centros de salud y en obras sociales y prepagas están incluidos en el Plan Médico Obligatorio:</span></p>
-            <p >
+            <p class="no-justify">
               Preservativos, pastillas, inyectables, DIU, anticoncepción de emergencia y anticoncepción quirúrgica (ligadura tubaria y vasectomía) e implante subdérmico.
             </p>
           </div>
 
-          <div style="width: 100%; height: 14%; text-align: center;" >
+          <div>
 
-            <img style="height: 281px;" src="../../../assets/pdf salud sexual/img-metodos-anticonceptivos.png">
-    
+            <img class="metodos__img" src="../../../assets/pdf salud sexual/img-metodos-anticonceptivos.png">
+
           </div>
-          
+
           </ion-card-content>
-        
+
         </ion-card>
 
-        
+
       </ion-col>
+    </ion-row>
+  </ion-grid>
 
       <ion-col size="12">
         <div class="mac-bigbox">
           <div class="emergencia-close-icon">
-            <img style="float: right;" src="../../../assets/x-caja.png">
+            <img src="../../../assets/x-caja.png">
           </div>
           <div class="emergencia-content3">
-            <h1>Anticonceptivo de emergencia</h1>
+            <h2>Anticonceptivo de emergencia</h2>
           </div>
         </div>
       </ion-col>
-      
+
 
 
       <ion-col size="12">
 
-      
+
           <div class="emergencia">
 
-          <div class="emergencia-pastilla-content">
-          <h2 class="title__section" style="text-align: center;" >¿Cuándo se puede considerar la utilización del anticonceptivo de emergencia?</h2>
+          <div class="emergencia-pastilla-content ion-padding">
+          <h2 class="title__section">
+            <span>
+              ¿Cuándo se puede considerar la utilización del anticonceptivo de emergencia?
+            </span>
+          </h2>
           </div>
 
 
@@ -101,32 +125,32 @@
               </ion-col>
               <ion-col size="12" size-lg="6">
                 <img class="img1"src="../../../assets/pdf salud sexual/img-anticonceptivo-emergencia2.png">
-          
+
               </ion-col>
             </ion-row>
           </ion-grid>
 
         </div>
       </ion-col>
-       
+
 
           <ion-card class="emergencia-pastilla">
             <ion-card-content>
 
-       
+
 
           <ion-grid>
             <ion-row>
               <ion-col size="12">
 
                 <h2 class="title__section">La pastilla de emergencia*, o usualmente llamada pastilla del día después, se trata de una o dos pastillas que contienen una alta dosis de hormonas que retrasan la ovulación. Se recomienda su uso SÓLO PARA SITUACIONES DE EMERGENCIA</h2>
-       
+
 
               </ion-col>
               <ion-col size="12" size-lg="8">
                 <div class="emergencia-uso">
                   <h2 class="title__section"><strong>CÓMO SE USA:</strong> </h2>
-                  <p style="font-style: italic;">Debe tomarse luego de una relación sexual en la que haya fallado el método o no se haya usado uno. Es más segura dentro de las primeras 12 horas.</p>   
+                  <p style="font-style: italic;">Debe tomarse luego de una relación sexual en la que haya fallado el método o no se haya usado uno. Es más segura dentro de las primeras 12 horas.</p>
                   <p><strong>*Método válido sólo para personas con capacidad de gestar.</strong> </p>
                 </div> </ion-col>
               <ion-col size="12" size-lg="4">
@@ -140,9 +164,9 @@
         </ion-card-content>
       </ion-card>
 
-    
 
-      
+
+
 
 
       <ion-col size="12">
@@ -158,7 +182,7 @@
              <img class="img3" style="height: 70px; display: none;" src="../../../assets/pdf salud sexual/img1.png">
            </div>
             <br>
-           
+
             <h2 class="title__section"><strong>Como se usa</strong></h2>
             <br>
             <p>Se coloca cuando el pene está erecto, se aprieta la punta y se desenrolla hasta la base del pene. Se retira después de la eyaculación y se desecha.</p>
@@ -172,7 +196,7 @@
             <br>
             <p><span style="background-color: rgb(223, 235, 106);">Frecuencia de uso</span></p>
             <p>En cada relacion sexual(vaginal,anal u oral) desd el principio hasta el final</p>
-          
+
         </div>
      <ion-grid>
        <ion-row>
@@ -196,7 +220,7 @@
       </ion-col>
 
       <ion-col size="12">
-        <ion-card class="implante" > 
+        <ion-card class="implante" >
           <ion-card-content>
             <div class="implante-content">
               <h2 class="title__section">Implante sudermico</h2>
@@ -208,10 +232,10 @@
             <br>
             <p><span style="background-color: rgb(223, 235, 106);">Beneficios</span></p>
             <p>Su efecto dura de 3 a 7 años. La efectividad no depende de sostener un hábito por parte de la persona que lo lleva.</p>
-      
+
             <ion-grid>
               <ion-row>
-                <ion-col size="12" size-lg="6"> 
+                <ion-col size="12" size-lg="6">
                   <img class="img4"  src="../../../assets/pdf salud sexual/img-implante-sudermico.png">
                 </ion-col>
                 <ion-col size="12" size-lg="6">
@@ -235,9 +259,9 @@
            <br>
            <p>Son pequeños dispositivos que se colocan en el útero, uno libera Cobre, otro libera hormonas</p>
            <ion-grid>
-            <ion-row>   
+            <ion-row>
               <ion-row>
-                <ion-col style="text-align: center;" size="12" size-lg="6"> 
+                <ion-col style="text-align: center;" size="12" size-lg="6">
                   <img class="img5" src="../../../assets/pdf salud sexual/bg-diu.png">
                 </ion-col>
                 <ion-col size="12" size-lg="6">
@@ -274,7 +298,7 @@
       </ion-col>
 
       <ion-col size="12">
-        <ion-card class="anticonceptivos-orales"> 
+        <ion-card class="anticonceptivos-orales">
           <ion-card-content>
             <div class="inyectabales-content">
               <h2 class="title__section">Anticonceptivos orales</h2>
@@ -285,7 +309,7 @@
                 </div>
 
             <ion-row>
-              <ion-col style="text-align: center;" size="12" size-lg="6"> 
+              <ion-col style="text-align: center;" size="12" size-lg="6">
                 <img class="img7" src="../../../assets/pdf salud sexual/img-anticonceptivos-orales.png">
              </ion-col>
               <ion-col size="12" size-lg="6">
@@ -308,7 +332,7 @@
 
             <ion-grid>
               <ion-row>
-                <ion-col style="text-align: center;" size="12" size-lg="6"> 
+                <ion-col style="text-align: center;" size="12" size-lg="6">
                   <img class="img9" src="../../../assets/pdf salud sexual/img-anillo-vaginal.png">
                 </ion-col>
                 <ion-col size="12" size-lg="6">
@@ -316,7 +340,7 @@
               </ion-col>
               </ion-row>
             </ion-grid>
-          
+
           </div>
 
 
@@ -331,12 +355,12 @@
               <h2 class="title__section">Parche anticonceptivo</h2>
               <br>
               <p>Discreto parche que se coloca en la piel, se recambia UNA VEZ POR SEMANA.</p>
-               
+
             </div>
 
             <ion-grid>
               <ion-row>
-                <ion-col style="text-align: center;" size="12" size-lg="6"> 
+                <ion-col style="text-align: center;" size="12" size-lg="6">
                   <img class= "img11"  src="../../../assets/pdf salud sexual/bg-parche-anticonceptivo.png">
                </ion-col>
                 <ion-col size="12" size-lg="6">
@@ -364,11 +388,11 @@
         <ion-card class="irreversibles">
           <ion-card-content>
             <p>Los métodos irreversibles son aquellos que no tienen la posibilidad de volver al estado anterior a su realización. Se trata de intervenciones quirúrgicas que implican las siguientes prácticas:</p>
-    
+
 
         <ion-grid>
           <ion-row>
-            <ion-col style="text-align: center;" size="12" size-lg="6"> 
+            <ion-col style="text-align: center;" size="12" size-lg="6">
               <img class= "img12"  src="../../../assets/pdf salud sexual/img-metodos-irreversibles1.png">
            </ion-col>
             <ion-col size="12" size-lg="6">
@@ -383,7 +407,7 @@
       </ion-col>
 
       <ion-col size="12">
-        <ion-card class="marco-legal" > 
+        <ion-card class="marco-legal" >
           <ion-card-content>
             <div class="irreversibles-content">
             <h2 class="title__section" style="font-weight: bold;">Marco legal</h2>
@@ -415,7 +439,7 @@
                 <ion-col size="12" size-lg="6">
                   <img class="img15"  src="../../../assets/pdf salud sexual/mano-calendario.png">
                 </ion-col>
-     
+
                 <ion-col size="12" size-lg="6">
                   <img src="../../../assets/pdf salud sexual/ciclo_menstrual_1.png">
                 </ion-col>
@@ -423,17 +447,17 @@
                   <p>En la mitad del ciclo, llamado el día 14 (si es un ciclo promedio) se produce la ovulación que es la fecha fértil, donde se puede gestar un embarazo.</p>
                 </ion-col>
               </ion-row>
-  
+
             </ion-grid>
 
-      
+
 
           </ion-card-content>
         </ion-card>
       </ion-col>
 
         <ion-card class="formas-content" >
-          <ion-card-content>    
+          <ion-card-content>
               <div class="ciclo-content">
                 <h2 class="title__section" style="font-weight: bold;">Hay formas indirectas de darse cuenta de la ovulación:</h2>
                 <br>
@@ -456,11 +480,11 @@
                 <br>
                 <p>Para utilizarlos, es importante que te asesores con un/a profesional de la salud, para averiguar acerca de las condiciones de higiene y lavado de estos elementos, la modalidad de uso, la cantidad de horas que pueden llevarse puestos y el método de higiene y guardado para el siguiente uso.</p>
             </div>
-    
+
 
         </ion-card-content>
       </ion-card>
-    
+
 
     <ion-col size="12">
       <ion-card class="ginecologia" >
@@ -472,27 +496,27 @@
             <img class="img17" style="height: 33px;"  src="../../../assets/pdf salud sexual/img-ciclo-menstrual3.png">
           </div>
           <br>
-          
+
           <p>GUARDIA 24 HS. DE LUNES A LUNES</p>
           <p>HOSPUTAL MUNICIPAL DR.B.HOUSSAY</p>
           <p>H.YRIGOYEN 1757</p>
           <br>
-          
+
           <p>ESCRIBINOS</p>
           <p>ginecologia.houssay@gmail.com</p>
           <p>diversidad.salud@vicentelopez.gov.ar</p>
           <br>
-          
+
           <p>Servicio De Adolescencia</p>
           <p>HOSPITAL MUNICIPAL B. HOUSSAY</p>
           <p>4796-7200 (INT 7309)</p>
           <p>adolescenciaservicio@gmail.com</p>
-          
+
           <br>
           <p>CENTROS DE ATENCIÓN PRIMARIA</p>
           <p>4513-6421 / 6435 / 6413 | de Lunes a Viernes de 7.30 a 16hs.</p>
           <p>+info sobre servicos de salud en www.vicentelopez.gov.ar/salud</p>
-          
+
         </div>
 
 
@@ -509,7 +533,7 @@
           <h1>¿Qué son las infecciones de transmisión sexual?</h1>
         </div>
       </div>
-      
+
 
     </ion-col>
 
@@ -527,13 +551,13 @@
          </div>
       </ion-card-content>
     </ion-card>
-    
+
   </ion-col>
 
 
 
-              
-        <ion-card class="testeate" > 
+
+        <ion-card class="testeate" >
 
           <ion-card-content>
 
@@ -548,14 +572,14 @@
             <div style="text-align: center;">
             <button  style=" padding: 15px;border-radius: 30px;background-color: rgb(75, 21, 116); color: white;" ><a href="https://www.vicentelopez.gov.ar/VIH" style="color: white;">Centros de testeo</a></button>
            </div>
-     
-    
+
+
       </ion-card-content>
     </ion-card>
 
-  
 
-    
+
+
 
       <ion-col size="12">
 
@@ -581,9 +605,9 @@
           </div>
           <div class="emergencia-content3" style="text-align: justify; padding: 10px; ">
             <p>Puede presentar los síntomas mencionados anteriormente como no. Algunas veces solo se detectan con un examen médico como análisis de sangre u orina.</p>
-            
+
             <p>En caso de embarazo, es importante que ambos padres/madres se realicen los análisis para poder tratarse, de ser necesario, y así, evitar la transmisión al bebe.</p>
-        
+
           </div>
         </div>
 
@@ -604,7 +628,7 @@
 
       </ion-col>
 
-      <ion-col size="12" > 
+      <ion-col size="12" >
 
         <div class="mac-bigbox">
           <div style="border-bottom: 1px solid #93c; width: 100%; " class="emergencia-content">
@@ -618,7 +642,7 @@
 
       </ion-col>
 
-  
+
 
 
           <ion-col size="12" size-lg="6">
@@ -628,7 +652,7 @@
               </div>
               <div class="emergencia-content" style="text-align: justify; padding: 10px; ">
                 <p>Causada por la bacteria gonococo.</p>
-              
+
                 <p>Puede darse de forma asintomática o causar ﬂujo verdoso o amarillento, dolor al orinar o durante las relaciones sexuales.</p>
               </div>
             </div>
@@ -653,7 +677,7 @@
               </div>
             </div>
           </ion-col>
-    
+
           <ion-col size="12" size-lg="6">
             <div class="mac-bigbox-2">
               <div class="emergencia-content">
@@ -666,7 +690,7 @@
               </div>
             </div>
           </ion-col>
-    
+
           <ion-col size="12" size-lg="6" >
             <div class="mac-bigbox-2">
               <div class="emergencia-content">
@@ -677,7 +701,7 @@
               </div>
             </div>
           </ion-col>
-    
+
           <ion-col size="12" size-lg="6">
             <div class="mac-bigbox-2">
               <div class="emergencia-content">
@@ -688,7 +712,7 @@
               </div>
             </div>
           </ion-col>
-    
+
           <ion-col size="12" size-lg="6">
             <div class="mac-bigbox-2">
               <div class="emergencia-content">
@@ -709,8 +733,8 @@
               </div>
             </div>
           </ion-col>
-    
-      
+
+
           <ion-col size="12" >
             <ion-card class="vih">
               <ion-card-content>
@@ -728,9 +752,9 @@
               </ion-card-content>
             </ion-card>
           </ion-col>
-    
+
           <ion-col size="12">
-            <ion-card class="vih"> 
+            <ion-card class="vih">
               <ion-card-content>
                 <div>
                   <h2 class="title__section" >¿Cómo prevenirlo?</h2>
@@ -740,12 +764,12 @@
                     <ion-col size="12" size-lg="6">
 
                       <img src="../../../assets/pdf salud sexual/img-vih1.png">
-               
+
                     </ion-col>
 
                     <ion-col size="12" size-lg="6">
                       <img src="../../../assets/pdf salud sexual/img-vih1.png">
-               
+
                     </ion-col>
 
                   </ion-row>
@@ -757,7 +781,7 @@
               </ion-card-content>
             </ion-card>
           </ion-col>
-          
+
           <ion-col size="12">
             <ion-card class="vih">
               <ion-card-content>
@@ -766,24 +790,24 @@
                 </div>
                 <br>
                 <div style="line-height: 20pt;">
-                 <p>Es una confusión muy común. El VIH es el virus que puede provocar el sida. No son sinónimos. El sida es la etapa avanzada de la infección causada por el VIH, que puede ocurrir o no. Una persona conoce que tiene VIH a partir de una prueba que detecta la presencia de anticuerpos en la sangre: esto no significa que la persona tenga sida.</p>   
+                 <p>Es una confusión muy común. El VIH es el virus que puede provocar el sida. No son sinónimos. El sida es la etapa avanzada de la infección causada por el VIH, que puede ocurrir o no. Una persona conoce que tiene VIH a partir de una prueba que detecta la presencia de anticuerpos en la sangre: esto no significa que la persona tenga sida.</p>
                 <br>
                 <p><strong>SIDA significa: <br>S: Síndrome. Conjunto de signos y síntomas. <br> I: Inmuno. De las defensas. <br> D: Deficiencia. Debilitamiento (deficiencia) de las defensas del cuerpo (llamadas sistema inmunológico). <br> A: Adquirida. No genética.</strong></p>
-           
+
                 </div>
-                
+
                    </ion-card-content>
             </ion-card>
-    
+
           </ion-col>
-    
+
           <ion-col size="12">
             <ion-card class="servicio" >
-    
+
                 <ion-card-content>
                   <div>
                     <h1 >Servicios</h1>
-                
+
                   <h2 style="font-style:italic">SERVICIO DE ADOLESCENCIA</h2>
                   <br>
                   <p>Especialidades: Hebiatría, (Medicina Clínica de Adolescentes) Psicología, <br><br> Servicio de Adolescencia. Teléfono 4796-7200 int 7309 <br> <br>Admisiones Salud Mental y turno con médicas clínicas, <br> <br> adolescenciaservicio@gmail.com</p>
@@ -795,13 +819,13 @@
                   </div>
                 </div>
                 </ion-card-content>
-             
+
             </ion-card>
           </ion-col>
-          
-    
 
-    
+
+
+
 
         <app-footer></app-footer>
 
