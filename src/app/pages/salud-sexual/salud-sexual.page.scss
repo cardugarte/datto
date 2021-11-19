@@ -1,45 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 h1{
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  // font-weight: bold;
 }
 
 p{
     font-family: 'bitter', sans-serif;
-    font-weight: bold
+    // font-weight: bold
+    font-size: 1.1rem;
+  }
+
+  .card-no-shadow {
+    box-shadow: none;
   }
 
 //Header
 
 .header h1{
-    left: 106px; position: absolute; top: 57px; color: #3c246f; font-weight: bold;
+    left: 85px;
+    position: absolute;
+    top: 40px;
+    color: #3c246f;
+    font-weight: bold;
+    font-size: 1.8rem;
 }
 
 //MAC
 
-.title__section {
-    color: var(--ion-color-primary);
-    font-weight: 700;
-  }
+// .title__section {
+//     color: var(--ion-color-primary);
+//     font-weight: 700;
+//   }
 
-.mac-content h2{
-    font-size: 1.8rem;
+.mac-content ion-card-title{
+    font-size: 1.2rem;
     font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
-    
+    // color: rgb(60, 36, 111);
+    // font-weight: 700;
+
 }
 
 .mac-content p{
-    text-align: justify;
+    // text-align: justify;
     color:#3c246f;
-    margin-bottom: 1em;
-    font-weight: 400;
+    margin-bottom: 10px;
+    // font-weight: 400;
 
-  font-size: 1.1rem;
+  // font-size: 1.1rem;
+}
+
+.mac__subtitle {
+  text-align: center;
+  font-weight: 600;
 }
 
 .derechos-mac{
@@ -48,12 +65,23 @@ p{
 }
 
 .derechos-mac p{
-    margin-bottom: 1rem; font-size: 1.5rem;
+    margin-bottom: 10px;
     color:#3c246f;
+    // font-size: 2rem;
 }
 .derechos-mac span{
-    line-height: normal; background-color: rgb(223, 235, 106);
+    line-height: normal;
+    background-color: rgb(223, 235, 106);
     color:#3c246f;
+}
+
+.comillas {
+  font-size: 2.2rem;
+}
+
+.no-justify {
+  text-align:left;
+  font-size: 1rem;
 }
 
 // MAC de emergencia
@@ -61,13 +89,25 @@ p{
 .emergencia-bigbox{
     background-color: #d5e26a;
     border: 1px solid #93c;
-   
+
 }
+
+.metodos__img {
+  height: 281px;
+}
+
+.emergencia-close-icon img {
+  float: right;
+  // background-size: cover;
+  width: 25px;
+  height: 20px;
+}
+
 
 .emergencia-close-icon{
     width: 100%;
     background-color: #d5e26a;
-    border-bottom: 1px solid #93c; 
+    border-bottom: 1px solid #93c;
     float: right;
     box-sizing: border-box;
     padding: 6px;
@@ -77,34 +117,35 @@ p{
 .emergencia-content{
     width: 100%;
     text-align: center;
-    
+
     color:#3c246f;
     font-weight: 600;
-    
-    border-bottom: 1px solid #93c; width: 100%; 
+
+    border-bottom: 1px solid #93c; width: 100%;
 }
 
-.emergencia-content3{
-   
+.emergencia-content3 h2{
+
     text-align: center;
     color:#3c246f;
-    font-size: 1.1rem;
-
-}
-
-.emergencia-content2{
-    text-align: justify; padding: 10px;
-    width: 100%;
-    line-height: 20pt;
-    color:#3c246f;
-    font-weight: 600;
     font-size: 2rem;
-    
+
 }
 
-.emergencia h1{
-    color:#3c246f;
-}
+// .emergencia-content2{
+//     text-align: justify;
+//     padding: 10px;
+//     width: 100%;
+//     line-height: 20pt;
+//     color:#3c246f;
+//     font-weight: 600;
+//     font-size: 2rem;
+
+// }
+
+// .emergencia h1{
+//     color:#3c246f;
+// }
 
 .emergencia-h2{
     background-color:rgb(172, 216, 206) ;
@@ -117,41 +158,54 @@ p{
 .emergencia-pastilla{
     background-color: #d0a3d6;
     color:rgb(60, 36, 111);
-    
+    margin: 0;
+    border-radius: 0;
+
 }
 
 .emergencia-uso{
-   
     margin:5px;
-
 }
 
-.emergencia-pastilla-content{
-    margin: 5px;
-    font-size: 1.8rem;
-    line-height: 1.2;
-    background-color: rgb(172, 216, 206); 
-    border-radius: 20px; 
+.pastilla-emergencia-uso {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.emergencia-pastilla-content span{
+    // margin: 5px;
+    font-size: 1.3rem;
+    line-height: 1.4;
+    background-color: rgb(172, 216, 206);
+    // border-radius: 20px;
     padding: 4px;
-    
+
 }
+
 
 .img1{
     width: 100%; height: 124px;
-    
+
 }
 
 .img2{
-    width: 282px; height: 215px;
+    width: 282px;
+    height: 215px;
 }
 
 //preservativo
 
-.implante-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
+
+
+.implante-content {
+  font-weight: bold;
+  color: rgb(60, 36, 111);
+  ion-card-title {
+    font-size: 1.4rem;
+  }
+  h2{
+    font-size: 0.9rem;
+  }
 }
 
 .preservativo-content{
@@ -162,7 +216,7 @@ p{
 .preservativo-content h1{
     font-weight: bold;
     font-size: 2.5rem;
-    
+
 }
 
 .preservativo-content span{
@@ -200,7 +254,7 @@ p{
 .implante-content h1{
     font-weight: bold;
     font-size: 2.5rem;
-    
+
 }
 
 .implante-content span{
@@ -219,7 +273,7 @@ p{
 
 .diusiu-content{
     text-align: left;
-    color:rgb(60, 36, 111)  
+    color:rgb(60, 36, 111)
 }
 
 .diusiu-content h1{
@@ -241,7 +295,7 @@ p{
 
 .inyectabales-content{
     text-align: left;
-    color:rgb(60, 36, 111)  
+    color:rgb(60, 36, 111)
 }
 
 .inyectables-content h1{
@@ -255,7 +309,7 @@ p{
 
 .irreversibles-content{
     text-align: left;
-    color:rgb(60, 36, 111)  
+    color:rgb(60, 36, 111)
 }
 
 .irreversibles-content h1{
@@ -282,7 +336,7 @@ p{
 .ciclo-content{
     text-align: left;
     color:rgb(60, 36, 111);
-    
+
 }
 
 .ciclo-content h1{
@@ -304,8 +358,8 @@ p{
 .ginecologia-content{
     line-height: 1.5;
     color: white;
-    
-    
+
+
 }
 
 //irreversibles
@@ -342,7 +396,7 @@ text-align: center;
 }
 
 .testeate-content h1{
-     font-weight: bold; 
+     font-weight: bold;
      color:rgb(60, 36, 111);
 }
 
@@ -386,7 +440,7 @@ text-align: center;
 
 .vih{
     color:rgb(60, 36, 111);
-  
+
 
 }
 
@@ -417,7 +471,7 @@ text-align: center;
 }
 
 .vih-no h1{
-    font-size: 3rem;font-weight: bold; 
+    font-size: 3rem;font-weight: bold;
 
 }
 
@@ -476,7 +530,7 @@ text-align: center;
     .derechos-mac span{
         font-size: 5rem;
     }
-    
+
     .derechos-mac p{
         font-size: 4rem;
     }
@@ -492,7 +546,7 @@ text-align: center;
         border: 1px solid #93c;
         margin: 0 300px 0px 300px;
     }
-    
+
 
 
     //emergencia
@@ -514,7 +568,7 @@ text-align: center;
     .emergencia-content h1{
         font-size: 7rem;
     }
-    
+
 
     .emergencia h1{
         font-size: 7rem;
@@ -560,7 +614,7 @@ text-align: center;
     .preservativo  span{
         font-size: 5rem;
     }
-    
+
 
     .img3{
         display: none;
@@ -704,7 +758,7 @@ text-align: center;
     }
 
     .img11{
-        
+
     margin-top: 83px;
     height: 358px;
 
@@ -713,11 +767,11 @@ text-align: center;
     //irreversibles
 
     .irreversibles{
-      
+
       margin-right: 122px;
       margin-left: 113px;
-        
-    
+
+
     }
 
     .irreversibles p{
@@ -735,7 +789,7 @@ text-align: center;
 
     //marco legal
 
-    .marco-legal{ 
+    .marco-legal{
         margin-right: 122px;
         margin-left: 113px;
     }
@@ -752,7 +806,7 @@ text-align: center;
         margin-right: 122px;
         margin-left: 113px;
         text-align: justify;
-          
+
 
     }
 
@@ -862,7 +916,7 @@ text-align: center;
 
     //prevenirlo
 
-    
+
     .prevenirlo{
         color:rgb(60, 36, 111);
         margin-right: 122px;
@@ -888,7 +942,7 @@ text-align: center;
         margin-left: 113px;
 
     }
-  
+
 
     .servicio p{
         font-size: 3rem;
@@ -903,13 +957,13 @@ text-align: center;
     .servicio h2{
         font-weight: 5rem;
     }
-    
 
 
 
 
-   
-    
+
+
+
 
 
 
@@ -928,7 +982,7 @@ text-align: center;
 
 
 
-    
+
 
 
 

@@ -7,6 +7,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { SlidesComponent } from './slides/slides.component';
 import { IonicModule } from '@ionic/angular';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -25,7 +26,8 @@ import { IonicModule } from '@ionic/angular';
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }
