@@ -115,20 +115,19 @@ p{
 
 
 .emergencia-content{
-    width: 100%;
-    text-align: center;
-
+    // width: 100%;
+    // text-align: center;
     color:#3c246f;
-    font-weight: 600;
-
-    border-bottom: 1px solid #93c; width: 100%;
+    // font-weight: 600;
+    border-bottom: 1px solid #93c;
+    // width: 100%;
 }
 
-.emergencia-content3 h2{
+.emergencia-content h2{
 
     text-align: center;
     color:#3c246f;
-    font-size: 2rem;
+    font-size: 1.4rem;
 
 }
 
@@ -213,11 +212,11 @@ p{
     color:rgb(60, 36, 111);
 }
 
-.preservativo-content h1{
-    font-weight: bold;
-    font-size: 2.5rem;
+// .preservativo-content h1{
+//     font-weight: bold;
+//     font-size: 2.5rem;
 
-}
+// }
 
 .preservativo-content span{
     font-weight: bold;
@@ -230,9 +229,13 @@ p{
     margin:15px;
 }
 .mac-bigbox-2{
-    background-color: #d5e26a;
+    background-color: #dbdbdb;
     border: 1px solid #93c;
     margin:15px;
+}
+
+.yellow {
+  background-color: rgb(223, 235, 106);
 }
 
 
@@ -251,34 +254,39 @@ p{
     color:rgb(60, 36, 111)
 
 }
-.implante-content h1{
-    font-weight: bold;
-    font-size: 2.5rem;
+// .implante-content h1{
+//     font-weight: bold;
+//     font-size: 2.5rem;
 
-}
+// }
 
 .implante-content span{
     font-weight: bold;
     font-size: 1.25rem;
 }
 
+// .title__implante {
+//  font-size: 1.8rem;
+
+// }
+
 //diu y siu
 
-.diusiu-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
-}
+// .diusiu-content h2{
+//     font-size: 1.8rem;
+//     font-weight: bold;
+//     color: rgb(60, 36, 111);
+//     font-weight: 700;
+// }
 
 .diusiu-content{
     text-align: left;
     color:rgb(60, 36, 111)
 }
 
-.diusiu-content h1{
-    font-size: 2.5rem;
-}
+// .diusiu-content h1{
+//     font-size: 2.5rem;
+// }
 .img4{
     width: 100%; height: 120px;
 }
@@ -286,22 +294,22 @@ p{
 
 //anticonceptivos inyectables
 
-.inyectabales-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
-}
+// .inyectabales-content h2{
+//     font-size: 1.8rem;
+//     font-weight: bold;
+//     color: rgb(60, 36, 111);
+//     font-weight: 700;
+// }
 
 .inyectabales-content{
     text-align: left;
     color:rgb(60, 36, 111)
 }
 
-.inyectables-content h1{
-    font-size: 2.5rem;
-    font-weight: bold;
-}
+// .inyectables-content h1{
+//     font-size: 2.5rem;
+//     font-weight: bold;
+// }
 
 
 
@@ -312,14 +320,14 @@ p{
     color:rgb(60, 36, 111)
 }
 
-.irreversibles-content h1{
-    font-size: 2.5rem;
-    font-weight: bold;
-}
+// .irreversibles-content h2{
+//     font-size: 2.5rem;
+//     font-weight: bold;
+// }
 
 .irreversibles-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    // font-weight: bold;
     color: rgb(60, 36, 111);
     font-weight: 700;
 }
@@ -327,29 +335,35 @@ p{
 //ciclo
 
 .ciclo-content h2{
-    font-size: 1.8rem;
-    font-weight: bold;
+    font-size: 2rem;
+    // font-weight: bold;
     color: rgb(60, 36, 111);
     font-weight: 700;
 }
 
 .ciclo-content{
     text-align: left;
-    color:rgb(60, 36, 111);
+    color:#FFF;
+    background-color: #dd85d3;
+    margin: 0;
+    border-radius: 0;
 
 }
 
-.ciclo-content h1{
-    font-size: 3rem;
-}
-
-
-
+// .ciclo-content h1{
+//     font-size: 3rem;
+// }
 
 .ciclo-content-info{
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.4rem;
 
+}
+
+.ciclo__pink {
+  background-color: #f5cbf1;
+  margin: 0;
+  border-radius: 0;
 }
 
 
@@ -362,6 +376,21 @@ p{
 
 }
 
+.items__ovu li span{
+  font-size: 1.1rem;
+  color: rgb(60, 36, 111);
+  background-color: rgb(172, 216, 206);
+}
+
+.items__ovu li {
+  color: rgb(60, 36, 111);
+  margin-bottom: 5px;
+}
+
+.violet {
+  color: rgb(60, 36, 111);
+}
+
 //irreversibles
 
 .irreversibles p{
@@ -372,15 +401,27 @@ p{
  //Ginecologia
 
  .ginecologia{
-    background-color:rgb(60, 36, 111); margin-top: 0;
+    background-color:rgb(60, 36, 111);
+    margin: 0;
     color: white;
+    border-radius: 0;
 
+}
+
+.no-padding {
+  padding: 0 !important;
 }
 
 
 
 .ginecologia-img{
-    position: absolute; left: 203px; top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: space-evenly;
+  img {
+    height: 33px;
+  }
 }
 
 //testeate
@@ -391,11 +432,12 @@ text-align: center;
 }
 
 .testeate-content p{
-    text-align: center; color:rgb(60, 36, 111); font-weight: bold;
+    text-align: center;
+    color:rgb(60, 36, 111);
 
 }
 
-.testeate-content h1{
+.testeate-content h2{
      font-weight: bold;
      color:rgb(60, 36, 111);
 }
@@ -482,7 +524,10 @@ text-align: center;
 //servicio
 
 .servicio{
-  background-color: #b697c9;color:rgb(60, 36, 111);
+  background-color: #b697c9;
+  color:rgb(60, 36, 111);
+  margin: 0;
+  border-radius: 0;
 
 }
 
@@ -504,12 +549,12 @@ text-align: center;
 
 
 
-@media (min-width: 1146.98px){
+@media (min-width: 1024px){
 
     .header h1{
-        padding: 342px;
-        left: 271px;
-        font-size: 11rem;
+        padding: 142px;
+        left: 160px;
+        font-size: 4rem;
     }
 
     //MAC
@@ -556,23 +601,22 @@ text-align: center;
         margin-left: 113px;
     }
 
-    .emergencia-content {
-        font-size: 4rem;
-        line-height: 42pt;
-    }
+    // .emergencia-content h2 {
+    //   font-size: 2.4rem !important;
+    // }
 
-    .emergencia-content h2{
-        font-size: 55px;
-    }
+    // .emergencia-content h2{
+    //     font-size: 55px;
+    // }
 
-    .emergencia-content h1{
-        font-size: 7rem;
-    }
+    // .emergencia-content h1{
+    //     font-size: 7rem;
+    // }
 
 
-    .emergencia h1{
-        font-size: 7rem;
-    }
+    // .emergencia h1{
+    //     font-size: 7rem;
+    // }
 
     .img1{
         width: 100%; height: 257px;
