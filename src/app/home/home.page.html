@@ -6,7 +6,7 @@
     <ion-row>
 
       <ion-col size="12" size-lg="8">
-        <div class="header ion-padding">
+        <div class="header">
           <img src="../../assets/imgHome/bienvenidos.png">
           <p class="header__text" color="tertiary">
             Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
@@ -18,15 +18,15 @@
             shape="round">
             Sumate a Datto
           </ion-button>
-          <img class="header-img-home1" src="../../assets/imgHome/circle-lightblue.png">
-          <img class="header-img-home2"   src="../../assets/pdf genero/circulo-verde.png">
+          
         </div>
       </ion-col>
 
-      <ion-col class="header__image-women">
+      <ion-col size="0" size-lg="4">
         <img src="../../assets/imgHome/imagenHome.png">
-        <img class="header-img-home3" src="../../assets/imgHome/cuadrados-verdes.png">
       </ion-col>
+
+
 
     </ion-row>
   </ion-grid>
@@ -41,7 +41,7 @@
   pager="true"
   [options]="slideOpts"
 >
-  <ion-grid fixed>
+  <ion-grid class="carrousel-grid" fixed>
     <ion-row>
       <ion-col size="12" sizeLg="4">
 
@@ -55,7 +55,7 @@
           <div>
             <h2 class="title__section ion-padding">Métodos anticonceptivos</h2>
             <br>
-            <p>
+            <p class="slide_text">
               Una plataforma especializada para integrar la cadena productiva de tu negocio
             </p>
             <br>
@@ -87,7 +87,7 @@
           <div>
             <h2 class="title__section ion-padding"> Prevencion ITS</h2>
             <br>
-            <p>Nunca dejes de cuidar a tus empleados.</p>
+            <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
             <br>
           </div>
         </ion-card-content>
@@ -115,7 +115,7 @@
           <div>
             <h2 class="title__section ion-padding">Gestion menstrual</h2>
             <br>
-            <p>Nunca dejes de cuidar a tus empleados.</p>
+            <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
             <br>
           </div>
         </ion-card-content>
@@ -143,18 +143,17 @@
   </div>
 
    <div class="consumo-div">
+     <div class="consumo-div-content">
              <h2>Consumo de sustancias</h2>
              <br>
              <div class="div-consumo">
 
-               <p class="consumo-p"> Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
-               </p>
-
-               <div class="yellow-sustancias"></div>
-             </div>
-              <br>
-
-              <ion-button
+              
+               <div>
+                <p class="consumo-p"> 
+                  Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
+                </p>
+                <ion-button
                 class="button__hero"
                 expand="block"
                 shape="round"
@@ -163,21 +162,44 @@
               >
               Más Info
               </ion-button>
+             </div>
+
+              
+
+               <div class="yellow-sustancias">
+
+               </div>
+             </div>
+              <br>
+
+         
+            </div>
      </div>
-        <div style="height: 80px;">
+        <div class="div-svg-consumo-bottom">
           <svg class="svg-consumo-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
         </div>
 </div>
 
+<br>
+<br>
+<br>
 
-  <h2 class="title__section ion-padding">Gestión de emociones</h2>
 
-  <div class="ion-padding emociones-content">
-    <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
-    <p>
-      Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
-    </p>
-  </div>
+          <ion-card class="depresion-content">
+
+            <h2 class="title__section ion-padding">Gestión de emociones</h2>
+
+            <div class="ion-padding emociones-content">
+              <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
+              <p>
+                Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
+              </p>
+            </div>
+
+            
+          </ion-card>
+
+
 
 
                   <ion-card class="depresion-content">
@@ -219,6 +241,7 @@
                      <ion-card-content>
                             <ion-col class="depresion-content" size="12" size-lg="8">
                               <h2 class="title__section-light">Ansiedad</h2>
+                              <br>
                               <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
                               <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
                               </p>
@@ -245,102 +268,133 @@
                   </ion-card>
 
 
+<br>
+<br>
+<br>
 
-
-           <div style="height: 80px;">
+           <div class="div-svg-datto-top">
              <svg class="svg-datto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
             </div>
-             <div class="div-inclusiva">
-                  <div class="inclusiva-content">
-                    <h1>DATTO es inclusiva</h1>
-                    <br>
-                    <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
+            <div class="datto-content">
+              
+             <div class="div-inclusiva">   
+              <h2>DATTO es inclusiva</h2>
+                  
+                    <div class="datto-flex">
+                      <div>
+                        <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
+                        </p> 
+                        <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
+                        <ion-button
+                        class="button__hero"
+                        color="dark"
+                        expand="block"
+                        shape="round"
+                        routerLink="/generos"
+                      >
+                        Más Info
+                      </ion-button>
+               
+                      
+                     
+                    </div>    
+                    
+                        <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
+                         
+                    </div>
 
-                  <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
-                  </p>
+                   
+
+                  </div>
+                    
                   <br>
-                  <ion-button
-                    class="button__hero"
-                    color="dark"
-                    expand="block"
-                    shape="round"
-                    routerLink="/generos"
-                  >
-                    Más Info
-                  </ion-button>
-                </div>
 
-            </div>
+          </div>
 
-            <div style="height: 80px;">
+            <div class="div-svg-datto-bottom">
               <svg  class="svg-datto-bottom" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
             </div>
 
+            <br>
+            <br>
 
-                <ion-grid>
-                  <ion-row>
-                    <ion-col class="no-es-no" size="12" size-lg="4">
+
+ 
+                <div>
+
+                 
+                <div class="igualdad-violencia-content">
+                
+                  
+                    <div class="violento-content">
                       <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
-                    </ion-col>
-
-                    <ion-col class="violento-content" size="12" size-lg="8">
-
-                      <h2>¿Cuándo un noviazgo es violento?</h2>
-                      <br>
-                      <p class="incusiva-p">
-                        La violencia es peligrosa y deja consecuencias en la vida de las personas.
-                      </p>
-                      <br>
-                      <ion-button
-                      class="button__hero btn-nv"
-                      color="secondary"
-                      expand="block"
-                      shape="round"
-                      routerLink="/sexo-afectivas"
-                    >
-                      identifica un noviazgo es violento
-                    </ion-button>
-
-
-                    </ion-col>
-
-                  </ion-row>
-
-                  <br>
-
-
-                  <ion-row>
-                    <ion-col size="12" size-lg="4">
-                      <img src="../../assets/imgHome/imgGeneros.png">
-                    </ion-col>
-                    <ion-col class="depresion-content" size="12" size-lg="8">
-                      <div class="igualdad-content">
-                      <h1> Igualdad de genero</h1>
-                      <br>
-                      <p class="incusiva-p"> La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos</p>
-                      <br>
-                      <ion-button
-                      class="button__hero"
-                      color="primary"
-                      expand="block"
-                      shape="round"
-                      routerLink="/generos"
-                    >
-                      Más Info
-                    </ion-button>
+                      <div class="violento-txt">
+                        <h2>¿Cuándo un noviazgo es violento?</h2>
+                        <p>
+                          La violencia es peligrosa y deja consecuencias en la vida de las personas.
+                        </p>
+                        <ion-button style="    margin: 0 auto;"
+                        class="button__hero btn-nv"
+                        color="secondary"
+                        expand="block"
+                        shape="round"
+                        routerLink="/sexo-afectivas"
+                      >
+                        identifica un noviazgo es violento
+                      </ion-button>
+                      </div>
+                      
                     </div>
 
-                    </ion-col>
-                  </ion-row>
-                </ion-grid>
+            
 
+                </div>
 
-                <div class="bullying-content">
-                <img class="img__bullying" src="../../assets/imgHome/bgBullying.png">
-                <img Class="img__text" src="../../assets/imgHome/nomasbulling.png">
-                <p class="ion-padding inclusiva-p">
+                <br>
+                <br>
+                <img src="../../assets/imgHome/lineaVioleta.png">
+                <br>
+                <br>
+
+                <div class="igualdad-violencia-content">
+                
+                  
+                  <div class="violento-content">
+                    
+                    <div class="violento-txt">
+                      <h2>Igualdad de genero</h2>
+                      <p>
+                        La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos    </p>
+                        <ion-button style="    margin: 0 auto;"
+                  class="button__hero btn-nv"
+                  color="secondary"
+                  expand="block"
+                  shape="round"
+                  routerLink="/sexo-afectivas"
+                >
+                Más Info
+                </ion-button>
+                   </div>
+                      <img class="img-balanza" src="../../assets/imgHome/imgGeneros.png">
+                    
+                    
+                  </div>
+
+              </div>
+
+              <div class="no-mas-bullying-svg">
+
+                <img class="no-mas-bullying-img" src="../../assets/imgHome/bullyin.png">
+
+              </div>
+
+              <div class="bullying-content">
+               
+                <div class="bullyng-text">
+                <p class="bullying-p">
                   Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
                 </p>
+              </div>
                 <ion-button
                       class="button__bullying"
                       color="light"
@@ -350,12 +404,28 @@
                     >
                     ¿Que hacer frente al bullying?
                     </ion-button>
+                  
                 </div>
 
 
 
+              
 
-                  <ion-grid>
+              
+
+                </div>
+
+                <br>
+
+                
+                
+
+             
+
+
+
+
+                  <ion-grid class="alimentacion">
 
                     <ion-row>
                       <ion-col class="alimentacion-content" size="12" size-lg="6">
@@ -381,7 +451,7 @@
 
 
                       </ion-col>
-                      <ion-col size="12" size-lg="6">
+                      <ion-col style="text-align: center;" size="12" size-lg="6">
                         <img src="../../assets/imgHome/cuerpos_estereotipos2.png ">
                       </ion-col>
                     </ion-row>
