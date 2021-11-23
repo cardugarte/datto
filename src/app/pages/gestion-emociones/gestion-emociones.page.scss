@@ -1,12 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-.title__section {
-    color: var(--ion-color-primary);
-    font-weight: 700;
-    font-size: 1.8rem;
+
+.button__hero {
+    width: 170px;
+    height: 40px;
+   
   }
+
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
+
+  body {
+    font-family: "Bitter";
+  }
+
+.card-no-shadow {
+    box-shadow: none;
+  }
+  
+.title__section {
+  color: var(--ion-color-primary);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+
+.title__section-light {
+  color: var(--ion-color-light);
+  font-weight: 600;
+}
 
 h1{
   font-family: 'Montserrat', sans-serif;
@@ -90,6 +122,7 @@ p{
 
 .contacto-content{
     color: rgb(60, 36, 111);
+    
 }
 
 .contacto-content h1{
@@ -104,6 +137,7 @@ p{
 
 //Depresion
 
+
 .depresion-content h1{
     font-weight: bold;
     font-size: 3rem;
@@ -116,6 +150,9 @@ p{
 }
 
 //Contacto
+.contacto-card{
+    background-color: #dbeb63;
+}
 
 .contacto-content h1{
     font-weight: bold;
@@ -136,15 +173,21 @@ p{
 //svg
 
 .div-svg1{
-    height: 33px;
+    height: 9px;
 }
 .div-svg2{
     height: 33px;
 }
 
 
-.svg1{
+.svg-contacto-top{
     fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+}
+
+.svg-contacto-bottom{
+    fill: rgb(255, 255, 255);position: relative;bottom: 24px;;   
+
+
 }
 
 //Contacto 2
@@ -152,12 +195,23 @@ p{
 .contacto-2{
     background-color: #8cb8a9; padding: 16px; color:#3c246f; font-size: 14px;
 }
+
+.contacto-content2{
+    background-color: #8cb8a9;
+    color: rgb(60, 36, 111);
+}
     
 
 
 
 
 @media (min-width: 1146.98px){
+
+    
+    .margin-card-default{
+        margin: 16px 279px 1px 271px;
+        max-width: 1330px; 
+    }
 
     //Header
 
@@ -172,25 +226,22 @@ p{
     .gestion-header h1{
         font-size: 10rem;
         font-weight: bold;
-        left: 173px;
-        top: 315px;
-    
+        left: 154px;
+        top: 141px;
     }
         
     .gestion-header img{
         position: relative;
-        top: 74px;
+        top: -86px;
         width: 599px;
-        right: 226px;
+        /* right: -68px; */
+        left: 100px;
     
     }
 
     //Ansiedad
 
-    .ansiedad{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+    
 
     .ansiedad p{
         font-size: 3rem;
@@ -202,92 +253,103 @@ p{
         font-weight: bold;
     }
 
-    .ansiedad-content{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+
 
     .ansiedad-conntent h1{
         font-size: 7rem;
     }
 
     .ansiedad-content p{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     //Emociones
 
-    
-    .emociones{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
-
     .emociones p{
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
-    .emociones h1{
-        font-size: 7rem;
-    }
+    //SVG CONTACTO
 
-    //Contacto
+   
 
-    .contacto-1 h1{
-        font-size: 7rem;
-    }
-    
-    .contacto-1 p{
-        font-size: 4rem;
-    }
-    
-
-    //svg
 
     .div-svg1{
-        height: 125px;
+        height: 112px;
     }
 
-    .svg1{
+    .svg-contacto-top{
         fill: rgb(255, 255, 255);position: relative;bottom: 447px;   transform: scaleY(-1);
     }
 
     .div-svg2{
         height: 143px;
-    
 
     }
+
+    .svg-contacto-bottom{
+        
+        fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+
+    }
+
+   
+
+    //Contacto
+
+    .contacto-card{
+        background-color: #dbeb63;
+    }
+
+    
+    .contacto-1 p{
+        font-size: 1.5rem;
+    }
+    
+
+    //svg contacto 2
+
+    .div-svg-contacto2-top{
+        height: 112px;
+      }
+      
+      .svg-contacto2-top{
+        transform: scaleY(-1);
+        fill: rgb(255, 255, 255);
+        position: relative;bottom: 447px;
+        
+      }
+
+      .svg-contacto2-bottom{
+        
+        fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+
+    }
+
+   
 
     //Depresion
 
-    .depresion{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+  
 
     .depresion p{
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
-    .depresion h1{
-        font-size: 7rem;
-    }
+
 
     //Contacto 2
 
   
 
     .contacto-2 p{
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
-    .contacto-2 h1{
-        font-size: 7rem;
-    }
-
+ 
     .contacto-button-2{
         font-size: 3rem;
         width: 30%;

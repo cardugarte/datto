@@ -5,10 +5,10 @@
   <div class="gestion-header">
     <ion-grid >
       <ion-row>
-        <ion-col style="text-align: center;" size="12" size-lg="6">
+        <ion-col  size="12" size-lg="6">
           <h1>Gestión de emociones</h1>
         </ion-col>
-        <ion-col style="text-align: center;" size="12" size-lg="6">
+        <ion-col size="12" size-lg="6">
           <div class="img-header">
           <img class="img1" src="../../../assets/pdf gestion de emociones/gestion-emociones.png">
         </div>
@@ -18,7 +18,7 @@
   </div>
 
   
-  <ion-card class="ansiedad">
+  <ion-card class="ansiedad card-no-shadow margin-card-default ">
     <ion-card-content>
       <ion-grid>
         <ion-row>
@@ -49,7 +49,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="ansiedad">
+  <ion-card class="ansiedad card-no-shadow margin-card-default">
     <ion-card-content>
       <ion-grid>
         <ion-row>
@@ -73,7 +73,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="emociones">
+  <ion-card class="emociones card-no-shadow margin-card-default">
     <ion-card-content>
 
       <div class="algunas-emociones">
@@ -119,11 +119,16 @@
   </ion-card>
 
   <div class="div-svg1">
-    <svg  viewBox="0 0 500 150" preserveAspectRatio="none" class="svg1"><path style="fill: #dbeb63;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+    <svg  viewBox="0 0 500 150" preserveAspectRatio="none" class="svg-contacto-top"><path style="fill: #dbeb63;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
   </div>
 
- 
- <div class="contacto-1" >
+  <div class="contacto-card">
+
+  
+
+ <ion-card  class="margin-card-default card-no-shadow">
+
+ <div class="contacto-1 " >
       <div class="contacto-content">
       <h2 class="title__section">Contacto</h2>
       <br>
@@ -139,14 +144,16 @@
       </div>
  
 </div>
+</ion-card>
+</div>
 
 <div class="div-svg2">
-  <svg  viewBox="0 0 500 150" preserveAspectRatio="none" style="fill: rgb(255, 255, 255);position: relative;bottom: 0px;"><path style="fill:  #dbeb63;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+  <svg class="svg-contacto-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #dbeb63;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
 </div>
 
 
 
-  <ion-card class="depresion">
+  <ion-card class="depresion card-no-shadow margin-card-default">
     <ion-card-content>
       <div class="depresion-content">
 
@@ -219,12 +226,15 @@
     </ion-card-content>
   </ion-card>
 
-  <div class="div-svg1" >
-    <svg  class="svg1" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #8cb8a9;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
-  </div>
+  <div class="div-svg-contacto2-top">
+    <svg class="svg-contacto2-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #8cb8a9;stroke: none; stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
+   </div>
 
-<div class="contacto-2" >
-      <div class="contacto-content">
+<div class="contacto-2">
+  <ion-card class="contacto-content2 card-no-shadow margin-card-default">
+
+
+
         <h2 class="title__section">Contacto</h2>
       <p>
         Servicio de Adolescencia. Hospital Municipal
@@ -235,8 +245,14 @@
       <br>
       <div style="text-align: center;">
       
-      <button class="contacto-button-2"><a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Pedí turno</a></button>
-      
+      <ion-button
+      class="button__hero"
+      expand="block"
+      shape="round"
+      routerLink="/salud-sexual"
+    >
+    <a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Pedí turno</a>
+    </ion-button>
       </div>  
       <br>
       <p>Centro Municipal de la Niñez y Adolescencia de Vicente López Hipólito
@@ -248,13 +264,20 @@
         </p>
         <br>
          
-      <button class="contacto-button-2"><a style="color: white; text-decoration: none;" href="https://www.argentina.gob.ar/desarrollosocial/linea102">Más info</a> </button>
-     
-      </div>
+      <ion-button
+      class="button__hero"
+      expand="block"
+      shape="round"
+      routerLink="/salud-sexual"
+    >
+    <a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Más info</a>
+    </ion-button>
+
+    </ion-card>
     </div>
 
     <div class="div-svg2">
-      <svg  viewBox="0 0 500 150" preserveAspectRatio="none" style="fill: rgb(255, 255, 255);position: relative;bottom: 0px;"><path style="fill:  #8cb8a9;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+      <svg class="svg-contacto2-bottom" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #8cb8a9;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
     </div>
 
   <app-footer></app-footer>
