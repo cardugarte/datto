@@ -7,15 +7,15 @@
    
   }
 
-h1, h2{
+  h1, h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   }
   
   p{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-  }
+      font-family: 'bitter', sans-serif;
+      font-weight: bold
+    }
 
   body {
     font-family: "Bitter";
@@ -71,7 +71,7 @@ h1, h2{
 
 .noviazgo-content p{
     color: #3c246f;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 800;
    
 }
@@ -128,6 +128,7 @@ h1, h2{
 .violencia-text p{
     color: #3c246f;
     font-weight: 800;
+    font-size: 1.5rem;
 }
 
 //Tarjetas
