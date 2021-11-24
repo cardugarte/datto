@@ -254,6 +254,7 @@ font-size: 1.8rem;
   text-align: center;
   background-color: black;
   padding-bottom: 10px;
+  margin-top: 49px;
 }
 
 .bullying-content p{
@@ -324,7 +325,9 @@ font-size: 1.8rem;
 //svg consumo
 
 .div-svg-consumo-top{
-  height: 70px;
+  
+  height: 92px;
+
 }
 
 .div-svg-consumo-bottom{
@@ -346,12 +349,14 @@ font-size: 1.8rem;
 
 //svg Datto
 
-.div-svg-datto-top{
-  height: 80px;
-}
+
 
 .div-svg-datto-bottom{
   height: 80px;
+}
+
+.div-svg-datto-top{
+  height: 98px;
 }
 
 .svg-datto-top{
@@ -617,8 +622,7 @@ font-size: 1.8rem;
  }
 
 
- //Bullying
-
+ 
  
  
  //Igualdad de genero
@@ -637,7 +641,15 @@ font-size: 1.8rem;
 
 .bullying-text{
   margin: 16px 279px 1px 271px; 
+ 
 }
+
+.bullying-content p{
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 400 !important;
+}
+
 
 .no-mas-bullying-svg{
   height: 1508px;
@@ -647,9 +659,7 @@ font-size: 1.8rem;
   width: 100%;
 }
 
-.bullying-p{
-  font-size: 1.5rem ;
-}
+
 
 
 //CARROUSEL
