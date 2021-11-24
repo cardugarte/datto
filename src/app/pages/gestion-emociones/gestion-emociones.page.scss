@@ -45,13 +45,14 @@ h1, h2{
 
 .gestion-header{  
     background-color: #c8b5ed;
-    height: 465px;
+    height: 495px;
 
 }
 
 .header{
     color: rgb(60, 36, 111);
     background-color: #c8b5ed;
+    text-align: center;
 
 }
 
@@ -61,23 +62,22 @@ h1, h2{
 
 //Ansiedad
 
-.ansiedad-content{
-    text-align: justify;
-}
 
 
 .ansiedad-content p{
     color: rgb(60, 36, 111);
-}
-
-.ansiedad-dos-content{
     
 }
+
 
 .ansiedad-dos-content p{
     color: rgb(60, 36, 111);
     font-size: 1.5rem;
 
+}
+
+.img-2-ansiedad{
+    display: none;
 }
 
 //Emociones
@@ -183,7 +183,7 @@ h1, h2{
 
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;   transform: scaleY(-1);
 }
 
 .svg-contacto-bottom{
@@ -191,6 +191,13 @@ h1, h2{
 
 
 }
+
+.svg-contacto2-top{
+    transform: scaleY(-1)
+    ;position: relative;bottom: -4px;
+  
+    
+  }
 
 //Contacto 2
 
@@ -259,6 +266,8 @@ h1, h2{
 
     }
 
+    
+
     //Emociones
 
     .emociones p{
@@ -313,7 +322,8 @@ h1, h2{
       .svg-contacto2-top{
         transform: scaleY(-1);
         fill: rgb(255, 255, 255);
-        position: relative;bottom: 447px;
+        position: relative;
+        bottom: 447px;
         
       }
 
@@ -334,9 +344,16 @@ h1, h2{
     }
 
     .img-ansiedad{
-        margin-left: 1000px;
-        /* margin-bottom: -48px; */
-        margin-top: -32px;
+        margin-left: 951px;
+    margin-top: -5px;
+    height: 343px;
+    }
+
+    .img-2-ansiedad{
+        position: absolute;
+        top: 494px;
+        height: 165px;
+        display: block;
     }
    
 
