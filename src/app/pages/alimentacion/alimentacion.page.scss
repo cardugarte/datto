@@ -50,6 +50,10 @@
     text-align: center;
 }
 
+.buenos-habitos-content span{
+    background-color: #dab3ff;
+}
+
 .buenos-habitos-content h2{
     color: #3c246f;
   
@@ -79,22 +83,15 @@
 
 //Malos habitos
 
-.malos-habitos-content h1{
-    background-color: #c2dd89;
-    color: #3c246f;
-    font-size: 3rem;
+.malos-habitos-content{
+    height: 248px;
+    text-align: left;
 }
 
-.malos-habitos-content p{
-    color: #3c246f;
+.img-malos-habitos{
+    height: 353px;
 }
 
-.malos-habitos-content li{
-    line-height: normal;
-    margin-bottom: .5rem;
-    color: #3c246f;
-    font-size: 2rem;
-}
 
 //virtualidad y sedentarismi
 
@@ -251,6 +248,13 @@
     height: 410px;
 }
 
+.malos-habitos-content{
+    height: 541px;
+}
+
+.img-malos-habitos{
+    height: 815px;
+}
 
 
 .problemas p{
