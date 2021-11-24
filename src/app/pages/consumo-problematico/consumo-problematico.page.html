@@ -4,7 +4,7 @@
 
 
   <div class="header-h1">
-    <h1 class="header-title">Consumo problemático de sustancias psicoactivas</h1>
+    <h2 class="header-title">Consumo problemático de sustancias psicoactivas</h2>
     <img style="position: absolute; height: 21px; position: absolute; left: 270px; top: 19px;" src="../../../assets/pdf genero/piririn-2.png">
     <img style="position: absolute;left: 5px;top: 13px;height: 36px" src="../../../assets/pdf genero/circulo-verde.png">
      <img style="position: absolute;height: 34px;transform: scaleX(-1);top: 97px; right: 358px;" src="../../../assets/imgHome/circle-lightblue.png">
@@ -15,7 +15,7 @@
     <svg viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #d7e36a;" class="lv-wave" d="M-76.46,42.92 C112.02,-45.88 486.17,116.94 577.03,-29.11 L515.52,-20.22 L-25.11,-14.30 Z"></path></svg>
    </div>
 
-  <ion-card class="consumo" >
+  <ion-card class="consumo margin-card-default card-no-shadow" >
 
     <ion-card-content>
       <div class="consumo-content">
@@ -111,7 +111,7 @@
     </ion-card-content>
   </ion-card>
 
-  <ion-card class="consumo">
+  <ion-card class="consumo margin-card-default card-no-shadow">
 
     <ion-card-content>
       <div class="tabaco-content">
@@ -133,8 +133,17 @@
         <br>
         <h2 class="title__section" style="color: rgb(60, 36, 111);font-weight: bolder;">Centros de salud de cesación tabáquica</h2>
         <div style="text-align: center;">
-        <button class="button1" ><a href="https://www.vicentelopez.gov.ar/turnos-salud" style="text-decoration: none; color: white;">Pedí turno</a></button>
-        </div>
+
+
+        
+        <ion-button
+        class="button__hero"
+        expand="block"
+        shape="round"
+        routerLink="/salud-sexual"
+      >
+      <a href="https://www.vicentelopez.gov.ar/turnos-salud" style="text-decoration: none; color: white;">Pedí turno</a> </ion-button>
+      </div>
         <br>
       
       <div>
@@ -162,7 +171,7 @@
     </ion-card-content>
   </ion-card>
   
-  <ion-card class="consumo">
+  <ion-card class="consumo margin-card-default card-no-shadow">
 
     <ion-card-content>
       <div class="drogas-content">
@@ -206,14 +215,25 @@
   </div>
 
    <div class="contacto-content">
+     <ion-card class="contacto-content margin-card-default card-no-shadow">
+       <ion-card-content>
+
+       
       <h2 class="title__section" style="color: white;">Contacto y servicios</h2>
       
       <p>Linea 141 (Nacional)</p>
       
       <p>Para solicitar asistencia y escucha:</p>
       
-      <button style="color: black;" class="button2" ><a href="https://www.argentina.gob.ar/jefatura/sedronar" style="font-weight: bold; text-decoration: none;">Más info</a></button>
-      <br>
+     <br>
+
+      <ion-button
+      class="button__hero"
+      expand="block"
+      shape="round"
+      routerLink="/salud-sexual"
+    >
+    <a href="https://www.argentina.gob.ar/jefatura/sedronar"  style="text-decoration: none; color: white;">Más info</a> </ion-button>
      
       <p>Ante cualquier emergencia llamar al 107 SAME o acudir a la Guardia del Hospital Municipal B. Houssay Las 24 hs los 365 días del año</p>
   
@@ -221,8 +241,18 @@
       </p>
   
       <div style="text-align: center;">
-        <button style="color: black;" class="button2"><a href="https://www.vicentelopez.gov.ar/turnos-salud" style="font-weight: bold; text-decoration: none;">Consultanos</a></button>
+     <ion-button
+      class="button__hero"
+      expand="block"
+      shape="round"
+      routerLink="/salud-sexual"
+    >
+    <a href="https://www.vicentelopez.gov.ar/turnos-salud"  style="text-decoration: none; color: white;">Consultanos</a> </ion-button>
+     
     </div>
+
+  </ion-card-content>
+</ion-card>
   </div>
 
   <div class="div-svg-contacto-bottom" >

@@ -1,37 +1,44 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.button__hero {
+    width: 170px;
+    height: 40px;
+   
+  }
 
+  h1, h2{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+  }
+  
+  p{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+.card-no-shadow {
+    box-shadow: none;
+  }
 .title__section {
     color: var(--ion-color-primary);
     font-weight: 700;
     font-size: 1.8rem;
   }
   
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
-
-p{
-    font-family: 'bitter', sans-serif;
-    font-weight: bold
-  }
 
 //header
 
 .header-h1{
     background-color: #d7e36a; 
-    font-size: 2rem;
     width: 100%;
     display: flex ;
     height: 300px; text-align: center;
 }
 
 .header-title{
-    font-size: 3rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
+    font-size: 2.5rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
 }
 
 .img3{
@@ -105,7 +112,7 @@ p{
 .contacto-content{
     background-color: black;
     color: white;
-    text-align: justify;
+    text-align: left;
     padding: 16px;
     font-size: 14px
 }
@@ -152,15 +159,21 @@ p{
 
 @media (min-width: 1146.98px){
 
+    .margin-card-default{
+        margin: 16px 279px 1px 271px;
+        max-width: 1330px; 
+    }
+    
+
 
     //Header
 
     .header-title{
-    font-size: 6rem;
-    color: black;
-    top: 103px;
-    position: absolute;
-    left: 235px;
+        font-size: 5rem;
+        color: black;
+        top: 103px;
+        position: absolute;
+        left: 39px;
     }
 
 
@@ -188,19 +201,14 @@ p{
 
     //Consumo
 
-    .consumo{
-        margin-right: 122px;
-        margin-left: 113px;
-
-    }
 
     .consumo p{
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
-    .consumo h1{
-        font-size: 7rem;
+    .consumo h2{
+        font-size: 1.8rem;
         font-weight: bold;
     }
 
@@ -233,13 +241,13 @@ p{
 //Contacto
 
 .contacto-content p{
-    font-size: 3rem;
+    font-size: 1.5rem;
 
 }
 
-.contacto-content h1{
-    font-size: 7rem;
-    font-weight: bold;
+.contacto-content h2{
+    font-size: 1.8rem;
+  
 
 
 }
