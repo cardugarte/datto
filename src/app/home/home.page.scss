@@ -22,6 +22,10 @@ body {
   font-family: "Bitter";
 }
 
+.card-no-shadow {
+  box-shadow: none;
+}
+
 #container {
   text-align: center;
   position: absolute;
@@ -254,9 +258,8 @@ font-size: 1.8rem;
 
 .bullying-content{
   text-align: center;
-  background-color: black;
-  padding-bottom: 10px;
-  margin-top: 16px;
+
+ margin-top: -22px;
 }
 
 .bullying-content p{
@@ -284,6 +287,16 @@ font-size: 1.8rem;
 }
 
 //Alimentacion
+
+.alimentacion {
+  background-color: #e6e0da;
+}
+
+.alimentacion-div{
+  background-color:  #e6e0da;
+  margin-top: 263px;
+}
+
 
 .alimentacion-content h1{
   color:black;
@@ -351,8 +364,6 @@ font-size: 1.8rem;
 
 //svg Datto
 
-
-
 .div-svg-datto-bottom{
   height: 80px;
 }
@@ -380,9 +391,8 @@ font-size: 1.8rem;
   width: 340px;
 }
 
-.inclusiva-img{
-  display: none;
-}
+
+
 
 .violento-content{
   margin: 10px 10px 0 10px;
@@ -392,11 +402,35 @@ font-size: 1.8rem;
   height: 280px;
 }
 
+//Datto
+
+.inclusiva-img{
+  display: none;
+}
+
+.inclusiva-img2{
+  display: none;
+}
+
+.img-igualdad{
+display: none;
+}
+
+.img-circulo{
+  display: none;
+}
+
+
 
 
 //resolucion desktop
 
 @media (min-width: 1146.98px)  {
+  .margin-card-default{
+    margin: 16px 279px 1px 271px;
+    max-width: 1330px; 
+}
+
   //header
 
   .header-grid{
@@ -571,6 +605,17 @@ font-size: 1.8rem;
   .inclusiva-img{
     display: block;
   }
+
+  .inclusiva-img2{
+    display: block;
+    margin-left: 500px;
+  }
+
+  .img__noviazgo {
+    width: 355px;
+    margin: 0 auto;
+    display: block;
+  }
   
   
   .inclusiva-content p{
@@ -601,6 +646,8 @@ font-size: 1.8rem;
 
  .violento-txt{
   padding-top: 70px;
+  text-align: left;
+  width: 70%;
  }
 
  //igualdad-violencia
@@ -617,11 +664,32 @@ font-size: 1.8rem;
   
  }
 
+ .img-igualdad{
+  position: relative;
+  left: 1526px;
+  bottom: 445px;
+  display: block;
+}
+
+.img-circulo{
+  position: relative;
+  top: 130px;
+  display: block;
+}
+
+
 
  .img-balanza{
-  height: 316px;
-  padding-left: 22px;
+  position: relative;
+    height: 497px;
+    bottom: 383px;
+    margin-left: 571px;
  }
+
+ .alimentacion-div{
+ 
+  margin-top: -200px;
+}
 
 
  
@@ -633,6 +701,7 @@ font-size: 1.8rem;
     margin: 16px 279px 1px 271px; 
   }
 
+ 
 
 .alimentacion-content p{
   color: black;
@@ -643,7 +712,14 @@ font-size: 1.8rem;
 
 .bullying-text{
   margin: 16px 279px 1px 271px; 
+  display: none;
  
+}
+
+.bullying-content{
+  text-align: center;
+    position: relative;
+    bottom: 345px;
 }
 
 .bullying-content p{
@@ -654,7 +730,7 @@ font-size: 1.8rem;
 
 
 .no-mas-bullying-svg{
-  height: 1508px;
+  height: 2095px;
 }
 
 .no-mas-bullying-img{

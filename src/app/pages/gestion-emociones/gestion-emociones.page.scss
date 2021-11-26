@@ -209,6 +209,28 @@ h1, h2{
     background-color: #8cb8a9;
     color: rgb(60, 36, 111);
 }
+.div-img-igualdad{
+    display: none;
+}
+
+
+
+.img-header-3{
+    display: none;
+}
+
+.img-header-2{
+    display: none;
+}
+
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
+}
+
     
 
 
@@ -226,9 +248,8 @@ h1, h2{
 
     .gestion-header{
         color: rgb(60, 36, 111);
-      
         background-color: #c8b5ed;
-        height: 550px;
+        height: 661px;
     
     }
 
@@ -236,9 +257,16 @@ h1, h2{
         margin-right: 0;
     }
 
+
+
+    .img-header-3{
+        margin-left: 1461px;
+    }
+
     
     .header h1{
         font-size: 9rem;
+        margin-top: 91px;
     }
 
     
@@ -385,6 +413,44 @@ h1, h2{
         border-radius: 30px;
         background-color: #4b1574;
         color: white;
+       }
+
+
+       .img-seniales{
+        position: relative;
+        /* margin-left: -18px; */
+        margin-right: 900px;
+       }
+
+       .div-img-igualdad{
+           display: block;
+        position: absolute;
+        margin-left: 1798px;
+        margin-top: -804px;
+       }
+
+       .img-contacto-1{
+        margin-left: 539px;
+
+    
+       }
+
+       .img-contacto-2{
+        position: absolute;
+        top: 159px;
+        height: 56px;
+        margin-left: 800px;
+        display: block;
+    
+       }
+
+       .img-contacto-3{
+           display: block;
+           
+           position: absolute;
+           top: 20px;
+           margin-left: 1078px;
+    
        }
 
     
