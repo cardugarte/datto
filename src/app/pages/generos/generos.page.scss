@@ -11,11 +11,13 @@
   h1, h2{
     font-family: 'Bitter', sans-serif;
     font-weight: bold;
+  
   }
   
   p{
       font-family: 'Montserrat', sans-serif;
       font-weight: 400;
+     
     }
 
 .card-no-shadow {
@@ -72,7 +74,7 @@
 //contacto
 
 .contacto{
-    padding: 16px;background-color: black; color: white; font-size: 14px;
+  background-color: black; color: white;
     
 }
 
@@ -137,6 +139,7 @@
 .diversidad-content{
     padding: 38px ;
     color: #3c246f;
+    text-align: center;
     
 }
 
@@ -170,8 +173,11 @@
 
 //Servicios
 
+.servicios-content{
+    background-color: black;
+}
 .servicios{
-    padding: 16px;background-color: black; color: white; font-size: 14px;
+    background-color: black; color: white; font-size: 14px;
 }
 
 .servicios button{
@@ -186,7 +192,11 @@
 }
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 55px;   transform: scaleY(-1);
+}
+
+.svg-bottom-contacto{
+    bottom: 24px;
 }
 
 @media (min-width: 1146.98px)  {
@@ -238,9 +248,7 @@
 
 //Genero
 
-.genero{
-    
-}
+
 .genero h1{
     font-size: 1.8rem;
 }
@@ -251,9 +259,7 @@
 
 //empoderamiento
 
-.empoderamiento{
-   
-}
+
 .empoderamiento h2{
     font-size: 1.8rem;
 }
@@ -269,8 +275,8 @@
     }
 
 .contacto{
-    
-    padding: 177px;
+    background-color: black;
+    padding: 0;
 }
 
 .contacto h2{
@@ -354,6 +360,10 @@ padding: 177px;
 
 }
 
+.servicios-content{
+    background-color: black;
+}
+
 .servicios-content h2{
     font-size: 1.8rem;
 }
@@ -368,5 +378,17 @@ padding: 177px;
 .svg-servicios-bottom{
     display: none;
 }
+
+
+//SVG contacto
+
+.svg-bottom-contacto{
+    fill: rgb(255, 255, 255);position: relative;bottom: 2px;
+}
+
+.div-svg-bottom-contacto-2{
+    height: 250px;
+}
+
 
 }
