@@ -178,6 +178,18 @@
     fill: rgb(255, 255, 255);position: relative;bottom: 24px;
 }
 
+.img-contacto-1{
+    display: none;
+}
+
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
+}
+
 
 @media (min-width: 1146.98px){
 
@@ -315,6 +327,28 @@
     padding: 30px;
     border-radius: 30px;
     background-color: white;
+}
+
+.img-contacto-1{
+    position: absolute;
+    transform: scaleX(-1);
+    display: block;
+}
+
+
+.img-contacto-2{
+    position: absolute;
+    display: block;
+    top: 382px;
+    left: 900px;
+}
+
+
+.img-contacto-3{
+    position: absolute;
+    display: block;
+    top: 218px;
+    left: 615px;
 }
 
 
