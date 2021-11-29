@@ -256,6 +256,9 @@ font-size: 1.8rem;
 
 //Bullying
 
+.bullying-p{
+  display: none;
+}
 .bullying-content{
   text-align: center;
 
@@ -294,7 +297,7 @@ font-size: 1.8rem;
 
 .alimentacion-div{
   background-color:  #e6e0da;
-  margin-top: 263px;
+  margin-top: 93px;
 }
 
 
@@ -420,6 +423,9 @@ display: none;
   display: none;
 }
 
+.img-cuadrado{
+  display: none;
+}
 
 
 
@@ -547,6 +553,12 @@ display: none;
   }
 
   //Cosnumo
+
+  .img-cuadrado{
+    height: 154px;
+    margin-left: 575px;
+    display: block;
+  }
 
   .consumo-div-content{
     margin: 16px 160px 10px 174px
@@ -717,6 +729,7 @@ display: none;
 }
 
 .bullying-content{
+  margin-top:10px;
   text-align: center;
     position: relative;
     bottom: 345px;

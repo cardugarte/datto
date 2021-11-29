@@ -50,7 +50,7 @@
   
     left: 15px;
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 
@@ -175,6 +175,18 @@
 
 }
 
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
+
+}
+
+.img-contacto-4{
+    display: none;
+}
 
 @media (min-width: 1146.98px){
 
@@ -271,6 +283,29 @@
     .contacto-content h2{
         font-size: 3rem;
     }
+
+    .img-contacto-2{
+        display: block;
+        position: absolute;
+        transform: scaleX(-1);
+     
+        margin: -800px 10px 1px -67px;
+    }
+
+    .img-contacto-3{
+        position: relative;
+        left: 1365px;
+        top: -742px;
+        display: block;
+    
+    }
+
+    .img-contacto-4{
+        position: relative;
+        left: 1365px;
+        top: -430px;
+        display: block;
+    }
   
     //SVG
 
@@ -306,7 +341,7 @@
     }
 
     .violencia-bigbox{
-        height: 440px;
+        height: 466px;
     }
 
     .close-icon{

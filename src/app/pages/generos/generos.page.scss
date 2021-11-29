@@ -199,8 +199,29 @@
     bottom: 24px;
 }
 
+.img-contacto1{
+    display: none;
+}
+
+.img-contacto2{
+    display: none;
+}
+
 @media (min-width: 1146.98px)  {
 
+    .img-contacto1{
+        margin: 129px 10px 10px -1px;
+        position: absolute;
+        display: block;
+        transform: scaleX(-1);
+    }
+
+    .img-contacto2{
+        display: block;
+    position: absolute;
+    margin: -1050px 10px 10px 1100px;
+
+    }
     .margin-card-default{
         margin: 16px 279px 1px 271px;
         max-width: 1330px; 
