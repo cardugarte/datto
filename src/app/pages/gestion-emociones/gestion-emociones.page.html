@@ -3,11 +3,11 @@
 <ion-content>
 
   <div class="gestion-header">
-\
+
         <ion-grid class="header margin-card-default card-no-shadow" >
           <ion-row>
 
-            <ion-col size="12" size-lg="8">
+            <ion-col  size="12" size-lg="8">
               <h1>Gestión de emociones</h1>
             </ion-col>
 
@@ -19,12 +19,12 @@
 
           </ion-row>
         </ion-grid>
-   
+
+        <div>
+          <img class="img-header-2" src="../../../assets/pdf gestion de emociones/piririn-2.png">
+          <img class="img-header-3" src="../../../assets/pdf gestion de emociones/circulo-verde.png">
           
-
-     
-
-      
+        </div>
  
  
   </div>
@@ -34,6 +34,10 @@
     <ion-card-content>
       <ion-grid>
         <ion-row>
+
+          <ion-col size="12" size-lg="4">
+            <img src="../../assets/imgHome/ansiedad.png ">
+          </ion-col>
 
           <ion-col size="12" size-lg="8">
             
@@ -49,15 +53,9 @@
             </div>
 
           </ion-col>
-
-          <ion-col size="12" size-lg="4">
-            <img src="../../assets/imgHome/ansiedad.png ">
-          </ion-col>
-
-
-
         </ion-row>
       </ion-grid>
+    
     </ion-card-content>
   </ion-card>
 
@@ -66,14 +64,15 @@
         
             <div class="ansiedad-dos-content">
             
-            <p><span style="background-color: #d6a8ca;">Nombrar emociones y sentimientos te va a </span>ayudar a saber qué te pasa y cómo seguir. Permitite llorar si sentís que hace falta, ya que es saludable para que tu cuerpo pueda soltar y descargar sensaciones que han quedado alojadas.</p>
+            <p>"<span style="background-color: #d6a8ca;">Nombrar emociones y sentimientos te va a </span>ayudar a saber qué te pasa y cómo seguir. Permitite llorar si sentís que hace falta, ya que es saludable para que tu cuerpo pueda soltar y descargar sensaciones que han quedado alojadas.</p>
             <br>
-            <p>"No importa si el tema por el cual surge tu emoción es relevante o no. Las emociones, no deben ser
+            <p>No importa si el tema por el cual surge tu emoción es relevante o no. Las emociones, no deben ser
               juzgadas si no lastiman a nadie. Simplemente deben ser identificadas.</p>
             </div>
-           
+           <div>
             <img class="img-ansiedad" src="../../../assets/pdf gestion de emociones/chico-emociones.png">
-
+            <img class="img-2-ansiedad" src="../../../assets/imgHome/cuadrados-verdes.png">
+          </div>
     </ion-card-content>
   </ion-card>
 
@@ -133,10 +132,11 @@
   <div class="contacto-card">
 
   
+    <img class="img-contacto2-2" src="../../assets/imgHome/circle-lightblue.png">
 
  <ion-card  class="margin-card-default card-no-shadow">
 
- <div class="contacto-1 " >
+ <div class="contacto-1" >
       <div class="contacto-content">
       <h2 class="title__section">Contacto</h2>
       <br>
@@ -145,11 +145,25 @@
         <p>4796-7200 Int 7309</p>
         <p>adolescenciaservicio@gmail.com</p>
         <br>
+
+        <img class="img-contacto2-1" src="../../../assets/pdf gestion de emociones/Image_013.png">
+        <img class="img-contacto2-3" src="../../../assets/pdf gestion de emociones/circulo-violeta.png">
         <div style="text-align: center;">
+
+          
       
-        <button class="contacto-button-2"><a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Pedí turno</a></button>
+       
+        <ion-button
+        class="button__hero"
+        expand="block"
+        shape="round"
+        routerLink="/salud-sexual">
+      <a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Pedí turno</a>
+      </ion-button>
         </div>
       </div>
+
+    
  
 </div>
 </ion-card>
@@ -158,6 +172,33 @@
 <div class="div-svg2">
   <svg class="svg-contacto-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #dbeb63;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
 </div>
+
+<ion-card class="depresion card-no-shadow margin-card-default">
+  <ion-card-content>
+    <div class="depresion-content">
+
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12" size-lg="8">
+          <h2 class="title__section">Depresión</h2>
+          <br>
+          <p> A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas. </p>
+          <br>
+          <p>Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.</p>
+          <br>
+          <p>El diálogo es una gran herramienta para sentirte contenid@, acompañad@ y para buscar soluciones o imaginar perspectivas diferentes.</p>
+        </ion-col>
+        <ion-col size="12" size-lg="4">
+
+          <img src="../../../assets/pdf gestion de emociones/Depresión 3.jpg">
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </div>  
+  </ion-card-content>
+  </ion-card>
 
 
 
@@ -192,12 +233,27 @@
       <br>
       <p>- Cambios dramáticos de humor.</p>
       <br>
-      <div style="text-align: center;">
-      <img src="../../../assets/pdf gestion de emociones/chica-ayuda.png">
+        <div style="text-align: center;">
+        <img src="../../../assets/pdf gestion de emociones/chica-ayuda.png">
+        <br>
+        <img class="img-seniales" src="../../../assets/pdf gestion de emociones/Image_013.png">
+        <br>
+      </div>
     </div>
     </div>
 
+  </ion-card-content>
+</ion-card>
+
+<div class="div-img-igualdad">
+  <img class="img-igualdad" src="../../assets/imgHome/circle-lightblue.png">
+</div>
+
     
+
+    
+  <ion-card class="depresion card-no-shadow margin-card-default">
+    <ion-card-content>
       
       <div>
         <h2 class="title__section">¿Qué hacer para vos o para un amigo/a?</h2>
@@ -229,10 +285,12 @@
         <br>
         <p>- Pedí ayuda profesional si lo necesitás.</p>
       </div>
-    </div>
+    
 
     </ion-card-content>
   </ion-card>
+
+  
 
   <div class="div-svg-contacto2-top">
     <svg class="svg-contacto2-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill:  #8cb8a9;stroke: none; stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
@@ -281,6 +339,9 @@
     <a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">Más info</a>
     </ion-button>
 
+    <img class="img-contacto-1" src="../../../assets/pdf gestion de emociones/Image_013.png">
+    <img class="img-contacto-2" src="../../../assets/pdf gestion de emociones/circulo-violeta.png">
+    <img class="img-contacto-3" src="../../../assets/pdf gestion de emociones/circulo-verde.png">
     </ion-card>
     </div>
 

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 .button__hero {
     width: 170px;
     height: 40px;
@@ -14,12 +14,8 @@
   
   p{
       font-family: 'bitter', sans-serif;
-      font-weight: bold
+      font-weight: 400;
     }
-
-  body {
-    font-family: "Bitter";
-  }
 
 .card-no-shadow {
     box-shadow: none;
@@ -54,7 +50,7 @@
   
     left: 15px;
     position: absolute;
-    font-size: 3rem;
+    font-size: 2.5rem;
 
 }
 
@@ -71,9 +67,11 @@
 
 .noviazgo-content p{
     color: #3c246f;
-    font-size: 2.5rem;
-    font-weight: 800;
-   
+    font-size: 2rem; 
+}
+
+.noviazgo-bold-text p{
+    font-weight: bold;
 }
 
 .noviazgo-content span{
@@ -104,37 +102,31 @@
 
 
 .violencia-bigbox{
-    background-color: #d5e26a;
+    background-color: #f0f0f0;
     border: 1px solid #93c;
     margin:15px;
-    color: #3c246f;
+    
 }
 
 
 .violencia-content{
-    width: 100%;
-    line-height: 20pt;
     text-align: justify;
     padding: 5px;
-    
    
 }
 
 .violencia-text{
-    font-weight: 800;
+    text-align: justify;
     padding: 5px;
+    font-size: 1.5rem;
+    color: #3c246f;
 }
 
-.violencia-text p{
-    color: #3c246f;
-    font-weight: 800;
-    font-size: 1.5rem;
-}
 
 //Tarjetas
 .close-icon{
     width: 100%;
-    background-color: #d5e26a;
+    background-color: #f0f0f0;
 
 }
 
@@ -144,7 +136,6 @@
 
 .header-h2{
     text-align: center;
-    line-height: 20pt;
     color:#3c246f;
     font-weight: bold;
     
@@ -167,9 +158,6 @@
     padding: 16px;background-color: black; color: white; font-size: 14px;
 }
 
-.contacto p{
-    font-weight: 800;
-}
 
 //SVG
 
@@ -185,6 +173,19 @@
 .svg-contacto-bottom{
     fill: rgb(255, 255, 255);position: relative;bottom: 0px;
 
+}
+
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
+
+}
+
+.img-contacto-4{
+    display: none;
 }
 
 @media (min-width: 1146.98px){
@@ -225,6 +226,9 @@
         color: #3c246f;
     }
     
+    .noviazgo-content p{
+        font-size: 3rem; 
+    }
 
     .violento{
         margin-right: 122px;
@@ -246,8 +250,8 @@
     }
     
     .identificar-content p{
-        font-weight: 800;
-        font-size: 1.5rem;
+      
+        font-size: 2rem;
         color: white;
     }
 
@@ -273,13 +277,36 @@
 
     .contacto p{
         font-size: 1.5rem;
-        font-weight: 800;
+      
     }
 
-    .contacto h1{
-        font-size: 1.8rem;
+    .contacto-content h2{
+        font-size: 3rem;
     }
 
+    .img-contacto-2{
+        display: block;
+        position: absolute;
+        transform: scaleX(-1);
+     
+        margin: -800px 10px 1px -67px;
+    }
+
+    .img-contacto-3{
+        position: relative;
+        left: 1365px;
+        top: -742px;
+        display: block;
+    
+    }
+
+    .img-contacto-4{
+        position: relative;
+        left: 1365px;
+        top: -430px;
+        display: block;
+    }
+  
     //SVG
 
     .div-svg-contacto-top{
@@ -301,19 +328,20 @@
 
     //card its
 
-    .header-h2{
-        font-size: 3rem;
-        font-weight: bold !important;
+    .header-h2 h2{
+      
+        font-size: 2.2rem;
     }
 
+
     .violencia-text {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         color: #3c246f;
-        font-weight: 800;
+        
     }
 
     .violencia-bigbox{
-        height: 358px;
+        height: 466px;
     }
 
     .close-icon{

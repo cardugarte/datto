@@ -1,43 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 
+
+.button__hero {
+    width: 170px;
+    height: 40px;
+   
+  }
+
+  h1, h2{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+  }
+  
+  p{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+.card-no-shadow {
+    box-shadow: none;
+  }
 .title__section {
     color: var(--ion-color-primary);
     font-weight: 700;
     font-size: 1.8rem;
   }
-
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
-
-p{
-    font-family: 'bitter', sans-serif;
-    font-weight: bold
-  }
  
- 
- 
- 
- 
- h1{
-    font-weight: bold;
-    font-size: 2rem;
-    color: rgb(60, 36, 111);
-}
-
-    
-body{ 
-    font-family: "Bitter";
-    -webkit-font-smoothing: antialiased;
-    }
 
 //Header 
 
-.header h1{
+.header h1 {
      position: absolute;
      top: 23px;
      margin-left: 0px;
@@ -47,17 +42,21 @@ body{
 }
 
 
+
+
 //Buenos habitos
 
 .buenos-habitos-content{
     text-align: center;
 }
 
-.buenos-habitos-content h1{
+.buenos-habitos-content span{
+    background-color: #dab3ff;
+}
+
+.buenos-habitos-content h2{
     color: #3c246f;
-    font-weight: 700;
-    font-size: 3rem;
-    background-color: rgb(189, 170, 227);
+  
 }
 
 .buenos-habitos-content  p{
@@ -84,22 +83,15 @@ body{
 
 //Malos habitos
 
-.malos-habitos-content h1{
-    background-color: #c2dd89;
-    color: #3c246f;
-    font-size: 3rem;
+.malos-habitos-content{
+    height: 248px;
+    text-align: left;
 }
 
-.malos-habitos-content p{
-    color: #3c246f;
+.img-malos-habitos{
+    height: 353px;
 }
 
-.malos-habitos-content li{
-    line-height: normal;
-    margin-bottom: .5rem;
-    color: #3c246f;
-    font-size: 2rem;
-}
 
 //virtualidad y sedentarismi
 
@@ -129,8 +121,14 @@ body{
 }
 
 .recomendaciones-content{
-    text-align: justify;
+    text-align: center;
 }
+
+.recomendaciones-2-content{
+    text-align: left;
+    color: #3c246f;
+}
+
 .recomendaciones-content h1{
     font-size: 3rem;
     text-align: center;
@@ -153,8 +151,7 @@ body{
 //Contacto
 
 .contacto{
-
-    padding: 70px;background-color: black; color: white; font-size: 14px;
+    background-color: black; color: white; font-size: 14px;
 
 }
 
@@ -166,23 +163,41 @@ body{
 //SVG
 
 .div-svg-top{
-    height: 33px;
+    height: 63px;
 }
 
 .svg-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 25px;   transform: scaleY(-1);
 }
 
 .div-svg-bottom{
-    height: 33px;
+    height: 25px;
 }
 
 .svg-bottom{
-    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
+    fill: rgb(255, 255, 255);position: relative;bottom: 24px;
+}
+
+.img-contacto-1{
+    display: none;
+}
+
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
 }
 
 
 @media (min-width: 1146.98px){
+
+
+    .margin-card-default{
+        margin: 16px 279px 1px 271px;
+        max-width: 1330px; 
+    }
     .ciclo-content{
         font-size: 7rem;
     }
@@ -201,25 +216,24 @@ body{
 }
 
 .header h1{
-    
     padding-top: 289px;
-    font-size: 9rem;
+    padding-left: 257px;
+    font-size: 4rem;
 }
 
 //Habitos
 
 .habitos{
-    margin-right: 122px;
-    margin-left: 113px;
+  
     text-align: center;
 }
 
-.habitos h1{
-    font-size: 7rem;
+.habitos h2{
+    font-size: 4rem;
 }
 
 .habitos p{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .img2{
@@ -247,6 +261,13 @@ body{
     height: 410px;
 }
 
+.malos-habitos-content{
+    height: 541px;
+}
+
+.img-malos-habitos{
+    height: 815px;
+}
 
 
 .problemas p{
@@ -275,21 +296,21 @@ body{
 
 
 .contacto h1{
-    font-size: 7rem;
+    font-size: 4rem;
 }
 
 .contacto p{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 //SVG
 
 .div-svg-top{
-    height: 124px;
+    height: 280px;
 }
 
 .svg-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 451px;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 278px;   transform: scaleY(-1);
 }
 
 .div-svg-bottom{
@@ -297,7 +318,7 @@ body{
 }
 
 .svg-bottom{
-    fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+    fill: rgb(255, 255, 255);position: relative;bottom: 2px;
 }
 
 .contacto button{
@@ -306,6 +327,28 @@ body{
     padding: 30px;
     border-radius: 30px;
     background-color: white;
+}
+
+.img-contacto-1{
+    position: absolute;
+    transform: scaleX(-1);
+    display: block;
+}
+
+
+.img-contacto-2{
+    position: absolute;
+    display: block;
+    top: 382px;
+    left: 900px;
+}
+
+
+.img-contacto-3{
+    position: absolute;
+    display: block;
+    top: 218px;
+    left: 615px;
 }
 
 

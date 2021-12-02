@@ -1,36 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.button__hero {
+    width: 170px;
+    height: 40px;
+   
+  }
+
+  h1, h2{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+  
+  }
+  
+  p{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+     
+    }
+
+.card-no-shadow {
+    box-shadow: none;
+  }
 .title__section {
     color: var(--ion-color-primary);
     font-weight: 700;
     color: rgb(60, 36, 111);
     font-size: 1.8rem;
   }
-
-
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
-
-p{
-    font-family: 'bitter', sans-serif;
-    font-weight: bold
-  }
-
-
-h1{
-    font-weight: bold;
-    font-size: 2rem;
-    color: rgb(60, 36, 111);
-}
-
-body{ 
-    font-family: "Bitter";
-    -webkit-font-smoothing: antialiased;
-    }
 
 //Header
 
@@ -76,7 +74,7 @@ body{
 //contacto
 
 .contacto{
-    padding: 16px;background-color: black; color: white; font-size: 14px;
+  background-color: black; color: white;
     
 }
 
@@ -141,6 +139,7 @@ body{
 .diversidad-content{
     padding: 38px ;
     color: #3c246f;
+    text-align: center;
     
 }
 
@@ -174,8 +173,11 @@ body{
 
 //Servicios
 
+.servicios-content{
+    background-color: black;
+}
 .servicios{
-    padding: 16px;background-color: black; color: white; font-size: 14px;
+    background-color: black; color: white; font-size: 14px;
 }
 
 .servicios button{
@@ -190,17 +192,43 @@ body{
 }
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 55px;   transform: scaleY(-1);
+}
+
+.svg-bottom-contacto{
+    bottom: 24px;
+}
+
+.img-contacto1{
+    display: none;
+}
+
+.img-contacto2{
+    display: none;
 }
 
 @media (min-width: 1146.98px)  {
 
-    .diversidad{
-        margin-right: 122px;
-        margin-left: 113px;
-    
+    .img-contacto1{
+        margin: 129px 10px 10px -1px;
+        position: absolute;
+        display: block;
+        transform: scaleX(-1);
     }
 
+    .img-contacto2{
+        display: block;
+    position: absolute;
+    margin: -1050px 10px 10px 1100px;
+
+    }
+    .margin-card-default{
+        margin: 16px 279px 1px 271px;
+        max-width: 1330px; 
+    }
+    
+
+   
 
 
     //SVG
@@ -241,30 +269,24 @@ body{
 
 //Genero
 
-.genero{
-    margin-right: 122px;
-    margin-left: 113px;
-}
+
 .genero h1{
-    font-size: 7rem;
+    font-size: 1.8rem;
 }
 
 .genero p{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 //empoderamiento
 
-.empoderamiento{
-    margin-right: 122px;
-    margin-left: 113px;
-}
-.empoderamiento h1{
-    font-size: 7rem;
+
+.empoderamiento h2{
+    font-size: 1.8rem;
 }
 
 .empoderamiento p{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 .contacto button{
@@ -274,12 +296,16 @@ body{
     }
 
 .contacto{
-    font-size: 4rem;
-    padding: 177px;
+    background-color: black;
+    padding: 0;
 }
 
-.contacto h1{
-    font-size: 7rem;
+.contacto h2{
+    font-size: 1.8rem;
+}
+
+.contacto p{
+    font-size: 1.5rem;
 }
 //svg contacto
 
@@ -290,18 +316,17 @@ body{
 //identidad
 
 .identidad{
-    margin-right: 122px;
-    margin-left: 113px;
+   
     margin-top: 136px;
 }
 
-.identidad h1{
-    font-size: 7rem;
+.identidad h2{
+    font-size: 1.8rem;
     
 }
 
 .identidad p{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
 //diversidad
@@ -311,31 +336,25 @@ body{
 }
 
 .diversidad-content p{
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 
 .diversidad-2-content{
-    margin-right: 122px;
-    margin-left: 113px;
+    
     text-align: center;
 }
 
 .diversidad-2-content p{
 
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
 
-.esi{
-    margin-right: 122px;
-    margin-left: 113px;
-    
-}
 
 .esi p{
-    font-size: 4rem;
+    font-size: 1.5rem;
 }
-.esi h1{
-    font-size: 7rem;
+.esi h2{
+    font-size: 1.8rem;
 }
 
 .esi-content{
@@ -343,7 +362,7 @@ body{
 }
 
 .esi-content p{
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 .esi-content span{
     font-size: 5rem;
@@ -362,12 +381,16 @@ padding: 177px;
 
 }
 
-.servicios-content h1{
-    font-size: 7rem;
+.servicios-content{
+    background-color: black;
+}
+
+.servicios-content h2{
+    font-size: 1.8rem;
 }
 
 .servicios-content p{
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 
 .svg-servicios-top{
@@ -376,5 +399,17 @@ padding: 177px;
 .svg-servicios-bottom{
     display: none;
 }
+
+
+//SVG contacto
+
+.svg-bottom-contacto{
+    fill: rgb(255, 255, 255);position: relative;bottom: 2px;
+}
+
+.div-svg-bottom-contacto-2{
+    height: 250px;
+}
+
 
 }

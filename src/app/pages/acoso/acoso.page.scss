@@ -1,7 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
+.button__hero {
+    width: 170px;
+    height: 40px;
+   
+  }
+
+  h1, h2{
+    font-family: 'Bitter', sans-serif;
+    font-weight: bold;
+  }
+  
+  p{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+    }
+
+.card-no-shadow {
+    box-shadow: none;
+  }
 
 .title__section {
     color: var(--ion-color-primary);
@@ -11,28 +30,21 @@
 
 
 
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-}
 
-p{
-    font-family: 'bitter', sans-serif;
-    font-weight: bold
-  }
 
 .bullying-content{
     line-height: normal;
     color:rgb(60, 36, 111);
-    text-align: justify;
+    text-align: center;
     
 
 }
 
 .bullying-bigbox{
-    background-color: #d5e26a;
+    background-color: #f0f0f0;
     border: 1px solid #93c;
-    margin: 15px;
+    margin:15px;
+    
 }
 
 .bullying-content h1{
@@ -59,7 +71,7 @@ p{
 
 .bullying-close-icon{
     width: 100%;
-    background-color: #d5e26a;
+    background-color: #f0f0f0;
     border-bottom: 1px solid #93c; 
     float: right;
     box-sizing: border-box;
@@ -67,7 +79,7 @@ p{
 
 .emergencia-close-icon{
     width: 100%;
-    background-color: #d5e26a;
+    background-color: #f0f0f0;
     border-bottom: 1px solid #93c; 
     float: right;
     box-sizing: border-box;
@@ -106,7 +118,7 @@ p{
 
 .como-actuan{
     text-align: center;line-height: normal;background-color: #a3cfc5; 
-    border-radius: 20px;
+
 
 }
 
@@ -124,7 +136,7 @@ p{
     //SVG
 
     .div-svg-contacto-top{
-        height: 33px;
+        height: 10px;
     }
 
     .svg-contacto-top{
@@ -136,15 +148,38 @@ p{
     }
 
     .div-svg-contacto-bottom{
-        height: 33px;
+        height: 0px;
     }
     
     .svg-contacto-bottom{
 
-        fill: #c8b5ed;position: relative;bottom: 0px;
+        fill: #c8b5ed;position: relative;bottom: 24px;
     }
 
+    .img-contacto2-1{
+        display: none;
+    }
+
+    
+    .img-contacto2-2{
+        display: none;
+    }
+
+    
+    .contacto-2{
+        background-color: black;
+        color: white;
+    }
+
+
+    
+    
 @media (min-width: 1146.98px)  {
+
+    .margin-card-default{
+        margin: 16px 279px 1px 271px;
+        max-width: 1330px; 
+    }
     
     //Header
 
@@ -154,59 +189,56 @@ p{
 
     //Bullying
 
-    .bullying-content h1{
-        font-size: 7rem;
+    .que-hacer-bullying{
+        margin: 17px 200px 0px 200px;
+    }
+
+    .bullying-content h2{
+        font-size: 1.8rem;
         color:rgb(60, 36, 111);
+        font-weight: bold;
     }
 
     .bullying-content p{
-        font-size: 4rem;
+        font-size: 1.5rem;
         color:rgb(60, 36, 111);
     }
 
-    .img1{
-        height: 500px;
-    
-    padding-left: 210px;
-    }
 
     //Condiciones
 
     .condiciones{
         text-align: justify;
-        margin-right: 122px;
-        margin-left: 113px;
+       
     }
 
     
     .condiciones p{
-        font-size: 3rem;
+        font-size: 1.5rem;
 
     }
 
-    .condiciones h1{
-        font-size: 7rem;
+    .condiciones h2{
+        font-size: 1.8rem;
     }
 
     //Consecuencias
 
     .consecuencias{
         text-align: center;
-        margin-right: 122px;
-        margin-left: 113px;
         color:rgb(60, 36, 111);
         line-height: 1.5;
     }
 
     
     .consecuencias p{
-        font-size: 3rem;
+        font-size: 1.5rem;
         line-height: 1.5;
         
     }
 
-    .consecuencias h1{
-        font-size: 7rem;
+    .consecuencias h2{
+        font-size: 1.8rem;
       
     }
 
@@ -220,18 +252,57 @@ p{
 
     //Contacto
 
+    .contacto{
+        background-color: #c8b5ed; color: #3c246f; 
+        }
     
+    
+        .contacto h2{
+            font-size: 1.8rem;
+        }
+    
+        .contacto p{
+            font-size: 1.5rem;
+        }
 
-    .contacto h1{
-        font-size: 7rem;
+        
+    .contacto-2{
+        background-color: black; 
+        color: white; 
+        height: 240px;
+        }
+    
+    
+        .contacto-2 h2{
+            font-size: 1.8rem;
+        }
+    
+        .contacto-2 p{
+            font-size: 1.5rem;
+        }
+
+        
+    .img-contacto2-1{
+        display: block;
+        position: absolute;
+        margin: -13px 0px 0px 1028px;
     }
 
     
+    .img-contacto2-2{
+        display: block;
+        position: absolute;
+        margin: -155px 0px 0px 1527px;
+    }
+
+ 
+
+
 
        //SVG
 
        .div-svg-contacto-top{
-        height: 130px;
+        height: 143px;
     }
 
     .svg-contacto-top{
@@ -248,7 +319,7 @@ p{
     
     .svg-contacto-bottom{
 
-        fill: #c8b5ed;position: relative;bottom: 0px;
+        fill: #c8b5ed;position: relative;bottom: 1px;
     }
 
 

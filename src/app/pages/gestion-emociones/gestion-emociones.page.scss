@@ -45,13 +45,14 @@ h1, h2{
 
 .gestion-header{  
     background-color: #c8b5ed;
-    height: 465px;
+    height: 495px;
 
 }
 
 .header{
     color: rgb(60, 36, 111);
     background-color: #c8b5ed;
+    text-align: center;
 
 }
 
@@ -61,23 +62,22 @@ h1, h2{
 
 //Ansiedad
 
-.ansiedad-content{
-    text-align: justify;
-}
 
 
 .ansiedad-content p{
     color: rgb(60, 36, 111);
-}
-
-.ansiedad-dos-content{
     
 }
+
 
 .ansiedad-dos-content p{
     color: rgb(60, 36, 111);
     font-size: 1.5rem;
 
+}
+
+.img-2-ansiedad{
+    display: none;
 }
 
 //Emociones
@@ -183,7 +183,7 @@ h1, h2{
 
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: 79px;   transform: scaleY(-1);
 }
 
 .svg-contacto-bottom{
@@ -191,6 +191,13 @@ h1, h2{
 
 
 }
+
+.svg-contacto2-top{
+    transform: scaleY(-1)
+    ;position: relative;bottom: -4px;
+  
+    
+  }
 
 //Contacto 2
 
@@ -202,6 +209,42 @@ h1, h2{
     background-color: #8cb8a9;
     color: rgb(60, 36, 111);
 }
+.div-img-igualdad{
+    display: none;
+}
+
+
+
+.img-header-3{
+    display: none;
+}
+
+.img-header-2{
+    display: none;
+}
+
+.img-contacto-2{
+    display: none;
+}
+
+.img-contacto-3{
+    display: none;
+}
+
+.img-contacto2-1{
+    display: none;
+}
+
+.img-contacto2-2{
+    display: none;
+}
+
+.img-contacto2-3{
+    display: none;
+}
+
+
+
     
 
 
@@ -219,9 +262,8 @@ h1, h2{
 
     .gestion-header{
         color: rgb(60, 36, 111);
-      
         background-color: #c8b5ed;
-        height: 550px;
+        height: 661px;
     
     }
 
@@ -229,9 +271,16 @@ h1, h2{
         margin-right: 0;
     }
 
+
+
+    .img-header-3{
+        margin-left: 1461px;
+    }
+
     
     .header h1{
         font-size: 9rem;
+        margin-top: 91px;
     }
 
     
@@ -258,6 +307,8 @@ h1, h2{
         font-size: 2.5rem;
 
     }
+
+    
 
     //Emociones
 
@@ -302,7 +353,26 @@ h1, h2{
     .contacto-1 p{
         font-size: 1.5rem;
     }
-    
+
+    .img-contacto2-1{
+        position: absolute;
+    display: block;
+    left: 400px;
+    }
+
+    .img-contacto2-2{
+        position: absolute;
+    display: block;
+    transform: scaleX(-1);
+    }
+
+    .img-contacto2-3{
+        top: 40px;
+        display: block;
+        height: 90px;
+        position: absolute;
+        left: 800px;
+    }
 
     //svg contacto 2
 
@@ -313,7 +383,8 @@ h1, h2{
       .svg-contacto2-top{
         transform: scaleY(-1);
         fill: rgb(255, 255, 255);
-        position: relative;bottom: 447px;
+        position: relative;
+        bottom: 447px;
         
       }
 
@@ -334,9 +405,16 @@ h1, h2{
     }
 
     .img-ansiedad{
-        margin-left: 1000px;
-        /* margin-bottom: -48px; */
-        margin-top: -32px;
+        margin-left: 951px;
+    margin-top: -5px;
+    height: 343px;
+    }
+
+    .img-2-ansiedad{
+        position: absolute;
+        top: 494px;
+        height: 165px;
+        display: block;
     }
    
 
@@ -368,6 +446,44 @@ h1, h2{
         border-radius: 30px;
         background-color: #4b1574;
         color: white;
+       }
+
+
+       .img-seniales{
+        position: relative;
+        /* margin-left: -18px; */
+        margin-right: 900px;
+       }
+
+       .div-img-igualdad{
+           display: block;
+        position: absolute;
+        margin-left: 1798px;
+        margin-top: -804px;
+       }
+
+       .img-contacto-1{
+        margin-left: 539px;
+
+    
+       }
+
+       .img-contacto-2{
+        position: absolute;
+        top: 159px;
+        height: 56px;
+        margin-left: 800px;
+        display: block;
+    
+       }
+
+       .img-contacto-3{
+           display: block;
+           
+           position: absolute;
+           top: 20px;
+           margin-left: 1078px;
+    
        }
 
     
