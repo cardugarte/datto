@@ -136,7 +136,7 @@
     //SVG
 
     .div-svg-contacto-top{
-        height: 33px;
+        height: 10px;
     }
 
     .svg-contacto-top{
@@ -148,12 +148,12 @@
     }
 
     .div-svg-contacto-bottom{
-        height: 33px;
+        height: 0px;
     }
     
     .svg-contacto-bottom{
 
-        fill: #c8b5ed;position: relative;bottom: 0px;
+        fill: #c8b5ed;position: relative;bottom: 24px;
     }
 
     .img-contacto2-1{
@@ -164,6 +164,13 @@
     .img-contacto2-2{
         display: none;
     }
+
+    
+    .contacto-2{
+        background-color: black;
+        color: white;
+    }
+
 
     
     
@@ -245,7 +252,6 @@
 
     //Contacto
 
-
     .contacto{
         background-color: #c8b5ed; color: #3c246f; 
         }
@@ -261,7 +267,8 @@
 
         
     .contacto-2{
-        background-color: black; color: white; 
+        background-color: black; 
+        color: white; 
         height: 240px;
         }
     
