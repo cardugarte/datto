@@ -427,7 +427,7 @@ p{
 //testeate
 
 .testeate{
-text-align: center;
+  text-align: center;
 
 }
 
@@ -467,8 +467,9 @@ text-align: center;
 }
 
 .vacunate button{
-   border-radius: 30px;background-color: rgb(75, 21, 116); color: white;
-
+   border-radius: 30px;
+   background-color: rgb(75, 21, 116);
+   color: white;
 }
 
 //vih
@@ -707,6 +708,17 @@ text-align: center;
         display: none;
     }
 
+    //MAC
+
+    .mac-bigbox {
+      padding: 20px;
+    }
+
+    .img4 {
+      height: 110px;
+      margin-top: 70px;
+    }
+
     //Implante
 
     .implante{
@@ -782,9 +794,9 @@ text-align: center;
     .anticonceptivos-inyectables p{
         font-size: 3rem;
     }
-
-    .img5{
-        height: 319px;
+    .img5 {
+      display: block;
+      margin: 0 auto;
     }
 
     .img6{
@@ -811,15 +823,15 @@ text-align: center;
         height: 294px;
     }
 
-    .img8{
-        height: 110px;
+    .img8 {
+      margin-top: 50px;
     }
 
 
 
     .img9{
-      height: 350px;
-      width: 400px;
+      height: 250px;
+      width: 320px;
 
     }
 
@@ -841,7 +853,7 @@ text-align: center;
 
     .img10{
         margin-top: 83px;
-        height: 253px;
+        height: 123px;
     }
 
     //Parche
@@ -860,9 +872,7 @@ text-align: center;
     }
 
     .img11{
-
-    margin-top: 83px;
-    height: 358px;
+      width: 400px;
 
     }
 
@@ -882,11 +892,13 @@ text-align: center;
     }
 
     .img12{
-        height: 160px;
+      height: 80px;
+      margin-top: 30px;
     }
 
     .img13{
-        height: 160px;
+      height: 80px;
+      margin-top: 30px;
     }
 
     //marco legal
@@ -913,12 +925,13 @@ text-align: center;
     }
 
     .ciclo-content h1{
-        font-size: 7rem;
+        font-size: 2.8rem;
     }
-
-    .ciclo-content p{
-        font-size: 3rem;
-    }
+     .ciclo__menstrual {
+      width: 500px;
+      display: block;
+      margin: 0 auto;
+     }
 
     .img14{
         height: 422px;
@@ -942,27 +955,38 @@ text-align: center;
     }
 
     .formas-content p{
-        font-size: 3rem;
+        font-size: 1.2rem;
     }
 
     //Ginecologia
 
     .ginecologia{
-        background-color:rgb(60, 36, 111); margin-top: 0;
-        margin-right: 122px;
-        margin-left: 113px;
-        padding: 127px;
+        background-color:rgb(60, 36, 111);
         color: white;
 
     }
 
+    .ginecologia-img {
+      display: flex;
+      flex-direction: row;
+      align-content: space-around;
+      align-items: center;
+      flex-wrap: nowrap;
+      justify-content: start;
+
+    }
+
+    .img16 {
+      margin-right: 100px;
+    }
+
     .ginecologia p{
-        font-size: 3rem;
+        font-size: 1.2rem;
 
     }
 
     .ginecologia h1{
-        font-size: 7rem;
+        font-size: 2.8rem;
         font-weight: bold;
     }
 
@@ -988,8 +1012,13 @@ text-align: center;
     }
 
     .testeate-content p{
-        font-size: 3rem;
+        font-size: 1.2rem;
+    }
 
+    .testeo__btn {
+      width: 250px;
+      display: block;
+      margin: 0 auto;
     }
 
     .testeate-content h1{
@@ -1007,12 +1036,12 @@ text-align: center;
     }
 
     .vih p{
-        font-size: 3rem;
+        font-size: 1.2rem;
 
     }
 
-    .vih h1{
-        font-size: 7rem;
+    .vih__title{
+        font-size: 2.8rem;
         font-weight: bold;
     }
 
@@ -1027,12 +1056,12 @@ text-align: center;
     }
 
     .prevenirlo p{
-        font-size: 3rem;
+        font-size: 1.2rem;
 
     }
 
     .prevenirlo h1{
-        font-size: 7rem;
+        font-size: 2.8rem;
         font-weight: bold;
     }
 
@@ -1047,17 +1076,17 @@ text-align: center;
 
 
     .servicio p{
-        font-size: 3rem;
+        font-size: 1.2rem;
 
     }
 
     .servicio h1{
-        font-size: 7rem;
+        font-size: 1.8rem;
         font-weight: bold;
     }
 
     .servicio h2{
-        font-weight: 5rem;
+        font-weight: 1.8rem;
     }
 
 
