@@ -100,7 +100,8 @@ body {
 .button__hero {
   width: 170px;
   height: 40px;
- 
+
+ font-size: 1.5rem;
 }
 
 ////////////////////////////////////////
@@ -286,7 +287,7 @@ font-size: 1.8rem;
 .alimentacion-content h1{
   color:black;
   font-size: 1.8rem;
-  text-align: center;
+  text-align: left;
 }
 
 .alimentacion-content p{
@@ -767,6 +768,8 @@ display: none;
 
   .button__hero{
     width: 319px;
+    
+  font-size: 1.5rem;
     height: 73px;
   }
 
