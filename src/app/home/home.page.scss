@@ -171,7 +171,7 @@ font-size: 1.8rem;
 //Gestion emociones
 .emociones-content p {
   font-weight: 400;
- 
+
   font-size: 1.1rem;
   color:rgb(60, 36, 111);
 }
@@ -330,7 +330,7 @@ font-size: 1.8rem;
 //svg consumo
 
 .div-svg-consumo-top{
-  
+
   height: 92px;
 
 }
@@ -421,7 +421,7 @@ display: none;
 @media (min-width: 1146.98px)  {
   .margin-card-default{
     margin: 16px 279px 1px 271px;
-    max-width: 1330px; 
+    max-width: 1330px;
 }
 
 .title_carrousel{
@@ -433,22 +433,23 @@ display: none;
   .img-header{
     top: 49px;
     right: 139px;
-  
+
     position: relative;
 }
-  
+
 
   .header-grid{
     height: 654px;
   }
 
   .header{
-    margin: 16px 279px 1px 271px; 
+    margin: 16px 200px 1px 100px;
   }
 
   .header__text{
     font-size: 2.5rem;
-  
+    margin: 10px
+
   }
 
   .header img{
@@ -484,7 +485,7 @@ display: none;
    }
  }
 
-  
+
 
 
   //Gestion
@@ -499,7 +500,7 @@ display: none;
   .svg-datto-top{
     bottom: 462px;
   }
- 
+
 
 
   .svg-consumo-top{
@@ -572,7 +573,7 @@ display: none;
   //ansiedad
   .depresion-content {
     margin-bottom: 30px;
-   
+
   }
 
   .ansiedad-content,
@@ -595,7 +596,7 @@ display: none;
 
   .datto-content{
     background-color: rgb(226, 237, 106);;
-    
+
   }
 
   .datto-div-img{
@@ -609,7 +610,7 @@ display: none;
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
-    
+
   }
 
 
@@ -627,8 +628,8 @@ display: none;
     margin: 0 auto;
     display: block;
   }
-  
-  
+
+
   .inclusiva-content p{
     font-size: 1.5rem;
   }
@@ -638,8 +639,8 @@ display: none;
   }
 
  .div-inclusiva{
-  margin: 16px 279px 1px 271px; 
-  
+  margin: 16px 279px 1px 271px;
+
  }
 
  .div-inclusiva h2{
@@ -648,7 +649,7 @@ display: none;
 
  .div-inclusiva p{
    font-size: 1.5rem;
-   
+
  }
 
  .incusiva-p{
@@ -664,7 +665,7 @@ display: none;
  //igualdad-violencia
 
  .igualdad-violencia-content{
-  margin: 16px 279px 1px 271px; 
+  margin: 16px 279px 1px 271px;
   text-align: center;
  }
 
@@ -672,7 +673,7 @@ display: none;
   display: flex;
   width: 100%;
   flex-wrap: nowrap;
-  
+
  }
 
  .img-igualdad{
@@ -698,21 +699,21 @@ display: none;
  }
 
  .alimentacion-div{
- 
+
   margin-top: -200px;
 }
 
 
- 
- 
- 
+
+
+
  //Igualdad de genero
 
   .alimentacion{
-    margin: 16px 279px 1px 271px; 
+    margin: 16px 279px 1px 271px;
   }
 
- 
+
 
 .alimentacion-content p{
   color: black;
@@ -722,9 +723,9 @@ display: none;
 //Bullying
 
 .bullying-text{
-  margin: 16px 279px 1px 271px; 
+  margin: 16px 279px 1px 271px;
   display: none;
- 
+
 }
 
 .bullying-content{
@@ -772,7 +773,7 @@ display: none;
 
   .button__hero{
     width: 319px;
-    
+
   font-size: 1.5rem;
     height: 73px;
   }

@@ -1,11 +1,36 @@
-.logo1 {
-    width: 150px;
+// .logo1 {
+//     width: 150px;
+//     display: block;
+// }
+
+// .vtl{
+//     margin: 0px 321px 0px 0px;
+// }
+
+// .datto{
+//     margin: 0px 0px 0px 215px;
+// }
+
+.logo2, .logo1 {
+  width: 550px;
 }
 
-.vtl{
-    margin: 0px 321px 0px 0px;
+
+
+@media (min-width: 768px) {
+
+  .logo2, .logo1 {
+    width: 200px;
+  }
+
+  .logo1 {
+    margin-left: 90px ;
+  }
+
+  .logo2 {
+    margin-right: 95px;
+  }
+
 }
 
-.datto{
-    margin: 0px 0px 0px 215px;
-}
+
