@@ -104,6 +104,10 @@
   height: 33px;
 }
 
+.svg-bottom-contacto {
+  margin-bottom: 4px;
+}
+
 //Igualdad
 .igualdad-content p{
   color: #3c246f;
@@ -191,209 +195,205 @@
 }
 
 .svg-bottom-contacto{
-    bottom: 24px;
+  bottom: 4px;
 }
 
 .img-contacto1{
-    display: none;
+  display: none;
 }
 
 .img-contacto2{
-    display: none;
+  display: none;
 }
 
 @media (min-width: 1146.98px)  {
-
-    .img-contacto1{
-        margin: 129px 10px 10px -1px;
-        position: absolute;
-        display: block;
-        transform: scaleX(-1);
-    }
+  .img-contacto1{
+    margin: 129px 10px 10px -1px;
+    position: absolute;
+    display: block;
+    transform: scaleX(-1);
+  }
 
     .img-contacto2{
-        display: block;
+    display: block;
     position: absolute;
     margin: -1050px 10px 10px 1100px;
 
     }
     .margin-card-default{
-        margin: 16px 279px 1px 271px;
-        max-width: 1330px;
+      margin: 16px 279px 1px 271px;
+      max-width: 1330px;
     }
 
     //SVG
     .div-svg-contacto-top{
-        height: 155px;
+      height: 155px;
     }
 
     .svg-contacto-top{
-        fill: rgb(255, 255, 255);position: relative;bottom: 389px;   transform: scaleY(-1);
+      fill: rgb(255, 255, 255);
+      position: relative;
+      bottom: 389px;
+      transform: scaleY(-1);
     }
 //Header
 
 .header{
-    text-align: center;
+  text-align: center;
 }
 
 .header h1{
-    font-size: 113px;
-    left: 0;
+  font-size: 113px;
+  left: 0;
 }
 
 
 .header img{
-    display: none;
+  display: none;
 }
 
 //SVG
 
 .svg-bottom-genero{
-    height: 133px;
+  height: 133px;
 }
 
 .svg-top-contacto{
-    height: 33px;
-    display: none;
+  height: 33px;
+  display: none;
 }
 
 //Genero
 .genero p{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 //empoderamiento
 
 
 .empoderamiento h2{
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .empoderamiento p{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .contacto button{
-    width: 293px;
-      font-size: 0.9rem;
-      height: 95px;
-    }
+  width: 293px;
+  font-size: 0.9rem;
+  height: 95px;
+}
 
 .contacto{
-    background-color: black;
-    padding: 0;
+  background-color: black;
+  padding: 0;
 }
 
 .contacto h2{
-    font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .contacto p{
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 //svg contacto
 
 .svg-top-contacto{
-    display: none;
+  display: none;
 }
 
 //identidad
 
 .identidad{
-
-    margin-top: 136px;
+  margin-top: 136px;
 }
 
 .identidad h2{
-    font-size: 1.8rem;
-
+  font-size: 1.5rem;
 }
 
 .identidad p{
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 //diversidad
 
 .diversidad-content{
-    padding:200px 200px 0 200px;
+  padding:200px 200px 0 200px;
 }
 
 .diversidad-content p{
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .diversidad-2-content{
-
-    text-align: center;
+  text-align: center;
 }
 
 .diversidad-2-content p{
-
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 
 .esi p{
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .esi h2{
-    font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .esi-content{
-    text-align: center;
+  text-align: center;
 }
 
 .esi-content p{
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .esi-content span{
-    font-size: 5rem;
+  font-size: 1.5rem;
 }
 
 //Servicios
-
 .servicios{
 padding: 177px;
 }
 
 .servicios button{
-    width: 293px;
-    font-size: 3rem;
-    height: 95px;
-
+  width: 293px;
+  font-size: 1rem;
+  height: 95px;
 }
 
 .servicios-content{
-    background-color: black;
+  background-color: black;
 }
 
 .servicios-content h2{
-    font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .servicios-content p{
-    font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .svg-servicios-top{
-    display: none;
+  display: none;
 }
 .svg-servicios-bottom{
-    display: none;
+  display: none;
 }
 
 
 //SVG contacto
-
 .svg-bottom-contacto{
-    fill: rgb(255, 255, 255);position: relative;bottom: 2px;
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 2px;
 }
 
 .div-svg-bottom-contacto-2{
-    height: 250px;
+  height: 250px;
 }
-
 
 }
