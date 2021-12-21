@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
 .button__hero {
-    width: 170px;
-    font-size: 1.5rem;
-    height: 40px;
-   
-  }
+  width: 150px;
+  font-size: 0.9rem;
+  height: 40px;
+}
 
 h1, h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   }
-  
+
   p{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -28,11 +24,11 @@ h1, h2{
 .card-no-shadow {
     box-shadow: none;
   }
-  
+
 .title__section {
   color: var(--ion-color-primary);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 
@@ -42,182 +38,176 @@ h1, h2{
 }
 
 
-
-
-.gestion-header{  
-    background-color: #c8b5ed;
-    height: 495px;
-
+.gestion-header{
+  background-color: #c8b5ed;
 }
 
 .header{
-    color: rgb(60, 36, 111);
-    background-color: #c8b5ed;
-    text-align: center;
-
+  color: rgb(60, 36, 111);
+  background-color: #c8b5ed;
+  text-align: center;
 }
-
-
-
 
 
 //Ansiedad
 
-
-
 .ansiedad-content p{
-    color: rgb(60, 36, 111);
-    
+  color: rgb(60, 36, 111);
 }
 
-
 .ansiedad-dos-content p{
-    color: rgb(60, 36, 111);
-    font-size: 1.5rem;
-
+  color: rgb(60, 36, 111);
+  font-size: 1.2rem;
 }
 
 .img-2-ansiedad{
-    display: none;
+  display: none;
+}
+
+.ansiedad__resaltado {
+  background-color: #d6a8ca;
 }
 
 //Emociones
 
 .nombrar-emociones p{
-    font-size:2rem;
-    font-style: italic;
-    color: rgb(60, 36, 111);
+  font-size:2rem;
+  font-style: italic;
+  color: rgb(60, 36, 111);
 }
 
 .nombrar-emociones{
-    margin:15px;
+  margin:15px;
 }
 
 .algunas-emociones h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(60, 36, 111);
 }
 
 .algunas-emociones p{
-    
-    color: rgb(60, 36, 111);
+  color: rgb(60, 36, 111);
 }
 
 .cinco-cosas{
-    color: rgb(60, 36, 111);
-    font-weight: bold;
-    text-align: center;
-    
-
+  color: rgb(60, 36, 111);
+  font-weight: bold;
+  text-align: center;
 }
 
 .cinco-cosas h2{
-    font-family: 'Bitter';
+  font-family: 'Bitter';
 }
 
 .cinco-cosas p{
-    font-family: 'Bitter';
-    font-weight: bold;
+  font-family: 'Bitter';
+  font-weight: bold;
 }
 
 //CONTACTO
 
 .contacto-content{
-    color: rgb(60, 36, 111);
-    
+  color: rgb(60, 36, 111);
 }
 
 .contacto-content h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(60, 36, 111);
 }
 
 .contacto-button-2{
-    width: 68%;padding: 15px;border-radius: 30px;background-color: rgb(75, 21, 116); color: white;
+  width: 68%;
+  padding: 15px;
+  border-radius: 30px;
+  background-color: rgb(75, 21, 116);
+  color: white;
 }
 
 //Depresion
 
 
 .depresion-content h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(60, 36, 111);
 }
 
 .depresion-content p{
-    
-    color: rgb(60, 36, 111);
+  color: rgb(60, 36, 111);
 }
 
 //Contacto
 .contacto-card{
-    background-color: #dbeb63;
+  background-color: #dbeb63;
 }
 
 .contacto-content h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgb(60, 36, 111);
 }
 
 .contacto-content p{
-  
-    color: rgb(60, 36, 111);
+  color: rgb(60, 36, 111);
 }
 
 .contacto-1{
-   background-color: #dbeb63;padding: 16px;font-size: 14px;
-
+   background-color: #dbeb63;
+   padding: 16px;
+   font-size: 14px;
 }
 
 //svg
 
 .div-svg1{
-    height: 9px;
-}
-.div-svg2{
-    height: 33px;
+  height: 9px;
 }
 
+.div-svg2{
+  height: 33px;
+}
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;   transform: scaleY(-1);
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 79px;
+  transform: scaleY(-1);
 }
 
 .svg-contacto-bottom{
-    fill: rgb(255, 255, 255);position: relative;bottom: 24px;;   
-
-
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 24px;
 }
 
 .svg-contacto2-top{
-    transform: scaleY(-1)
-    ;position: relative;bottom: -4px;
-  
-    
+  transform: scaleY(-1);
+  position: relative;
+  bottom: -5px;
   }
 
 //Contacto 2
 
 .contacto-2{
-    background-color: #8cb8a9; padding: 16px; color:#3c246f; font-size: 14px;
+  background-color: #8cb8a9;
+  padding: 16px;
+  color:#3c246f;
+  font-size: 14px;
 }
 
 .contacto-content2{
-    background-color: #8cb8a9;
-    color: rgb(60, 36, 111);
+  background-color: #8cb8a9;
+  color: rgb(60, 36, 111);
 }
+
 .div-img-igualdad{
-    display: none;
+  display: none;
 }
-
-
 
 .img-header-3{
-    display: none;
+  display: none;
 }
 
 .img-header-2{
@@ -246,125 +236,104 @@ h1, h2{
 
 
 
-    
-
 
 
 
 @media (min-width: 1146.98px){
-
-    
     .margin-card-default{
-        margin: 16px 279px 1px 271px;
-        max-width: 1330px; 
+      margin: 16px 279px 1px 271px;
+      max-width: 1330px;
     }
 
     //Header
 
     .gestion-header{
-        color: rgb(60, 36, 111);
-        background-color: #c8b5ed;
-        height: 661px;
-    
+      color: rgb(60, 36, 111);
+      background-color: #c8b5ed;
+      height: 661px;
     }
 
     .img1{
-        margin-right: 0;
+      margin-right: 0;
     }
-
-
 
     .img-header-3{
-        margin-left: 1461px;
+      margin-left: 1461px;
     }
 
-    
     .header h1{
-        font-size: 9rem;
-        margin-top: 91px;
+      font-size: 9rem;
+      margin-top: 91px;
     }
 
-    
 
     //Ansiedad
 
-    
-
     .ansiedad p{
-        font-size: 3rem;
-
+      font-size: 3rem;
     }
 
-
     .ansiedad-content p{
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
 
     .ansiedad-dos-content{
-        text-align: center;
+      text-align: center;
     }
 
     .ansiedad-dos-content p{
-        font-size: 2.5rem;
-
+      font-size: 2.5rem;
     }
-
-    
 
     //Emociones
 
     .emociones p{
-        font-size: 1.5rem;
-
+      font-size: 1.5rem;
     }
 
     //SVG CONTACTO
 
-   
-
-
     .div-svg1{
-        height: 112px;
+      height: 112px;
     }
 
     .svg-contacto-top{
-        fill: rgb(255, 255, 255);position: relative;bottom: 447px;   transform: scaleY(-1);
+      fill: rgb(255, 255, 255);
+      position: relative;
+      bottom: 447px;
+      transform: scaleY(-1);
     }
 
     .div-svg2{
-        height: 143px;
-
+      height: 143px;
     }
 
     .svg-contacto-bottom{
-        
-        fill: rgb(255, 255, 255);position: relative;bottom: 1px;
-
+      fill: rgb(255, 255, 255);
+      position: relative;
+      bottom: 1px;
     }
-
-   
 
     //Contacto
 
     .contacto-card{
-        background-color: #dbeb63;
+      background-color: #dbeb63;
     }
 
-    
     .contacto-1 p{
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
 
     .img-contacto2-1{
-        position: absolute;
-    display: block;
-    left: 400px;
+      position: absolute;
+      display: block;
+      left: 400px;
     }
 
     .img-contacto2-2{
-        position: absolute;
-    display: block;
-    transform: scaleX(-1);
+      position: absolute;
+      display: block;
+      transform: scaleX(-1);
     }
 
     .img-contacto2-3{
@@ -380,18 +349,18 @@ h1, h2{
     .div-svg-contacto2-top{
         height: 112px;
       }
-      
+
       .svg-contacto2-top{
         transform: scaleY(-1);
         fill: rgb(255, 255, 255);
         position: relative;
         bottom: 447px;
-        
       }
 
       .svg-contacto2-bottom{
-        
-        fill: rgb(255, 255, 255);position: relative;bottom: 1px;
+        fill: rgb(255, 255, 255);
+        position: relative;
+        bottom: 1px;
 
     }
 
@@ -406,67 +375,54 @@ h1, h2{
     }
 
     .img-ansiedad{
-        margin-left: 951px;
-    margin-top: -5px;
-    height: 343px;
+      margin-left: 951px;
+      margin-top: -5px;
+      height: 343px;
     }
 
     .img-2-ansiedad{
-        position: absolute;
-        top: 494px;
-        height: 165px;
-        display: block;
+      position: absolute;
+      top: 494px;
+      height: 165px;
+      display: block;
     }
-   
 
     //Depresion
 
-  
-
     .depresion p{
-        font-size: 1.5rem;
-
+      font-size: 1.5rem;
     }
-
-
 
     //Contacto 2
 
-  
-
     .contacto-2 p{
-        font-size: 1.5rem;
-
+      font-size: 1.5rem;
     }
 
- 
     .contacto-button-2{
-        font-size: 3rem;
-        width: 30%;
-        padding: 31px;
-        border-radius: 30px;
-        background-color: #4b1574;
-        color: white;
-       }
+      font-size: 3rem;
+      width: 30%;
+      padding: 31px;
+      border-radius: 30px;
+      background-color: #4b1574;
+      color: white;
+    }
 
 
        .img-seniales{
         position: relative;
-        /* margin-left: -18px; */
         margin-right: 900px;
        }
 
        .div-img-igualdad{
-           display: block;
-        position: absolute;
-        margin-left: 1798px;
-        margin-top: -804px;
-       }
+          display: block;
+          position: absolute;
+          margin-left: 1798px;
+          margin-top: -804px;
+        }
 
        .img-contacto-1{
         margin-left: 539px;
-
-    
        }
 
        .img-contacto-2{
@@ -475,25 +431,22 @@ h1, h2{
         height: 56px;
         margin-left: 800px;
         display: block;
-    
        }
 
        .img-contacto-3{
-           display: block;
-           
-           position: absolute;
-           top: 20px;
-           margin-left: 1078px;
-    
-       }
-
-    
-
-    
+          display: block;
+          position: absolute;
+          top: 20px;
+          margin-left: 1078px;
+        }
 
 
 
-  
+
+
+
+
+
 
 
 

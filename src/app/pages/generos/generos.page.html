@@ -1,7 +1,7 @@
 <app-toolbar></app-toolbar>
 
 <ion-content>
-  <div class="header" style="background-color: #c8b5ed; height: 25%">
+  <div class="header">
     <h1>Géneros</h1>
     <img style="position: absolute; height: 21px; position: absolute; left: 270px; top: 19px;" src="../../../assets/pdf genero/piririn-2.png">
     <img style="position: absolute; left: 39px; top: 34px; position: absolute; height: 36px;" src="../../../assets/pdf genero/circulo-verde.png">
@@ -30,7 +30,7 @@
       <br>
       <p>Hoy parece incomprensible, pero afortunadamente el avance en materia de derechos también ha habilitado el voto no solo a las mujeres sino que además lxs jóvenes de 16 años tienen derecho a votar, si lo desean. La ley n° 26.774 en su artículo 1º es clara al deﬁnir que “los argentinos que hubiesen cumplido la edad de dieciséis (16) años, gozan de todos los derechos políticos conforme a la constitución y a las leyes de la república.”</p>
       <br>
-      <p>Este signiﬁca que a lo largo de la historia, la juventud ha experimentado muchos cambios y, en los últimos años, se han ampliado sus formas de participación, entendiendo que lxs jóvenes son capaces y suﬁcientemente maduros, para asumir mayores responsabilidades y tener un ejercicio más pleno de sus derechos políticos. El voto a partir de los 16 años signiﬁca que los jóvenes tienen uno de los principales derechos democráticos y que van a poder ejercerlo con compromiso.</p> 
+      <p>Este signiﬁca que a lo largo de la historia, la juventud ha experimentado muchos cambios y, en los últimos años, se han ampliado sus formas de participación, entendiendo que lxs jóvenes son capaces y suﬁcientemente maduros, para asumir mayores responsabilidades y tener un ejercicio más pleno de sus derechos políticos. El voto a partir de los 16 años signiﬁca que los jóvenes tienen uno de los principales derechos democráticos y que van a poder ejercerlo con compromiso.</p>
       <br>
       <p>Afortunadamente, el avance de las sociedades a través de las conquistas sociales y de los derechos, ha permitido que muchas mujeres puedan, estudiar y alcanzar posiciones de ocupando cargos en los poderes que hacen a una República como son el: Poder Ejecutivo, el Legislativo y el Poder Judicial.</p>
     </div>
@@ -38,9 +38,9 @@
   </ion-card>
 
   <ion-card class="empoderamiento margin-card-default card-no-shadow">
-    
+
     <ion-card-content>
-      
+
       <h2 class="title__section">Empoderamiento</h2>
       <br>
       <div class="empoderamiento-content">
@@ -56,60 +56,82 @@
   </ion-card>
 
   <div class="div-svg-contacto-top">
-    <svg class="svg-contacto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+    <svg class="svg-contacto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: var(--ion-color-dark);stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
   </div>
 
   <div class="contacto" >
   <ion-card class="contacto margin-card-default card-no-shadow">
     <ion-card-content>
-      
-  
       <ion-button
         class="button__hero"
         expand="block"
         shape="round"
-        routerLink="/salud-sexual"
+        href="https://mvl.edu.ar/programas/parlamento-de-las-juventudes/"
+        target="_blank"
       >
-      <a style="text-decoration: none; color: white;" href="https://mvl.edu.ar/programas/parlamento-de-las-juventudes/">Participá </a></ion-button>
-     
+        Participá
+      </ion-button>
       <br>
       <div class="contacto-div1" >
-        <h1>CONTACTOS Y PREFERENCIAS</h1>
+        <h2>CONTACTOS Y PREFERENCIAS</h2>
         <br>
-        <p><a href="www.unicef.org/lac/igualdad-de-genero" style="color: white; text-decoration: none;">www.unicef.org/lac/igualdad-de-genero</a> </p>
-        <br>  
-       <p> <a href="lac.unwomen.org/es/digiteca/publicaciones/2015/07/jovenes-y-participacion" style="color: white; text-decoration: none;">lac.unwomen.org/es/digiteca/publicaciones/2015/07/jovenes-y-participacion</a></p>
+        <ion-button
+          color="primary"
+          expand="block"
+          fill="solid"
+          shape="round"
+          href="www.unicef.org/lac/igualdad-de-genero"
+        >
+          Igualdad de género
+        </ion-button>
         <br>
-       <p> <a href="www.unicef.org/argentina/temas/adolescentes" style="color: white; text-decoration: none;">www.unicef.org/argentina/temas/adolescentes</a></p>
+        <ion-button
+          color="primary"
+          expand="block"
+          fill="solid"
+          shape="round"
+          href="lac.unwomen.org/es/digiteca/publicaciones/2015/07/jovenes-y-participacion"
+        >
+          Jóvenes y participación
+        </ion-button>
+        <br>
+        <ion-button
+          color="primary"
+          expand="block"
+          fill="solid"
+          shape="round"
+          href="www.unicef.org/argentina/temas/adolescentes"
+        >
+          Adolescentes UNICEF
+        </ion-button>
      </div>
- 
 
-     <div>
-       <h1>SERVICIOS</h1>
+
+     <div class="servicios">
+       <h2>SERVICIOS</h2>
        <br>
        <p>Centro Municipal de la Niñez Adolescencia de Vicente López
-
-        Hipólito Yrigoyen 4848, Florida Oeste, Buenos Aires
-        
-        Teléfono 47112800 Int 4415</p>
-
+        Hipólito Yrigoyen 4848, Florida Oeste, Buenos Aires.
+        <br>
+        Teléfono: 47112800 Int 4415</p>
+        <br>
+        <br>
         <p>Servicio de Adolescencia. Hospital Municipal
-
-          Hipólito Yrigoyen 1757
-          
-          4796-7200 Int 7309
-          
-          adolescenciaservicio@gmail.com</p>
+          Hipólito Yrigoyen 1757.
+          <br>
+          Teléfono: 4796-7200 Int 7309
+          <br>
+          Email: adolescenciaservicio@gmail.com</p>
       </div>
-    
-    
+
+
   </ion-card-content>
 </ion-card>
 </div>
 
 
     <div class="div-svg-bottom-contacto">
-      <svg class="svg-bottom-contacto" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+      <svg class="svg-bottom-contacto" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: var(--ion-color-dark);stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
     </div>
 
   <ion-card class="identidad margin-card-default card-no-shadow">
@@ -142,10 +164,10 @@
   </ion-card>
 
   <ion-card class="diversidad margin-card-default card-no-shadow">
-    
+
     <ion-card-content>
       <div class="diversidad-content">
-        <p>La diversidad en todos sus aspectos, y especíﬁcamente la diversidad sexual y corporal,<span style="background-color: #a4d0c6;">reconoce que las personas no se determinan por su sexo asignado al nacer, ni su género por su corporalidad.
+        <p>La diversidad en todos sus aspectos, y especíﬁcamente la diversidad sexual y corporal,<span class="text__resalt">reconoce que las personas no se determinan por su sexo asignado al nacer, ni su género por su corporalidad.
         </span></p>
         </div>
         <div class="diversidad-2-content">
@@ -172,7 +194,7 @@
   </ion-card>
 
   <ion-card class="esi margin-card-default card-no-shadow">
- 
+
     <ion-card-content>
       <h2 class="title__section">ESI</h2>
       <br>
@@ -180,71 +202,83 @@
       <br>
       <br>
       <div class="esi-content">
-      <p><span style="background-color: #d7e36a;">Tener acceso a información confiable y oportuna evita caer en situaciones de vulnerabilidad</span> que pueden dejar huellas difíciles de borrar.</p>
+      <p><span class="text__resalt-esi">Tener acceso a información confiable y oportuna evita caer en situaciones de vulnerabilidad</span> que pueden dejar huellas difíciles de borrar.</p>
       <img src="../../../assets/pdf genero/chica-2.png">
     </div>
     </ion-card-content>
   </ion-card>
 
   <div class="div-svg-contacto-top">
-    <svg class="svg-contacto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
+    <svg class="svg-contacto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: var(--ion-color-dark); stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
   </div>
 
- 
+
   <div class="servicios-content">
     <img class="img-contacto1" src="../../../assets/imgHome/circle-lightblue.png">
-    
+
 
   <ion-card class="contacto margin-card-default card-no-shadow">
     <ion-card-content>
-    
+
         <h2 class="title__section"  style="color: white;">SERVICIOS</h2>
         <p>Equipos de Abordaje Integral en Diversidad en las siguientes especialidades y servicios:</p>
         <br>
-        <p>- Consultorio de Diversidad</p>
-        <p>- Test rápido de VIH</p>
-        <p>- Asesoramiento para tratamientos de Modiﬁcación Hormonal Corporal (TMHC)</p>
-        <p>- Trabajo social y asesoramiento para el cambio registral</p>
-        <p>- Asesoramiento para programas y subsidios.</p>
+        <ul>
+          <li>Consultorio de Diversidad</li>
+          <li>Test rápido de VIH</li>
+          <li>Asesoramiento para tratamientos de Modiﬁcación Hormonal Corporal (TMHC)</li>
+          <li>Trabajo social y asesoramiento para el cambio registral</li>
+          <li>Asesoramiento para programas y subsidios.</li>
+        </ul>
       <br>
 
-      
-        <ion-button
-      class="button__hero"
+      <ion-button
       expand="block"
       shape="round"
-      routerLink="/salud-sexual"
-    >
-    <a style="color: white; text-decoration: none;" href="https://www.vicentelopez.gov.ar/turnos-salud">TURNOS DIVERSIDAD</a></ion-button>
-   
+      href="https://www.vicentelopez.gov.ar/turnos-salud"
+      target="_blank"
+      >
+        TURNOS DIVERSIDAD
+      </ion-button>
+
       <br>
-      <br>
-      <p>Diversidad.salud@vicentelopez.gov.ar</p>
-      <p>Hospital Municipal Dr. B. Houssay</p>
-      <p>Hipólito Yrigoyen 1757, Florida, Buenos Aires.</p>
-      <p>Teléfono 08000-555-TURNO (88766), de lunes a viernes de 8 a 18hs</p>
-      <br>
-      <p>Servicio de Adolescencia</p>
-      <p>adolescenciaservicio@gmail.com</p>
-      <p>tel: 4796-7200 int 7309</p>
-    
+      <ul>
+        <li>Diversidad.salud@vicentelopez.gov.ar</li>
+        <li>Hospital Municipal Dr. B. Houssay
+          <br>
+          Av. Hipólito Yrigoyen 1757, Florida, Buenos Aires.
+          <br>
+          Teléfono 08000-555-TURNO (88766), de lunes a viernes de 8 a 18hs
+        </li>
+        <li>Servicio de Adolescencia
+          <br>
+          adolescenciaservicio@gmail.com
+          <br>
+          tel: 4796-7200 int 7309
+        </li>
+      </ul>
     <br>
 
     <img src="../../../assets/imgHome/lineaVioleta.png">
     <div>
-      <h2 style="font-weight: bold; color: white;">Ley 26.743 - Identidad de género.</h2>
+      <h2>Ley 26.743 - Identidad de género.</h2>
       <br>
       <p>La identidad de género es la vivencia interna e individual del género tal como la persona la siente.
         Puede corresponder o no con el sexo asignado al nacer.</p>
       <br>
       <p>Toda persona tiene derecho:</p>
-      <p>-Que su identidad de género sea reconocida</p>
-      <p>-Al libre desarrollo de su persona y su vida conforme a su identidad de género;</p>
-      <p>-A ser tratada de acuerdo con su identidad de género y, en particular, a ser identiﬁcada de ese modo en los documentos que acreditan su identidad respecto de el/los nombre/s de pila, imagen y sexo con los que allí es registrada.</p>
+      <ul>
+        <li>Que su identidad de género sea reconocida</li>
+        <li>Al libre desarrollo de su persona y su vida conforme a su identidad de género</li>
+        <li>A ser tratada de acuerdo con su identidad de género y, en particular, a ser identiﬁcada de ese modo en los documentos que acreditan su identidad respecto de el/los nombre/s de pila, imagen y sexo con los que allí es registrada.</li>
+      </ul>
       <br>
       <p>La ley permite:</p>
-      <p>-Modiﬁcar tu nombre, imagen y sexo registrado para poder adecuarlos a tu identidad sin requerimiento de gestores.</p>
-      <p>-También permite acceder a tratamientos hormonales, intervenciones quirúrgicas, para adecuar tu cuerpo a tu identidad.</p>
+      <ul>
+        <li>Modiﬁcar tu nombre, imagen y sexo registrado para poder adecuarlos a tu identidad sin requerimiento de gestores.</li>
+        <li>También permite acceder a tratamientos hormonales, intervenciones quirúrgicas, para adecuar tu cuerpo a tu identidad.</li>
+      </ul>
+
       <p>Estos procedimientos están cubiertos por obras sociales, prepagas y hospitales públicos.</p>
       <br>
       <p>Hipólito Yrigoyen 1757, Florida, Buenos Aires.
@@ -252,27 +286,25 @@
         Teléfono 08000-555-TURNO (88766), de lunes a viernes de 8 a 18hs</p>
         <br>
       <p>Servicio de Adolescencia
-        
+
         adolescenciaservicio@gmail.com
-        
+
         tel: 4796-7200 int 7309</p>
     </div>
 
     <img class="img-contacto2" src="../../../assets/imgHome/circulo-verde.png">
 
-    
-
 </ion-card-content>
 </ion-card>
-</div>     
-
-<div class="div-svg-bottom-contacto-2">
-  <svg class="svg-bottom-contacto" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: black;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg> 
 </div>
+<!--
+<div class="div-svg-bottom-contacto-2">
+  <svg class="svg-bottom-contacto" viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: var(--ion-color-dark); stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
+</div> -->
 
 
 
 
   <app-footer></app-footer>
-  
+
 </ion-content>

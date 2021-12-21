@@ -1,199 +1,193 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
 .button__hero {
-    width: 170px;
-    height: 40px;
-    font-size: 1.5rem;
-   
+  width: 150px;
+  height: 40px;
+  font-size: 1rem;
   }
 
   h1, h2{
     font-family: 'Bitter', sans-serif;
     font-weight: bold;
-  
   }
-  
-  p{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-     
-    }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
 
 .card-no-shadow {
     box-shadow: none;
   }
+
 .title__section {
-    color: var(--ion-color-primary);
-    font-weight: 700;
-    color: rgb(60, 36, 111);
-    font-size: 1.8rem;
+  color: var(--ion-color-primary);
+  font-weight: 700;
+  color: rgb(60, 36, 111);
+  font-size: 1.5rem;
   }
 
 //Header
 
 .header{
-    margin-top: -20px;
+  margin-top: -20px;
+  background-color: #c8b5ed;
+  height: 25vh;
 }
 
 .header h1{
-    font-size: 3rem;color: black; top: 50px; position: relative; left: 129px;
+  font-size: 3rem;
+  color: black;
+  top: 50px;
+  position: relative;
+  left: 129px;
 }
 
 //svg
 
-.div-svg-top-contacto{height: 33px;}
-
-.svg-top-contacto{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;}
-
-.div-svg-bottom-contacto{
-    height: 33px;
+.div-svg-top-contacto {
+  height: 33px;
 }
 
-.svg-bottom-contacto{
-    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
+.svg-top-contacto {
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 79px;
+  }
+
+.div-svg-bottom-contacto {
+  height: 33px;
+}
+
+.svg-bottom-contacto {
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 0px;
 }
 
 .svg-bottom-genero{
-    height: 27px;
-}
-
-//genero
-
-.genero h1{
-    font-size: 3rem;
-}
-
-//empoderamiento
-
-.empoderamiento h1{
-    font-size: 3rem;
+  height: 27px;
 }
 
 //contacto
 
 .contacto{
-  background-color: black; color: white;
-    
+  background-color: var(--ion-color-dark);
+  margin-bottom: 0;
+  color: white;
+  ion-card-content {
+    ion-button {
+      display: block;
+      margin: 0 auto;
+    }
+  }
 }
 
-.contacto h1{
-    color: white;
-}
-
-.contacto button{
-    font-weight: bold ;padding: 15px;border-radius: 30px; background-color:white;
-
-}
 
 .contacto-div1{
-    padding-bottom: 10px; padding-top:10px; margin: 5px;
-    
+  padding-bottom: 10px;
+  padding-top:10px;
+  margin: 5px;
+  h2 {
+    font-size: 1.5rem;
+  }
+  ion-button {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+  }
 }
 
 //SVG
-
 .svg-top-contacto{
-    height: 33px;
+  height: 33px;
 }
 
-
-
 //Igualdad
-
 .igualdad-content p{
-    color: #3c246f;
+  color: #3c246f;
 }
 
 .igualdad-content {
-    text-align: justify;
+  text-align: justify;
 }
 
 //Empoderamiento
 
 .empoderamiento-content p{
-    color: #3c246f;
+  color: #3c246f;
 
 }
 
 .empoderamiento-content{
-    text-align: justify;
+  text-align: justify;
 }
 
 //Identidad
-
 .identidad-content p{
-    color: #3c246f;
-    
-}
-
-.identidad h1{
-    font-size: 3rem;
+  color: #3c246f;
 }
 
 //diversidad
-
-
-
 .diversidad-content{
-    padding: 38px ;
-    color: #3c246f;
-    text-align: center;
-    
+  padding: 38px ;
+  color: #3c246f;
+  text-align: center;
 }
 
 .diversidad-content p{
-    font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .diversidad-2-content p{
-    color: rgb(60, 36, 111);
-    text-align: justify;
+  color: rgb(60, 36, 111);
+  text-align: justify;
+}
+
+.text__resalt {
+  background-color: #a4d0c6;
 }
 
 //ESI
-
 .esi{
-    color: #3c246f;;
+  color: #3c246f;
 }
 
 .esi-content{
-    text-align: center;
+  text-align: center;
 }
 
 .esi-content p{
-    color: #3c246f;
-    font-size:2rem
+  color: #3c246f;
+  font-size:1.5rem
 }
 
-.esi h1{
-    font-size: 3rem;
+.text__resalt-esi {
+  background-color: #d7e36a;
 }
 
 //Servicios
-
-.servicios-content{
-    background-color: black;
-}
-.servicios{
-    background-color: black; color: white; font-size: 14px;
+.servicios-content {
+  background-color: var(--ion-color-dark);
 }
 
-.servicios button{
-    padding: 15px; border-radius: 30px; background-color:white; 
-
+.servicios {
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 //SVG
-
 .div-svg-contacto-top{
-    height: 33px;
+  height: 33px;
 }
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 55px;   transform: scaleY(-1);
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 75px;
+  transform: scaleY(-1);
 }
 
 .svg-bottom-contacto{
@@ -225,15 +219,10 @@
     }
     .margin-card-default{
         margin: 16px 279px 1px 271px;
-        max-width: 1330px; 
+        max-width: 1330px;
     }
-    
-
-   
-
 
     //SVG
-
     .div-svg-contacto-top{
         height: 155px;
     }
@@ -269,12 +258,6 @@
 }
 
 //Genero
-
-
-.genero h1{
-    font-size: 1.8rem;
-}
-
 .genero p{
     font-size: 1.5rem;
 }
@@ -292,7 +275,7 @@
 
 .contacto button{
     width: 293px;
-      font-size: 3rem;
+      font-size: 0.9rem;
       height: 95px;
     }
 
@@ -317,13 +300,13 @@
 //identidad
 
 .identidad{
-   
+
     margin-top: 136px;
 }
 
 .identidad h2{
     font-size: 1.8rem;
-    
+
 }
 
 .identidad p{
@@ -341,7 +324,7 @@
 }
 
 .diversidad-2-content{
-    
+
     text-align: center;
 }
 
