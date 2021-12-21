@@ -1,33 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 .button__hero {
-    width: 170px;
-    height: 40px;
-   
+  width: 170px;
+  height: 40px;
   }
 
-  h1, h2{
+  h1, h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   }
-  
-  p{
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
       font-family: 'bitter', sans-serif;
       font-weight: 400;
+      font-size: 1.2rem;
     }
 
 .card-no-shadow {
     box-shadow: none;
   }
-  
+
   .title__section {
     color: var(--ion-color-primary);
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
-  
-  
+
+  h1 {
+    margin-top: 45px;
+  }
+
+
   .title__section-light {
     color: var(--ion-color-light);
     font-weight: 600;
@@ -39,15 +46,15 @@
 //Header
 
 .header {
-    height: 30%; 
+    height: 30%;
     text-align: center;
     width: 100%;
-    background-color: rgb(176, 207, 196); 
+    background-color: rgb(176, 207, 196);
     font-size: 3rem;
 }
 
 .header h1{
-  
+
     left: 15px;
     position: absolute;
     font-size: 2.5rem;
@@ -59,7 +66,12 @@
 
 
 .violento-cont{
-    color: white; background-color: #3c246f; border-radius: 30px; 
+    color: white;
+    background-color: #3c246f;
+    border-radius: 30px;
+    padding: 0;
+    margin: 0;
+    height: 750px;
 }
 //noviazgo
 
@@ -67,7 +79,7 @@
 
 .noviazgo-content p{
     color: #3c246f;
-    font-size: 2rem; 
+    font-size: 1.2rem;
 }
 
 .noviazgo-bold-text p{
@@ -88,113 +100,121 @@
     font-size: 1.5rem;
 }
 
+.violento-cont {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
 
 //SVG
 
 .div-svg-top{
-    height: 33px;
+  height: 33px;
 }
 
 .svg-top{
-    fill: #3c246f;position: relative;top: 28px;
+  fill: #3c246f;
+  position: relative;
+  top: 28px;
 }
 
-
-
 .violencia-bigbox{
-    background-color: #f0f0f0;
-    border: 1px solid #93c;
-    margin:15px;
-    
+  background-color: #f0f0f0;
+  border: 1px solid #93c;
+  margin:15px;
 }
 
 
 .violencia-content{
-    text-align: justify;
-    padding: 5px;
-   
+  text-align: justify;
+  padding: 5px;
 }
 
 .violencia-text{
-    text-align: justify;
-    padding: 5px;
-    font-size: 1.5rem;
-    color: #3c246f;
+  text-align: justify;
+  padding: 5px;
+  font-size: 1.2rem;
+  color: #3c246f;
 }
 
 
 //Tarjetas
 .close-icon{
-    width: 100%;
-    background-color: #f0f0f0;
-
+  width: 100%;
+  background-color: #f0f0f0;
 }
 
 .close-icon img{
-    margin-left: 231px;
+  margin-left: 271px;
 }
 
 .header-h2{
-    text-align: center;
-    color:#3c246f;
-    font-weight: bold;
-    
-  
+  text-align: center;
+  color:#3c246f;
+  font-weight: bold;
 }
 
 //Pareja
 
-
-
 .pareja p{
-    font-size: 1.5rem; 
-    color:#3c246f;
-    font-weight: 800;
+  font-size: 1.2rem;
+  color:#3c246f;
+  font-weight: 800;
 }
 
 //contacto
 
 .contacto{
-    padding: 16px;background-color: black; color: white; font-size: 14px;
+  padding: 16px;
+  background-color: var(--ion-color-dark);
+  color: white;
+  font-size: 1.2rem;
+  ul li {
+    line-height: 30px;
+  }
 }
 
 
 //SVG
 
 .div-svg-contacto-top{
-    height: 33px;
+  height: 33px;
 }
 
 .svg-contacto-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px;;   transform: scaleY(-1);
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 79px;
+  transform: scaleY(-1);
 }
 
 
 .svg-contacto-bottom{
-    fill: rgb(255, 255, 255);position: relative;bottom: 0px;
-
+  fill: rgb(255, 255, 255);
+  position: relative;
+  bottom: 0px;
 }
 
 .img-contacto-2{
-    display: none;
+  display: none;
 }
 
 .img-contacto-3{
-    display: none;
-
+  display: none;
 }
 
 .img-contacto-4{
-    display: none;
+  display: none;
 }
 
 @media (min-width: 1146.98px){
 
-    
+
 
     .margin-card-default{
         margin: 16px 279px 1px 271px;
-        max-width: 1330px; 
+        max-width: 1330px;
     }
 
 
@@ -211,7 +231,7 @@
 
     .img2{
         height: 501px;
-    
+
     }
 
     //Noviazgo
@@ -225,19 +245,19 @@
         font-size: 4rem;
         color: #3c246f;
     }
-    
+
     .noviazgo-content p{
-        font-size: 3rem; 
+        font-size: 3rem;
     }
 
     .violento{
         margin-right: 122px;
         margin-left: 113px;
-      
+
     }
 
     .violento-cont{
-      color: white; background-color: #3c246f; border-radius: 30px; 
+      color: white; background-color: #3c246f; border-radius: 30px;
     }
 
     .identificar-content{
@@ -248,9 +268,9 @@
         font-size: 3rem;
         color: white;
     }
-    
+
     .identificar-content p{
-      
+
         font-size: 2rem;
         color: white;
     }
@@ -270,14 +290,14 @@
 
     //Contacto
 
-    
+
     .contacto{
         background-color: black;
     }
 
     .contacto p{
         font-size: 1.5rem;
-      
+
     }
 
     .contacto-content h2{
@@ -288,7 +308,7 @@
         display: block;
         position: absolute;
         transform: scaleX(-1);
-     
+
         margin: -800px 10px 1px -67px;
     }
 
@@ -297,7 +317,7 @@
         left: 1365px;
         top: -742px;
         display: block;
-    
+
     }
 
     .img-contacto-4{
@@ -306,7 +326,7 @@
         top: -430px;
         display: block;
     }
-  
+
     //SVG
 
     .div-svg-contacto-top{
@@ -320,16 +340,16 @@
     .div-svg-contacto-bottom{
         height: 143px;
     }
-    
+
     .svg-contacto-bottom{
         fill: rgb(255, 255, 255);position: relative;bottom: 1px;
-    
+
     }
 
     //card its
 
     .header-h2 h2{
-      
+
         font-size: 2.2rem;
     }
 
@@ -337,7 +357,7 @@
     .violencia-text {
         font-size: 1.8rem;
         color: #3c246f;
-        
+
     }
 
     .violencia-bigbox{
