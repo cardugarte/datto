@@ -1,134 +1,135 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
 .button__hero {
-    font-size: 1.5rem;
-    width: 170px;
-    height: 40px;
-   
+  display: block;
+  margin: 10px auto;
+  font-size: 1rem;
+  width: 170px;
+  height: 40px;
   }
 
-  h1, h2{
+  h1, h2 {
     font-family: 'Bitter', sans-serif;
     font-weight: bold;
   }
-  
-  p{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-    }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
 
 .card-no-shadow {
-    box-shadow: none;
-  }
+  box-shadow: none;
+}
 .title__section {
-    color: var(--ion-color-primary);
-    font-weight: 700;
-    font-size: 1.8rem;
-  }
-  
+  color: var(--ion-color-primary);
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 
 //header
 
 .header-h1{
-    background-color: #d7e36a; 
-    width: 100%;
-    display: flex ;
-    height: 300px; text-align: center;
+  background-color: #d7e36a;
+  width: 100%;
+  display: flex ;
+  height: 300px;
+  text-align: center;
 }
 
 .header-title{
-    font-size: 2.5rem;color: black;top: 49px;top: 24px;position: absolute; left: 1px;
+  font-size: 2.5rem;
+  color: var(--ion-color-dark);
+  top: 49px;
+  position: absolute;
+  left: 1px;
 }
 
 .img3{
-    height: 150px;
+  height: 150px;
 }
 
 .img2{
-    height: 120px;
+  height: 120px;
 }
+
 .img1{
-    height: 259px;
+  height: 259px;
 }
+
+
 /// Consumo de alcohol
-
-
 .consumo-content h1{
-    font-weight: bold;
-    font-size: 3.5rem;
-    color: rgb(60, 36, 111);
-    
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: rgb(60, 36, 111);
 }
 
 .consumo-content p{
-    color: #3c246f;
-    text-align: justify;}
-    
+  color: #3c246f;
+  text-align: justify;
+  }
 
 .sugerencias-content span{
-    color: rgb(60, 36, 111);
-    background-color: rgb(164, 210, 200);
+  color: rgb(60, 36, 111);
+  background-color: rgb(164, 210, 200);
 }
-.sugerencias-content p{
-    color: #3c246f;}
 
+.sugerencias-content p{
+  color: #3c246f;
+}
 
 .sugerencias-content h1{
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 //Tabaco
 
-.tabaco-content h1{
-    font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+ul, li {
+  color: var(--ion-color-dark);
 }
-.tabaco-content p{
-    color: #3c246f;}
 
-    .button1{ padding: 15px;border-radius: 30px;background-color: rgb(75, 21, 116); color: white;
-    }
+.tabaco-content p {
+  color: #3c246f;
+}
+
 
 //Drogas
 
-.drogas-content{
-    text-align: justify;
-}
-
-.drogas-content h1{
+.drogas-content {
+  text-align: justify;
+  h3 {
+    font-size: 1.5rem;
+    color: var(--ion-color-primary);
+  }
+  span {
     font-weight: bold;
-    font-size: 3rem;
-    color: rgb(60, 36, 111);
+  }
 }
 
-.drogas-content p{
-    color: #3c246f;}
+.drogas-content p {
+  color: #3c246f;
+}
 
 
 //contacto
 
 .contacto-content{
-    background-color: black;
-    color: white;
-    text-align: left;
-    padding: 16px;
-    font-size: 14px
+  background-color: var(--ion-color-dark);
+  color: white;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px
 }
 
 .contacto-content p{
-    color: white;
+  color: white;
 }
 
-.button2{
-    padding: 15px;
-      border-radius: 30px;
-      background-color: white;
-      color: black;
-}
-  
+
 
 //SVG
 
@@ -136,13 +137,13 @@
     height: 27px;
 }
 
-.div-svg-contacto-top{   
+.div-svg-contacto-top{
     height: 33px;
-    
+
 }
 
 .svg-contacto-top{
-    
+
     fill: rgb(255, 255, 255);position: relative;bottom: 79px; transform: scaleY(-1);
 }
 
@@ -179,9 +180,9 @@
 
     .margin-card-default{
         margin: 16px 279px 1px 271px;
-        max-width: 1330px; 
+        max-width: 1330px;
     }
-    
+
 
 
     //Header
@@ -202,20 +203,20 @@
     }
 
     .div-svg-contacto-top{
-        
+
         height: 158px;
     }
 
     .svg-contacto-bottom{
         fill: rgb(255, 255, 255);position: relative;bottom: 1px;
     }
-    
+
 
     .svg-contacto-top{
         fill: rgb(255, 255, 255);position: relative;bottom:387px;
     }
 
-  
+
 
     //Consumo
 
@@ -273,7 +274,7 @@
 
 .contacto-content h2{
     font-size: 1.8rem;
-  
+
 
 
 }
@@ -285,7 +286,7 @@
       width: 254px;
       font-size: 3rem;
 }
-    
+
 .img-contacto-1{
     left: 0px;
     display: block;
