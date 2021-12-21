@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
 .button__hero {
-    width: 170px;
-    height: 40px;
-    font-size: 1.5rem;
-   
+  width: 170px;
+  height: 40px;
+  font-size: 1.5rem;
   }
 
   h1, h2{
     font-family: 'Bitter', sans-serif;
     font-weight: bold;
+    font-size: 1.5rem;
   }
-  
-  p{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 400;
-    }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+  }
 
 .card-no-shadow {
     box-shadow: none;
@@ -26,162 +25,155 @@
 .title__section {
     color: var(--ion-color-primary);
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
-
-
-
+  ul li {
+    font-size: 1rem;
+    padding: 5px;
+    text-align: initial;
+  }
 
 .bullying-content{
-    line-height: normal;
-    color:rgb(60, 36, 111);
-    text-align: center;
-    
-
+  line-height: normal;
+  color:rgb(60, 36, 111);
+  text-align: center;
 }
 
 .bullying-bigbox{
-    background-color: #f0f0f0;
-    border: 1px solid #93c;
-    margin:15px;
-    
+  background-color: #f0f0f0;
+  border: 1px solid #93c;
+  margin:15px;
 }
 
 .bullying-content h1{
-    font-weight: bold;
-    text-align: center;
-    margin: 15px;
-    
+  font-weight: bold;
+  text-align: center;
+  margin: 15px;
 }
 
 .bullying-content p{
     line-height: 1.5;
     font-size: 1rem;
-    
+
 }
 
 .bullying-bigbox h1 {
-    font-weight: bold;
-    text-align: center;
-    color:rgb(60, 36, 111);
-    font-size: 2.5rem;
-    margin-bottom: 10px; 
+  font-weight: bold;
+  text-align: center;
+  color:rgb(60, 36, 111);
+  font-size: 2.5rem;
+  margin-bottom: 10px;
 }
 
 
 .bullying-close-icon{
-    width: 100%;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #93c; 
-    float: right;
-    box-sizing: border-box;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #93c;
+  float: right;
+  box-sizing: border-box;
 }
 
 .emergencia-close-icon{
-    width: 100%;
-    background-color: #f0f0f0;
-    border-bottom: 1px solid #93c; 
-    float: right;
-    box-sizing: border-box;
-    padding: 6px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #93c;
+  float: right;
+  box-sizing: border-box;
+  padding: 6px;
 }
 
 
 //consecuencias
 
 .consecuencias{
-    text-align: justify;
-    line-height: normal;
-    color:rgb(60, 36, 111);
-    justify-content: center;
-    margin-bottom: 10px;
-    
-
+  text-align: justify;
+  line-height: normal;
+  color:rgb(60, 36, 111);
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .consecuencias h1{
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    
-    
-    
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .consecuencias p{
-    line-height: 1.5;
-    color:rgb(60, 36, 111);
-    margin-bottom: 10px;
-    
+  line-height: 1.5;
+  color:rgb(60, 36, 111);
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 .como-actuan{
-    text-align: center;line-height: normal;background-color: #a3cfc5; 
-
-
+  text-align: center;
+  line-height: normal;
+  background-color: #a3cfc5;
 }
 
 //Contacto
 
 .contacto{
- background-color: #c8b5ed; color: #3c246f; padding: 19px;
+ background-color: #c8b5ed;
+ color: #3c246f;
 }
 
+  .contacto h1{
+    font-size: 1.5rem;
+  }
 
-    .contacto h1{
-        font-size: 3rem;
-    }
+  //SVG
 
-    //SVG
+  .div-svg-contacto-top {
+    height: 10px;
+  }
 
-    .div-svg-contacto-top{
-        height: 10px;
-    }
+  .svg-contacto-top {
+    fill: #c8b5ed;
+    position: relative;
+    bottom: 97px;;
+    transform: scaleY(-1);
+  }
 
-    .svg-contacto-top{
+  .div-svg-contacto-bottom {
+    height: 0px;
+  }
 
-        fill: #c8b5ed;
-        position: relative;
-        bottom: 78px;;
-        transform: scaleY(-1);
-    }
+  .svg-contacto-bottom{
+    fill: #c8b5ed;
+    position: relative;
+    bottom: 15px;
+  }
 
-    .div-svg-contacto-bottom{
-        height: 0px;
-    }
-    
-    .svg-contacto-bottom{
-
-        fill: #c8b5ed;position: relative;bottom: 24px;
-    }
-
-    .img-contacto2-1{
-        display: none;
-    }
-
-    
-    .img-contacto2-2{
-        display: none;
-    }
-
-    
-    .contacto-2{
-        background-color: black;
-        color: white;
-    }
+  .img-contacto2-1{
+    display: none;
+  }
 
 
-    
-    
+  .img-contacto2-2{
+    display: none;
+  }
+
+
+  .contacto-2{
+    background-color: var(--ion-color-dark);
+    color: white;
+  }
+
+
+
 @media (min-width: 1146.98px)  {
 
     .margin-card-default{
         margin: 16px 279px 1px 271px;
-        max-width: 1330px; 
+        max-width: 1330px;
     }
-    
+
     //Header
 
     .img-header{
@@ -210,10 +202,10 @@
 
     .condiciones{
         text-align: justify;
-       
+
     }
 
-    
+
     .condiciones p{
         font-size: 1.5rem;
 
@@ -231,16 +223,16 @@
         line-height: 1.5;
     }
 
-    
+
     .consecuencias p{
         font-size: 1.5rem;
         line-height: 1.5;
-        
+
     }
 
     .consecuencias h2{
         font-size: 1.8rem;
-      
+
     }
 
     .img2{
@@ -254,49 +246,49 @@
     //Contacto
 
     .contacto{
-        background-color: #c8b5ed; color: #3c246f; 
+        background-color: #c8b5ed; color: #3c246f;
         }
-    
-    
+
+
         .contacto h2{
             font-size: 1.8rem;
         }
-    
+
         .contacto p{
             font-size: 1.5rem;
         }
 
-        
+
     .contacto-2{
-        background-color: black; 
-        color: white; 
+        background-color: black;
+        color: white;
         height: 240px;
         }
-    
-    
+
+
         .contacto-2 h2{
             font-size: 1.8rem;
         }
-    
+
         .contacto-2 p{
             font-size: 1.5rem;
         }
 
-        
+
     .img-contacto2-1{
         display: block;
         position: absolute;
         margin: -13px 0px 0px 1028px;
     }
 
-    
+
     .img-contacto2-2{
         display: block;
         position: absolute;
         margin: -155px 0px 0px 1527px;
     }
 
- 
+
 
 
 
@@ -317,7 +309,7 @@
     .div-svg-contacto-bottom{
         height: 150px;
     }
-    
+
     .svg-contacto-bottom{
 
         fill: #c8b5ed;position: relative;bottom: 1px;
@@ -334,4 +326,3 @@
 }
 
 
-  
