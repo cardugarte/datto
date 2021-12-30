@@ -423,24 +423,24 @@ display: none;
 //resolucion desktop
 
 @media (min-width: 1146.98px)  {
+
   .margin-card-default{
     margin: 16px 279px 1px 271px;
     max-width: 1330px;
-}
+  }
 
-.title_carrousel{
-  margin-left: 150px;
-}
+  .title_carrousel{
+    margin-left: 150px;
+    color: var(--ion-color-primary);
+    font-size: 2rem;
+  }
 
   //header
-
   .img-header{
     top: 49px;
     right: 139px;
-
     position: relative;
-}
-
+  }
 
   .header-grid{
     height: 654px;
@@ -451,9 +451,8 @@ display: none;
   }
 
   .header__text{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 10px
-
   }
 
   .header img{
@@ -481,7 +480,6 @@ display: none;
   }
 
   //slider
-
  .card-slide {
    width: 300px;
    ion-row {
@@ -490,22 +488,15 @@ display: none;
  }
 
 
-
-
   //Gestion
-
-
   .div-svg-consumo-top{
     height: 259px;
   }
 
   //SVG
-
   .svg-datto-top{
     bottom: 462px;
   }
-
-
 
   .svg-consumo-top{
     bottom: 315px;
@@ -516,7 +507,6 @@ display: none;
   }
 
   //consumo
-
   .div-consumo {
     display: flex;
     width: 100%;
@@ -556,8 +546,7 @@ display: none;
     font-family: "Montserrat";
   }
 
-  //Cosnumo
-
+  //Consumo
   .img-cuadrado{
     height: 154px;
     margin-left: 575px;
@@ -565,19 +554,16 @@ display: none;
   }
 
   .consumo-div-content{
-    margin: 16px 160px 10px 174px
-;
+    margin: 16px 160px 10px 174px;
   }
   .consumo-div-content p{
     font-size: 1.5rem;
     font-family: "Montserrat";
     font-weight: 400;
-
   }
   //ansiedad
   .depresion-content {
     margin-bottom: 30px;
-
   }
 
   .ansiedad-content,
@@ -597,10 +583,8 @@ display: none;
   }
 
   //DATTO
-
   .datto-content{
-    background-color: rgb(226, 237, 106);;
-
+    background-color: rgb(226, 237, 106);
   }
 
   .datto-div-img{
@@ -614,9 +598,7 @@ display: none;
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
-
   }
-
 
   .inclusiva-img{
     display: block;
@@ -633,7 +615,6 @@ display: none;
     display: block;
   }
 
-
   .inclusiva-content p{
     font-size: 1.5rem;
   }
@@ -642,144 +623,125 @@ display: none;
     font-size: 1.5rem;
   }
 
- .div-inclusiva{
+  .div-inclusiva{
   margin: 16px 279px 1px 271px;
+  }
 
- }
-
- .div-inclusiva h2{
+  .div-inclusiva h2{
    font-size: 31px;
- }
+  }
 
- .div-inclusiva p{
+  .div-inclusiva p{
    font-size: 1.5rem;
+  }
 
- }
+  .incusiva-p{
+    padding-top: 31px;
+  }
 
- .incusiva-p{
-  padding-top: 31px;
- }
-
- .violento-txt{
-  padding-top: 70px;
-  text-align: left;
-  width: 70%;
- }
+  .violento-txt{
+    padding-top: 70px;
+    text-align: left;
+    width: 70%;
+  }
 
  //igualdad-violencia
-
- .igualdad-violencia-content{
+  .igualdad-violencia-content{
   margin: 16px 279px 1px 271px;
   text-align: center;
- }
+  }
 
- .violento-content{
-  display: flex;
-  width: 100%;
-  flex-wrap: nowrap;
+  .violento-content{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
 
- }
+  .img-igualdad{
+    position: relative;
+    left: 1526px;
+    bottom: 445px;
+    display: block;
+  }
 
- .img-igualdad{
-  position: relative;
-  left: 1526px;
-  bottom: 445px;
-  display: block;
-}
+  .img-circulo{
+    position: relative;
+    top: 130px;
+    display: block;
+  }
 
-.img-circulo{
-  position: relative;
-  top: 130px;
-  display: block;
-}
-
-
-
- .img-balanza{
-  position: relative;
+  .img-balanza{
+    position: relative;
     height: 497px;
     bottom: 383px;
     margin-left: 571px;
- }
-
-//  .alimentacion-div{
-
-//   margin-top: -200px;
-// }
-
-
-
+  }
 
 
  //Igualdad de genero
-
   .alimentacion{
     margin: 16px 279px 1px 271px;
   }
 
 
 
-.alimentacion-content p{
-  color: black;
-  font-size: 1.5rem;
-}
+  .alimentacion-content p{
+    color: black;
+    font-size: 1.5rem;
+  }
 
 //Bullying
+  .bullying-text{
+    margin: 16px 279px 1px 271px;
+    display: none;
+  }
 
-.bullying-text{
-  margin: 16px 279px 1px 271px;
-  display: none;
-
-}
-
-.bullying-content{
-  margin-top:10px;
-  text-align: center;
+  .bullying-content{
+    margin-top:10px;
+    text-align: center;
     position: relative;
     bottom: 345px;
-}
+  }
 
-.bullying-content p{
-  color: #FFF;
-  font-size: 1.5rem;
-  font-weight: 400 !important;
-}
+  .bullying-content p{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+  }
 
 
-.no-mas-bullying-svg{
+  .no-mas-bullying-svg{
   height: 2095px;
-}
+  }
 
-.no-mas-bullying-img{
-  width: 100%;
-}
-
-
+  .no-mas-bullying-img{
+    width: 100%;
+  }
 
 
-//CARROUSEL
+  //CARROUSEL
+  // .carrousel-grid{
+  // margin: 10px 113px 0px 113PX;
+  // }
 
-.carrousel-grid{
-  margin: 10px 113px 0px 113PX;
-}
+  ion-slides h3 {
+    font-size: 1.5rem;
+  }
 
   //ion-cards
-
   .slide_text{
     font-size: 1.5rem;
   }
 
-
   .card-slide{
     width: 510px;
-  height: 690px;
+    height: 690px;
   }
 
   .button__hero{
     width: 319px;
-
-  font-size: 1.5rem;
-    height: 73px;
+    font-size: 1.5rem;
+    height: 60px;
   }
 
   ion-card {

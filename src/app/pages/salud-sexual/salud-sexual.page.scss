@@ -1,18 +1,12 @@
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 h1{
   font-family: 'Montserrat', sans-serif;
-  // font-weight: bold;
 }
 
-p{
-    font-family: 'bitter', sans-serif;
-    // font-weight: bold
-    font-size: 1.1rem;
+p {
+  font-family: 'bitter', sans-serif;
+  font-size: 1.1rem;
   }
 
   .card-no-shadow {
@@ -22,36 +16,23 @@ p{
 //Header
 
 .header h1{
-    left: 85px;
-    position: absolute;
-    top: 40px;
-    color: #3c246f;
-    font-weight: bold;
-    font-size: 1.8rem;
+  left: 85px;
+  position: absolute;
+  top: 40px;
+  color: #3c246f;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
-//MAC
-
-// .title__section {
-//     color: var(--ion-color-primary);
-//     font-weight: 700;
-//   }
 
 .mac-content ion-card-title{
-    font-size: 1.2rem;
-    font-weight: bold;
-    // color: rgb(60, 36, 111);
-    // font-weight: 700;
-
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .mac-content p{
-    // text-align: justify;
-    color:#3c246f;
-    margin-bottom: 10px;
-    // font-weight: 400;
-
-  // font-size: 1.1rem;
+  color:#3c246f;
+  margin-bottom: 10px;
 }
 
 .mac__subtitle {
@@ -60,19 +41,18 @@ p{
 }
 
 .derechos-mac{
-    font-size: 2rem;
-    line-height: normal;
+  font-size: 2rem;
+  line-height: normal;
 }
 
 .derechos-mac p{
-    margin-bottom: 10px;
-    color:#3c246f;
-    // font-size: 2rem;
+  margin-bottom: 10px;
+  color:#3c246f;
 }
 .derechos-mac span{
-    line-height: normal;
-    background-color: rgb(223, 235, 106);
-    color:#3c246f;
+  line-height: normal;
+  background-color: rgb(223, 235, 106);
+  color:#3c246f;
 }
 
 .comillas {
@@ -87,9 +67,8 @@ p{
 // MAC de emergencia
 
 .emergencia-bigbox{
-    background-color: #d5e26a;
-    border: 1px solid #93c;
-
+  background-color: #d5e26a;
+  border: 1px solid #93c;
 }
 
 .metodos__img {
@@ -98,72 +77,49 @@ p{
 
 .emergencia-close-icon img {
   float: right;
-  // background-size: cover;
   width: 25px;
   height: 20px;
 }
 
 
 .emergencia-close-icon{
-    width: 100%;
-    background-color: #d5e26a;
-    border-bottom: 1px solid #93c;
-    float: right;
-    box-sizing: border-box;
-    padding: 6px;
+  width: 100%;
+  background-color: #d5e26a;
+  border-bottom: 1px solid #93c;
+  float: right;
+  box-sizing: border-box;
+  padding: 6px;
 }
 
 
 .emergencia-content{
-    // width: 100%;
-    // text-align: center;
-    color:#3c246f;
-    // font-weight: 600;
-    border-bottom: 1px solid #93c;
-    // width: 100%;
+  color:#3c246f;
+  border-bottom: 1px solid #93c;
 }
 
 .emergencia-content h2{
-
-    text-align: center;
-    color:#3c246f;
-    font-size: 1.4rem;
-
+  text-align: center;
+  color:#3c246f;
+  font-size: 1.4rem;
 }
 
-// .emergencia-content2{
-//     text-align: justify;
-//     padding: 10px;
-//     width: 100%;
-//     line-height: 20pt;
-//     color:#3c246f;
-//     font-weight: 600;
-//     font-size: 2rem;
-
-// }
-
-// .emergencia h1{
-//     color:#3c246f;
-// }
-
 .emergencia-h2{
-    background-color:rgb(172, 216, 206) ;
-    font-weight: 500;
-    line-height: 1.2;
-    font-size: 2rem;
-    margin: 5px;
+  background-color:rgb(172, 216, 206) ;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2rem;
+  margin: 5px;
 }
 
 .emergencia-pastilla{
-    background-color: #d0a3d6;
-    color:rgb(60, 36, 111);
-    margin: 0;
-    border-radius: 0;
-
+  background-color: #d0a3d6;
+  color:rgb(60, 36, 111);
+  margin: 0;
+  border-radius: 0;
 }
 
 .emergencia-uso{
-    margin:5px;
+  margin:5px;
 }
 
 .pastilla-emergencia-uso {
@@ -172,29 +128,24 @@ p{
 }
 
 .emergencia-pastilla-content span{
-    // margin: 5px;
     font-size: 1.3rem;
     line-height: 1.4;
     background-color: rgb(172, 216, 206);
-    // border-radius: 20px;
     padding: 4px;
-
 }
 
 
 .img1{
-    width: 100%; height: 124px;
-
+  width: 100%;
+  height: 124px;
 }
 
 .img2{
-    width: 282px;
-    height: 215px;
+  width: 282px;
+  height: 215px;
 }
 
 //preservativo
-
-
 
 .implante-content {
   font-weight: bold;
@@ -208,156 +159,95 @@ p{
 }
 
 .preservativo-content{
-    text-align: left;
-    color:rgb(60, 36, 111);
+  text-align: left;
+  color:rgb(60, 36, 111);
 }
 
-// .preservativo-content h1{
-//     font-weight: bold;
-//     font-size: 2.5rem;
-
-// }
 
 .preservativo-content span{
-    font-weight: bold;
-    font-size: 1.25rem;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
 
 .mac-bigbox{
-    background-color: #d5e26a;
-    border: 1px solid #93c;
-    margin:15px;
+  background-color: #d5e26a;
+  border: 1px solid #93c;
+  margin:15px;
 }
 .mac-bigbox-2{
-    background-color: #dbdbdb;
-    border: 1px solid #93c;
-    margin:15px;
+  background-color: #dbdbdb;
+  border: 1px solid #93c;
+  margin:15px;
 }
 
 .yellow {
   background-color: rgb(223, 235, 106);
 }
 
-
-
-
 .img9{
     height: 232px;
-
 }
 
 
 //implante
-
 .implante-content{
-    text-align: left;
-    color:rgb(60, 36, 111)
-
+  text-align: left;
+  color:rgb(60, 36, 111);
 }
-// .implante-content h1{
-//     font-weight: bold;
-//     font-size: 2.5rem;
-
-// }
 
 .implante-content span{
-    font-weight: bold;
-    font-size: 1.25rem;
+  font-weight: bold;
+  font-size: 1.25rem;
 }
-
-// .title__implante {
-//  font-size: 1.8rem;
-
-// }
-
-//diu y siu
-
-// .diusiu-content h2{
-//     font-size: 1.8rem;
-//     font-weight: bold;
-//     color: rgb(60, 36, 111);
-//     font-weight: 700;
-// }
 
 .diusiu-content{
-    text-align: left;
-    color:rgb(60, 36, 111)
+  text-align: left;
+  color:rgb(60, 36, 111)
 }
 
-// .diusiu-content h1{
-//     font-size: 2.5rem;
-// }
 .img4{
-    width: 100%; height: 120px;
+  width: 100%;
+  height: 120px;
 }
-
-
-//anticonceptivos inyectables
-
-// .inyectabales-content h2{
-//     font-size: 1.8rem;
-//     font-weight: bold;
-//     color: rgb(60, 36, 111);
-//     font-weight: 700;
-// }
 
 .inyectabales-content{
-    text-align: left;
-    color:rgb(60, 36, 111)
+  text-align: left;
+  color:rgb(60, 36, 111);
 }
-
-// .inyectables-content h1{
-//     font-size: 2.5rem;
-//     font-weight: bold;
-// }
-
 
 
 //metodos irreversibles
 
 .irreversibles-content{
-    text-align: left;
-    color:rgb(60, 36, 111)
+  text-align: left;
+  color:rgb(60, 36, 111);
 }
 
-// .irreversibles-content h2{
-//     font-size: 2.5rem;
-//     font-weight: bold;
-// }
-
 .irreversibles-content h2{
-    font-size: 1.2rem;
-    // font-weight: bold;
-    color: rgb(60, 36, 111);
-    font-weight: 700;
+  font-size: 1.2rem;
+  color: rgb(60, 36, 111);
+  font-weight: 700;
 }
 
 //ciclo
 
 .ciclo-content h2{
     font-size: 2rem;
-    // font-weight: bold;
     color: rgb(60, 36, 111);
     font-weight: 700;
 }
 
 .ciclo-content{
-    text-align: left;
-    color:#FFF;
-    background-color: #dd85d3;
-    margin: 0;
-    border-radius: 0;
-
+  text-align: left;
+  color:#FFF;
+  background-color: #dd85d3;
+  margin: 0;
+  border-radius: 0;
 }
-
-// .ciclo-content h1{
-//     font-size: 3rem;
-// }
 
 .ciclo-content-info{
     text-align: left;
     font-size: 1.4rem;
-
 }
 
 .ciclo__pink {
@@ -366,14 +256,9 @@ p{
   border-radius: 0;
 }
 
-
-
-
 .ginecologia-content{
-    line-height: 1.5;
-    color: white;
-
-
+  line-height: 1.5;
+  color: white;
 }
 
 .items__ovu li span{
@@ -394,18 +279,17 @@ p{
 //irreversibles
 
 .irreversibles p{
-    font-size: 14px;
-    color:rgb(60, 36, 111);
+  font-size: 14px;
+  color:rgb(60, 36, 111);
 }
 
  //Ginecologia
 
  .ginecologia{
-    background-color:rgb(60, 36, 111);
-    margin: 0;
-    color: white;
-    border-radius: 0;
-
+  background-color:rgb(60, 36, 111);
+  margin: 0;
+  color: white;
+  border-radius: 0;
 }
 
 .no-padding {
@@ -432,38 +316,35 @@ p{
 }
 
 .testeate-content p{
-    text-align: center;
-    color:rgb(60, 36, 111);
+  text-align: center;
+  color:rgb(60, 36, 111);
 
 }
 
 .testeate-content h2{
-     font-weight: bold;
-     color:rgb(60, 36, 111);
+  font-weight: bold;
+  color:rgb(60, 36, 111);
 }
 
 .formas-content{
-    background-color: white;
-
-    color:rgb(60, 36, 111);
-
-
+  background-color: white;
+  color:rgb(60, 36, 111);
 }
 
 //Marco legal
 
 .text_sextion p{
-    text-align: justify;
-    color:#3c246f;
-    margin-bottom: 1em;
-    font-weight: 400;
+  text-align: justify;
+  color:#3c246f;
+  margin-bottom: 1em;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
 //Vacunate
 
 .vacunate{
-    text-align: center;
+  text-align: center;
 }
 
 .vacunate button{
@@ -482,44 +363,44 @@ p{
 }
 
 .vih{
-    color:rgb(60, 36, 111);
-
-
+  color:rgb(60, 36, 111);
 }
 
 .vih p{
-    margin-bottom: 1em;
-
+  margin-bottom: 1em;
 }
 
 .vih h1{
-    font-weight: bold; color:rgb(60, 36, 111); font-size: 3rem;
+  font-weight: bold;
+  color:rgb(60, 36, 111);
+  font-size: 3rem;
 }
 
 //prevenirlo
 
 .prevenirlo{
-    color:rgb(60, 36, 111);
-
+  color:rgb(60, 36, 111);
 }
 
 .prevenirlo h1{
-    font-size: 3rem;font-weight: bold; color:rgb(60, 36, 111);
+  font-size: 3rem;
+  font-weight: bold;
+  color:rgb(60, 36, 111);
 }
 
 ///vih no es sida
 
 .vih-no{
-    color:rgb(60, 36, 111);
+  color:rgb(60, 36, 111);
 }
 
 .vih-no h1{
-    font-size: 3rem;font-weight: bold;
-
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .vih-no p{
-    margin-top: 1em
+  margin-top: 1em
 }
 
 //servicio
@@ -529,23 +410,22 @@ p{
   color:rgb(60, 36, 111);
   margin: 0;
   border-radius: 0;
-
 }
 
 .servicio h1{
-    font-size: 3rem; font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 
 .servicio p{
-    margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 //IMG
 
 .img8{
-    height: 100px
-;
+  height: 100px;
 }
 
 
@@ -909,7 +789,7 @@ p{
     }
 
     .marco-legal h1{
-        font-size: 7rem;
+      font-size: 7rem;
     }
 
     .marco-legal p{
@@ -917,15 +797,13 @@ p{
     }
 
     .ciclo-content{
-        margin-right: 122px;
-        margin-left: 113px;
-        text-align: justify;
-
-
+      margin-right: 122px;
+      margin-left: 113px;
+      text-align: justify;
     }
 
     .ciclo-content h1{
-        font-size: 2.8rem;
+      font-size: 2.8rem;
     }
      .ciclo__menstrual {
       width: 500px;
@@ -1000,19 +878,18 @@ p{
     }
 
     .its p{
-        font-size: 5rem;
+      font-size: 5rem;
     }
 
     //testeate
 
     .testeate{
-        margin-right: 122px;
-        margin-left: 113px;
-
+      margin-right: 122px;
+      margin-left: 113px;
     }
 
     .testeate-content p{
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
 
     .testeo__btn {
@@ -1029,93 +906,55 @@ p{
     //vih
 
     .vih{
-        color:rgb(60, 36, 111);
-        margin-right: 122px;
-        margin-left: 113px;
-
+      color:rgb(60, 36, 111);
+      margin-right: 122px;
+      margin-left: 113px;
     }
 
     .vih p{
-        font-size: 1.2rem;
-
+      font-size: 1.2rem;
     }
 
     .vih__title{
-        font-size: 2.8rem;
-        font-weight: bold;
+      font-size: 2.8rem;
+      font-weight: bold;
     }
 
     //prevenirlo
 
 
     .prevenirlo{
-        color:rgb(60, 36, 111);
-        margin-right: 122px;
-        margin-left: 113px;
-
+      color:rgb(60, 36, 111);
+      margin-right: 122px;
+      margin-left: 113px;
     }
 
     .prevenirlo p{
-        font-size: 1.2rem;
-
+      font-size: 1.2rem;
     }
 
     .prevenirlo h1{
-        font-size: 2.8rem;
-        font-weight: bold;
+      font-size: 2.8rem;
+      font-weight: bold;
     }
-
 
     //Servicio
 
     .servicio{
-        margin-right: 122px;
-        margin-left: 113px;
-
+      margin-right: 122px;
+      margin-left: 113px;
     }
-
 
     .servicio p{
         font-size: 1.2rem;
-
     }
 
     .servicio h1{
-        font-size: 1.8rem;
-        font-weight: bold;
+      font-size: 1.8rem;
+      font-weight: bold;
     }
 
     .servicio h2{
         font-weight: 1.8rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

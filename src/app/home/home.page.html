@@ -1,10 +1,7 @@
-
 <app-toolbar></app-toolbar>
-
 <ion-content>
   <ion-grid class="header-grid">
     <ion-row>
-
       <ion-col size="12" size-lg="8">
         <div class="header">
           <img src="../../assets/imgHome/bienvenidos.png">
@@ -18,86 +15,98 @@
             shape="round">
             Sumate
           </ion-button>
-          
         </div>
       </ion-col>
-
       <ion-col size="0" size-lg="4">
         <img class="img-header" src="../../assets/imgHome/imgHome2.png">
       </ion-col>
-
-
-
     </ion-row>
   </ion-grid>
   <br>
   <br>
 
   <div class="slide-title">
-
-  <h2 class="title_carrousel title__section"> Salud sexual </h2>
-
+  <h2 class="title_carrousel"> Salud sexual </h2>
  </div>
 
-
-
-
   <ion-slides
-  class="ion-slides"
-  pager="true"
-  [options]="slideOpts"
->
+    class="ion-slides"
+    pager="true"
+    [options]="slideOpts"
+  >
   <ion-grid class="carrousel-grid" fixed>
     <ion-row>
       <ion-col size="12" sizeLg="4">
+        <ion-slide>
+          <ion-card class="card-slide" color="light">
+            <ion-card-header>
+              <img src="../../assets/imgHome/slide1.jpg">
+            </ion-card-header>
+            <ion-card-content>
+              <div>
+                <h3 class="title__section ion-padding">Métodos anticonceptivos</h3>
+                <br>
+                <p class="slide_text">
+                  Una plataforma especializada para integrar la cadena productiva de tu negocio</p>
+                <br>
+              </div>
+            </ion-card-content>
+            <ion-button
+              class="button__hero"
+              expand="block"
+              shape="round"
+              routerLink="/salud-sexual"
+            >
+            Más Info
+            </ion-button>
+          </ion-card>
+        </ion-slide>
+      </ion-col>
 
-
-    <ion-slide>
-      <ion-card class="card-slide" color="light">
-        <ion-card-header>
-          <img src="../../assets/imgHome/slide1.jpg">
-        </ion-card-header>
-        <ion-card-content>
-          <div>
-            <h2 class="title__section ion-padding">Métodos anticonceptivos</h2>
-            <br>
-            <p class="slide_text">
-              Una plataforma especializada para integrar la cadena productiva de tu negocio
-            </p>
-            <br>
-          </div>
-        </ion-card-content>
-        <ion-button
-          class="button__hero"
-          expand="block"
-          shape="round"
-          routerLink="/salud-sexual"
+    <ion-col size="12" sizeLg="4">
+      <ion-slide>
+        <ion-card
+          class="card-slide"
+          color="light"
         >
-        Más Info
-        </ion-button>
-      </ion-card>
-    </ion-slide>
+          <ion-card-header>
+            <img src="../../assets/imgHome/slide3.jpg">
+          </ion-card-header>
+          <ion-card-content>
+            <div>
+              <h3 class="title__section ion-padding"> Prevencion ITS</h3>
+              <br>
+              <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
+              <br>
+            </div>
+          </ion-card-content>
+          <ion-button
+            class="button__hero"
+            expand="block"
+            shape="round"
+            routerLink="/salud-sexual"
+          >
+            Más Info
+          </ion-button>
+        </ion-card>
+      </ion-slide>
     </ion-col>
 
     <ion-col size="12" sizeLg="4">
-
-    <ion-slide>
-      <ion-card
-        class="card-slide"
-        color="light"
-      >
-        <ion-card-header>
-          <img src="../../assets/imgHome/slide3.jpg">
-        </ion-card-header>
-        <ion-card-content>
-          <div>
-            <h2 class="title__section ion-padding"> Prevencion ITS</h2>
-            <br>
-            <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
-            <br>
-          </div>
-        </ion-card-content>
-        <ion-button
+      <ion-slide>
+        <ion-card class="card-slide " color="light">
+          <ion-card-header>
+            <img src="../../assets/imgHome/slide2.jpg">
+          </ion-card-header>
+          <ion-card-content>
+            <div>
+              <h3 class="title__section ion-padding">Gestion menstrual</h3>
+              <br>
+              <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
+              <br>
+            </div>
+          </ion-card-content>
+          <ion-button
             class="button__hero"
             expand="block"
             shape="round"
@@ -105,45 +114,14 @@
           >
           Más Info
           </ion-button>
-      </ion-card>
-    </ion-slide>
-
+        </ion-card>
+      </ion-slide>
     </ion-col>
-
-    <ion-col size="12" sizeLg="4">
-
-    <ion-slide>
-      <ion-card class="card-slide " color="light">
-        <ion-card-header>
-          <img src="../../assets/imgHome/slide2.jpg">
-        </ion-card-header>
-        <ion-card-content>
-          <div>
-            <h2 class="title__section ion-padding">Gestion menstrual</h2>
-            <br>
-            <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
-            <br>
-          </div>
-        </ion-card-content>
-        <ion-button
-            class="button__hero"
-            expand="block"
-            shape="round"
-            routerLink="/salud-sexual"
-          >
-          Más Info
-          </ion-button>
-      </ion-card>
-    </ion-slide>
-  </ion-col>
-</ion-row>
+  </ion-row>
 </ion-grid>
 </ion-slides>
 
-
-
 <div>
-
   <div class="div-svg-consumo-top" >
     <svg class="svg-consumo-top"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
   </div>
@@ -152,12 +130,12 @@
      <div class="consumo-div-content">
        <ion-grid>
          <ion-row>
-           <ion-col size="12" size-lg="8"> 
-            <h2>Consumo de sustancias</h2>
-            
+           <ion-col size="12" size-lg="8">
+            <h3>Consumo de sustancias</h3>
+
             <div class="div-consumo">
               <div>
-               <p class="consumo-p"> 
+               <p class="consumo-p">
                  Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
                </p>
                <ion-button
@@ -171,20 +149,14 @@
              </ion-button>
             </div>
           </div>
-            
-
            </ion-col>
-           <ion-col size="12" size-lg="4"> 
+           <ion-col size="12" size-lg="4">
              <img src="../../assets/imgHome/sustancias.png">
-
-
           </ion-col>
          </ion-row>
        </ion-grid>
-        
      </div>
     </div>
-
         <div class="div-svg-consumo-bottom">
           <svg class="svg-consumo-bottom"  viewBox="0 0 500 150" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
         </div>
@@ -193,27 +165,25 @@
 <br>
 <br>
 <br>
-
-
           <ion-card class="depresion-content margin-card-default card-no-shadow" >
             <ion-card-content>
             <ion-col size="12" >
               <h2 class="title__section ">Gestión de emociones</h2>
               <br>
-             
+
                 <p> Comprender el mundo emocional es importante para poder gestionar el estado de ánimo, lo que ayuda a poder seguir construyendo nuestra identidad, relaciones interpersonales y también el proyecto de vida.</p>
                 <br>
                 <p>
                   Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
                 </p>
-                
+
 
             </ion-col>
           </ion-card-content>
 
-          
 
-            
+
+
           </ion-card>
 
 
@@ -293,14 +263,14 @@
              <svg class="svg-datto-top"  viewBox="0 0 500 150" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
             </div>
             <div class="datto-content">
-              
-             <div class="div-inclusiva">   
-              
+
+             <div class="div-inclusiva">
+
                     <div class="datto-flex">
                       <div>
                         <h2>DATTO es inclusiva</h2>
                         <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
-                        </p> 
+                        </p>
                         <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
                         <ion-button
                         class="button__hero"
@@ -312,17 +282,15 @@
                         Más Info
                       </ion-button>
                       <img class="inclusiva-img2" src="../../assets/imgHome/Image_013.png">
-               
-                    </div>    
-                    
-                        <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
-                         
+
                     </div>
 
-                   
+                        <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
+
+                    </div>
 
                   </div>
-                    
+
                   <br>
 
           </div>
@@ -334,13 +302,9 @@
             <br>
             <br>
 
-
- 
-
-                 
                 <div class="igualdad-violencia-content">
-                
-                  
+
+
                     <div class="violento-content">
                       <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
                       <div class="violento-txt">
@@ -355,14 +319,10 @@
                         shape="round"
                         routerLink="/sexo-afectivas"
                       >
-                        Identifica 
+                        Identifica
                       </ion-button>
                       </div>
-                      
                     </div>
-
-            
-
                 </div>
 
                 <br>
@@ -372,10 +332,10 @@
                 <br>
 
                 <div class="igualdad-violencia-content">
-                
-                  
+
+
                       <div class="violento-content">
-                        
+
                         <div class="violento-txt">
                           <h2>Igualdad de genero</h2>
                           <p>
@@ -391,27 +351,17 @@
                     </ion-button>
                   </div>
                 </div>
-
                       <div>
-
                       <img class="img-circulo" src="../../assets/imgHome/circulo-verde.png">
-
-
                         <img class="img-igualdad" src="../../assets/imgHome/circle-lightblue.png">
-                          
                         <img class="img-balanza" src="../../assets/imgHome/imgGeneros.png">
-                        
                         </div>
-
                       </div>
-  
-
                   <div class="no-mas-bullying-svg">
-
                     <img class="no-mas-bullying-img" src="../../assets/imgHome/NO MAS BULLYIN sin txt.svg">
-                    
+
                     <div class="bullying-content">
-                  
+
                       <div class="bullying-text">
                       <p class="bullying-p">
                         Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en Datto. Si buscás atención especifíca, nos aseguraremos de que recibas la atención que necesites.
@@ -426,15 +376,13 @@
                           >
                           ¿Que hacer frente al bullying?
                           </ion-button>
-                        
                       </div>
-                      
                   </div>
-                  
-           
 
 
-               
+
+
+
 
                 <div class="alimentacion-div">
                   <ion-grid class="alimentacion">
