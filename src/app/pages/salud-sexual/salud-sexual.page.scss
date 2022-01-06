@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
-
-h1{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+h2{
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,23 +15,36 @@ p {
 
 //Header
 
-.header h1{
-  left: 85px;
+.header{
+  background-color: #DEB0D2;
+  
+}
+
+.header-text{
   position: absolute;
-  top: 40px;
-  color: #3c246f;
+  top: 3px;
+  
+  text-align: center;
+
+ 
+}
+
+.header-text-h2{
   font-weight: bold;
-  font-size: 1.8rem;
+  color:rgb(60, 36, 111);
+  font-size: 3.5rem;
 }
 
 
+
 .mac-content ion-card-title{
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
 .mac-content p{
   color:#3c246f;
+  font-size: 1.2rem;
   margin-bottom: 10px;
 }
 
@@ -67,7 +80,7 @@ p {
 // MAC de emergencia
 
 .emergencia-bigbox{
-  background-color: #d5e26a;
+  background-color: #f0f0f0;
   border: 1px solid #93c;
 }
 
@@ -84,7 +97,7 @@ p {
 
 .emergencia-close-icon{
   width: 100%;
-  background-color: #d5e26a;
+  background-color: #f0f0f0;
   border-bottom: 1px solid #93c;
   float: right;
   box-sizing: border-box;
@@ -93,23 +106,18 @@ p {
 
 
 .emergencia-content{
+  line-height: 1.3;
   color:#3c246f;
+  background-color: #f0f0f0;
   border-bottom: 1px solid #93c;
 }
 
 .emergencia-content h2{
   text-align: center;
   color:#3c246f;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 
-.emergencia-h2{
-  background-color:rgb(172, 216, 206) ;
-  font-weight: 500;
-  line-height: 1.2;
-  font-size: 2rem;
-  margin: 5px;
-}
 
 .emergencia-pastilla{
   background-color: #d0a3d6;
@@ -132,6 +140,15 @@ p {
     line-height: 1.4;
     background-color: rgb(172, 216, 206);
     padding: 4px;
+}
+
+.emergencia-pastilla-content h2{
+  color:rgb(60, 36, 111);
+}
+
+.emergencia-content3{
+  text-align: center;
+  background-color: #f0f0f0;
 }
 
 
@@ -170,18 +187,19 @@ p {
 }
 
 .mac-bigbox{
-  background-color: #d5e26a;
+  background-color: #f0f0f0;
   border: 1px solid #93c;
   margin:15px;
 }
 .mac-bigbox-2{
-  background-color: #dbdbdb;
+  background-color: #f0f0f0;
   border: 1px solid #93c;
   margin:15px;
 }
 
 .yellow {
   background-color: rgb(223, 235, 106);
+  font-size: 1.8rem;
 }
 
 .img9{
@@ -231,6 +249,9 @@ p {
 
 //ciclo
 
+.ciclo-content-2{
+  background-color: #f5cbf1;;
+}
 .ciclo-content h2{
     font-size: 2rem;
     color: rgb(60, 36, 111);
@@ -261,17 +282,16 @@ p {
   color: white;
 }
 
+
 .items__ovu li span{
   font-size: 1.1rem;
   color: rgb(60, 36, 111);
   background-color: rgb(172, 216, 206);
 }
 
-.items__ovu li {
-  color: rgb(60, 36, 111);
-  margin-bottom: 5px;
+.items__ovu{
+  color:rgb(60, 36, 111);
 }
-
 .violet {
   color: rgb(60, 36, 111);
 }
@@ -290,6 +310,11 @@ p {
   margin: 0;
   color: white;
   border-radius: 0;
+}
+
+.ginecologia-contenedor-padre{
+  background-color:rgb(60, 36, 111);
+
 }
 
 .no-padding {
@@ -313,6 +338,9 @@ p {
 .testeate{
   text-align: center;
 
+}
+.testeate-content{
+  text-align: center;
 }
 
 .testeate-content p{
@@ -412,6 +440,10 @@ p {
   border-radius: 0;
 }
 
+.servicio-2{
+  background-color: #b697c9;
+}
+
 .servicio h1{
   font-size: 3rem;
   font-weight: bold;
@@ -432,30 +464,69 @@ p {
     height: 55px;
 }
 
+.img15{
+  height: 202px;
+}
+.svg-ciclos{
+  margin: -25px;
+}
+
+.comillas{
+  font-size: 1.5rem;
+}
+
+.svg-top-ciclo{
+  margin: -25px;
+}
+
+
 
 
 @media (min-width: 1024px){
 
-    .header h1{
-        padding: 142px;
-        left: 160px;
-        font-size: 4rem;
+  .header{
+
+   position: relative;
+   
+  
+  }
+
+  .header-text{
+    position: absolute;
+    bottom: 266px;
+    left: 200px;
+    width: 1500px;}
+
+    .header-text-h2{  
+      font-size: 10rem;   
+      top: 17px;
+      left: 109px;
     }
+
+  p{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.8rem;
+  }
+  .margin-card-default{
+    margin: 16px 279px 1px 279px;
+    max-width: 1330px;
+}
+
 
     .title__section {
       font-size: 2.5rem !important;
     }
 
-    //MAC
-
-    .mac{
-        margin-right: 122px;
-        margin-left: 113px;
+    .items__ovu p{
+       font-size: 1.5rem;
     }
 
-    // .mac-content h1{
-    //     font-size: 7rem;
-    // }
+    .items__ovu h2{
+      font-size: 1.8rem;
+      
+   }
 
     .mac p{
         font-size: 1.5rem;
@@ -468,17 +539,18 @@ p {
       margin: 0 auto;
       height: 400px;
     }
-    // .derechos-mac span{
-    //     font-size: 5rem;
-    // }
+
+    .derechos-mac{
+      margin: 10px 140px 10px 140px;
+    }
+  
 
     .derechos-mac p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .mac-bigbox{
       display: block;
-      background-color: #d5e26a;
       border: 1px solid #93c;
       padding: 30px;
       width: 700px;
@@ -491,56 +563,56 @@ p {
       }
     }
 
+    .mac-content p{
+ 
+      font-size: 1.5rem;
+      
+    }
+    
+
     .img1 {
       height: 120px;
     }
 
     .mac-bigbox-2{
-        background-color: #d5e26a;
-        border: 1px solid #93c;
         margin: 0 300px 0px 300px;
     }
 
+    .yellow-2{
+      font-size: 1.8rem;
+    }
+
+    .no-justify{
+      font-size: 1.5rem;
+    }
 
 
     //emergencia
 
-    .emergencia{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
 
-    // .emergencia-content h2 {
-    //   font-size: 2.4rem !important;
-    // }
-
-    // .emergencia-content h2{
-    //     font-size: 55px;
-    // }
-
-    // .emergencia-content h1{
-    //     font-size: 7rem;
-    // }
-
-
-    // .emergencia h1{
-    //     font-size: 7rem;
-    // }
-
-    // .img1{
-    //     width: 100%; height: 257px;
-    //     }
 
     .emergencia-pastilla h2{
-        font-size: 1.4rem !important;
+        font-size: 1.8rem !important;
     }
 
+    
+.emergencia-pastilla-content span{
+  font-size: 1.8rem;
+  line-height: 1.4;
+  background-color: rgb(172, 216, 206);
+  padding: 4px;
+}
+
     .emergencia-uso p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .emergencia-uso h1{
         font-size: 7rem;
+    }
+
+    .img1{
+      height: 245px;
     }
 
     .img2{
@@ -556,21 +628,12 @@ p {
        font-weight: bold;
      }
 
-     .preservativo{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
-
-    // .preservativo h1{
-    //     font-size: 7rem;
-    // }
-
     .preservativo p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .preservativo  span{
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
     .implante-content {
@@ -579,12 +642,16 @@ p {
         font-weight: bold;
       }
       p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
       }
     }
 
+    .implante-content p{
+      font-size: 1.5rem;
+    }
+
     .implante-content strong {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
 
@@ -605,10 +672,7 @@ p {
 
     //Implante
 
-    .implante{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+ 
 
     .implante h1{
         font-size: 7rem;
@@ -626,26 +690,27 @@ p {
         width: 100%; height: 313px;
     }
 
+    .testeate-content p{
+      font-size: 1.5rem;
+    
+    }
 
     //diu
 
-    .diu{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+
 
     .diusiu-content {
         ion-card-title {
           font-size: 2.5rem;
         }
         p {
-          font-size: 1.2rem;
+          font-size: 1.5rem;
         }
     }
 
     // .diusiu-content p{
 
-    // }
+  
 
     .diusiu-content  span{
         font-size: 5rem;
@@ -666,10 +731,7 @@ p {
       }
     }
 
-    .anticonceptivos-inyectables{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
+  
 
     .anticonceptivos-inyectables h1{
         font-size: 7rem;
@@ -689,10 +751,6 @@ p {
 
     // Anticonceptivos orales
 
-    .anticonceptivos-orales{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
 
     .anticonceptivos-orales h1{
         font-size: 7rem;
@@ -722,10 +780,6 @@ p {
 
     //anillo vaginal
 
-    .anillo-vaginal{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
 
     .anillo-vaginal h1{
         font-size: 7rem;
@@ -742,11 +796,6 @@ p {
 
     //Parche
 
-    .parche-anticonceptivo{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
-
     .parche-anticonceptivo h1{
         font-size: 7rem;
     }
@@ -762,13 +811,7 @@ p {
 
     //irreversibles
 
-    .irreversibles{
-
-      margin-right: 122px;
-      margin-left: 113px;
-
-
-    }
+  
 
     .irreversibles p{
         font-size: 3rem;
@@ -787,10 +830,6 @@ p {
 
     //marco legal
 
-    .marco-legal{
-        margin-right: 122px;
-        margin-left: 113px;
-    }
 
     .marco-legal h1{
       font-size: 7rem;
@@ -801,8 +840,7 @@ p {
     }
 
     .ciclo-content{
-      margin-right: 122px;
-      margin-left: 113px;
+      
       text-align: justify;
     }
 
@@ -810,7 +848,7 @@ p {
       font-size: 2.8rem;
     }
      .ciclo__menstrual {
-      width: 500px;
+      width: 680px;
       display: block;
       margin: 0 auto;
      }
@@ -821,23 +859,33 @@ p {
     }
 
     .img15{
-        height: 365px;
-        margin-top: 249px;
+      height: 439px;
+      margin-top: 114px;
+      margin-left: 99px;
     }
 
     //formas
 
     .formas-content{
         background-color: white;
-        margin-right: 122px;
-        margin-left: 113px;
+      
         color:rgb(60, 36, 111);
 
 
     }
 
     .formas-content p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
+    }
+
+    //Irreversibles
+
+    .irreversibles-content p{
+      font-size: 1.5rem;
+    }
+
+    .irreversibles-content h2{
+      font-size: 1.8rem;
     }
 
     //Ginecologia
@@ -863,7 +911,7 @@ p {
     }
 
     .ginecologia p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
 
     }
 
@@ -887,14 +935,9 @@ p {
 
     //testeate
 
-    .testeate{
-      margin-right: 122px;
-      margin-left: 113px;
-    }
+  
 
-    .testeate-content p{
-      font-size: 1.2rem;
-    }
+   
 
     .testeo__btn {
       width: 250px;
@@ -911,12 +954,11 @@ p {
 
     .vih{
       color:rgb(60, 36, 111);
-      margin-right: 122px;
-      margin-left: 113px;
+    
     }
 
     .vih p{
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
     .vih__title{
@@ -929,12 +971,11 @@ p {
 
     .prevenirlo{
       color:rgb(60, 36, 111);
-      margin-right: 122px;
-      margin-left: 113px;
+    
     }
 
     .prevenirlo p{
-      font-size: 1.2rem;
+      font-size: 1.5rem;
     }
 
     .prevenirlo h1{
@@ -944,13 +985,9 @@ p {
 
     //Servicio
 
-    .servicio{
-      margin-right: 122px;
-      margin-left: 113px;
-    }
 
     .servicio p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .servicio h1{
@@ -961,4 +998,10 @@ p {
     .servicio h2{
         font-weight: 1.8rem;
     }
+
+    .comillas{
+      font-size: 2.8rem;
+    }
+
+ 
 }
