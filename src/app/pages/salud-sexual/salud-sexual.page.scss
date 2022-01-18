@@ -164,6 +164,10 @@ p {
 
 //preservativo
 
+.no-previene-content{
+  text-align: center;
+}
+
 .implante-content {
   font-weight: bold;
   color: rgb(60, 36, 111);
@@ -215,7 +219,7 @@ p {
 
 .implante-content span{
   font-weight: bold;
-  font-size: 1.25rem;
+  font-size: 1.8rem;
 }
 
 .diusiu-content{
@@ -225,6 +229,7 @@ p {
 
 .img4{
   width: 100%;
+
   height: 120px;
 }
 
@@ -249,13 +254,17 @@ p {
 
 //ciclo
 
+.ciclo-text{
+  text-align: left;
+}
+
 .ciclo-content-2{
   background-color: #f5cbf1;;
 }
 .ciclo-content h2{
     font-size: 2rem;
     color: rgb(60, 36, 111);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .ciclo-content{
@@ -457,7 +466,9 @@ p {
 //IMG
 
 .img8{
-  height: 100px;
+  width: 545px;
+    height: 158px;
+    margin: 45px 10px 10px 10px;
 }
 
 .img12{
@@ -483,6 +494,14 @@ p {
 
 
 @media (min-width: 1024px){
+
+  .title_desktop{
+    font-size: 3rem;
+  }
+
+  .salud-sexual-header{
+    margin-top: 230px;
+  }
 
   .header{
 
@@ -741,8 +760,8 @@ p {
         font-size: 3rem;
     }
     .img5 {
-      display: block;
-      margin: 0 auto;
+      
+      height: 294px;
     }
 
     .img6{
@@ -772,9 +791,10 @@ p {
 
 
     .img9{
-      height: 250px;
-      width: 320px;
-
+      height: 355px;
+    width: 341px;
+    margin-left: 105px;
+    
     }
 
 
@@ -805,7 +825,8 @@ p {
     }
 
     .img11{
-      width: 400px;
+      width: 363px;
+    height: 356px;
 
     }
 
@@ -847,6 +868,12 @@ p {
     .ciclo-content h1{
       font-size: 2.8rem;
     }
+
+    .ciclo-content h2{
+      font-size: 7rem;
+    
+  }
+
      .ciclo__menstrual {
       width: 680px;
       display: block;
@@ -860,8 +887,8 @@ p {
 
     .img15{
       height: 439px;
-      margin-top: 114px;
-      margin-left: 99px;
+    margin-top: 304px;
+    margin-left: 35px;
     }
 
     //formas
@@ -890,6 +917,9 @@ p {
 
     //Ginecologia
 
+    .ciclo_title{
+      font-size: 7rem;
+    }
     .ginecologia{
         background-color:rgb(60, 36, 111);
         color: white;

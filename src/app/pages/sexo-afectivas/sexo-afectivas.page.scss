@@ -39,17 +39,14 @@ p{
 //Header
 
 .header {
-    height: 30%;
+    
     text-align: center;
-    width: 100%;
-    background-color: rgb(176, 207, 196);
+
     font-size: 3rem;
 }
 
-.header h1{
-
+.header h2{
     left: 15px;
-    position: absolute;
     font-size: 2.5rem;
 
 }
@@ -210,20 +207,33 @@ p{
         max-width: 1330px;
     }
 
+    
+    .margin-card-header{
+      margin: 0px 279px 1px 271px;
+      max-width: 1330px;
+  }
 
-    .header{
-        height: 500px;
-    }
+  .margin-card-noviazgo{
+    margin: 0px 400px 1px 400px;
+ 
+}
 
-    .header h1{
-        left: 179px;
-        position: absolute;
-        font-size: 8rem;
+.title_grid{
+  position: absolute;
+  bottom: 245px;
+}
 
-    }
+
+
+    .header h2{
+      font-size:8rem;
+      margin-top: 110px;
+  }
+
+    
 
     .img2{
-        height: 501px;
+        height: 573px;
 
     }
 

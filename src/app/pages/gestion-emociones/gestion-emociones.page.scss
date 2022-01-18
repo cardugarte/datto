@@ -48,6 +48,9 @@ h1, h2{
   text-align: center;
 }
 
+.ansiedad-container-img{
+  text-align: center;
+}
 
 //Ansiedad
 
@@ -138,6 +141,9 @@ h1, h2{
   color: rgb(60, 36, 111);
 }
 
+.depresion-text{
+  color: #3c246f;
+}
 //Contacto
 .contacto-card{
   background-color: #dbeb63;
@@ -269,6 +275,10 @@ h1, h2{
 
     //Ansiedad
 
+    .ansiedad_title{
+      font-size: 3rem;
+    }
+
     .ansiedad p{
       font-size: 3rem;
     }
@@ -278,6 +288,7 @@ h1, h2{
     }
 
     .ansiedad-dos-content{
+      padding: 10px 74px 10px 74px;
       text-align: center;
     }
 
@@ -375,15 +386,15 @@ h1, h2{
     }
 
     .img-ansiedad{
-      margin-left: 951px;
-      margin-top: -5px;
-      height: 343px;
+      margin-left: 854px;
+      margin-top: -60px;
+      height: 395px;
     }
 
     .img-2-ansiedad{
       position: absolute;
-      top: 494px;
-      height: 165px;
+      top: 692px;
+      height: 217px;
       display: block;
     }
 

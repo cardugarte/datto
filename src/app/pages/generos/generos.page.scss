@@ -25,7 +25,7 @@
   color: var(--ion-color-primary);
   font-weight: 700;
   color: rgb(60, 36, 111);
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   }
 
 //Header
@@ -141,7 +141,7 @@
 }
 
 .diversidad-content p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .diversidad-2-content p{
@@ -184,7 +184,7 @@
 
 //SVG
 .div-svg-contacto-top{
-  height: 33px;
+  height: 25px;
 }
 
 .svg-contacto-top{
@@ -272,7 +272,7 @@
 
 
 .empoderamiento h2{
-  font-size: 1.8rem;
+  font-size: 3rem;
 }
 
 .empoderamiento p{
@@ -286,12 +286,13 @@
 }
 
 .contacto{
-  background-color: black;
-  padding: 0;
+  background-color: var(--ion-color-dark);
 }
 
+
+
 .contacto h2{
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .contacto p{
@@ -309,22 +310,20 @@
   margin-top: 136px;
 }
 
-.identidad h2{
-  font-size: 1.5rem;
-}
+
 
 .identidad p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 //diversidad
 
 .diversidad-content{
-  padding:200px 200px 0 200px;
+  padding:0px 200px 0 200px;
 }
 
 .diversidad-content p{
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 
 .diversidad-2-content{
@@ -332,15 +331,15 @@
 }
 
 .diversidad-2-content p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 
 .esi p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .esi h2{
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .esi-content{
@@ -348,7 +347,7 @@
 }
 
 .esi-content p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .esi-content span{
   font-size: 1.5rem;
@@ -365,16 +364,11 @@ padding: 177px;
   height: 95px;
 }
 
-.servicios-content{
-  background-color: black;
-}
 
-.servicios-content h2{
-  font-size: 1.5rem;
-}
+
 
 .servicios-content p{
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .svg-servicios-top{
