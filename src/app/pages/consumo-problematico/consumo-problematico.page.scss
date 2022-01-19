@@ -62,15 +62,11 @@
 
 
 /// Consumo de alcohol
-.consumo-content h1{
-  font-weight: bold;
-  font-size: 3.5rem;
-  color: rgb(60, 36, 111);
-}
+
 
 .consumo-content p{
   color: #3c246f;
-  text-align: justify;
+  text-align: left;
   }
 
 .sugerencias-content span{
@@ -121,11 +117,15 @@ ul, li {
 //contacto
 
 .contacto-content{
-  background-color: var(--ion-color-dark);
+  background-color: black;
   color: white;
   text-align: left;
   padding: 16px;
   font-size: 14px
+}
+
+.contacto-content h2{
+  text-align: left;
 }
 
 .contacto-content p{
@@ -136,25 +136,17 @@ ul, li {
 
 //SVG
 
-.div-svg-header{
-    height: 27px;
-}
 
-.div-svg-contacto-top{
-    height: 33px;
 
-}
+
 
 .svg-contacto-top{
 
-    fill: rgb(255, 255, 255);position: relative;bottom: 79px; transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: -20px; transform: scaleY(-1);
 }
 
 
 
-.div-svg-contacto-bottom{
-    height: 155px;
-}
 
 .svg-contacto-bottom{
     fill: rgb(255, 255, 255);position: relative;bottom: 0px;
@@ -180,9 +172,16 @@ ul, li {
 
 
 @media (min-width: 1146.98px){
+  .befenicios h2{
+    font-size: 4rem;
+  }
+
+  .title__section {
+    font-size: 4rem !important;
+  }
 
     .margin-card-default{
-        margin: 16px 279px 1px 271px;
+        margin: 0px 279px 1px 271px;
         max-width: 1330px;
     }
 
@@ -201,14 +200,7 @@ ul, li {
 
     //SVG
 
-    .div-svg-header{
-        height: 147px;
-    }
 
-    .div-svg-contacto-top{
-
-        height: 158px;
-    }
 
     .svg-contacto-bottom{
         fill: rgb(255, 255, 255);position: relative;bottom: 1px;
@@ -216,7 +208,7 @@ ul, li {
 
 
     .svg-contacto-top{
-        fill: rgb(255, 255, 255);position: relative;bottom:387px;
+        fill: rgb(255, 255, 255);position: relative;bottom:-20px;
     }
 
 
@@ -238,13 +230,14 @@ ul, li {
     }
 
     .consumo h2{
-        font-size: 1.8rem;
-        font-weight: bold;
+        font-size: 3.5rem;
+       
+        text-align: left;
     }
 
     .img1{
-        height: 452px;
-        width: 50%;
+      height: 877px;
+      width: 1089px;
 }
 
 .button1{
@@ -264,8 +257,8 @@ ul, li {
 }
 
 .img3{
-    height: 411px;
-    width: 50%;
+  height: 528px;
+  width: 1033px;
 }
 
 //Contacto
@@ -276,7 +269,7 @@ ul, li {
 }
 
 .contacto-content h2{
-    font-size: 1.8rem;
+    font-size: 4rem;
 
 
 

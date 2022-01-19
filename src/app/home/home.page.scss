@@ -293,11 +293,7 @@ font-size: 1.8rem;
 }
 
 
-.alimentacion-content h1{
-  color:black;
-  font-size: 1.8rem;
-  text-align: left;
-}
+
 
 .alimentacion-content p{
   color: black;
@@ -335,20 +331,10 @@ font-size: 1.8rem;
 
 //svg consumo
 
-.div-svg-consumo-top{
-
-  height: 92px;
-
-}
-
-.div-svg-consumo-bottom{
-  height: 80px;
-}
-
 .svg-consumo-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: 20px;
+  bottom: -7px;
   transform: scaleY(-1);
 }
 
@@ -360,18 +346,12 @@ font-size: 1.8rem;
 
 //svg Datto
 
-.div-svg-datto-bottom{
-  height: 80px;
-}
 
-.div-svg-datto-top{
-  height: 98px;
-}
 
 .svg-datto-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: 14px;
+  bottom: -20px;
   transform: scaleY(-1);
 }
 
@@ -447,7 +427,7 @@ display: none;
   }
 
   .margin-card-default{
-    margin: 16px 279px 1px 271px;
+    margin: 0px 279px 1px 271px;
     max-width: 1330px;
   }
 
@@ -510,23 +490,9 @@ display: none;
  }
 
 
-  //Gestion
-  .div-svg-consumo-top{
-    height: 259px;
-  }
+  
 
-  //SVG
-  .svg-datto-top{
-    bottom: 462px;
-  }
 
-  .svg-consumo-top{
-    bottom: 315px;
-  }
-
-  .svg-consumo-bottom{
-    top: -1px;
-  }
 
   //consumo
   .div-consumo {
@@ -646,7 +612,7 @@ display: none;
   }
 
   .div-inclusiva{
-  margin: 16px 279px 1px 271px;
+  margin: 0px 279px 1px 271px;
   }
 
   .div-inclusiva h2{
@@ -666,7 +632,7 @@ display: none;
 
  //igualdad-violencia
   .igualdad-violencia-content{
-  margin: 16px 279px 1px 271px;
+  margin: 0px 279px 1px 271px;
   text-align: center;
   }
 
@@ -699,7 +665,11 @@ display: none;
 
  //Igualdad de genero
   .alimentacion{
-    margin: 16px 279px 1px 271px;
+    margin: 0px 279px 1px 271px;
+  }
+
+  .alimentacion-content h2{
+    font-size: 3rem;
   }
 
 
@@ -711,7 +681,7 @@ display: none;
 
   .alimentacion-div{
     margin-top: 0px;
-    height: 800px;
+    height: 975px;
     margin-bottom: -2px;
 
   }
@@ -720,7 +690,7 @@ display: none;
 //Bullying
   .bullying-text{
     display: block;
-    margin: 16px 279px 1px 271px;
+    margin: 0px 279px 1px 271px;
     
   }
 
@@ -753,6 +723,10 @@ display: none;
   // .carrousel-grid{
   // margin: 10px 113px 0px 113PX;
   // }
+
+  .img-cuerpo{
+    margin: 100px;
+  }
 
   ion-slides h3 {
     font-size: 1.5rem;

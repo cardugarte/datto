@@ -26,13 +26,14 @@
     color: var(--ion-color-primary);
     font-weight: 700;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left
+    ;
   }
 
 
 //Header
 
-.header h1 {
+.header h2 {
      position: absolute;
      top: 23px;
      margin-left: 0px;
@@ -47,7 +48,7 @@
 //Buenos habitos
 
 .buenos-habitos-content{
-    text-align: center;
+    text-align: left;
 }
 
 .buenos-habitos-content span{
@@ -64,20 +65,17 @@
     text-align: justify;
 }
 
-.saludable-content  p{
-    color: #3c246f;
-}
+
 
 //Saludable
 
 .saludable-content{
-    text-align: center;
+    text-align: left;
+    color: #3c246f;
 }
 
 
-.saludable-content p{
-    text-align: justify;
-}
+
 
 
 
@@ -154,26 +152,21 @@
   background-color: var(--ion-color-dark);
   color: white;
   font-size: 14px;
-  margin: 0;
+ 
 }
 
 
 //SVG
 
-.div-svg-top{
-    height: 63px;
-}
 
 .svg-top{
     fill: rgb(255, 255, 255);
     position: relative;
-    bottom: 45px;
+    bottom: -21px;
     transform: scaleY(-1);
 }
 
-.div-svg-bottom{
-    height: 25px;
-}
+
 
 .svg-bottom{
     fill: rgb(255, 255, 255);position: relative;bottom: 24px;
@@ -194,9 +187,13 @@
 
 @media (min-width: 1146.98px){
 
+    .title__section {
+        font-size: 4rem !important;
+      }
+
 
     .margin-card-default{
-        margin: 16px 279px 1px 271px;
+        margin: 0px 279px 1px 271px;
         max-width: 1330px;
     }
     .ciclo-content{
@@ -230,7 +227,7 @@
 
 .habitos{
 
-    text-align: center;
+    text-align: left;
 }
 
 .habitos h2{
@@ -263,7 +260,7 @@
 }
 
 .img6{
-    height: 410px;
+    height: 635px;
 }
 
 .malos-habitos-content{
@@ -310,17 +307,13 @@
 
 //SVG
 
-.div-svg-top{
-    height: 280px;
-}
+
 
 .svg-top{
-    fill: rgb(255, 255, 255);position: relative;bottom: 278px;   transform: scaleY(-1);
+    fill: rgb(255, 255, 255);position: relative;bottom: -20px;   transform: scaleY(-1);
 }
 
-.div-svg-bottom{
-    height: 147px;
-}
+
 
 .svg-bottom{
     fill: rgb(255, 255, 255);position: relative;bottom: 2px;

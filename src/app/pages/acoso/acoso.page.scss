@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.bold{
+  font-weight: bold;
+}
 
 .button__hero {
   width: 170px;
@@ -89,19 +92,13 @@
 //consecuencias
 
 .consecuencias{
-  text-align: justify;
+  text-align: left;
   line-height: normal;
   color:rgb(60, 36, 111);
   justify-content: center;
   margin-bottom: 10px;
 }
 
-.consecuencias h1{
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
 
 .consecuencias p{
   line-height: 1.5;
@@ -111,7 +108,7 @@
 }
 
 .como-actuan{
-  text-align: center;
+  text-align: left;
   line-height: normal;
   background-color: #a3cfc5;
 }
@@ -121,6 +118,7 @@
 .contacto{
  background-color: #c8b5ed;
  color: #3c246f;
+ text-align: left;
 }
 
   .contacto h1{
@@ -129,20 +127,17 @@
 
   //SVG
 
-  .div-svg-contacto-top {
-    height: 10px;
-  }
+ 
+
 
   .svg-contacto-top {
     fill: #c8b5ed;
     position: relative;
-    bottom: 78px;
+    bottom: -20px;
     transform: scaleY(-1);
   }
 
-  .div-svg-contacto-bottom {
-    height: 0px;
-  }
+
 
   .svg-contacto-bottom{
     fill: #c8b5ed;
@@ -169,6 +164,12 @@
 
 @media (min-width: 1146.98px)  {
 
+
+
+  .title__section {
+    font-size: 4rem !important;
+  }
+
     .margin-card-default{
         margin: 16px 279px 1px 279px;
         max-width: 1330px;
@@ -184,7 +185,13 @@
 
     .que-hacer-bullying{
         margin: 17px 200px 0px 200px;
+
+        p{
+          font-size: 2.5rem;
+        }
     }
+
+    
 
     .bullying-content h2{
         font-size: 1.8rem;
@@ -197,17 +204,29 @@
         color:rgb(60, 36, 111);
     }
 
+    .condiciones-content{
+      font-size: 2.5rem;
+      color:rgb(60, 36, 111);
+      text-align: left;
+      font-weight: bold;
+    }
+
 
     //Condiciones
 
-    .condiciones{
-        text-align: justify;
+  
 
+    .condiciones-content{
+      text-align: left;
+     
+     
+      padding: 20px;
     }
 
 
     .condiciones p{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        font-weight: bold;
 
     }
 
@@ -217,10 +236,19 @@
 
     //Consecuencias
 
+    .consecuencias .como-actuan p{
+      font-size: 2.5rem;
+    }
+
     .consecuencias{
-        text-align: center;
+        text-align: left;
         color:rgb(60, 36, 111);
         line-height: 1.5;
+    }
+
+    .consecuencias .que-hacer-bullying p{
+      font-size: 2rem;
+      padding: 15px;
     }
 
 
@@ -240,7 +268,7 @@
     }
 
     .como-actuan{
-        margin: 0px 306px 0 306px;
+        margin: 0px 250px 0 250px;
     }
 
     //Contacto
@@ -263,11 +291,12 @@
         background-color: black;
         color: white;
         height: 240px;
+        text-align: left;
         }
 
 
         .contacto-2 h2{
-            font-size: 1.8rem;
+            font-size: 4rem;
         }
 
         .contacto-2 p{
@@ -278,7 +307,7 @@
     .img-contacto2-1{
         display: block;
         position: absolute;
-        margin: -13px 0px 0px 1028px;
+        margin: 16px 0px 0px 1028px;
     }
 
 
@@ -294,21 +323,10 @@
 
        //SVG
 
-       .div-svg-contacto-top{
-        height: 143px;
-    }
 
-    .svg-contacto-top{
 
-        fill: #c8b5ed;
-        position: relative;
-        bottom: 414px;;
-        transform: scaleY(-1);
-    }
-
-    .div-svg-contacto-bottom{
-        height: 150px;
-    }
+  
+ 
 
     .svg-contacto-bottom{
 
@@ -324,5 +342,6 @@
 
 
 }
+
 
 

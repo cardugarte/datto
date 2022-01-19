@@ -33,7 +33,7 @@
 .header{
   margin-top: -20px;
   background-color: #c8b5ed;
-  height: 25vh;
+  height: 250px;
 }
 
 .header h1{
@@ -158,6 +158,10 @@
   color: #3c246f;
 }
 
+.esi-frase{
+  text-align: center;
+}
+
 .esi-content{
   text-align: center;
 }
@@ -207,6 +211,11 @@
 }
 
 @media (min-width: 1146.98px)  {
+
+  .title__section {
+    font-size: 4rem !important;
+  }
+
   .img-contacto1{
     margin: 129px 10px 10px -1px;
     position: absolute;
@@ -221,7 +230,7 @@
 
     }
     .margin-card-default{
-      margin: 16px 279px 1px 271px;
+      margin: 0px 279px 1px 271px;
       max-width: 1330px;
     }
 
@@ -271,10 +280,6 @@
 //empoderamiento
 
 
-.empoderamiento h2{
-  font-size: 3rem;
-}
-
 .empoderamiento p{
   font-size: 1.5rem;
 }
@@ -306,11 +311,6 @@
 
 //identidad
 
-.identidad{
-  margin-top: 136px;
-}
-
-
 
 .identidad p{
   font-size: 1.5rem;
@@ -319,12 +319,22 @@
 //diversidad
 
 .diversidad-content{
-  padding:0px 200px 0 200px;
+  padding:0px 100px 0 100px;
+  text-align: left;
 }
 
 .diversidad-content p{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
+
+.esi-content{
+  padding:0px 100px 0 100px;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+
+
 
 .diversidad-2-content{
   text-align: center;
@@ -342,16 +352,12 @@
   font-size: 3rem;
 }
 
-.esi-content{
+.esi-frase p{
+  font-size: 3.5rem;
   text-align: center;
 }
 
-.esi-content p{
-  font-size: 1.5rem;
-}
-.esi-content span{
-  font-size: 1.5rem;
-}
+
 
 //Servicios
 .servicios{
@@ -388,6 +394,13 @@ padding: 177px;
 
 .div-svg-bottom-contacto-2{
   height: 250px;
+}
+
+
+.img-chica-diversidad{
+  height: 468px;
+  margin-left: 690px;
+  margin-top: -150px;
 }
 
 }

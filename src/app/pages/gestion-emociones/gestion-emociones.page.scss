@@ -167,18 +167,12 @@ h1, h2{
 
 //svg
 
-.div-svg1{
-  height: 9px;
-}
 
-.div-svg2{
-  height: 33px;
-}
 
 .svg-contacto-top{
   fill: rgb(255, 255, 255);
+  bottom: -30px;
   position: relative;
-  bottom: 79px;
   transform: scaleY(-1);
 }
 
@@ -190,8 +184,9 @@ h1, h2{
 
 .svg-contacto2-top{
   transform: scaleY(-1);
-  position: relative;
-  bottom: -5px;
+  fill: rgb(255, 255, 255);
+  bottom: -20px;
+    position: relative;
   }
 
 //Contacto 2
@@ -247,7 +242,7 @@ h1, h2{
 
 @media (min-width: 1146.98px){
     .margin-card-default{
-      margin: 16px 279px 1px 271px;
+      margin: 0px 279px 1px 271px;
       max-width: 1330px;
     }
 
@@ -256,7 +251,7 @@ h1, h2{
     .gestion-header{
       color: rgb(60, 36, 111);
       background-color: #c8b5ed;
-      height: 661px;
+      height: auto;
     }
 
     .img1{
@@ -276,7 +271,7 @@ h1, h2{
     //Ansiedad
 
     .ansiedad_title{
-      font-size: 3rem;
+      font-size: 4rem;
     }
 
     .ansiedad p{
@@ -289,7 +284,7 @@ h1, h2{
 
     .ansiedad-dos-content{
       padding: 10px 74px 10px 74px;
-      text-align: center;
+      text-align: left;
     }
 
     .ansiedad-dos-content p{
@@ -304,20 +299,9 @@ h1, h2{
 
     //SVG CONTACTO
 
-    .div-svg1{
-      height: 112px;
-    }
+ 
 
-    .svg-contacto-top{
-      fill: rgb(255, 255, 255);
-      position: relative;
-      bottom: 447px;
-      transform: scaleY(-1);
-    }
-
-    .div-svg2{
-      height: 143px;
-    }
+  
 
     .svg-contacto-bottom{
       fill: rgb(255, 255, 255);
@@ -357,16 +341,8 @@ h1, h2{
 
     //svg contacto 2
 
-    .div-svg-contacto2-top{
-        height: 112px;
-      }
 
-      .svg-contacto2-top{
-        transform: scaleY(-1);
-        fill: rgb(255, 255, 255);
-        position: relative;
-        bottom: 447px;
-      }
+  
 
       .svg-contacto2-bottom{
         fill: rgb(255, 255, 255);
