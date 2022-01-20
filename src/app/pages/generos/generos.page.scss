@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+ion-card-content {
+  padding-top: 0;
+  }
+
 
 .button__hero {
   width: 150px;
@@ -25,30 +29,24 @@
   color: var(--ion-color-primary);
   font-weight: 700;
   color: rgb(60, 36, 111);
-  font-size: 2.5rem;
+  font-size: 2rem;
   }
 
 //Header
 
 .header{
-  margin-top: -20px;
-  background-color: #c8b5ed;
-  height: 250px;
+  position: absolute;
+bottom: 400px;
+text-align: center;
 }
 
-.header h1{
-  font-size: 3rem;
-  color: black;
-  top: 50px;
-  position: relative;
-  left: 129px;
+.img1{
+  display: none;
 }
 
 //svg
 
-.div-svg-top-contacto {
-  height: 33px;
-}
+
 
 .svg-top-contacto {
   fill: rgb(255, 255, 255);
@@ -56,9 +54,7 @@
   bottom: 79px;
   }
 
-.div-svg-bottom-contacto {
-  height: 33px;
-}
+
 
 .svg-bottom-contacto {
   fill: rgb(255, 255, 255);
@@ -100,9 +96,6 @@
 }
 
 //SVG
-.svg-top-contacto{
-  height: 33px;
-}
 
 .svg-bottom-contacto {
   margin-bottom: 4px;
@@ -135,7 +128,7 @@
 
 //diversidad
 .diversidad-content{
-  padding: 38px ;
+  
   color: #3c246f;
   text-align: center;
 }
@@ -187,14 +180,12 @@
 }
 
 //SVG
-.div-svg-contacto-top{
-  height: 25px;
-}
+
 
 .svg-contacto-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: 75px;
+  bottom: -27px;
   transform: scaleY(-1);
 }
 
@@ -235,31 +226,25 @@
     }
 
     //SVG
-    .div-svg-contacto-top{
-      height: 155px;
-    }
-
-    .svg-contacto-top{
-      fill: rgb(255, 255, 255);
-      position: relative;
-      bottom: 389px;
-      transform: scaleY(-1);
-    }
+   
 //Header
 
-.header{
-  text-align: center;
+
+.header h2{
+  text-align: left;
+  font-size: 6.5rem;
 }
 
-.header h1{
-  font-size: 113px;
-  left: 0;
+.header-contenedor-padre{
+  height: 965px;
+}
+
+.img1{
+  display: block;
 }
 
 
-.header img{
-  display: none;
-}
+
 
 //SVG
 
@@ -324,7 +309,7 @@
 }
 
 .diversidad-content p{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .esi-content{
@@ -353,7 +338,7 @@
 }
 
 .esi-frase p{
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -369,8 +354,6 @@ padding: 177px;
   font-size: 1rem;
   height: 95px;
 }
-
-
 
 
 .servicios-content p{
@@ -392,15 +375,12 @@ padding: 177px;
   bottom: 2px;
 }
 
-.div-svg-bottom-contacto-2{
-  height: 250px;
-}
 
 
 .img-chica-diversidad{
   height: 468px;
   margin-left: 690px;
-  margin-top: -150px;
+ 
 }
 
 }

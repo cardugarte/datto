@@ -5,7 +5,7 @@
   color: var(--ion-color-primary);
   font-weight: 700;
   color: rgb(60, 36, 111);
-  font-size: 2.5rem;
+  font-size: 2rem;
   }
     
 .bold{
@@ -26,10 +26,12 @@ p {
 
 //Header
 
+
 .header{
   background-color: #DEB0D2;
-  
-}
+  height: auto;
+ }
+
 
 .header-text{
   position: absolute;
@@ -209,15 +211,20 @@ p {
 .mac-bigbox{
   background-color: #f0f0f0;
   border: 1px solid #93c;
-  margin:15px;
+  margin: 20px;
+  padding: 1px;
   h2{
   color:rgb(60, 36, 111);
   font-weight: 700;}
 }
+
 .mac-bigbox-2{
   background-color: #f0f0f0;
-  border: 1px solid #93c;
+  border-top: 1px solid #93c;
+  border-left: 1px solid #93c;
+  border-right: 1px solid #93c;
   margin:15px;
+  padding: 5px;
 }
 
 .yellow {
@@ -523,12 +530,6 @@ p {
     margin-top: 230px;
   }
 
-  .header{
-
-   position: relative;
-   
-  
-  }
 
   .header-text{
     position: absolute;
@@ -590,7 +591,7 @@ p {
       display: block;
       border: 1px solid #93c;
       padding: 30px;
-    max-width: 1330px;
+      max-width: 1330px;
       margin: 0 auto;
       
       h2 {
@@ -944,12 +945,7 @@ p {
     .ciclo_title{
       font-size: 7rem;
     }
-    .ginecologia{
-        background-color:rgb(60, 36, 111);
-        color: white;
-
-    }
-
+  
     .ginecologia-img {
       display: flex;
       flex-direction: row;
@@ -971,7 +967,7 @@ p {
 
     .ginecologia h2{
         font-size: 4.5rem;
-      
+      color: white;
     }
 
     .its{
