@@ -211,8 +211,12 @@ font-size: 1.8rem;
 .violento-content h2{
   color:black;
   font-size: 1.8rem;
-  text-align: center;
+  text-align: left;
 
+}
+
+.violento-content ion-button{
+  margin-left: 0px;
 }
 
 .img__noviazgo {
@@ -277,7 +281,7 @@ font-size: 1.8rem;
 .button__bullying {
   width: 320px;
   display: block;
-  margin: 0 auto;
+ 
 }
 
 //Alimentacion
@@ -418,6 +422,10 @@ display: none;
 
 
 @media (min-width: 1146.98px)  {
+
+  .slide-title{
+    margin-top: 180px;
+  }
   .bullying-contenedor-padre{
     background-color: black;
     height: 1892px;
@@ -439,16 +447,12 @@ display: none;
   //header
   .img-header{
     top: 49px;
-    right: 139px;
+   
     position: relative;
   }
 
   .header-grid{
     height: 654px;
-  }
-
-  .header{
-    margin: 16px 200px 1px 100px;
   }
 
   .header__text{
@@ -632,7 +636,8 @@ display: none;
  //igualdad-violencia
   .igualdad-violencia-content{
   margin: 0px 279px 1px 271px;
-  text-align: center;
+  text-align: left;
+ 
   }
 
   .violento-content{
@@ -679,9 +684,9 @@ display: none;
   }
 
   .alimentacion-div{
-    margin-top: 0px;
-    height: 975px;
-    margin-bottom: -2px;
+  height: 1120px;
+  padding-top: 120px;
+    
 
   }
   
@@ -725,6 +730,11 @@ display: none;
 
   .img-cuerpo{
     margin: 100px;
+  }
+
+  .ion-slides{
+    margin-bottom: 180px;
+    
   }
 
   ion-slides h3 {

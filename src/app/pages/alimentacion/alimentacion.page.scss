@@ -12,7 +12,7 @@ ion-card-content {
   }
 
   h1, h2{
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
   }
 
@@ -195,6 +195,12 @@ ion-card-content {
     display: none;
 }
 
+.bullying-grid{
+    position: absolute;
+  
+
+  }
+
 
 @media (min-width: 1146.98px){
 
@@ -223,7 +229,7 @@ ion-card-content {
 
   .header h2{
  
-    font-size: 6rem;
+    font-size: 5.5rem;
     text-align: left;
     margin: 116px 0px 0px 0px;
      
@@ -241,6 +247,28 @@ ion-card-content {
 
 .cuanto-tiempo{
     font-size: 1.8rem;
+}
+
+//Bullying
+
+.bullying-contenedor-padre{
+    height: 580px;
+    h2{
+      text-align: left;
+    }
+  }
+
+  .img-grid-bullying{
+    margin: 36px;
+  }
+
+  .bullying-grid{
+   position: relative;
+  bottom: 532px;
+
+  p{
+    font-size: 1.5rem;
+  }
 }
 
 //Habitos

@@ -11,15 +11,13 @@
   }
 
   h1, h2{
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
   }
 
   p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-  }
+    font-weight: 400;}
 
 .card-no-shadow {
     box-shadow: none;
@@ -37,6 +35,14 @@
     padding: 5px;
     text-align: initial;
   }
+
+  .bullying-grid{
+    position: absolute;
+  
+
+  }
+
+ 
 
 .bullying-content{
   line-height: normal;
@@ -160,6 +166,9 @@
     color: white;
   }
 
+  .img-stop{
+    display: none;
+  }
 
 
 @media (min-width: 1146.98px)  {
@@ -182,6 +191,35 @@
     }
 
     //Bullying
+
+    .img-stop{
+      display: block;
+      text-align: center;
+
+      img{
+        width: 600px;
+      }
+    }
+
+    .bullying-contenedor-padre{
+      height: 580px;
+      h2{
+        text-align: left;
+      }
+    }
+
+    .img-grid-bullying{
+      margin: 65px;
+    }
+
+    .bullying-grid{
+     position: relative;
+    bottom: 532px;
+
+    p{
+      font-size: 1.5rem;
+    }
+  }
 
     .que-hacer-bullying{
         margin: 17px 200px 0px 200px;
