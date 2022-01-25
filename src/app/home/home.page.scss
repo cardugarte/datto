@@ -82,6 +82,10 @@ body {
 
 //header
 
+.s-sexual-h2{
+  margin-left: 25px
+}
+
 .header{
   height: 80vh;
 }
@@ -211,7 +215,7 @@ font-size: 1.8rem;
 .violento-content h2{
   color:black;
   font-size: 1.8rem;
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -228,6 +232,7 @@ font-size: 1.8rem;
 .violento-content p{
   color:black;
   font-size: 1.5rem;
+  text-align: center;
 }
 
 //Igualdad de genero
@@ -294,6 +299,8 @@ font-size: 1.8rem;
   background-color:  #e6e0da;
 
 }
+
+
 
 
 
@@ -415,7 +422,7 @@ display: none;
 
 
 .bullying-contenedor-padre{
-  background-color: black;
+
   height: 448px;
   }
 
@@ -427,7 +434,7 @@ display: none;
     margin-top: 180px;
   }
   .bullying-contenedor-padre{
-    background-color: black;
+   
     height: 1892px;
     
    
@@ -634,6 +641,11 @@ display: none;
   }
 
  //igualdad-violencia
+
+ .violento-content h2{
+   text-align: left;
+ }
+
   .igualdad-violencia-content{
   margin: 0px 279px 1px 271px;
   text-align: left;
