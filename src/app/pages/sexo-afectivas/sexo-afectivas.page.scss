@@ -199,7 +199,16 @@ p{
   display: none;
 }
 
-@media (min-width: 1146.98px){
+@media (min-width: 800px){
+
+  .margin-card-default{
+    margin: 0px 160px 1px 160px;
+    max-width: 900px;
+  }
+
+}
+
+@media (min-width: 1400px){
 
   .svg-costado{
     display: block;

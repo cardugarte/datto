@@ -201,8 +201,17 @@ ion-card-content {
 
   }
 
+  @media (min-width: 800px){
 
-@media (min-width: 1146.98px){
+    .margin-card-default{
+      margin: 0px 160px 1px 160px;
+      max-width: 900px;
+    }
+
+}
+
+
+@media (min-width: 1400px){
 
     .title__section {
         font-size: 4rem !important;
