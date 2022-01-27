@@ -7,7 +7,7 @@
 }
 
 h1, h2{
-  font-family: 'Bitter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
@@ -42,10 +42,13 @@ p{
 
 .header{
   color: #3c246f;
-  bottom: 377px;
+
   text-align: center;
-  position: absolute;
+
   left: 0;
+  position: absolute;
+  /* bottom: 66px; */
+  bottom: 578px;
 }
 
 .header h2{font-size: 3rem;}
@@ -140,7 +143,8 @@ p{
 }
 
 .close-icon img{
-  margin-left: 231px;
+  margin-left: 269px;
+
 }
 
 
@@ -206,9 +210,66 @@ p{
     max-width: 900px;
   }
 
+  
+  .margin-card-noviazgo{
+    margin: 0px 160px 1px 160px;
+ 
+}
+
+  .violento__img{
+    display: none;
+  
+  }
+
+
+.noviazgo-content p{
+    font-size: 2.5rem;
+}
+
+.margin-card-header{
+  margin: 0px 271px 132px 271px;
+  max-width: 1330px;
+}
+
+.header{
+  top: 100px;
+  position: absolute;
+}
+
+
+.header h2{
+  font-size:4rem;
+  margin-top: 125px;
+ 
+}
+.svg-costado{
+  display: block;
+}
+
+.violencia-bigbox{
+  height: 382px;
+}
+
+.violencia-content{
+  height: 100px
+}
+
+
+
 }
 
 @media (min-width: 1400px){
+
+  .violencia-content{
+    height: 151px;
+  }
+
+  .violento__img{
+    display: block;
+  
+  }
+  
+
 
   .svg-costado{
     display: block;
@@ -223,6 +284,7 @@ p{
 .header{
   height: auto;
 bottom: 192px;
+
 }
 
     .margin-card-default{
@@ -268,14 +330,7 @@ bottom: 192px;
         font-size: 4rem;
     }
 
-    .noviazgo h2{
-        font-size: 4rem;
-        color: #3c246f;
-    }
-
-    .noviazgo-content p{
-        font-size: 3rem;
-    }
+   
 
     .violento{
         margin-right: 122px;

@@ -36,7 +36,8 @@ ion-card-content {
 
 .header{
   position: absolute;
-bottom: 400px;
+  bottom: 627px;
+
 text-align: center;
 }
 
@@ -203,6 +204,10 @@ text-align: center;
 
 @media (min-width: 800px){
 
+  .img-chica-diversidad{
+    margin-left: 232px;
+  }
+
   .margin-card-default{
     margin: 0px 160px 1px 160px;
     max-width: 900px;
@@ -212,9 +217,25 @@ text-align: center;
     display: block;
   }
 
+  .header{
+    position: absolute;
+    bottom: 543px;
+    text-align: center;
+}
+
+.header h2{
+  font-size: 4rem;
+}
+  
+
 }
 
 @media (min-width: 1400px)  {
+
+  .header{
+    bottom: 300px;
+
+  }
 
   .title__section {
     font-size: 4rem !important;

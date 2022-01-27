@@ -37,7 +37,8 @@ ion-card-content {
 
 .header{
     color: #3c246f;
-    bottom: 377px;
+    bottom: 571px;
+
     text-align: center;
     position: absolute;
     left: 0;
@@ -201,11 +202,43 @@ ion-card-content {
 
   }
 
+  .bullying-contenedor-padre{
+    height: 666px;
+
+  }
+
   @media (min-width: 800px){
 
     .margin-card-default{
       margin: 0px 160px 1px 160px;
       max-width: 900px;
+    }
+
+    .bullying-grid{
+        position: relative;
+        bottom: 310px;
+    
+    }
+
+    .bullying-contenedor-padre{
+        height: 359px;
+    }
+
+    .img-header{
+        display: block;
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .alimetacion-header h2{
+        font-size: 3.5rem;
+        margin-top: 85px;
+    }
+
+    .alimetacion-header{
+        height: 650px;
     }
 
 }
