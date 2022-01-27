@@ -417,18 +417,58 @@ display: none;
   
 }
 
+.datto-content{
+  background-color: #e2ed6a;
+}
+
 
 //resolucion desktop
 
 
-.bullying-contenedor-padre{
+  @media (min-width: 800px){
 
-  height: 448px;
+    .margin-card-default{
+      margin: 0px 150px 0px 150px;
+     
+    }
+
+    .div-inclusiva{
+      margin: 0px 150px 0px 150px;
+      }
+
+      .inclusiva-img{
+        display: block;
+      }
+
+      .button__hero{
+        width: 194px;
+        height: 40px;
+        font-size: 1rem;
+      }
+
+
+      .violento-content h2 {
+        text-align: left;
+      }
+
+      .violento-content p{
+        text-align: left;
+      }
+
+      .violento-txt{
+        margin-top: 75px;
+      }
+      
+      .img-balanza{
+        margin-top: 10px;
+      }
+
+   
+
   }
 
 
-
-@media (min-width: 1400.98px)  {
+@media (min-width: 1600px)  {
 
   .slide-title{
     margin-top: 180px;
@@ -441,7 +481,7 @@ display: none;
   }
 
   .margin-card-default{
-    margin: 0px 279px 1px 271px;
+    margin: 0px 271px 1px 271px;
    
   }
 
@@ -523,11 +563,10 @@ display: none;
   }
 
   .consumo-div{
-    padding-right: 122px;
-    padding-left: 113px;
+   
     text-align: left;
     color: rgb(226, 237, 106);
-    padding-left: 113px;
+    
   }
 
   .consumo-div h2{
@@ -551,9 +590,8 @@ display: none;
     display: block;
   }
 
-  .consumo-div-content{
-    margin: 16px 160px 10px 174px;
-  }
+ 
+
   .consumo-div-content p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -622,7 +660,7 @@ display: none;
   }
 
   .div-inclusiva{
-  margin: 0px 279px 1px 271px;
+  margin: 0px 271px 1px 271px;
   }
 
   .div-inclusiva h2{
@@ -646,11 +684,7 @@ display: none;
    text-align: left;
  }
 
-  .igualdad-violencia-content{
-  margin: 0px 279px 1px 271px;
-  text-align: left;
  
-  }
 
   .violento-content{
     display: flex;
@@ -681,7 +715,7 @@ display: none;
 
  //Igualdad de genero
   .alimentacion{
-    margin: 0px 279px 1px 271px;
+    margin: 0px 271px 1px 271px;
   }
 
   .alimentacion-content h2{
@@ -706,7 +740,7 @@ display: none;
 //Bullying
   .bullying-text{
     display: block;
-    margin: 0px 279px 1px 271px;
+    margin: 0px 271px 1px 271px;
     
   }
 
@@ -769,17 +803,9 @@ display: none;
     height: 60px;
   }
 
-  ion-card {
-    display: block;
-    margin: 0 auto;
-    .row-card {
-      flex-wrap: nowrap !important;
-    }
-  }
+ 
 
-  ion-card img {
-    width: 250px;
-  }
+
 
   .btn-ali {
     margin-top: 33px;

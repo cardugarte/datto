@@ -2,7 +2,7 @@
 <ion-content>
   <ion-grid class="header-grid">
     <ion-row class="margin-card-default">
-      <ion-col size="12" size-lg="8">
+      <ion-col size="12" size-md="8">
         <div class="header">
           <img src="../../assets/imgHome/bienvenidos.png">
           <p class="header__text" color="tertiary">
@@ -17,7 +17,7 @@
           </ion-button>
         </div>
       </ion-col>
-      <ion-col size="0" size-lg="4">
+      <ion-col size="0" size-md="4">
         <img class="img-header" src="../../assets/imgHome/imgHome2.png">
       </ion-col>
     </ion-row>
@@ -127,10 +127,10 @@
  
 
    <div class="consumo-div">
-     <div class="consumo-div-content">
+     <div class="margin-card-default consumo-div-content">
        <ion-grid>
          <ion-row>
-           <ion-col size="12" size-lg="8">
+           <ion-col size="12" size-md="8">
             <h2 >Consumo de sustancias</h2>
 
             <div class="div-consumo">
@@ -150,7 +150,7 @@
             </div>
           </div>
            </ion-col>
-           <ion-col size="12" size-lg="4">
+           <ion-col size="12" size-md="4">
              <img src="../../assets/imgHome/sustancias.png">
           </ion-col>
          </ion-row>
@@ -190,13 +190,17 @@
 
 
                   <ion-card class="depresion-content margin-card-default card-no-shadow">
-                    <ion-grid>
-                      <ion-row class="row-card">
-                    <ion-card-header>
-                      <img class="img-ansiedad" src="../../assets/imgHome/Depresión-3.png ">
-                    </ion-card-header>
+                   
+                  
                     <ion-card-content>
-                          <ion-col  size="12" size-lg="6">
+                      <ion-grid>
+                        <ion-row >
+
+                          <ion-col size="12" size-md="4">
+                            <img  src="../../assets/imgHome/Depresión-3.png ">
+                          </ion-col>
+                          
+                          <ion-col  size="12" size-md="8">
                             <h2 class="title__section">Depresión</h2>
                             <br>
                           <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
@@ -213,20 +217,21 @@
                             Consejos útiles
                           </ion-button>
                           </ion-col>
-                          <ion-col size="12" size-lg="4">
-                            <img class="img_depresion-desktop" src="../../assets/imgHome/Depresión 3.jpg ">
-                          </ion-col>
-                        </ion-card-content>
+                        
+                        
+                        
                       </ion-row>
                     </ion-grid>
+                  </ion-card-content>
                   </ion-card>
 
                    <ion-card class="ansiedad-content margin-card-default card-no-shadow ">
-                     <ion-grid>
-                       <ion-row class="row-card">
+                    
 
                      <ion-card-content>
-                            <ion-col class="depresion-content" size="12" size-lg="8">
+                      <ion-grid>
+                        <ion-row>
+                            <ion-col class="depresion-content" size="12" size-md="8">
                               <h2 class="title__section-light">Ansiedad</h2>
                               <br>
                               <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
@@ -243,15 +248,14 @@
                                 ¿Qué hacer?
                               </ion-button>
                             </ion-col>
-                            <ion-col size="12" size-lg="4">
-                              <img class="img_depresion-desktop" src="../../assets/imgHome/ansiedad.png ">
+                            <ion-col size="12" size-md="4">
+                              <img src="../../assets/imgHome/ansiedad.png ">
                             </ion-col>
-                        </ion-card-content>
-                        <ion-card-header>
-                          <img class="img-ansiedad" src="../../assets/imgHome/ansiedad.png">
-                        </ion-card-header>
+                        
+                  
                       </ion-row>
                     </ion-grid>
+                  </ion-card-content>
                   </ion-card>
 
 
@@ -266,26 +270,37 @@
 
              <div class="div-inclusiva">
 
-                    <div class="datto-flex">
-                      <div>
-                        <h2>DATTO es inclusiva</h2>
-                        <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
-                        </p>
-                        <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
-                        <ion-button
-                        class="button__hero"
-                        color="dark"
-                        expand="block"
-                        shape="round"
-                        routerLink="/generos"
-                      >
-                        Más Info
-                      </ion-button>
-                      <img class="inclusiva-img2" src="../../assets/imgHome/Image_013.png">
+                    <div>
 
-                    </div>
+                      <ion-grid>
+                        <ion-row>
+                          <ion-col size="12" size-md="8">
+                            <h2>DATTO es inclusiva</h2>
+                            <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
+                            </p>
+                            <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
+                            <ion-button
+                            class="button__hero"
+                            color="dark"
+                            expand="block"
+                            shape="round"
+                            routerLink="/generos"
+                          >
+                            Más Info
+                          </ion-button>
+                          <img class="inclusiva-img2" src="../../assets/imgHome/Image_013.png">
 
-                        <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
+                          </ion-col>
+
+                          <ion-col size="0" size-md="4">
+
+                            <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
+
+                          </ion-col>
+                        </ion-row>
+                      </ion-grid>
+
+                       
 
                     </div>
 
@@ -302,12 +317,13 @@
             <br>
             <br>
 
-                <div class="igualdad-violencia-content">
+                <div class="margin-card-default igualdad-violencia-content">
 
+                  <ion-gird>
+                    <ion-row>
 
-                    <div class="violento-content">
-                      <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
-                      <div class="violento-txt">
+                      <ion-col class="violento-txt" size="12" size-md="8">
+
                         <h2>¿Cuándo un noviazgo es violento?</h2>
                         <p>
                           La violencia es peligrosa y deja consecuencias en la vida de las personas.
@@ -321,35 +337,51 @@
                       >
                         Identifica
                       </ion-button>
-                      </div>
-                    </div>
+
+                      </ion-col>
+
+                      <ion-col size="0" size-md="4">
+                        <img class="img__noviazgo" src="../../assets/imgHome/no-es-no.png">
+
+                      </ion-col>
+
+                    </ion-row>
+                  </ion-gird>
+
+
                 </div>
 
                 <br>
                 <br>
-                <img src="../../assets/imgHome/lineaVioleta.png">
+                <img style="width: 100%;" src="../../assets/imgHome/lineaVioleta.png">
                 <br>
                 <br>
 
-                <div class="igualdad-violencia-content">
+                <div class="margin-card-default">
 
 
                       <div class="violento-content">
+                        <ion-grid>
+                          <ion-row>
+                            <ion-col size="10" class="violento-txt">
+                              <h2>Igualdad de genero</h2>
+                              <p>
+                                La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos    </p>
+                                <ion-button style="    margin: 0 auto;"
+                          class="button__hero btn-nv"
+                          color="secondary"
+                          expand="block"
+                          shape="round"
+                          routerLink="/sexo-afectivas"
+                        >
+                        Más Info
+                      </ion-button>
+                            </ion-col>
 
-                        <div class="violento-txt">
-                          <h2>Igualdad de genero</h2>
-                          <p>
-                            La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos    </p>
-                            <ion-button style="    margin: 0 auto;"
-                      class="button__hero btn-nv"
-                      color="secondary"
-                      expand="block"
-                      shape="round"
-                      routerLink="/sexo-afectivas"
-                    >
-                    Más Info
-                    </ion-button>
-                  </div>
+                          </ion-row>
+                        </ion-grid>
+
+                
                 </div>
                       <div>
                       <img class="img-circulo" src="../../assets/imgHome/circulo-verde.png">
@@ -384,7 +416,7 @@
                   <ion-grid class="alimentacion">
 
                     <ion-row>
-                      <ion-col class="alimentacion-content" size="12" size-lg="6">
+                      <ion-col class="alimentacion-content" size="12" size-md="6">
                         <h2> Alimentación  imagenes y estereotipos</h2>
                         <p class="incusiva-p">
                           Pensar en cuerpos y corporalidades, tiene siempre un componente cultural muy predominante, además del biológico que determina la ﬁsonomía de cada persona.
@@ -407,7 +439,7 @@
 
 
                       </ion-col>
-                      <ion-col size="12" size-lg="6">
+                      <ion-col size="12" size-md="6">
                         <img class="img-cuerpos" src="../../assets/imgHome/cuerpos_estereotipos2.png ">
                       </ion-col>
                     </ion-row>
