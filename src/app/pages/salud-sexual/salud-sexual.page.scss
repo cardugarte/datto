@@ -76,7 +76,7 @@ p {
   margin-bottom: 10px;
   color:#3c246f;
 }
-.derechos-mac span{
+.quote span{
   line-height: normal;
   background-color: rgb(223, 235, 106);
   color:#3c246f;
@@ -526,10 +526,29 @@ p {
     max-width: 900px;
   }
 
-  .derechos-mac{
-    margin: 10px 80px 10px 80px;
+  .quote{
+    margin: 10px 120px 10px 120px;
+
     
   }
+
+  .comillas{
+    font-size: 2rem;
+  }
+
+  .quote p{
+    font-size: 2rem;
+    color:rgb(60, 36, 111);
+  }
+
+ 
+
+  .metodos__img{
+    float: right ;
+    height: 279px;
+    width: 300px;
+  }
+
 
   .mac-bigbox-2{
     margin: 0px 160px 1px 160px;
@@ -553,6 +572,12 @@ p {
     height: 288px;
   }
 
+  
+  .emergencia-content3 h2{
+    font-size: 5rem;
+
+  }
+
 }
 
 
@@ -567,12 +592,6 @@ p {
     margin-top: 230px;
   }
 
-
-  .header-text{
-    position: absolute;
-    bottom: 266px;
-    left: 200px;
-    width: 1500px;}
 
     .header-text-h2{  
       font-size: 10rem;   
@@ -613,7 +632,7 @@ p {
       height: 400px;
     }
 
-    .derechos-mac{
+    .quote{
       margin: 10px 140px 10px 140px;
       
     }
@@ -623,6 +642,9 @@ p {
         font-size: 1.5rem;
     }
 
+    .quote p {
+      font-size: 2.5rem;
+    }
     .mac-bigbox{
       display: block;
       border: 1px solid #93c;
@@ -661,16 +683,12 @@ p {
     }
 
     .no-justify{
-      font-size: 1.5rem;
+      font-size: 2.5rem;
     }
 
 
     //emergencia
 
-    .emergencia-content3 h2{
-      font-size: 6rem;
-
-    }
 
 
     .emergencia-pastilla h2{
