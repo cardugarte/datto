@@ -519,31 +519,9 @@ p {
 }
 
 
-@media (min-width: 800px){
-
-  .margin-card-default{
-    margin: 0px 160px 1px 160px;
-    max-width: 900px;
-  }
-
-  .derechos-mac{
-    margin: 10px 80px 10px 80px;
-    
-  }
-
-  .mac-bigbox-2{
-    margin: 0px 160px 1px 160px;
-  }
-
-  .mac-bigbox{
-    margin: 0px 160px 1px 160px;
-  }
-
-}
 
 
-
-@media (min-width: 1400px){
+@media (min-width: 1024px){
 
   .title_desktop{
     font-size: 3rem;
@@ -634,8 +612,6 @@ p {
     .img1 {
       height: 120px;
     }
-
-  
 
     .mac-bigbox-2{
         margin: 0 300px 0px 300px;

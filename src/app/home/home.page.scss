@@ -417,11 +417,6 @@ display: none;
   
 }
 
-  //DATTO
-  .datto-content{
-    background-color: rgb(226, 237, 106);
-  }
-
 
 //resolucion desktop
 
@@ -431,34 +426,9 @@ display: none;
   height: 448px;
   }
 
-  @media (min-width: 800px){
-
-    .margin-card-default{
-      margin: 0px 160px 1px 160px;
-      max-width: 900px;
-    }
-
-    .consumo-div-content{
-      margin: 16px 160px 10px 160px;
-    }
-
-    .div-inclusiva{
-      margin: 0px 160px 1px 160px;
-      }
-
-      .bullying-contenedor-padre{
-
-        height: auto;
-        }
-      
-
-   
-        
-
-  }
 
 
-@media (min-width: 1400px)  {
+@media (min-width: 1146.98px)  {
 
   .slide-title{
     margin-top: 180px;
@@ -471,7 +441,7 @@ display: none;
   }
 
   .margin-card-default{
-    margin: 0px 279px 1px 279px;
+    margin: 0px 279px 1px 271px;
     max-width: 1330px;
   }
 
@@ -652,7 +622,7 @@ display: none;
   }
 
   .div-inclusiva{
-  margin: 0px 271px 1px 271px;
+  margin: 0px 279px 1px 271px;
   }
 
   .div-inclusiva h2{
@@ -677,7 +647,7 @@ display: none;
  }
 
   .igualdad-violencia-content{
-  margin: 0px 271px 1px 271px;
+  margin: 0px 279px 1px 271px;
   text-align: left;
  
   }
@@ -711,7 +681,7 @@ display: none;
 
  //Igualdad de genero
   .alimentacion{
-    margin: 0px 271px 1px 271px;
+    margin: 0px 279px 1px 271px;
   }
 
   .alimentacion-content h2{
@@ -736,7 +706,7 @@ display: none;
 //Bullying
   .bullying-text{
     display: block;
-    margin: 0px 271px 1px 271px;
+    margin: 0px 279px 1px 271px;
     
   }
 
