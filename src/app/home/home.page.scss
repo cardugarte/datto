@@ -468,22 +468,60 @@ display: none;
       .img-cuerpos{
         margin: 100px;
       }
+
+      .button__hero_bullying{
+       
+        font-size: 1.5rem;
+        height: 60px;
+        margin: 0px 150px 0px 150px;
+
+          }
    
+
+          .bullying-content{
+            position: relative;
+            height: auto;
+            bottom: 213px;
+            text-align: center;
+          }
+
+          .bullying-content p{
+            color: #FFF;
+            font-size: 1.5rem;
+            font-weight: 400 !important;
+          }
+
+          .bullying-contenedor-padre{
+            height: 1230px;
+          }
+
+          .alimentacion-div{
+            
+    padding-top: 65px;
+          }
+
+          .igualdad-violencia-content p{
+            font-size: 1.5rem;
+          }
+
+          .igualdad-violencia-content h2{
+            font-size: 1.8rem;
+          }
+
 
   }
 
 
 @media (min-width: 1600px)  {
 
+  .bullying-contenedor-padre{
+    height: 1900px;
+  }
+
   .slide-title{
     margin-top: 180px;
   }
-  .bullying-contenedor-padre{
-   
-    height: 1892px;
-    
-   
-  }
+
 
   .margin-card-default{
     margin: 0px 271px 1px 271px;
@@ -753,11 +791,7 @@ display: none;
     bottom: 345px;
   }
 
-  .bullying-content p{
-    color: #FFF;
-    font-size: 1.5rem;
-    font-weight: 400 !important;
-  }
+  
 
 
   .no-mas-bullying-svg{
@@ -811,11 +845,5 @@ display: none;
     margin-top: 33px;
   }
 
-  .button__hero_bullying{
-    width: 707px;
-    font-size: 1.5rem;
-    height: 60px;
-   
-    margin-left: 546px;
-      }
+  
 }
