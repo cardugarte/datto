@@ -432,6 +432,8 @@ display: none;
   background-color: black;
 }
 
+
+
 //resolucion desktop
 
 
@@ -510,6 +512,10 @@ display: none;
     padding-top: 65px;
           }
 
+          .igualdad-violencia-content{
+            height: 1000px;}
+          
+
           .igualdad-violencia-content p{
             font-size: 1.5rem;
           }
@@ -518,11 +524,23 @@ display: none;
             font-size: 1.8rem;
           }
 
+          .igualdad-violencia-content-2 p{
+            font-size: 1.5rem;
+          }
+
+          .igualdad-violencia-content-2 h2{
+            font-size: 1.8rem;
+          }
+
 
   }
 
 
 @media (min-width: 1600px)  {
+  
+  .img-slide2{
+    height: 283px;
+  }
 
   .bullying-contenedor-padre{
     height: 1900px;
