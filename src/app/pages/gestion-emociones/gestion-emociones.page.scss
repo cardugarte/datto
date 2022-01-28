@@ -4,6 +4,27 @@ ion-card-content {
   padding-top: 0;
   }
 
+  .gestion-header{
+    height: 227px;
+    }
+   
+   
+   .header-text{
+     position: relative;
+     bottom: 162px;
+     text-align: center;
+   
+    
+   }
+
+   .header-text-h2{
+     font-weight: bold;
+     color:rgb(60, 36, 111);
+     font-size: 3.5rem;
+    
+   
+   }
+
 
 .button__hero {
   width: 150px;
@@ -254,17 +275,30 @@ h1, h2{
     display: block;
   }
 
-  .header h2{
-    font-size: 4.5rem;
-    margin-top: 120px;
-  }
+
 
   .img-ansiedad-chica{
       display: block;
     }
 
-    .header{
-      bottom: 399px;}
+    .gestion-header{
+      height: 646px;
+    }
+  
+  
+      .header-text h2{
+        margin-top: 111px;
+        font-size: 4.5rem;
+      
+        }
+    
+      .header-text{
+        position: relative;
+       
+        bottom: 555px;
+    
+        text-align: center;
+      }
 
    
 }
@@ -279,7 +313,30 @@ h1, h2{
       max-width: 1330px;
     }
 
+
+
     //Header
+
+    .salud-sexual-header{
+      margin-top: 230px;
+    }
+  
+    .gestion-header{
+      height: 975px;
+    }
+  
+    .header-text{
+      
+      bottom: 1000px;
+  
+    }
+  
+      .header-text h2{  
+        font-size: 7rem;
+        margin-top: 282px;
+      
+      }
+    
 
     
     .title_grid{
@@ -296,9 +353,8 @@ h1, h2{
         margin-top: 260px;
       }
 
-    .gestion-header{
-      height: auto;
-    }
+     
+      
 
     .img1{
       margin-right: 0;

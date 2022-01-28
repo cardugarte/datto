@@ -39,24 +39,28 @@ p{
 //Header
 
 
-
 .header{
-  color: #3c246f;
 
+ height: 227px;
+ }
+
+
+.header-text{
+  position: relative;
+  bottom: 162px;
   text-align: center;
 
-  left: 0;
-  position: absolute;
-  /* bottom: 66px; */
-  bottom: 578px;
+ 
 }
 
-.header h2{font-size: 3rem;}
-
-.title_grid{
-  position: absolute;
+.header-text-h2{
+  font-weight: bold;
+  color:rgb(60, 36, 111);
+  font-size: 3.5rem;
+ 
 
 }
+
 
 //Violento
 
@@ -231,17 +235,7 @@ p{
   max-width: 1330px;
 }
 
-.header{
-  top: 100px;
-  position: absolute;
-}
 
-
-.header h2{
-  font-size:4rem;
-  margin-top: 125px;
- 
-}
 .svg-costado{
   display: block;
 }
@@ -254,11 +248,44 @@ p{
   height: 100px
 }
 
+.header{
+  height: 631px;
+}
+
+.header-text h2{
+
+  font-size: 4rem;
+  margin-top: 125px;
+  }
+
+.header-text{
+  position: relative;
+    bottom: 582px;
+    text-align: center;
+}
+
 
 
 }
 
 @media (min-width: 1400px){
+
+  //Header
+
+  .header{
+    height: 975px;
+  }
+
+  .header-text{
+    
+    bottom: 821px;
+
+  }
+
+    .header-text h2{  
+      font-size: 8rem;
+      margin-top: 120px;
+    }
 
   .violencia-content{
     height: 151px;
@@ -276,16 +303,6 @@ p{
 
   }
 
-  .title_grid{
-  position: absolute;
-  bottom: 566px;
-}
-
-.header{
-  height: auto;
-bottom: 192px;
-
-}
 
     .margin-card-default{
         margin: 0px 271px 1px 271px;
@@ -303,20 +320,7 @@ bottom: 192px;
  
 }
 
-.title_grid{
-  position: absolute;
-  bottom: 245px;
-}
 
-
-
-    .header h2{
-      font-size:8rem;
-      margin-top: 125px;
-     
-  }
-
-    
 
     .img2{
         height: 573px;
@@ -428,7 +432,7 @@ bottom: 192px;
     }
 
     .violencia-bigbox{
-        height: 466px;
+        height: 510px;
     }
 
     .close-icon{
