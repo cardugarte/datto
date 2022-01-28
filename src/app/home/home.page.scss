@@ -92,7 +92,7 @@ body {
 
 .header-grid {
   background-color: #c8b5ed;
-  height: 400px;
+  height: 470px;
 }
 
 
@@ -102,7 +102,8 @@ body {
 }
 
 .button__hero {
-  width: 170px;
+  margin: 20px auto;
+  max-width: 200px;
 }
 
 ////////////////////////////////////////
@@ -244,7 +245,7 @@ font-size: 1.8rem;
 
 .bullying-content{
   ion-button {
-    max-width: 300px;
+    max-width: 450px;
     margin: 0 auto;
   }
 }
@@ -348,7 +349,7 @@ font-size: 1.8rem;
 .svg-consumo-bottom{
   fill: rgb(255, 255, 255);
   position: relative;
-  top: -1px;
+  top: -3px;
 }
 
 //svg Datto
@@ -410,13 +411,16 @@ display: none;
 }
 
 .bullying-content{
-  margin-top: -134px;
+  margin-top: -70px;
   background-color: #211F1F;
 }
 
 
 //resolucion desktop
   @media (min-width: 800px){
+    .alimentacion-div{
+      margin-top: 90px;
+    }
 
     .alimentacion-content h2{
       font-size: 2.5rem;
@@ -427,7 +431,8 @@ display: none;
     }
 
     .bullying-content {
-      padding: 13px 75px 0px 75px
+      padding: 13px 75px 0px 75px;
+      margin: -220px auto;
     }
 
     .div-inclusiva{
@@ -455,7 +460,8 @@ display: none;
       }
 
       .img-balanza{
-        margin-top: 10px;
+        display: block;
+        margin: 10px auto;
       }
 
       .img-slide2{
@@ -470,7 +476,8 @@ display: none;
 
       .bullying-content{
         width: 100%;
-        margin: 0 auto;
+        margin: -90px auto;
+        padding-bottom: 30px;
       }
 
       .bullying-content p{
@@ -479,7 +486,7 @@ display: none;
       }
 
       .bullying-contenedor-padre{
-        height: 1329px;
+        // height: 1329px;
         background-color: #211F1F;
       }
 
