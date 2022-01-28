@@ -127,7 +127,7 @@ body {
 }
 
 .card-slide {
-  height: 518px;
+  // height: 518px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -528,9 +528,6 @@ display: none;
     height: 283px;
   }
 
-  .bullying-contenedor-padre{
-    height: 1800px;
-  }
 
   .slide-title{
     margin-top: 180px;
@@ -539,6 +536,12 @@ display: none;
   .margin-card-default{
     margin: 0px 271px 1px 271px;
 
+  }
+
+  .carrousel-grid {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
   }
 
   .title_carrousel{
@@ -735,10 +738,7 @@ display: none;
   }
 
   .img-igualdad{
-    position: relative;
-    left: 1526px;
-    bottom: 445px;
-    display: block;
+    display: none;
   }
 
   .img-circulo{
@@ -748,10 +748,7 @@ display: none;
   }
 
   .img-balanza{
-    position: relative;
     height: 497px;
-    bottom: 383px;
-    margin-left: 571px;
   }
 
 
@@ -770,8 +767,8 @@ display: none;
   }
 
   .alimentacion-div{
-    height: 1348px;
-  padding-top: 120px;
+    padding-top: 120px;
+    margin-top: 0;
   }
 
 
@@ -783,13 +780,11 @@ display: none;
   }
 
   .bullying-content{
-    margin-top:10px;
+    display: block;
+    margin: 0 auto;
     text-align: center;
     position: relative;
     bottom: 345px;
-    ion-button {
-      max-width: 20px;
-    }
   }
 
   .no-mas-bullying-svg{
@@ -821,13 +816,17 @@ display: none;
   }
 
   .button__hero{
-    width: 319px;
+    max-width: 319px;
     font-size: 1.5rem;
     height: 60px;
   }
 
   .btn-ali {
     margin-top: 33px;
+  }
+
+  .component {
+    height: 700px;
   }
 
 
