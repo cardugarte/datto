@@ -103,9 +103,6 @@ body {
 
 .button__hero {
   width: 170px;
-  height: 40px;
- font-size: 1rem;
-
 }
 
 ////////////////////////////////////////
@@ -217,10 +214,6 @@ font-size: 1.8rem;
 
 }
 
-.violento-content ion-button{
-  margin-left: 0px;
-}
-
 .img__noviazgo {
   width: 280px;
   margin: 0 auto;
@@ -251,7 +244,7 @@ font-size: 1.8rem;
 
 .bullying-content{
   ion-button {
-    max-width: 350px;
+    max-width: 300px;
     margin: 0 auto;
   }
 }
@@ -259,21 +252,20 @@ font-size: 1.8rem;
 .bullying-p{
   text-align: justify;
   margin: 10px 10px 10px 10px;
-
+  padding: 10px
 }
 
 
 
 .bullying-content{
   text-align: center;
-  height: 600px;
   padding: 20px;
 
 }
 
-.bullying-content ion-button{
-  padding: 0px 45px 0px 45px;
-}
+// .bullying-content ion-button{
+//   padding: 0px 45px 0px 45px;
+// }
 .bullying-content p{
   color: #FFF;
   font-size: 1.1rem;
@@ -374,17 +366,9 @@ font-size: 1.8rem;
   fill: rgb(255, 255, 255);
   position: relative;
   bottom: 2px;
-
 }
 
 //noviazgo
-.btn-nv {
-  width: 340px;
-}
-
-
-
-
 .violento-content{
   margin: 10px 10px 0 10px;
 }
@@ -419,28 +403,19 @@ display: none;
 
 .bullying-text{
   text-align: center;
-
 }
 
 .datto-content{
   background-color: #e2ed6a;
 }
 
-
-.bullying-contenedor-padre{
-  height: 600px;
-
-}
-
 .bullying-content{
-  margin-top: -94px;
+  margin-top: -134px;
   background-color: #211F1F;
 }
 
 
 //resolucion desktop
-
-
   @media (min-width: 800px){
 
     .alimentacion-content h2{
@@ -452,12 +427,7 @@ display: none;
     }
 
     .bullying-content {
-      padding: 13px 165px 0px 165px;
-    }
-
-    .margin-card-default{
-      margin: 0px 150px 0px 150px;
-
+      padding: 13px 75px 0px 75px
     }
 
     .div-inclusiva{
@@ -469,11 +439,8 @@ display: none;
       }
 
       .button__hero{
-        width: 194px;
         height: 40px;
-        font-size: 1rem;
       }
-
 
       .violento-content h2 {
         text-align: left;
@@ -491,67 +458,58 @@ display: none;
         margin-top: 10px;
       }
 
-      .img-slide2{height: 190px;}
-
-      .img-cuerpos{
-        height: 589px;
-        margin-left: 481px;
-
+      .img-slide2{
+        height: 190px;
       }
 
       .button__hero_bullying{
-
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         height: 60px;
+        font-weight: bold
+      }
+
+      .bullying-content{
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .bullying-content p{
+        color: #FFF;
+        font-size: 1.5rem;
+      }
+
+      .bullying-contenedor-padre{
+        height: 1329px;
+        background-color: #211F1F;
+      }
+
+      .igualdad-violencia-content{
+        height: 1000px;}
 
 
-          }
+      .igualdad-violencia-content p{
+        font-size: 1.5rem;
+      }
 
+      .igualdad-violencia-content h2{
+        font-size: 1.8rem;
+      }
 
-          .bullying-content{
-            position: relative;
-            height: auto;
-            bottom: 213px;
-            text-align: center;
-          }
+      .igualdad-violencia-content-2 p{
+        font-size: 1.5rem;
+      }
 
-          .bullying-content p{
-            color: #FFF;
-            font-size: 1.5rem;
-            font-weight: 400 !important;
-          }
+      .igualdad-violencia-content-2 h2{
+        font-size: 1.8rem;
+      }
 
-          .bullying-contenedor-padre{
-            height: 1329px;
-            background-color: #211F1F;
-          }
-
-          .alimentacion-div{
-
-            height: 1379px;
-            padding-top: 120px;
-          }
-
-          .igualdad-violencia-content{
-            height: 1000px;}
-
-
-          .igualdad-violencia-content p{
-            font-size: 1.5rem;
-          }
-
-          .igualdad-violencia-content h2{
-            font-size: 1.8rem;
-          }
-
-          .igualdad-violencia-content-2 p{
-            font-size: 1.5rem;
-          }
-
-          .igualdad-violencia-content-2 h2{
-            font-size: 1.8rem;
-          }
-
+      .component{
+        display: block;
+        height: 350px;
+        background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
 
   }
@@ -630,7 +588,6 @@ display: none;
    }
  }
 
-
   //consumo
   .div-consumo {
     display: flex;
@@ -653,7 +610,6 @@ display: none;
 
     text-align: left;
     color: rgb(226, 237, 106);
-
   }
 
   .consumo-div h2{
@@ -677,8 +633,6 @@ display: none;
     display: block;
   }
 
-
-
   .consumo-div-content p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -690,7 +644,6 @@ display: none;
   }
 
   .ansiedad-content,
-
   .ansiedad-content p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -768,8 +721,6 @@ display: none;
    text-align: left;
  }
 
-
-
   .violento-content{
     display: flex;
     width: 100%;
@@ -806,8 +757,6 @@ display: none;
     font-size: 3rem;
   }
 
-
-
   .alimentacion-content p{
     color: black;
     font-size: 1.5rem;
@@ -816,8 +765,6 @@ display: none;
   .alimentacion-div{
     height: 1348px;
   padding-top: 120px;
-
-
   }
 
 
@@ -838,11 +785,9 @@ display: none;
     }
   }
 
-
   .no-mas-bullying-svg{
 
     height: 1891px;
-
   }
 
   .no-mas-bullying-img{
@@ -852,7 +797,6 @@ display: none;
 
   .ion-slides{
     margin-bottom: 180px;
-
   }
 
   ion-slides h3 {
