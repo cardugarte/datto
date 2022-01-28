@@ -251,6 +251,13 @@ font-size: 1.8rem;
 
 //Bullying
 
+.bullying-content{
+  ion-button {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
 .bullying-p{
   text-align: justify;
   margin: 10px 10px 10px 10px;
@@ -286,7 +293,7 @@ font-size: 1.8rem;
 .button__bullying {
   width: 320px;
   display: block;
- 
+
 }
 
 //Alimentacion
@@ -414,7 +421,7 @@ display: none;
 
 .bullying-text{
   text-align: center;
-  
+
 }
 
 .datto-content{
@@ -429,7 +436,7 @@ display: none;
 
     .margin-card-default{
       margin: 0px 150px 0px 150px;
-     
+
     }
 
     .div-inclusiva{
@@ -458,15 +465,15 @@ display: none;
       .violento-txt{
         margin-top: 75px;
       }
-      
+
       .img-balanza{
         margin-top: 10px;
       }
 
       .img-slide2{height: 190px;}
 
-      
-   
+
+
 
   }
 
@@ -477,15 +484,15 @@ display: none;
     margin-top: 180px;
   }
   .bullying-contenedor-padre{
-   
+
     height: 1892px;
-    
-   
+
+
   }
 
   .margin-card-default{
     margin: 0px 271px 1px 271px;
-   
+
   }
 
   .title_carrousel{
@@ -497,7 +504,7 @@ display: none;
   //header
   .img-header{
     top: 49px;
-   
+
     position: relative;
   }
 
@@ -543,7 +550,7 @@ display: none;
  }
 
 
-  
+
 
 
 
@@ -566,10 +573,10 @@ display: none;
   }
 
   .consumo-div{
-   
+
     text-align: left;
     color: rgb(226, 237, 106);
-    
+
   }
 
   .consumo-div h2{
@@ -593,7 +600,7 @@ display: none;
     display: block;
   }
 
- 
+
 
   .consumo-div-content p{
     font-size: 1.5rem;
@@ -606,7 +613,7 @@ display: none;
   }
 
   .ansiedad-content,
- 
+
   .ansiedad-content p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -684,7 +691,7 @@ display: none;
    text-align: left;
  }
 
- 
+
 
   .violento-content{
     display: flex;
@@ -732,16 +739,16 @@ display: none;
   .alimentacion-div{
   height: 1120px;
   padding-top: 120px;
-    
+
 
   }
-  
+
 
 //Bullying
   .bullying-text{
     display: block;
     margin: 0px 271px 1px 271px;
-    
+
   }
 
   .bullying-content{
@@ -749,6 +756,9 @@ display: none;
     text-align: center;
     position: relative;
     bottom: 345px;
+    ion-button {
+      max-width: 20px;
+    }
   }
 
   .bullying-content p{
@@ -780,7 +790,7 @@ display: none;
 
   .ion-slides{
     margin-bottom: 180px;
-    
+
   }
 
   ion-slides h3 {
@@ -803,7 +813,7 @@ display: none;
     height: 60px;
   }
 
- 
+
 
 
 
@@ -815,7 +825,7 @@ display: none;
     width: 707px;
     font-size: 1.5rem;
     height: 60px;
-   
+
     margin-left: 546px;
       }
 }

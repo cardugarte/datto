@@ -1,3 +1,16 @@
 <div class="component">
-  <img src="../../../assets/suscribite datto (1).svg">
+    <form>
+      <ion-item>
+        <ion-label>E-Mail <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required formControlName="email" type="text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Password <ion-text color="danger">*</ion-text></ion-label>
+        <ion-input required formControlName="password" type="text"></ion-input>
+      </ion-item>
+      <ion-button block color="primary" type="submit">
+        Login
+      </ion-button>
+    </form>
+
 </div>
