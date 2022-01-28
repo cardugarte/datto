@@ -7,6 +7,10 @@
   color: rgb(60, 36, 111);
   font-size: 2rem;
   }
+
+  .cuanto-tiempo{
+    font-family: "Bitter";
+  }
     
 .bold{
   font-weight: bold;
@@ -29,13 +33,13 @@ p {
 
 .header{
   background-color: #DEB0D2;
-  height: auto;
+ height: 227px;
  }
 
 
 .header-text{
-  position: absolute;
-  top: 3px;
+  position: relative;
+  bottom: 162px;
   text-align: center;
 
  
@@ -561,7 +565,7 @@ p {
   .header-text-h2{
  
   font-size: 6.5rem;
-  margin-top: 117px;
+
   }
 
   .img5{
@@ -578,6 +582,18 @@ p {
 
   }
 
+  .header{
+    height: 631px;
+  }
+
+  .header-text{
+    position: relative;
+   
+    bottom: 496px;
+
+    text-align: center;
+  }
+
 }
 
 
@@ -592,10 +608,19 @@ p {
     margin-top: 230px;
   }
 
+  .header{
+    height: 975px;
+  }
+
+  .header-text{
+    
+    bottom: 1000px;
+
+  }
 
     .header-text-h2{  
       font-size: 10rem;   
-      margin-top: 72px;
+    
     }
 
   p{
@@ -605,7 +630,7 @@ p {
     font-size: 1.8rem;
   }
   .margin-card-default{
-    margin: 16px 279px 1px 279px;
+    margin: 0px 279px 0px 279px;
     max-width: 1330px;
 }
 
@@ -967,9 +992,9 @@ p {
     }
 
     .img15{
-      height: 439px;
-    margin-top: 304px;
-    margin-left: 35px;
+      height: 600px;
+      margin-top: 228px;
+      margin-left: 35px;
     }
 
     //formas

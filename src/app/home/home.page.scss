@@ -3,10 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
-h1, h2{
+h1, h2, .button__hero{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
+
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -105,6 +107,7 @@ body {
   width: 170px;
   height: 40px;
  font-size: 1rem;
+
 }
 
 ////////////////////////////////////////
@@ -261,10 +264,14 @@ font-size: 1.8rem;
 
 .bullying-content{
   text-align: center;
-  margin-top: -58px;
+  height: 600px;
+  padding: 20px;
 
 }
 
+.bullying-content ion-button{
+  padding: 0px 45px 0px 45px;
+}
 .bullying-content p{
   color: #FFF;
   font-size: 1.1rem;
@@ -423,7 +430,7 @@ display: none;
 
 
 .bullying-contenedor-padre{
-  height: 501px;
+  height: 600px;
 
 }
 
@@ -433,11 +440,22 @@ display: none;
 }
 
 
-
 //resolucion desktop
 
 
   @media (min-width: 800px){
+
+    .alimentacion-content h2{
+      font-size: 2.5rem;
+    }
+
+    .alimentacion-content p{
+      font-size: 1.5rem;
+    }
+
+    .bullying-content {
+      padding: 13px 165px 0px 165px;
+    }
 
     .margin-card-default{
       margin: 0px 150px 0px 150px;
@@ -478,14 +496,16 @@ display: none;
       .img-slide2{height: 190px;}
 
       .img-cuerpos{
-        margin: 100px;
+        height: 589px;
+        margin-left: 481px;
+    
       }
 
       .button__hero_bullying{
        
         font-size: 1.5rem;
         height: 60px;
-        margin: 0px 150px 0px 150px;
+    
 
           }
    
@@ -504,12 +524,14 @@ display: none;
           }
 
           .bullying-contenedor-padre{
-            height: 1230px;
+            height: 1329px;
+            background-color: #211F1F;
           }
 
           .alimentacion-div{
             
-    padding-top: 65px;
+            height: 1379px;
+            padding-top: 120px;
           }
 
           .igualdad-violencia-content{
@@ -799,7 +821,7 @@ display: none;
   }
 
   .alimentacion-div{
-  height: 1120px;
+    height: 1348px;
   padding-top: 120px;
     
 
