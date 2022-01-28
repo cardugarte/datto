@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
-
-h1, h2{
+h1, h2, .button__hero{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
+
 
 p{
   font-family: 'Montserrat', sans-serif;
@@ -105,6 +105,7 @@ body {
   width: 170px;
   height: 40px;
  font-size: 1rem;
+
 }
 
 ////////////////////////////////////////
@@ -144,9 +145,6 @@ body {
     width: 100%;
   }
 }
-
-
-
 
 
 //Depreseion
@@ -268,10 +266,14 @@ font-size: 1.8rem;
 
 .bullying-content{
   text-align: center;
-  margin-top: -58px;
+  height: 600px;
+  padding: 20px;
 
 }
 
+.bullying-content ion-button{
+  padding: 0px 45px 0px 45px;
+}
 .bullying-content p{
   color: #FFF;
   font-size: 1.1rem;
@@ -306,10 +308,6 @@ font-size: 1.8rem;
   background-color:  #e6e0da;
 
 }
-
-
-
-
 
 
 .alimentacion-content p{
@@ -429,10 +427,33 @@ display: none;
 }
 
 
+.bullying-contenedor-padre{
+  height: 600px;
+
+}
+
+.bullying-content{
+  margin-top: -94px;
+  background-color: #211F1F;
+}
+
+
 //resolucion desktop
 
 
   @media (min-width: 800px){
+
+    .alimentacion-content h2{
+      font-size: 2.5rem;
+    }
+
+    .alimentacion-content p{
+      font-size: 1.5rem;
+    }
+
+    .bullying-content {
+      padding: 13px 165px 0px 165px;
+    }
 
     .margin-card-default{
       margin: 0px 150px 0px 150px;
@@ -472,6 +493,64 @@ display: none;
 
       .img-slide2{height: 190px;}
 
+      .img-cuerpos{
+        height: 589px;
+        margin-left: 481px;
+
+      }
+
+      .button__hero_bullying{
+
+        font-size: 1.5rem;
+        height: 60px;
+
+
+          }
+
+
+          .bullying-content{
+            position: relative;
+            height: auto;
+            bottom: 213px;
+            text-align: center;
+          }
+
+          .bullying-content p{
+            color: #FFF;
+            font-size: 1.5rem;
+            font-weight: 400 !important;
+          }
+
+          .bullying-contenedor-padre{
+            height: 1329px;
+            background-color: #211F1F;
+          }
+
+          .alimentacion-div{
+
+            height: 1379px;
+            padding-top: 120px;
+          }
+
+          .igualdad-violencia-content{
+            height: 1000px;}
+
+
+          .igualdad-violencia-content p{
+            font-size: 1.5rem;
+          }
+
+          .igualdad-violencia-content h2{
+            font-size: 1.8rem;
+          }
+
+          .igualdad-violencia-content-2 p{
+            font-size: 1.5rem;
+          }
+
+          .igualdad-violencia-content-2 h2{
+            font-size: 1.8rem;
+          }
 
 
 
@@ -480,14 +559,16 @@ display: none;
 
 @media (min-width: 1600px)  {
 
+  .img-slide2{
+    height: 283px;
+  }
+
+  .bullying-contenedor-padre{
+    height: 1800px;
+  }
+
   .slide-title{
     margin-top: 180px;
-  }
-  .bullying-contenedor-padre{
-
-    height: 1892px;
-
-
   }
 
   .margin-card-default{
@@ -548,10 +629,6 @@ display: none;
     justify-content: space-between;
    }
  }
-
-
-
-
 
 
   //consumo
@@ -737,7 +814,7 @@ display: none;
   }
 
   .alimentacion-div{
-  height: 1120px;
+    height: 1348px;
   padding-top: 120px;
 
 
@@ -761,12 +838,6 @@ display: none;
     }
   }
 
-  .bullying-content p{
-    color: #FFF;
-    font-size: 1.5rem;
-    font-weight: 400 !important;
-  }
-
 
   .no-mas-bullying-svg{
 
@@ -778,15 +849,6 @@ display: none;
     width: 100%;
   }
 
-
-  //CARROUSEL
-  // .carrousel-grid{
-  // margin: 10px 113px 0px 113PX;
-  // }
-
-  .img-cuerpo{
-    margin: 100px;
-  }
 
   .ion-slides{
     margin-bottom: 180px;
@@ -813,19 +875,9 @@ display: none;
     height: 60px;
   }
 
-
-
-
-
   .btn-ali {
     margin-top: 33px;
   }
 
-  .button__hero_bullying{
-    width: 707px;
-    font-size: 1.5rem;
-    height: 60px;
 
-    margin-left: 546px;
-      }
 }

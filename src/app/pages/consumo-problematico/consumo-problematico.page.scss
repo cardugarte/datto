@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-
+.header img{
+  display: none;
+}
 .button__hero {
   display: block;
   margin: 10px auto;
@@ -35,7 +37,7 @@
 
 .header{
   position: absolute;
-bottom: 300px;
+  bottom: 618px;
 text-align: center;
 }
 
@@ -156,6 +158,27 @@ ul, li {
     max-width: 900px;
   }
 
+  .header{
+    bottom: 477px;
+    position: absolute;
+  } 
+
+  .header img{
+    display: block;
+  }
+
+  .img-header{
+    margin-top: 111px;
+    }
+
+    .header h2{
+      text-align: left;
+      font-size: 4.5rem;
+    }
+
+    .button-footer{
+      float: left;
+    }
 }
 
 
@@ -176,6 +199,12 @@ ul, li {
 
 
     //Header
+
+    .header{
+      
+    bottom: 253px;
+
+    }
 
     .img-header{
     margin-top: 111px;
