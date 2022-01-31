@@ -418,6 +418,17 @@ display: none;
 
 //resolucion desktop
   @media (min-width: 800px){
+
+    .card-slide{
+      height: 545px;
+    }
+
+    
+  .margin-card-default{
+    margin: 0px 171px 1px 171px;
+
+  }
+
     .alimentacion-div{
       margin-top: 90px;
     }
@@ -465,7 +476,7 @@ display: none;
       }
 
       .img-slide2{
-        height: 190px;
+        height: 231px;
       }
 
       .button__hero_bullying{
@@ -533,10 +544,6 @@ display: none;
     margin-top: 180px;
   }
 
-  .margin-card-default{
-    margin: 0px 271px 1px 271px;
-
-  }
 
   .carrousel-grid {
     width: 100%;
