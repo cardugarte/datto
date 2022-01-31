@@ -423,11 +423,11 @@ display: none;
       height: 545px;
     }
 
-    
-  .margin-card-default{
-    margin: 0px 171px 1px 171px;
 
-  }
+  // .margin-card-default{
+  //   margin: 0px 171px 1px 171px;
+
+  // }
 
     .alimentacion-div{
       margin-top: 90px;
@@ -546,7 +546,7 @@ display: none;
 
 
   .carrousel-grid {
-  
+
     display: block;
   }
 
@@ -671,6 +671,10 @@ display: none;
     width: 600px !important;
   }
 
+  .ansiedad__btn {
+    margin-top: 100px !important;
+  }
+
   //DATTO
   .datto-content{
     background-color: rgb(226, 237, 106);
@@ -789,7 +793,7 @@ display: none;
     display: block;
     margin: 0 auto;
     text-align: center;
-    position: relative;
+    // position: relative;
     bottom: 345px;
   }
 
