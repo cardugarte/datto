@@ -32,6 +32,15 @@ ion-card-content {
     ;
   }
 
+  .title__section_cuerpos {
+    color: var(--ion-color-primary);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: left
+    ;
+  }
+
+
 
 //Header
 
@@ -241,12 +250,12 @@ ion-card-content {
 
     .margin-card-default{
       margin: 0px 160px 1px 160px;
-      max-width: 900px;
+  
     }
 
     .bullying-grid{
         position: relative;
-        bottom: 310px;
+        bottom: 331px;
 
     }
 
@@ -287,6 +296,11 @@ ion-card-content {
         font-size: 4rem !important;
       }
 
+      .title__section_cuerpos {
+        font-size: 2rem !important;
+      }
+
+
 
     .margin-card-default{
         margin: 0px 201px 1px 201px;
@@ -326,19 +340,23 @@ ion-card-content {
     h2{
       text-align: left;
     }
+    p{
+        font-size: 1.3rem;
+    }
   }
 
   .img-grid-bullying{
-    margin-top: 134px;
+    margin-top: 22px;
   }
 
   .bullying-grid{
    position: relative;
-  bottom: 532px;
+   bottom: 415px;
 
-  p{
-    font-size: 1.5rem;
-  }
+   p{
+       font-size: 1.3rem;
+   }
+
 }
 
 //Habitos
