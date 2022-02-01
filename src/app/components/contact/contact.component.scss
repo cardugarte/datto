@@ -5,3 +5,21 @@
 //   background-repeat: no-repeat;
 //   background-size: cover;
 // }
+
+.component,
+form {
+  display: flex;
+  align-items: center;
+}
+
+
+.component {
+  background-color: var(--ion-color-primary);
+}
+
+ion-item {
+  border-bottom: 1px solid #fff;
+  margin-right: 30px;
+}
+
+
