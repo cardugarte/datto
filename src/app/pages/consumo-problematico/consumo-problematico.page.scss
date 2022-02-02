@@ -81,13 +81,14 @@ ul, li {
 //Drogas
 
 .drogas-content {
-  text-align: justify;
-  h3 {
+  text-align: left;
+  h2 {
     font-size: 1.5rem;
     color: var(--ion-color-primary);
   }
   span {
     font-weight: bold;
+   
   }
 }
 
@@ -158,6 +159,11 @@ ul, li {
     
   }
 
+  .beneficios-h2{
+    font-size: 3rem;
+    font-family: 'Bitter';
+  }
+
   .header{
     bottom: 477px;
     position: absolute;
@@ -177,6 +183,23 @@ ul, li {
 
     .button-footer{
       float: left;
+    }
+
+    .img1{
+      height: 578px;
+    
+    }
+
+    .drogas-content
+     span{
+      font-size: 1.8rem;
+    }
+    h2{
+      font-size: 2.5rem;
+    }
+
+    .consumo{
+      text-align: left;
     }
 }
 
