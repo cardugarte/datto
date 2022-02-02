@@ -1,17 +1,8 @@
-// .component{
-//   display: block;
-//   height: 350px;
-//   background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-
 .component,
 form {
   display: flex;
   align-items: center;
 }
-
 
 .component {
   background-color: var(--ion-color-primary);
@@ -20,6 +11,25 @@ form {
 ion-item {
   border-bottom: 1px solid #fff;
   margin-right: 30px;
+}
+
+@media(max-width: 425px) {
+  .component {
+    justify-content: space-around;
+    form {
+      flex-direction: column;
+      ion-item {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media(min-width: 1440px) {
+  ion-item {
+    width: 550px;
+    margin: 0 70px;
+  }
 }
 
 

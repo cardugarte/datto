@@ -6,8 +6,6 @@ h1, h2, .button__hero{
   font-weight: bold;
 }
 
-
-
 p{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -80,16 +78,6 @@ body {
   }
 }
 
-//header
-
-// .s-sexual-h2{
-//   margin-left: 25px
-// }
-
-// .header{
-//   height: 80vh;
-// }
-
 .header-grid {
   background-color: #c8b5ed;
   height: 470px;
@@ -107,9 +95,7 @@ body {
 }
 
 ////////////////////////////////////////
-
 //Carrousel
-
 .title_carrousel{
   margin-left: 22px;
 }
@@ -119,7 +105,6 @@ body {
   font-weight: 700;
   font-size: 2rem;
 }
-
 
 .title__section-light {
   color: var(--ion-color-light);
@@ -184,13 +169,9 @@ font-size: 1.8rem;
 }
 
 //Ansiedad
-
 .ansiedad-content{
   background-color: rgb(29, 23, 83);
 }
-
-
-
 
 .ansiedad-content p{
   font-size: 1.1rem;
@@ -264,9 +245,6 @@ font-size: 1.8rem;
 
 }
 
-// .bullying-content ion-button{
-//   padding: 0px 45px 0px 45px;
-// }
 .bullying-content p{
   color: #FFF;
   font-size: 1.1rem;
@@ -279,7 +257,6 @@ font-size: 1.8rem;
   margin-bottom: 20px;
 }
 
-
 .img__text {
   width: 300px;
 }
@@ -288,11 +265,9 @@ font-size: 1.8rem;
 .button__bullying {
   width: 320px;
   display: block;
-
 }
 
 //Alimentacion
-
 .alimentacion {
   background-color: #e6e0da;
 }
@@ -301,7 +276,6 @@ font-size: 1.8rem;
   background-color:  #e6e0da;
 
 }
-
 
 .alimentacion-content p{
   color: black;
@@ -321,9 +295,7 @@ font-size: 1.8rem;
   line-height: 1.7;
 }
 
-
 //Consumo
-
 .consumo-div{
   background-color: rgb(75, 21, 116);
   padding: 16px;
@@ -335,7 +307,6 @@ font-size: 1.8rem;
 
 }
 
-
   .consumo-div p{
    font-size: 1.2rem;
    font-weight: 400;
@@ -343,9 +314,7 @@ font-size: 1.8rem;
    max-width: 700px;
   }
 
-
 //svg consumo
-
 .svg-consumo-top{
   fill: rgb(255, 255, 255);
   position: relative;
@@ -360,9 +329,6 @@ font-size: 1.8rem;
 }
 
 //svg Datto
-
-
-
 .svg-datto-top{
   fill: rgb(255, 255, 255);
   position: relative;
@@ -386,7 +352,6 @@ font-size: 1.8rem;
 }
 
 //Datto
-
 .inclusiva-img{
   display: none;
 }
@@ -406,8 +371,6 @@ display: none;
 .img-cuadrado{
   display: none;
 }
-
-
 
 .bullying-text{
   text-align: center;
@@ -438,12 +401,6 @@ display: none;
     .sustancias__text {
       margin-left: 120px;
     }
-
-
-  // .margin-card-default{
-  //   margin: 0px 171px 1px 171px;
-
-  // }
 
     .alimentacion-div{
       margin-top: 90px;
@@ -513,13 +470,11 @@ display: none;
       }
 
       .bullying-contenedor-padre{
-        // height: 1329px;
         background-color: #211F1F;
       }
 
       .igualdad-violencia-content{
         height: 1000px;}
-
 
       .igualdad-violencia-content p{
         font-size: 1.5rem;
@@ -547,21 +502,13 @@ display: none;
         background-position: center;
       }
 
-
   }
 
 
 @media (min-width: 1600px)  {
-
   .img-slide2{
     height: 323px;
   }
-
-
-  // .slide-title{
-  //   margin: 180px 0 30px 180px
-  // }
-
 
   .carrousel-grid {
     display: block;
@@ -577,7 +524,6 @@ display: none;
   //header
   .img-header{
     top: 49px;
-
     position: relative;
   }
 
@@ -748,13 +694,11 @@ display: none;
 
 
   .violento-txt{
-    padding-top: 70px;
     text-align: left;
     width: 70%;
   }
 
  //igualdad-violencia
-
  .violento-content h2{
    text-align: left;
  }
@@ -763,6 +707,7 @@ display: none;
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
+    margin: 0 150px;
   }
 
   .img-igualdad{
@@ -804,26 +749,22 @@ display: none;
   .bullying-text{
     display: block;
     margin: 0px 271px 1px 271px;
-
   }
 
   .bullying-content{
     display: block;
     margin: 0 auto;
     text-align: center;
-    // position: relative;
     bottom: 345px;
   }
 
   .no-mas-bullying-svg{
-
     height: 1891px;
   }
 
   .no-mas-bullying-img{
     width: 100%;
   }
-
 
   .ion-slides{
     margin-bottom: 180px;
