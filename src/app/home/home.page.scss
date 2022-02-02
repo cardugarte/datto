@@ -129,7 +129,7 @@ body {
 
 //salud sexual:
 .slide-title {
-  margin: 40px 0 10px 100px;
+  // margin: 40px 0 10px 100px;
   .hero__title {
     font-size: 2.5rem;
   }
@@ -139,6 +139,7 @@ body {
 //Depresion
 .depresion-content{
   color: rgb(29, 23, 83);
+  width: 100%;
 }
 
 .depresion-content p{
@@ -169,8 +170,14 @@ font-size: 1.8rem;
 }
 
 //Ansiedad
+.row__center {
+  justify-content: center;
+}
+
 .ansiedad-content{
   background-color: rgb(29, 23, 83);
+  width: 100%;
+  margin: 0 auto;
 }
 
 .ansiedad-content p{
@@ -398,6 +405,11 @@ display: none;
       margin: auto 60px;
     }
 
+    .slide-title {
+      margin: 40px 0 10px 100px;
+      }
+
+
     .sustancias__text {
       margin-left: 120px;
     }
@@ -429,6 +441,10 @@ display: none;
 
       .button__hero{
         height: 40px;
+      }
+
+      .ansiedad-content {
+          width: 70%;
       }
 
       .violento-content h2 {
@@ -502,7 +518,7 @@ display: none;
         background-position: center;
       }
 
-  }
+    }
 
 
 @media (min-width: 1600px)  {
