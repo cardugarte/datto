@@ -82,13 +82,13 @@ body {
 
 //header
 
-.s-sexual-h2{
-  margin-left: 25px
-}
+// .s-sexual-h2{
+//   margin-left: 25px
+// }
 
-.header{
-  height: 80vh;
-}
+// .header{
+//   height: 80vh;
+// }
 
 .header-grid {
   background-color: #c8b5ed;
@@ -136,20 +136,22 @@ body {
   ion-card-header {
     padding: 0;
   }
-  // ion-button {
-  //   padding-bottom: 20px;
-  // }
   img {
     width: 100%;
     height: 280px;
   }
 }
 
+//salud sexual:
+.slide-title {
+  margin: 40px 0 10px 100px;
+  .hero__title {
+    font-size: 2.5rem;
+  }
+}
 
 
-
-//Depreseion
-
+//Depresion
 .depresion-content{
   color: rgb(29, 23, 83);
 }
@@ -198,9 +200,6 @@ font-size: 1.8rem;
 }
 
 //DATTO es inclusiva
-
-
-
 .inclusiva-content h1{
   color: rgb(60, 36, 111);
 }
@@ -210,12 +209,10 @@ font-size: 1.8rem;
 
 
 //Noviazgo violento
-
 .violento-content h2{
   color:black;
   font-size: 1.8rem;
   text-align: center;
-
 }
 
 .img__noviazgo {
@@ -331,14 +328,21 @@ font-size: 1.8rem;
   background-color: rgb(75, 21, 116);
   padding: 16px;
   color:rgb(226, 237, 106);
+  .sustancias__text {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
   .consumo-div p{
-   font-size: 1.1rem;
+   font-size: 1.2rem;
    font-weight: 400;
    letter-spacing: 2px;
+   max-width: 700px;
   }
+
 
 //svg consumo
 
@@ -429,6 +433,10 @@ display: none;
 
     .carrousel-grid {
       margin: auto 60px;
+    }
+
+    .sustancias__text {
+      margin-left: 120px;
     }
 
 
@@ -550,9 +558,9 @@ display: none;
   }
 
 
-  .slide-title{
-    margin-top: 180px;
-  }
+  // .slide-title{
+  //   margin: 180px 0 30px 180px
+  // }
 
 
   .carrousel-grid {
@@ -659,7 +667,7 @@ display: none;
     display: block;
   }
 
-  .consumo-div-content p{
+  .consumo-div p{
     font-size: 1.5rem;
     font-family: "Montserrat";
     font-weight: 400;

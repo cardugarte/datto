@@ -3,7 +3,6 @@
   <ion-grid class="header-grid">
     <ion-row class="margin-card-default">
       <ion-col size="12" size-md="8">
-        <div class="header">
           <img src="../../assets/imgHome/bienvenidos.png">
           <p class="header__text" color="tertiary">
             Datto es un sitio web, pensado para que lxs adolescentes accedan a información de interés, de manera confiable, segura y oportuna.
@@ -15,7 +14,6 @@
             shape="round">
             Sumate
           </ion-button>
-        </div>
       </ion-col>
       <ion-col size="0" size-md="4">
         <img class="img-header" src="../../assets/imgHome/imgHome2.png">
@@ -25,11 +23,11 @@
   <br>
   <br>
 
-  <div class="slide-title margin-card-default">
-  <h2 class="title__section s-sexual-h2"> Salud sexual </h2>
+  <div class="slide-title">
+  <h2 class="title__section"> Salud sexual </h2>
  </div>
 
- <ion-grid class="carrousel-grid margin-card-default" >
+ <ion-grid class="carrousel-grid" >
    <ion-row>
    <ion-slides
    class="ion-slides"
@@ -131,28 +129,28 @@
 
 
    <div class="consumo-div">
-     <div class="consumo-div-content margin-card-default">
        <ion-grid>
          <ion-row>
-           <ion-col size="12" size-md="8">
+           <ion-col
+            size="12"
+            size-md="8"
+          >
+          <div class="sustancias__text">
             <h2>Consumo de sustancias</h2>
+            <p class="consumo-p">
+              Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
+            </p>
+            <ion-button
+            class="button__hero ansiedad__btn"
+            expand="block"
+            shape="round"
+            routerLink="/consumo-problematico"
+            color="light"
+          >
+          Más Info
+          </ion-button>
 
-
-              <div>
-               <p class="consumo-p">
-                 Este espacio acerca herramientas que posibilitan la reflexión y la intervención desde un enfoque de la complejidad, la multidimensionalidad y la interdisciplinariedad que la temática requiere.
-               </p>
-               <ion-button
-               class="button__hero ansiedad__btn"
-               expand="block"
-               shape="round"
-               routerLink="/consumo-problematico"
-               color="light"
-             >
-             Más Info
-             </ion-button>
-            </div>
-
+          </div>
            </ion-col>
            <ion-col size="12" size-md="4">
              <img src="../../assets/imgHome/sustancias.png">
@@ -161,15 +159,11 @@
        </ion-grid>
      </div>
     </div>
-
           <svg class="svg-consumo-bottom"  viewBox="0 0 500 40" preserveAspectRatio="none"><path style="fill: #4b1574;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
-
-</div>
-
 <br>
 <br>
 <br>
-          <ion-card class="depresion-content margin-card-default card-no-shadow" >
+          <ion-card class="depresion-content card-no-shadow" >
             <ion-card-content>
             <ion-col size="12" >
               <h2 class="title__section ">Gestión de emociones</h2>
@@ -180,145 +174,149 @@
                 <p>
                   Cada un@ tiene una manera diferente de registrar emociones en el cuerpo, y es fundamental conocerlas e identificarlas a tiempo. Desde DATTO queremos escucharte y ayudarte.
                 </p>
-
-
-            </ion-col>
-          </ion-card-content>
-
-
-
-
+              </ion-col>
+            </ion-card-content>
           </ion-card>
-
-
-
-
-                  <ion-card class="depresion-content margin-card-default card-no-shadow">
-                    <ion-card-content>
-
-                    <ion-grid>
-                      <ion-row class="row-card">
-
-
-                        <ion-col size="12" size-md="4">
-                          <img class="img-ansiedad" src="../../assets/imgHome/Depresión-3.png ">
-                        </ion-col>
-                          <ion-col  size="12" size-md="6">
-                                <h2 class="title__section">Depresión</h2>
-                                <br>
-                              <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
-                              <br>
-                              <p> Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.</p>
-                              <br>
-                              <ion-button
-                                class="button__hero"
-                                expand="block"
-                                shape="round"
-                                routerLink="/gestion-emociones"
-                                color="primary"
-                              >
-                                Consejos útiles
-                              </ion-button>
-                          </ion-col>
-
-
-
-                      </ion-row>
-                    </ion-grid>
-                  </ion-card-content>
-                  </ion-card>
-
-                   <ion-card class="ansiedad-content margin-card-default card-no-shadow ">
-
-                     <ion-card-content>
-                      <ion-grid>
-                        <ion-row >
-
-                            <ion-col class="depresion-content" size="12" size-md="8">
-                              <h2 class="title__section-light">Ansiedad</h2>
-                              <br>
-                              <p>En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.</p>
-                              <p>Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
-                              </p>
-                              <br>
-                              <ion-button
-                                class="button__hero ansiedad__btn"
-                                expand="block"
-                                shape="round"
-                                routerLink="/gestion-emociones"
-                                color="light"
-                              >
-                                ¿Qué hacer?
-                              </ion-button>
-                            </ion-col>
-                            <ion-col size="12" size-md="4">
-                              <img src="../../assets/imgHome/ansiedad.png ">
-                            </ion-col>
-                          </ion-row>
-                        </ion-grid>
-                        </ion-card-content>
-
-
-                  </ion-card>
-
-
-<br>
-<br>
-<br>
-
-
-             <svg class="svg-datto-top"  viewBox="0 0 500 40" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
-
+          <ion-card class="depresion-content card-no-shadow">
+            <ion-card-content>
+              <ion-grid>
+                <ion-row class="row-card">
+                  <ion-col
+                    size="12"
+                    size-md="4"
+                  >
+                    <img
+                      class="img-ansiedad"
+                      src="../../assets/imgHome/Depresión-3.png "
+                    >
+                  </ion-col>
+                  <ion-col
+                    size="12"
+                    size-md="6"
+                  >
+                    <h2 class="title__section">Depresión</h2>
+                      <br>
+                      <p>A veces podés sentirte bajoneada/o por un período largo de tiempo, con desánimo y pocas ganas.</p>
+                      <br>
+                      <p> Es importante que si te sentís así, puedas hablarlo con alguien con quien sientas conﬁanza o consideres que puede escucharte.
+                      </p>
+                      <br>
+                      <ion-button
+                        class="button__hero"
+                        expand="block"
+                        shape="round"
+                        routerLink="/gestion-emociones"
+                        color="primary"
+                      >
+                        Consejos útiles
+                      </ion-button>
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-content>
+            </ion-card>
+            <ion-card class="ansiedad-content card-no-shadow">
+              <ion-card-content>
+                <ion-grid>
+                  <ion-row>
+                    <ion-col
+                      class="depresion-content"
+                      size="12"
+                      size-md="8"
+                    >
+                      <h2 class="title__section-light">Ansiedad</h2>
+                      <br>
+                      <p>
+                        En la vida cotidiana existen emociones, sentimientos y estados de ánimo que se ven modiﬁcados permanentemente.
+                      </p>
+                      <p>
+                        Muchas veces suceden de forma tal que no se identiﬁcan y entonces pueden afectarte mientras estás desarrollando tus actividades diarias.
+                      </p>
+                      <br>
+                      <ion-button
+                        class="button__hero ansiedad__btn"
+                        expand="block"
+                        shape="round"
+                        routerLink="/gestion-emociones"
+                        color="light"
+                      >
+                        ¿Qué hacer?
+                      </ion-button>
+                    </ion-col>
+                    <ion-col size="12" size-md="4">
+                      <img src="../../assets/imgHome/ansiedad.png ">
+                    </ion-col>
+                  </ion-row>
+                </ion-grid>
+              </ion-card-content>
+            </ion-card>
+            <br>
+            <br>
+            <br>
+              <svg
+                class="svg-datto-top"
+                viewBox="0 0 500 40"
+                preserveAspectRatio="none"
+              >
+              <path
+                style="fill: #e2ed6a;stroke: none;"
+                d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"
+              >
+              </path>
+            </svg>
             <div class="datto-content">
+            <div class="div-inclusiva">
+              <ion-grid>
+                <ion-row>
+                  <ion-col
+                    size="12"
+                    size-md="8"
+                  >
+                    <div class="datto-flex">
+                      <div>
+                        <h2>DATTO es inclusiva</h2>
+                        <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
+                        </p>
+                        <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
+                        <ion-button
+                        class="button__hero"
+                        color="dark"
+                        expand="block"
+                        shape="round"
+                        routerLink="/generos"
+                      >
+                        Más Info
+                      </ion-button>
 
-             <div class="div-inclusiva">
-
-
-
-                  <ion-grid>
-                    <ion-row>
-                      <ion-col size="12" size-md="8">
-                        <div class="datto-flex">
-                          <div>
-                            <h2>DATTO es inclusiva</h2>
-                            <p class="incusiva-p">Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscás atención específica, nos aseguraremos de que recibas la atención que necesites.
-                            </p>
-                            <p>Damos la bienvenida a nuestra comunidad trans y no binaria.</p>
-                            <ion-button
-                            class="button__hero"
-                            color="dark"
-                            expand="block"
-                            shape="round"
-                            routerLink="/generos"
-                          >
-                            Más Info
-                          </ion-button>
-
-                        </div>
-                      </div>
-                      </ion-col>
-                      <ion-col size="0" size-md="4">
-                        <img class="inclusiva-img" src="../../assets/imgHome/cuadrado.png">
-                      </ion-col>
-                    </ion-row>
-                  </ion-grid>
-
-                </div>
-
-              </div>
-
-
-
-
-
-              <svg  class="svg-datto-bottom" viewBox="0 0 500 40" preserveAspectRatio="none" ><path style="fill: #e2ed6a;stroke: none;" d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"></path></svg>
-
-
+                    </div>
+                  </div>
+                  </ion-col>
+                  <ion-col
+                    size="0"
+                    size-md="4">
+                    <img
+                      class="inclusiva-img"
+                      src="../../assets/imgHome/cuadrado.png"
+                    >
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </div>
+          </div>
+          <svg
+            class="svg-datto-bottom"
+            viewBox="0 0 500 40"
+            preserveAspectRatio="none"
+          >
+            <path
+              style="fill: #e2ed6a;stroke: none;"
+              d="M-66.31,47.86 C126.69,-37.98 377.82,105.09 593.95,-18.25 L500.00,0.00 L0.00,0.00 Z"
+            >
+            </path>
+          </svg>
             <br>
             <br>
-
-                <div class="igualdad-violencia-content-2 margin-card-default">
-
+          <div class="igualdad-violencia-content-2">
                 <ion-grid>
                   <ion-row>
                     <ion-col size="12" size-md="4">
