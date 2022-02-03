@@ -83,14 +83,12 @@ body {
   height: 470px;
 }
 
-
 .header__text {
   font-size: 1.7rem;
   letter-spacing: 2px;
 }
 
 .button__hero {
-  // margin: 20px auto;
   max-width: 200px;
 }
 
@@ -128,11 +126,11 @@ body {
 
 //salud sexual:
 .slide-title {
-  .hero__title {
-    font-size: 2.5rem;
+  .title__section {
+    font-size: 1.8rem;
+    margin-left: 15px;
   }
 }
-
 
 //Depresion
 .depresion-content{
@@ -147,7 +145,6 @@ body {
 }
 
 //A
-
 .depresion-content h2{
 font-size: 1.8rem;
 }
@@ -198,7 +195,6 @@ font-size: 1.8rem;
 .violento-content h2{
   color:black;
   font-size: 1.8rem;
-  text-align: center;
 }
 
 .img__noviazgo {
@@ -209,8 +205,7 @@ font-size: 1.8rem;
 
 .violento-content p{
   color:black;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 1.1rem;
 }
 
 //Igualdad de genero
@@ -264,7 +259,6 @@ font-size: 1.8rem;
 .img__text {
   width: 300px;
 }
-
 
 .button__bullying {
   width: 320px;
@@ -349,10 +343,6 @@ font-size: 1.8rem;
 }
 
 //noviazgo
-.violento-content{
-  margin: 10px 10px 0 10px;
-}
-
 .no-mas-bullying-svg{
   height: 280px;
 }
@@ -377,6 +367,14 @@ font-size: 1.8rem;
 .bullying-content{
   margin-top: -70px;
   background-color: #211F1F;
+}
+
+@media(max-width: 425px) {
+  .slide-title {
+    .title__section {
+      text-align: center;
+    }
+  }
 }
 
 
@@ -419,86 +417,84 @@ font-size: 1.8rem;
 
     .div-inclusiva{
       margin: 0px 150px 0px 150px;
-      }
-
-      .inclusiva-img{
-        display: block;
-      }
-
-      .button__hero{
-        height: 40px;
-      }
-
-      .ansiedad-content {
-          width: 70%;
-      }
-
-      .violento-content h2 {
-        text-align: left;
-      }
-
-      .violento-content p{
-        text-align: left;
-      }
-
-      .violento-txt{
-        margin-top: 75px;
-      }
-
-      .img-balanza{
-        display: block;
-        margin: 10px auto;
-      }
-
-      .img-slide2{
-        height: 180px;
-      }
-
-      .button__hero_bullying{
-        font-size: 1.2rem;
-        height: 60px;
-        font-weight: bold
-      }
-
-      .bullying-content{
-        width: 100%;
-        margin: -90px auto;
-        padding-bottom: 30px;
-      }
-
-      .bullying-content p{
-        color: #FFF;
-        font-size: 1.5rem;
-      }
-
-      .bullying-contenedor-padre{
-        background-color: #211F1F;
-      }
-
-      // .igualdad-violencia-content{
-      //   height: 1000px;}
-
-      .igualdad-violencia-content p,
-      .igualdad-violencia-content-2 p {
-        font-size: 1.5rem;
-      }
-
-      .igualdad-violencia-content h2,
-      .igualdad-violencia-content-2 h2 {
-        font-size: 1.8rem;
-      }
-
-      .component{
-        display: block;
-        height: 350px;
-        background-color: var(--ion-color-primary);
-        background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-      }
-
     }
+
+    .inclusiva-img{
+      display: block;
+    }
+
+    .button__hero{
+      height: 40px;
+    }
+
+    .ansiedad-content {
+      width: 70%;
+    }
+
+    .violento-content h2 {
+      text-align: left;
+    }
+
+    .violento-content p{
+      text-align: left;
+    }
+
+    .violento-txt{
+      margin-top: 75px;
+    }
+
+    .img-balanza{
+      display: block;
+      margin: 10px auto;
+      width: 50%;
+    }
+
+    .img-slide2{
+      height: 180px;
+    }
+
+    .button__hero_bullying{
+      font-size: 1.2rem;
+      height: 60px;
+      font-weight: bold
+    }
+
+    .bullying-content{
+      width: 100%;
+      margin: -90px auto;
+      padding-bottom: 30px;
+    }
+
+    .bullying-content p{
+      color: #FFF;
+      font-size: 1.5rem;
+    }
+
+    .bullying-contenedor-padre{
+      background-color: #211F1F;
+    }
+
+    .igualdad-violencia-content p,
+    .igualdad-violencia-content-2 p {
+      font-size: 1.1rem;
+    }
+
+    .igualdad-violencia-content h2,
+    .igualdad-violencia-content-2 h2 {
+      font-size: 1.8rem;
+    }
+
+    .component{
+      display: block;
+      height: 350px;
+      background-color: var(--ion-color-primary);
+      background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+  }
 
 
 @media (min-width: 1600px)  {
@@ -711,11 +707,6 @@ font-size: 1.8rem;
     top: 130px;
     display: block;
   }
-
-  .img-balanza{
-    height: 497px;
-  }
-
 
  //Igualdad de genero
   .alimentacion{
