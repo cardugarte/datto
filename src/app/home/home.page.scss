@@ -369,6 +369,7 @@ font-size: 1.8rem;
   background-color: #211F1F;
 }
 
+ //Mobile
 @media(max-width: 425px) {
   .slide-title {
     .title__section {
@@ -376,7 +377,6 @@ font-size: 1.8rem;
     }
   }
 }
-
 
 //resolucion desktop
   @media (min-width: 800px){
@@ -727,7 +727,6 @@ font-size: 1.8rem;
     margin-top: 0;
   }
 
-
 //Bullying
   .bullying-text{
     display: block;
@@ -780,6 +779,4 @@ font-size: 1.8rem;
   .component {
     height: 700px;
   }
-
-
 }

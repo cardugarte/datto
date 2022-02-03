@@ -17,9 +17,6 @@ form {
   align-items: flex-start;
   flex-direction: column;
   align-content: space-around;
-  ion-button {
-    margin: 10px auto;
-  }
 }
 
 h2 {
@@ -27,7 +24,7 @@ h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 ion-item {
@@ -36,6 +33,12 @@ ion-item {
 }
 
 @media(max-width: 425px) {
+  form {
+    justify-content: center;
+  }
+}
+
+@media(max-width: 800px) {
   .component {
   background-color: var(--ion-color-primary);
   }
