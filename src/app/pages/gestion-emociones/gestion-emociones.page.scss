@@ -269,7 +269,7 @@ h1, h2{
 
   .margin-card-default{
     margin: 0px 160px 1px 160px;
-   
+    max-width: 900px;
   }
   .img1{
     display: block;
@@ -311,6 +311,12 @@ h1, h2{
     .margin-card-default{
       margin: 0px 271px 1px 271px;
       max-width: 1330px;
+    }
+
+    .svg-contacto-bottom{
+      fill: rgb(255, 255, 255);
+      position: relative;
+      bottom: 11px;
     }
 
 
@@ -406,11 +412,7 @@ h1, h2{
 
   
 
-    .svg-contacto-bottom{
-      fill: rgb(255, 255, 255);
-      position: relative;
-      bottom: 1px;
-    }
+  
 
     //Contacto
 
@@ -472,7 +474,7 @@ h1, h2{
 
     .img-2-ansiedad{
       position: absolute;
-      top: 881px;
+      top: 692px;
       height: 217px;
       display: block;
     }
