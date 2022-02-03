@@ -17,7 +17,7 @@
 
   p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;}
+    }
 
 .card-no-shadow {
     box-shadow: none;
@@ -35,13 +35,6 @@
     padding: 5px;
     text-align: initial;
   }
-
-  .bullying-grid{
-    position: absolute;
-  
-
-  }
-
  
 
 .bullying-content{
@@ -139,7 +132,7 @@
   .svg-contacto-top {
     fill: #c8b5ed;
     position: relative;
-    bottom: -20px;
+    bottom: -29px;
     transform: scaleY(-1);
   }
 
@@ -148,7 +141,7 @@
   .svg-contacto-bottom{
     fill: #c8b5ed;
     position: relative;
-    bottom: 24px;
+    bottom: 20px;
   }
 
   .img-contacto2-1{
@@ -162,12 +155,22 @@
 
 
   .contacto-2{
-    background-color: var(--ion-color-dark);
+    background-color: black;
     color: white;
   }
 
   .img-stop{
     display: none;
+  }
+
+  .left{
+    text-align: left;
+  }
+
+  .condiciones-content{
+    color: #3c246f;     
+    text-align: left;
+    font-weight: bold;
   }
 
   @media (min-width: 800px){
@@ -181,6 +184,23 @@
       font-size: 2rem;
      
       color:rgb(60, 36, 111);
+    }
+
+    .bullying-grid{
+      position: relative;
+      bottom: 331px;
+    }
+
+    .bullying-contenedor-padre{
+      height: 429px;
+    }
+
+    .como-actuan{
+      margin: 0px 200px 0px 200px;
+    }
+
+    .que-hacer-bullying{
+      margin: 0px 200px 0px 200px;
     }
 
 }
@@ -228,8 +248,8 @@
     }
 
     .bullying-grid{
-     position: relative;
-    bottom: 532px;
+      position: relative;
+      bottom: 331px;
 
     p{
       font-size: 1.5rem;
@@ -259,9 +279,7 @@
 
     .condiciones-content{
       font-size: 2.5rem;
-      color:rgb(60, 36, 111);
-      text-align: left;
-      font-weight: bold;
+
     }
 
 
@@ -383,7 +401,7 @@
 
     .svg-contacto-bottom{
 
-        fill: #c8b5ed;position: relative;bottom: 1px;
+        fill: #c8b5ed;position: relative;bottom: 2px;
     }
 
 
