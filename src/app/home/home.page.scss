@@ -94,7 +94,6 @@ body {
   max-width: 200px;
 }
 
-////////////////////////////////////////
 //Carrousel
 .title_carrousel{
   margin-left: 22px;
@@ -129,7 +128,6 @@ body {
 
 //salud sexual:
 .slide-title {
-  // margin: 40px 0 10px 100px;
   .hero__title {
     font-size: 2.5rem;
   }
@@ -178,6 +176,7 @@ font-size: 1.8rem;
   background-color: rgb(29, 23, 83);
   width: 100%;
   margin: 0 auto;
+  border-radius: 20px;
 }
 
 .ansiedad-content p{
@@ -194,7 +193,6 @@ font-size: 1.8rem;
 .inclusiva-content h2{
   color: #000;
 }
-
 
 //Noviazgo violento
 .violento-content h2{
@@ -216,7 +214,6 @@ font-size: 1.8rem;
 }
 
 //Igualdad de genero
-
 .igualdad-content h1{
   color:black;
   font-size: 1.8rem;
@@ -226,11 +223,14 @@ font-size: 1.8rem;
 .igualdad-content p{
   color:black;
   font-size: 1.1rem;
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.btn-nv {
+  margin: 20px auto;
 }
 
 //Bullying
-
 .bullying-content{
   ion-button {
     max-width: 450px;
@@ -244,12 +244,9 @@ font-size: 1.8rem;
   padding: 10px
 }
 
-
-
 .bullying-content{
   text-align: center;
   padding: 20px;
-
 }
 
 .bullying-content p{
@@ -277,20 +274,23 @@ font-size: 1.8rem;
 //Alimentacion
 .alimentacion {
   background-color: #e6e0da;
+  ion-row {
+    justify-content: center;
+  }
 }
 
 .alimentacion-div{
   background-color:  #e6e0da;
-
 }
 
-.alimentacion-content p{
-  color: black;
-  font-size: 1.1rem;
+.alimentacion-content {
+  p {
+    color: black;
+    font-size: 1.1rem;
+  }
 }
 
 //Inclusiva
-
 .div-inclusiva{
   background-color: #e2ed6a;
   padding: 16px;
@@ -311,7 +311,6 @@ font-size: 1.8rem;
     display: flex;
     flex-direction: column;
   }
-
 }
 
   .consumo-div p{
@@ -359,23 +358,11 @@ font-size: 1.8rem;
 }
 
 //Datto
-.inclusiva-img{
-  display: none;
-}
-
-.inclusiva-img2{
-  display: none;
-}
-
-.img-igualdad{
-display: none;
-}
-
-.img-circulo{
-  display: none;
-}
-
-.img-cuadrado{
+.inclusiva-img,
+.inclusiva-img2,
+.img-igualdad,
+.img-circulo,
+.img-cuadrado {
   display: none;
 }
 
@@ -408,7 +395,6 @@ display: none;
     .slide-title {
       margin: 40px 0 10px 100px;
       }
-
 
     .sustancias__text {
       margin-left: 120px;
@@ -489,22 +475,16 @@ display: none;
         background-color: #211F1F;
       }
 
-      .igualdad-violencia-content{
-        height: 1000px;}
+      // .igualdad-violencia-content{
+      //   height: 1000px;}
 
-      .igualdad-violencia-content p{
+      .igualdad-violencia-content p,
+      .igualdad-violencia-content-2 p {
         font-size: 1.5rem;
       }
 
-      .igualdad-violencia-content h2{
-        font-size: 1.8rem;
-      }
-
-      .igualdad-violencia-content-2 p{
-        font-size: 1.5rem;
-      }
-
-      .igualdad-violencia-content-2 h2{
+      .igualdad-violencia-content h2,
+      .igualdad-violencia-content-2 h2 {
         font-size: 1.8rem;
       }
 
@@ -697,20 +677,16 @@ display: none;
   }
 
   .div-inclusiva{
-  margin: 0px 271px 1px 271px;
+    margin: 0px 271px 1px 271px;
+    h2 {
+      font-size: 31px;
+    }
+    p {
+      font-size: 1.5rem;
+    }
   }
-
-  .div-inclusiva h2{
-   font-size: 31px;
-  }
-
-  .div-inclusiva p{
-   font-size: 1.5rem;
-  }
-
 
   .violento-txt{
-    text-align: left;
     width: 70%;
   }
 
