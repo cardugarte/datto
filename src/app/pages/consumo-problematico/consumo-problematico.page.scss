@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+  display: block;
+  height: 350px;
+  background-color: var(--ion-color-primary);
+  background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .header img{
   display: none;
 }
