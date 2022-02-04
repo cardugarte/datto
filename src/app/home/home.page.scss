@@ -381,6 +381,10 @@ font-size: 1.8rem;
 //resolucion desktop
   @media (min-width: 800px){
 
+    .margin-row{
+      margin: 73px 100px 0px 100px;
+    }
+
     .card-slide{
       height: 545px;
       padding-bottom: 20px;
@@ -392,6 +396,11 @@ font-size: 1.8rem;
 
     .slide-title {
       margin: 40px 0 10px 100px;
+        .title__section {
+ 
+          margin-left: 63px;
+        }
+      
       }
 
     .sustancias__text {

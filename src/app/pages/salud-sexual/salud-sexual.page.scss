@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
 
+ion-card-title{
+  font-family: 'Montserrat';
+}
+
 .component{
   display: block;
   height: 350px;
@@ -555,7 +559,18 @@ p {
   margin: -25px;
 }
 
+.contacto{
+  background-color: #c8b5ed;
+  color: #3c246f;
+  padding: 16px;
+  text-align: left;
+ }
+
 @media(max-width: 767px) {
+
+  .emergencia-close-icon{
+    width: 40px;
+  }
   .inyectabales-content {
     .title__section {
       font-size: 1rem;
@@ -572,6 +587,10 @@ p {
   .title__section {
     font-size: 1.2rem;
   }
+
+  .quote p{
+    color: #3c246f;
+  }
 }
 
 
@@ -582,6 +601,7 @@ p {
 
   .quote p{
     font-size: 1.5rem;
+    color:#3c246f;
   }
 
   .metodos__img{
