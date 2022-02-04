@@ -116,6 +116,7 @@ p {
 
 .bet {
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .emergencia-content{
@@ -460,6 +461,11 @@ p {
   font-size: 3rem;
 }
 
+.testeo__btn {
+  width: 250px;
+  margin: 0 auto;
+}
+
 //prevenirlo
 .prevenirlo{
   color:rgb(60, 36, 111);
@@ -483,6 +489,10 @@ p {
 
 .vih-no p{
   margin-top: 1em
+}
+
+.full__width {
+  padding: 0;
 }
 
 //servicio
@@ -568,12 +578,6 @@ p {
     width: 300px;
   }
 
-
-  // .mac-bigbox-2{
-  //   margin: 0px 160px 1px 160px;
-  // }
-
-
   .img5{
     height: 228px;
   }
@@ -625,6 +629,11 @@ p {
 
   .ginecologia h2{
     font-size: 2.5rem;
+  }
+
+  .vih__title{
+    font-size: 2rem;
+    font-weight: bold;
   }
 
 }
@@ -704,10 +713,6 @@ p {
     .img1 {
       height: 120px;
     }
-
-    // .mac-bigbox-2{
-    //   margin: 0 300px 0px 300px;
-    // }
 
     .yellow {
       font-size: 2.5rem;
