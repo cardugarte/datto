@@ -343,10 +343,18 @@ font-size: 1.8rem;
 }
 
 //noviazgo
+
+.no-mas-bullying-img{
+  display: none;
+}
 .no-mas-bullying-svg{
   height: 280px;
+ 
 }
 
+.no-mas-bullying-img-2{
+  display: block;
+}
 //Datto
 .inclusiva-img,
 .inclusiva-img2,
@@ -365,7 +373,7 @@ font-size: 1.8rem;
 }
 
 .bullying-content{
-  margin-top: -70px;
+  margin-top: -128px;
   background-color: #211F1F;
 }
 
@@ -408,7 +416,7 @@ font-size: 1.8rem;
     }
 
     .alimentacion-div{
-      margin-top: 90px;
+      margin-top: 40px;
     }
 
     .alimentacion-content h2{
@@ -421,7 +429,9 @@ font-size: 1.8rem;
 
     .bullying-content {
       padding: 13px 75px 0px 75px;
-      margin: -220px auto;
+      width: 100%;
+      position: relative;
+      bottom: 131px;
     }
 
     .div-inclusiva{
@@ -455,7 +465,7 @@ font-size: 1.8rem;
     .img-balanza{
       display: block;
       margin: 10px auto;
-      width: 50%;
+      width: 40%;
     }
 
     .img-slide2{
@@ -470,8 +480,7 @@ font-size: 1.8rem;
 
     .bullying-content{
       width: 100%;
-      margin: -90px auto;
-      padding-bottom: 30px;
+     
     }
 
     .bullying-content p{
@@ -483,6 +492,9 @@ font-size: 1.8rem;
       background-color: #211F1F;
     }
 
+    .igualdad-violencia-content{
+      height: 600px;
+    }
     .igualdad-violencia-content p,
     .igualdad-violencia-content-2 p {
       font-size: 1.1rem;
@@ -501,6 +513,14 @@ font-size: 1.8rem;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+    }
+
+    .no-mas-bullying-img{
+      display: block;
+    }
+
+    .no-mas-bullying-img-2{
+      display: none;
     }
 
   }
@@ -742,16 +762,14 @@ font-size: 1.8rem;
     margin: 0px 271px 1px 271px;
   }
 
-  .bullying-content{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    bottom: 345px;
-  }
+  
 
   .no-mas-bullying-svg{
     height: 1891px;
+    display: block;
   }
+
+ 
 
   .no-mas-bullying-img{
     width: 100%;

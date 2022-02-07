@@ -230,6 +230,10 @@ ion-card-content {
 .bullying-grid{
     position: absolute;
 
+    p{
+        color: #3c246f
+    }
+
 
   }
 
@@ -360,7 +364,8 @@ ion-card-content {
 //Bullying
 
 .bullying-contenedor-padre{
-    height: 580px;
+    height: 466px;
+
     h2{
       text-align: left;
     }
@@ -375,7 +380,7 @@ ion-card-content {
 
   .bullying-grid{
    position: relative;
-   bottom: 468px;
+   bottom: 425px;
 
    p{
        font-size: 1.3rem;
@@ -400,11 +405,11 @@ ion-card-content {
 
 .img2{
     margin-top: 95px;
-    margin-left: 108px;
+  
 }
 
 .img3{
-    margin-left: 102px;
+  
     margin-top: 53px;
 
 }
@@ -414,13 +419,13 @@ ion-card-content {
 }
 
 .img5{
-    margin-left: 102px;
+ 
     margin-top: 225px;
 
 }
 
 .img6{
-    height: 635px;
+    height: 485px;
 }
 
 .malos-habitos-content{
@@ -496,7 +501,7 @@ ion-card-content {
     position: absolute;
     display: block;
     top: 382px;
-    left: 900px;
+    left: 830px;
 }
 
 
