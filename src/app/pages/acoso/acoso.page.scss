@@ -37,7 +37,7 @@
     color: var(--ion-color-primary);
     font-weight: 700;
     font-size: 1.5rem;
-    text-align: center;
+   
   }
 
   ul li {
@@ -50,7 +50,7 @@
 .bullying-content{
   line-height: normal;
   color:rgb(60, 36, 111);
-  text-align: center;
+  text-align: left;
 }
 
 .bullying-bigbox{
@@ -261,7 +261,7 @@
       bottom: 435px;
 
     p{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 
@@ -418,6 +418,12 @@
 
 
 
+}
+
+@media (min-width: 1700px){
+  .bullying-grid{
+    bottom: 510px;
+  }
 }
 
 
