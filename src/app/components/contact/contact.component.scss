@@ -32,6 +32,8 @@ ion-item {
   margin-right: 30px;
 }
 
+
+
 @media(max-width: 425px) {
   form {
     justify-content: center;
@@ -39,6 +41,8 @@ ion-item {
 }
 
 @media(max-width: 800px) {
+
+
   .component {
   background-color: var(--ion-color-primary);
   }
@@ -56,8 +60,14 @@ ion-item {
 
 @media(min-width: 1440px) {
   ion-item {
-    width: 550px;
-    margin: 0 70px;
+    width: 300px;
+    
+  }
+  .img-component{
+    margin-left: 128px;
+    height: 378px;
+
+    
   }
 }
 

@@ -379,6 +379,17 @@ font-size: 1.8rem;
   background-color: #211F1F;
 }
 
+.component{
+  display: block;
+  height: 350px;
+  background-color: var(--ion-color-primary);
+  background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
  //Mobile
 @media(max-width: 425px) {
   .slide-title {
@@ -390,6 +401,10 @@ font-size: 1.8rem;
 
 //resolucion desktop
   @media (min-width: 800px){
+
+    .component{
+      height: 852px;
+    }
 
     .margin-row{
       margin: 73px 100px 0px 100px;
@@ -507,15 +522,7 @@ font-size: 1.8rem;
       font-size: 1.8rem;
     }
 
-    .component{
-      display: block;
-      height: 350px;
-      background-color: var(--ion-color-primary);
-      background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
+  
 
     .no-mas-bullying-img{
       display: block;
@@ -543,6 +550,8 @@ font-size: 1.8rem;
 
 
 @media (min-width: 1600px)  {
+
+
   .img-slide2{
     height: 323px;
   }
