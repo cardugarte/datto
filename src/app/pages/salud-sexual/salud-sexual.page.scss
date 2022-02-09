@@ -7,9 +7,9 @@ ion-card-title{
 
 .component{
   display: block;
-  height: 350px;
+  height: 393px;
   background-color: var(--ion-color-primary);
-  background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -512,7 +512,7 @@ p {
 }
 
 .full__width {
-  padding: 0;
+  margin: 0;
 }
 
 //servicio
@@ -566,7 +566,7 @@ p {
 .contacto{
   background-color: #c8b5ed;
   color: #3c246f;
-
+margin: 0;
   text-align: left;
  }
 
@@ -678,7 +678,8 @@ p {
   }
 
   .component{
-    height: 852px;
+    height: 951px;
+    background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
   }
 
 }

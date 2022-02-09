@@ -11,6 +11,10 @@ p{
   font-weight: 400;
 }
 
+.component{
+  padding: 0px 20px 0px 20px;
+}
+
 .component,
 form {
   display: flex;
@@ -24,7 +28,7 @@ h2 {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 ion-item {
@@ -32,6 +36,13 @@ ion-item {
   margin-right: 30px;
 }
 
+.img-component{
+  display: none;
+}
+
+.ion-button{
+  margin-top: 10px;
+}
 
 
 @media(max-width: 425px) {
@@ -42,10 +53,6 @@ ion-item {
 
 @media(max-width: 800px) {
 
-
-  .component {
-  background-color: var(--ion-color-primary);
-  }
 
   .component {
     justify-content: space-around;
@@ -59,16 +66,26 @@ ion-item {
 }
 
 @media(min-width: 1440px) {
+ 
+  h2{
+    font-size: 3rem;
+  }
+
+  p{
+    font-size: 1.8rem;
+  }
   ion-item {
     width: 300px;
     
   }
   .img-component{
-    margin-left: 128px;
-    height: 378px;
-
+    display: block;
+    margin-left: 167px;
+    margin-top: 50px;
+    height: 404px;
     
   }
 }
+
 
 
