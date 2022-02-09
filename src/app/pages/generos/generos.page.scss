@@ -197,7 +197,7 @@ text-align: center;
 .svg-contacto-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: -27px;
+  bottom: -28px;
   transform: scaleY(-1);
 }
 
@@ -242,6 +242,10 @@ text-align: center;
 }
 
 @media (min-width: 1400px)  {
+
+  ion-button{
+    width: 300px;
+  }
 
   .header{
     bottom: 300px;
