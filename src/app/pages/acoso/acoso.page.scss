@@ -107,7 +107,7 @@
 //consecuencias
 
 .consecuencias, .consecuencias-2{
-  line-height: normal;
+  line-height: 1.8;
   color:rgb(60, 36, 111);
   margin-bottom: 10px;
 }
@@ -132,6 +132,7 @@
  background-color: #c8b5ed;
  color: #3c246f;
  text-align: left;
+ margin: 0;
 }
 
   .contacto h1{
@@ -150,12 +151,19 @@
     transform: scaleY(-1);
   }
 
+  .svg-contacto-top-2 {
+    fill: #c8b5ed;
+    position: relative;
+    bottom: -5px;
+    transform: scaleY(-1);
+  }
+
 
 
   .svg-contacto-bottom{
     fill: #c8b5ed;
     position: relative;
-    bottom: 20px;
+    bottom: 25px;
   }
 
   .img-contacto2-1{
@@ -191,6 +199,15 @@
     }
   }
 
+  .bullying-grid{
+    
+    height: 249px;
+    
+    margin: 0px 28px 0px 33px;
+
+
+  }
+
   
 
   @media (min-width: 800px){
@@ -201,7 +218,7 @@
     }
 
     .margin-card-default{
-      margin: 0px 160px 1px 160px;
+      margin: 0px 160px 0px 160px;
    
     }
 
@@ -260,7 +277,7 @@
   }
 
     .margin-card-default{
-        margin: 16px 279px 1px 279px;
+        margin: 0px 279px 0px 279px;
        
     }
 
@@ -288,14 +305,14 @@
     }
 
     .bullying-contenedor-padre{
-      height: 491px;
+      height: 534px;
       h2{
         text-align: left;
       }
     }
 
     .img-grid-bullying{
-      margin: 65px;
+      margin: 85px;
     }
 
     .bullying-grid{
@@ -465,6 +482,10 @@
 @media (min-width: 1700px){
   .bullying-grid{
     bottom: 510px;
+  }
+
+  .img-grid-bullying{
+    margin: 65px;
   }
 }
 

@@ -542,7 +542,8 @@ font-size: 1.8rem;
 
     .img-consumo{
       
-    height: 549px;
+      height: 342px;
+      margin-left: 31px;
     }
 
     .component{
@@ -554,6 +555,11 @@ font-size: 1.8rem;
 
 @media (min-width: 1600px)  {
 
+  .img-consumo{
+  margin-left: 62px;
+  height: 337px;
+
+}
   
 
 
@@ -587,29 +593,6 @@ font-size: 1.8rem;
     margin: 10px
   }
 
-  .header img{
-    margin-top: 40px;
-    width: 700px;
-  }
-
-  .header__image-women {
-    display: block;
-  }
-
-  .header-img-home1{
-    display: none;
-  }
-
-  .header-img-home2{
-    display: none;
-  }
-
-  .header-img-home3 {
-    position: absolute;
-    z-index: 999;
-    bottom: 100px;
-    left: 10px;
-  }
 
   //slider
  .card-slide {
@@ -647,9 +630,7 @@ font-size: 1.8rem;
     font-size: 31px;
   }
 
-  .consumo-div p{
-    font-size: 1.3rem;
-  }
+  
 
   .depresion-content p{
     font-size: 1.5rem;
@@ -658,12 +639,6 @@ font-size: 1.8rem;
   }
 
   //Consumo
-  .img-cuadrado{
-    height: 154px;
-    margin-left: 575px;
-    display: block;
-  }
-
   .consumo-div p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -685,7 +660,6 @@ font-size: 1.8rem;
   .img-ansiedad {
     width: 600px !important;
   }
-
  
 
   //DATTO
@@ -693,12 +667,6 @@ font-size: 1.8rem;
     background-color: rgb(226, 237, 106);
   }
 
-  .datto-div-img{
-    margin-left: 84px;
-    display: block;
-    width: 250px;
-    height: 300px;
-  }
 
   .datto-flex{
     display: flex;
@@ -710,10 +678,6 @@ font-size: 1.8rem;
     display: block;
   }
 
-  .inclusiva-img2{
-    display: block;
-    margin-left: 500px;
-  }
 
   .img__noviazgo {
     width: 355px;
@@ -790,14 +754,10 @@ font-size: 1.8rem;
     margin: 0px 271px 1px 271px;
   }
 
-  
-
   .no-mas-bullying-svg{
     height: 1891px;
     display: block;
   }
-
- 
 
   .no-mas-bullying-img{
     width: 100%;

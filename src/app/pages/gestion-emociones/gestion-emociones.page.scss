@@ -8,7 +8,12 @@
   background-size: cover;
   background-position: center;
 }
-
+.img-component{
+  display: none;
+}
+.bold{
+  font-weight: bold;
+}
 
 ion-card-content {
   padding-top: 0;
@@ -322,6 +327,10 @@ h1, h2{
 
 
 @media (min-width: 1400px){
+
+  .img-component{
+    display: block;
+  }
     .margin-card-default{
       margin: 0px 271px 1px 271px;
       max-width: 1330px;
