@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+    display: block;
+    height: 393px;
+    background-color: var(--ion-color-primary);
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  
 ion-card-content {
     padding-top: 0;
     }
@@ -64,9 +75,6 @@ ion-card-content {
     font-size: 3.5rem;
 
 
-  }
-  .img-header{
-      display: none;
   }
 
 
@@ -181,7 +189,7 @@ ion-card-content {
 .contacto{
   background-color: var(--ion-color-dark);
   color: white;
-  margin-bottom: 0px;
+  margin-bottom: -2px;
 
 
 }
@@ -218,12 +226,20 @@ ion-card-content {
 .bullying-grid{
     position: absolute;
 
+    p{
+        color: #3c246f
+    }
+
 
   }
 
   .bullying-contenedor-padre{
     height: 666px;
 
+  }
+
+  .separador-cuerpos{
+      display: none;
   }
 
   @media (min-width: 800px){
@@ -280,11 +296,20 @@ ion-card-content {
         height: 333px;
     }
 
+    .component{
+        height: 951px;
+        background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+      }
+
 
 }
 
 
-@media (min-width: 1400px){
+@media (min-width: 1350px){
+
+    .separador-cuerpos{
+        display: block;
+    }
 
     .header{
         height: 975px;
@@ -305,8 +330,7 @@ ion-card-content {
         }
 
     .title__section {
-        font-size: 4rem !important;
-      }
+        font-size: 3rem !important;    }
 
       .title__section_cuerpos {
         font-size: 2rem !important;
@@ -316,7 +340,7 @@ ion-card-content {
 
     .margin-card-default{
         margin: 0px 201px 1px 201px;
-        max-width: 1330px;
+      
     }
     .ciclo-content{
         font-size: 7rem;
@@ -348,7 +372,8 @@ ion-card-content {
 //Bullying
 
 .bullying-contenedor-padre{
-    height: 580px;
+    height: 466px;
+
     h2{
       text-align: left;
     }
@@ -357,18 +382,20 @@ ion-card-content {
     }
   }
 
-  .img-grid-bullying{
-    margin-top: 22px;
-  }
+  
 
   .bullying-grid{
    position: relative;
-   bottom: 468px;
+   bottom: 400px;
 
    p{
-       font-size: 1.3rem;
+       font-size: 1.2rem;
    }
 
+}
+
+.img-grid-bullying{
+    margin-top: 45px;
 }
 
 //Habitos
@@ -388,11 +415,11 @@ ion-card-content {
 
 .img2{
     margin-top: 95px;
-    margin-left: 108px;
+  
 }
 
 .img3{
-    margin-left: 102px;
+  
     margin-top: 53px;
 
 }
@@ -402,13 +429,13 @@ ion-card-content {
 }
 
 .img5{
-    margin-left: 102px;
+ 
     margin-top: 225px;
 
 }
 
 .img6{
-    height: 635px;
+    height: 485px;
 }
 
 .malos-habitos-content{
@@ -433,7 +460,7 @@ ion-card-content {
 }
 
 .img7{
-    margin-left: 58px;
+   
     /* padding-top: 36px; */
     height: 479px;
     margin-top: 310px;
@@ -484,7 +511,7 @@ ion-card-content {
     position: absolute;
     display: block;
     top: 382px;
-    left: 900px;
+    left: 830px;
 }
 
 
@@ -506,4 +533,23 @@ ion-card-content {
 
 
 
+}
+
+@media (min-width: 1700px){
+
+    .bullying-contenedor-padre{
+        height: 600px;
+    }
+
+    .bullying-grid{
+        bottom: 464px;
+    }
+
+    .img-grid-bullying{
+        margin-top: 0px;
+    }
+
+    .bullying-grid p{
+        font-size: 1.3rem;
+    }
 }

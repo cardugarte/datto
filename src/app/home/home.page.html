@@ -1,7 +1,7 @@
 <app-toolbar></app-toolbar>
 <ion-content>
   <ion-grid class="header-grid">
-    <ion-row class="margin-card-default">
+    <ion-row class="margin-row">
       <ion-col size="12" size-md="8">
         <img src="../../assets/imgHome/bienvenidos.png">
         <p class="header__text" color="tertiary">
@@ -49,7 +49,7 @@
             <div>
               <h3 class="title__section ion-padding"> Prevencion ITS</h3>
               <br>
-              <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
+              <p class="slide_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               <br>
             </div>
           </ion-card-content>
@@ -81,7 +81,7 @@
             <div>
               <h3 class="title__section ion-padding"> Prevencion ITS</h3>
               <br>
-              <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
+              <p class="slide_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
               <br>
             </div>
           </ion-card-content>
@@ -116,7 +116,7 @@
               <div>
                 <h3 class="title__section ion-padding">Gestion menstrual</h3>
                 <br>
-                <p class="slide_text">Nunca dejes de cuidar a tus empleados.</p>
+                <p class="slide_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <br>
               </div>
             </ion-card-content>
@@ -148,10 +148,12 @@
   </svg>
   <div class="consumo-div">
     <ion-grid>
-      <ion-row>
+      <ion-row class="row__center">
+
         <ion-col
-        size="12"
-        size-md="8"
+         size="12"
+         size-md="6"
+         sizeLg="5"
       >
       <div class="sustancias__text">
         <h2>Consumo de sustancias</h2>
@@ -169,9 +171,13 @@
       </ion-button>
 
       </div>
+
         </ion-col>
-        <ion-col size="12" size-md="4">
-          <img src="../../assets/imgHome/sustancias.png">
+
+        <ion-col  size="12"
+        size-md="6"
+        sizeLg="5">
+          <img class="img-consumo" src="../../assets/imgHome/sustancias.png">
       </ion-col>
       </ion-row>
     </ion-grid>
@@ -193,7 +199,7 @@
   <br>
   <ion-grid fixed>
     <ion-row class="row__center">
-      <ion-col size="12" sizeLg="9">
+      <ion-col size="12" sizeLg="10 ">
         <ion-card class="depresion-content card-no-shadow" >
           <ion-card-content>
           <ion-col size="12">
@@ -225,7 +231,7 @@
                 src="../../assets/imgHome/Depresión-3.png "
               >
             </ion-col>
-            <ion-col
+            <ion-col class="depresion-col"
               size="12"
               size-md="6"
               sizeLg="5"
@@ -258,8 +264,8 @@
               <ion-col
                 class="depresion-content"
                 size="12"
-                size-md="8"
-                sizeLg="6"
+                size-md="12"
+                sizeLg="12"
               >
                 <h2 class="title__section-light">Ansiedad</h2>
                 <br>
@@ -280,9 +286,7 @@
                   ¿Qué hacer?
                 </ion-button>
               </ion-col>
-              <ion-col size="12" size-md="4">
-                <img src="../../assets/imgHome/ansiedad.png ">
-              </ion-col>
+       
             </ion-row>
           </ion-grid>
         </ion-card-content>
@@ -353,42 +357,53 @@
     </svg>
       <br>
       <br>
-      <div class="igualdad-violencia-content-2">
-        <ion-grid>
-          <ion-row>
-            <ion-col
-              size="12"
-              size-md="4"
+
+<ion-card class="card-no-shadow">
+  <ion-card-content>
+
+
+      <ion-grid>
+        <ion-row class="row__center">
+          <ion-col
+            size="12"
+            size-md="6"
+          >
+          <div class="violento-content">
+            <div class="violento-txt">
+              <h2>¿Cuándo un noviazgo es violento?</h2>
+              <p>
+                La violencia es peligrosa y deja consecuencias en la vida de las personas.
+              </p>
+              <br>
+              <ion-button style="    margin: 0 auto;"
+              class="button__hero btn-nv"
+              color="secondary"
+              expand="block"
+              shape="round"
+              routerLink="/sexo-afectivas"
             >
-              <img
-                class="img__noviazgo"
-                src="../../assets/imgHome/no-es-no.png"
-              >
-            </ion-col>
-            <ion-col
-              size="12"
-              size-md="8"
-            >
-              <div class="violento-txt">
-                <h2>¿Cuándo un noviazgo es violento?</h2>
-                <p>
-                  La violencia es peligrosa y deja consecuencias en la vida de las personas.
-                </p>
-                <ion-button style="    margin: 0 auto;"
-                class="button__hero btn-nv"
-                color="secondary"
-                expand="block"
-                shape="round"
-                routerLink="/sexo-afectivas"
-              >
-                Identifica
+              Identifica
               </ion-button>
-              </div>
-            </ion-col>
-          </ion-row>
-        </ion-grid>
-      </div>
+            </div>
+          </div>
+          </ion-col>
+          <ion-col
+            size="0"
+            size-md="4">
+            <img
+            class="img__noviazgo"
+            src="../../assets/imgHome/no-es-no.png"
+          >
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+
+    </ion-card-content>
+  </ion-card>
       <br>
+
+
+
       <br>
       <img
         style="width: 100%;"
@@ -396,12 +411,17 @@
       >
       <br>
       <br>
+
+      <ion-card class="card-no-shadow">
+        <ion-card-content>
+
+   
       <ion-grid fixed>
         <ion-row class="row__center">
           <ion-col
-            size="12"
-            sizeMd="9"
-            sizeLg="11"
+          size="12"
+          sizeMd="12"
+          sizeLg="12"
           >
             <div class="violento-content">
               <div class="violento-txt">
@@ -409,8 +429,9 @@
                 <p>
                   La igualdad de género refiere a la igualdad de oportunidades entre niños, niñas, adolescentes, hombres, mujeres y diversidades, en relación al pleno goce de los derechos
                 </p>
+                <br>
                 <ion-button
-                  class="button__hero btn-nv"
+                  class="button__hero btn-nv float-left"
                   color="secondary"
                   expand="block"
                   shape="round"
@@ -423,6 +444,11 @@
           </ion-col>
         </ion-row>
       </ion-grid>
+
+    </ion-card-content>
+
+  </ion-card>
+
       <div class="igualdad-violencia-content">
       <div>
         <img
@@ -442,12 +468,11 @@
     <div class="bullying-contenedor-padre">
       <img
         class="no-mas-bullying-img"
-        src="../../assets/imgHome/NO MAS BULLYIN sin txt.svg"
+        src="../../assets/imgHome/seccion bullyin .svg"
       >
+      <img class="no-mas-bullying-img-2" src="../../assets/imgHome/no mas bullying.svg">
       <div class="bullying-content">
-        <p>
-          Todas las identidades y pronombres de género serán respetados, afirmados y celebrados en DATTO. Si buscas atención específica, nos aseguramos de que recibas la atención que necesties.
-        </p>
+       
         <ion-button
         class="button__hero_bullying"
         expand="block"
@@ -499,6 +524,8 @@
       </ion-row>
     </ion-grid>
   </div>
+
+  
   <div class="component">
     <app-contact></app-contact>
   </div>

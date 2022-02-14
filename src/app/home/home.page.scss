@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
-
+.float-left{
+  float: left;
+}
 h1, h2, .button__hero{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -135,7 +137,7 @@ body {
 //Depresion
 .depresion-content{
   color: rgb(29, 23, 83);
-  width: 100%;
+
 }
 
 .depresion-content p{
@@ -194,7 +196,7 @@ font-size: 1.8rem;
 //Noviazgo violento
 .violento-content h2{
   color:black;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .img__noviazgo {
@@ -205,7 +207,7 @@ font-size: 1.8rem;
 
 .violento-content p{
   color:black;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }
 
 //Igualdad de genero
@@ -343,10 +345,18 @@ font-size: 1.8rem;
 }
 
 //noviazgo
+
+.no-mas-bullying-img{
+  display: none;
+}
 .no-mas-bullying-svg{
   height: 280px;
+ 
 }
 
+.no-mas-bullying-img-2{
+  display: block;
+}
 //Datto
 .inclusiva-img,
 .inclusiva-img2,
@@ -365,9 +375,19 @@ font-size: 1.8rem;
 }
 
 .bullying-content{
-  margin-top: -70px;
+  margin-top: -128px;
   background-color: #211F1F;
 }
+
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 
  //Mobile
 @media(max-width: 425px) {
@@ -381,6 +401,14 @@ font-size: 1.8rem;
 //resolucion desktop
   @media (min-width: 800px){
 
+    .component{
+      height: 852px;
+    }
+
+    .margin-row{
+      margin: 73px 100px 0px 100px;
+    }
+
     .card-slide{
       height: 545px;
       padding-bottom: 20px;
@@ -392,6 +420,11 @@ font-size: 1.8rem;
 
     .slide-title {
       margin: 40px 0 10px 100px;
+        .title__section {
+ 
+          margin-left: 63px;
+        }
+      
       }
 
     .sustancias__text {
@@ -399,7 +432,7 @@ font-size: 1.8rem;
     }
 
     .alimentacion-div{
-      margin-top: 90px;
+      margin-top: 40px;
     }
 
     .alimentacion-content h2{
@@ -412,7 +445,9 @@ font-size: 1.8rem;
 
     .bullying-content {
       padding: 13px 75px 0px 75px;
-      margin: -220px auto;
+      width: 100%;
+      position: relative; 
+    bottom: 75px;
     }
 
     .div-inclusiva{
@@ -446,7 +481,7 @@ font-size: 1.8rem;
     .img-balanza{
       display: block;
       margin: 10px auto;
-      width: 50%;
+      width: 40%;
     }
 
     .img-slide2{
@@ -461,8 +496,7 @@ font-size: 1.8rem;
 
     .bullying-content{
       width: 100%;
-      margin: -90px auto;
-      padding-bottom: 30px;
+     
     }
 
     .bullying-content p{
@@ -474,9 +508,12 @@ font-size: 1.8rem;
       background-color: #211F1F;
     }
 
+    .igualdad-violencia-content{
+      height: 600px;
+    }
     .igualdad-violencia-content p,
     .igualdad-violencia-content-2 p {
-      font-size: 1.1rem;
+      font-size: 1.5rem;
     }
 
     .igualdad-violencia-content h2,
@@ -484,20 +521,48 @@ font-size: 1.8rem;
       font-size: 1.8rem;
     }
 
-    .component{
+  
+
+    .no-mas-bullying-img{
       display: block;
-      height: 350px;
-      background-color: var(--ion-color-primary);
+    }
+
+    .no-mas-bullying-img-2{
+      display: none;
+    }
+
+    .img-cuerpos{
+      margin-left: 361px;
+      height: 600px;
+    }
+
+    .depresion-col{
+      margin-top: 66px;
+    }
+
+    .img-consumo{
+      
+      height: 342px;
+      margin-left: 31px;
+    }
+
+    .component{
       background-image: url("../../assets/suscribite\ datto\ \(1\).svg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
     }
 
   }
 
 
 @media (min-width: 1600px)  {
+
+  .img-consumo{
+  margin-left: 62px;
+  height: 337px;
+
+}
+  
+
+
   .img-slide2{
     height: 323px;
   }
@@ -528,29 +593,6 @@ font-size: 1.8rem;
     margin: 10px
   }
 
-  .header img{
-    margin-top: 40px;
-    width: 700px;
-  }
-
-  .header__image-women {
-    display: block;
-  }
-
-  .header-img-home1{
-    display: none;
-  }
-
-  .header-img-home2{
-    display: none;
-  }
-
-  .header-img-home3 {
-    position: absolute;
-    z-index: 999;
-    bottom: 100px;
-    left: 10px;
-  }
 
   //slider
  .card-slide {
@@ -588,9 +630,7 @@ font-size: 1.8rem;
     font-size: 31px;
   }
 
-  .consumo-div p{
-    font-size: 1.3rem;
-  }
+  
 
   .depresion-content p{
     font-size: 1.5rem;
@@ -599,12 +639,6 @@ font-size: 1.8rem;
   }
 
   //Consumo
-  .img-cuadrado{
-    height: 154px;
-    margin-left: 575px;
-    display: block;
-  }
-
   .consumo-div p{
     font-size: 1.5rem;
     font-family: "Montserrat";
@@ -626,22 +660,13 @@ font-size: 1.8rem;
   .img-ansiedad {
     width: 600px !important;
   }
-
-  .ansiedad__btn {
-    margin-top: 100px !important;
-  }
+ 
 
   //DATTO
   .datto-content{
     background-color: rgb(226, 237, 106);
   }
 
-  .datto-div-img{
-    margin-left: 84px;
-    display: block;
-    width: 250px;
-    height: 300px;
-  }
 
   .datto-flex{
     display: flex;
@@ -653,10 +678,6 @@ font-size: 1.8rem;
     display: block;
   }
 
-  .inclusiva-img2{
-    display: block;
-    margin-left: 500px;
-  }
 
   .img__noviazgo {
     width: 355px;
@@ -733,15 +754,9 @@ font-size: 1.8rem;
     margin: 0px 271px 1px 271px;
   }
 
-  .bullying-content{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    bottom: 345px;
-  }
-
   .no-mas-bullying-svg{
     height: 1891px;
+    display: block;
   }
 
   .no-mas-bullying-img{
@@ -753,7 +768,7 @@ font-size: 1.8rem;
   }
 
   ion-slides h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   //ion-cards
@@ -763,7 +778,7 @@ font-size: 1.8rem;
 
   .card-slide{
     width: 510px;
-    height: 690px;
+    height: 596px;
   }
 
   .button__hero{
@@ -777,6 +792,7 @@ font-size: 1.8rem;
   }
 
   .component {
-    height: 700px;
+    height: 951px;
+  
   }
 }

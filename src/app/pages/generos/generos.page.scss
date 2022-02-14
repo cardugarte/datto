@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 ion-card-content {
   padding-top: 0;
   }
@@ -186,7 +197,7 @@ text-align: center;
 .svg-contacto-top{
   fill: rgb(255, 255, 255);
   position: relative;
-  bottom: -27px;
+  bottom: -28px;
   transform: scaleY(-1);
 }
 
@@ -224,7 +235,12 @@ text-align: center;
 }
 
 .header h2{
-  font-size: 4rem;
+  font-size: 3rem;
+}
+
+.component{
+  height: 951px;
+   background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
 }
   
 
@@ -232,13 +248,17 @@ text-align: center;
 
 @media (min-width: 1400px)  {
 
+  ion-button{
+    width: 300px;
+  }
+
   .header{
     bottom: 300px;
 
   }
 
   .title__section {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
 
   .img-contacto1{
@@ -266,7 +286,7 @@ text-align: center;
 
 .header h2{
   text-align: left;
-  font-size: 6.5rem;
+  font-size: 5rem;
 }
 
 .header-contenedor-padre{
@@ -316,7 +336,7 @@ text-align: center;
 
 
 .contacto h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .contacto p{
@@ -368,7 +388,7 @@ text-align: center;
   font-size: 2.5rem;
 }
 .esi h2{
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .esi-frase span {

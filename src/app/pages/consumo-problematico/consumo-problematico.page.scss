@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .header img{
   display: none;
 }
@@ -181,9 +191,7 @@ ul, li {
       font-size: 4.5rem;
     }
 
-    .button-footer{
-      float: left;
-    }
+
 
     .img1{
       height: 578px;
@@ -201,6 +209,10 @@ ul, li {
     .consumo{
       text-align: left;
     }
+    .component{
+      height: 951px;
+      background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+    }
 }
 
 
@@ -210,7 +222,7 @@ ul, li {
   }
 
   .title__section {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
 
     .margin-card-default{

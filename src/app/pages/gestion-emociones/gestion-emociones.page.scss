@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.img-component{
+  display: none;
+}
+.bold{
+  font-weight: bold;
+}
+
 ion-card-content {
   padding-top: 0;
   }
@@ -220,7 +235,7 @@ h1, h2{
 
 .contacto-2{
   background-color: #8cb8a9;
-  padding: 16px;
+  padding: 20px;
   color:#3c246f;
   font-size: 14px;
 }
@@ -300,6 +315,10 @@ h1, h2{
         text-align: center;
       }
 
+      .component{
+        height: 951px;
+      }
+
    
 }
 
@@ -308,6 +327,10 @@ h1, h2{
 
 
 @media (min-width: 1400px){
+
+  .img-component{
+    display: block;
+  }
     .margin-card-default{
       margin: 0px 271px 1px 271px;
       max-width: 1330px;
@@ -380,7 +403,7 @@ h1, h2{
 
     .ansiedad_title{
       
-    font-size: 3.8rem;
+    font-size: 2.5rem;
     }
 
     .ansiedad p{
@@ -467,15 +490,15 @@ h1, h2{
     }
 
     .img-ansiedad{
- 
+      margin-left: 306px;
       margin-top: -60px;
       height: 395px;
     }
 
     .img-2-ansiedad{
       position: absolute;
-      top: 692px;
-      height: 217px;
+      top: 878px;
+      height: 154px;
       display: block;
     }
 

@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+
+ion-card-title{
+  font-family: 'Montserrat';
+}
+
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .title__section {
   color: var(--ion-color-primary);
   font-weight: 700;
@@ -43,6 +59,10 @@ p {
   font-weight: bold;
   color:rgb(60, 36, 111);
   font-size: 3.5rem;
+}
+
+.mac{
+  color:rgb(60, 36, 111);
 }
 
 .mac-content ion-card-title{
@@ -130,6 +150,7 @@ p {
   }
   .emergencia-close-icon {
     border: none;
+    padding: 10px;
   }
 }
 
@@ -232,6 +253,7 @@ p {
   border: 1px solid #93c;
   margin: 20px;
   padding: 1px;
+  text-align: center;
   h2{
   color:rgb(60, 36, 111);
   font-weight: 700;
@@ -288,6 +310,9 @@ p {
   color:rgb(60, 36, 111);
   ion-card-title {
     font-size: 1.8rem;
+  }
+  ion-col{
+    text-align: center;
   }
 }
 
@@ -377,6 +402,10 @@ p {
 
 .ginecologia-contenedor-padre{
   background-color:rgb(60, 36, 111);
+
+  h2{
+    font-size: 2rem;
+  }
 }
 
 .no-padding {
@@ -492,7 +521,7 @@ p {
 }
 
 .full__width {
-  padding: 0;
+  margin: 0;
 }
 
 
@@ -529,9 +558,6 @@ p {
   height: 55px;
 }
 
-.img15{
-  height: 202px;
-}
 .svg-ciclos{
   margin: -25px;
 }
@@ -544,7 +570,19 @@ p {
   margin: -25px;
 }
 
+.contacto{
+  background-color: #c8b5ed;
+  color: #3c246f;
+margin: 0;
+  text-align: left;
+ }
+
+ .img-copa , .img-copa2{
+   display: none;
+ }
+
 @media(max-width: 767px) {
+
   .inyectabales-content {
     .title__section {
       font-size: 1rem;
@@ -561,6 +599,15 @@ p {
   .title__section {
     font-size: 1.2rem;
   }
+
+  .quote p{
+    color: #3c246f;
+  }
+
+  .emergencia-close-icon img{
+    margin: 11px;
+    width: 35px;
+  }
 }
 
 
@@ -571,6 +618,7 @@ p {
 
   .quote p{
     font-size: 1.5rem;
+    color:#3c246f;
   }
 
   .metodos__img{
@@ -637,9 +685,29 @@ p {
     font-weight: bold;
   }
 
+  .component{
+    height: 951px;
+    background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+  }
+
 }
 
 @media (min-width: 1400px){
+
+  .img-copa{
+    position: absolute;
+    height: 200px;
+    margin-left: 600px;
+    display: block;
+  }
+
+  .img-copa2{
+    position: absolute;
+    height: 117px;
+    margin-left: 737px;
+    margin-top: 200px;
+    display: block;
+  }
   .salud-sexual-header{
     margin-top: 230px;
   }
@@ -698,7 +766,7 @@ p {
     }
     .mac-bigbox{
       border: 1px solid #93c;
-      padding: 30px;
+
       justify-content: center;
 
       h2 {
@@ -763,8 +831,7 @@ p {
 
      //preservativo
      .preservativo ion-card-title {
-       font-size: 4rem !important;
-       font-weight: bold;
+       font-size: 3rem !important;     font-weight: bold;
      }
 
     .preservativo p{
@@ -961,7 +1028,7 @@ p {
     }
 
     .ciclo-content h2{
-      font-size: 7rem;
+      font-size: 5rem;
     }
 
      .ciclo__menstrual {
@@ -980,7 +1047,10 @@ p {
     }
 
     .img15{
-      height: 600px;
+    height: 600px;
+    margin-top: 215px;
+    width: max-content;
+
     }
 
     //formas
@@ -1004,9 +1074,6 @@ p {
     }
 
     //Ginecologia
-    .ciclo_title{
-      font-size: 7rem;
-    }
 
     .ginecologia-img {
       display: flex;
@@ -1098,5 +1165,10 @@ p {
 
     .comillas{
       font-size: 2.8rem;
+    }
+
+    .contacto{
+
+    height: 1123px;
     }
 }

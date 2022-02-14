@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 
+.component{
+  display: block;
+  height: 393px;
+  background-color: var(--ion-color-primary);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .button__hero {
   width: 200px;
   height: 40px;
@@ -269,7 +280,10 @@ p{
 }
 
 @media (min-width: 1400px){
-
+  .component {
+    height: 951px;
+    background-image: url("../../../assets/suscribite\ datto\ \(1\).svg");
+  }
   //Header
 
   .header{
@@ -364,7 +378,8 @@ p{
 
 
     .img3{
-        margin-left: 155px;
+     
+      
         height: 370px;
     }
 
@@ -432,7 +447,7 @@ p{
     }
 
     .violencia-bigbox{
-        height: 714px;
+        height: 744px;
     }
 
     .close-icon{
