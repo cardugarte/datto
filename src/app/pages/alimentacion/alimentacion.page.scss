@@ -189,7 +189,7 @@ ion-card-content {
 .contacto{
   background-color: var(--ion-color-dark);
   color: white;
-  margin-bottom: 0px;
+  margin-bottom: -2px;
 
 
 }
@@ -236,6 +236,10 @@ ion-card-content {
   .bullying-contenedor-padre{
     height: 666px;
 
+  }
+
+  .separador-cuerpos{
+      display: none;
   }
 
   @media (min-width: 800px){
@@ -301,7 +305,11 @@ ion-card-content {
 }
 
 
-@media (min-width: 1400px){
+@media (min-width: 1350px){
+
+    .separador-cuerpos{
+        display: block;
+    }
 
     .header{
         height: 975px;
